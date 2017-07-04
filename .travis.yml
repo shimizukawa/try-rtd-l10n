@@ -21,7 +21,9 @@ script:
 - cd sphinx
 - git branch -a
 - git fetch
-- git checkout -b master origin/master
+- git status
+- git reset --hard origin/master
+- git status
 - cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
