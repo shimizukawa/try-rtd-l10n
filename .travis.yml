@@ -19,8 +19,9 @@ install:
 - pip install -U pip setuptools
 script:
 - cd sphinx
+- git branch -a
 - git fetch
-#- git checkout -b stable origin/stable
+- git checkout -b master origin/master
 - cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
