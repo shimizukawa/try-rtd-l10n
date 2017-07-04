@@ -14,7 +14,10 @@ env:
 install:
 - pip install -U pip setuptools
 script:
-- cd locale
+- cd sphinx
+- git fetch
+- git checkout -b stable origin/stable
+- cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
 - rm -R pot
