@@ -9,14 +9,14 @@ python:
 env:
   global:
   - SPHINXINTL_TRANSIFEX_USERNAME=sphinxjp
-  - SPHINXINTL_TRANSIFEX_PROJECT_NAME=sphinx-doc-1_6
+  - SPHINXINTL_TRANSIFEX_PROJECT_NAME=sphinx-doc-1_7
   - secure: JknT9RYcghlU4OFmUxoTPlm55ENOcM9ebDKCiXeMN/v4heXm+J0FW+V5ubxOXEaN8nAKfFWssKGUyVKpKovIPvCRF8YOKnGdlzWOi/+L2dUyJbsXU3ocYXTAuw2ZO97SVLE9VJ+cMtcRJ/orPJs0spR4RrxOvPYFqnLOlKEL0H7g0MGbJDajOr+GI95I1A+qLkny23WH9q4WnkoUMcVVuP0PF5dkf1Kfxzn82KvnVf/wBO9T6/g5AFNkJaY0NOSjBUfXFtyuLAo9eCZxskYPTcqBtjsDooqpwrXYDFejr8B0dELYxVBNXj1XxwDt93/gJ6qjtxZXhE32LGisatTNzFyvpoEKfBkGsmJunaBXOh/qh4riDILS4jRU3yQJDGLZymoJLVrvJIJe1bV3bhKz+XXHGUVYfrlu5R3LDLaf69JYpVXK2L5Qzmq7batT7Sd20ttEEu6282v4d6nIWVoqysjmCwBboY6sqpcKHEPBM/xPWH7YoRXjFCT8SwZBRsiTYRKqBevWZ//5hsVAkEw7eUrzjxSIoaP71iZJkZYup98U4DeJlgfusOhd8VcP45SAf1QoTNs50Q08zCIhEC7VfWyi9JRjsFeMKaQDiwM17VUEwVyhIWUuxHfmM9NVQWwDb/lciKw8P8B+3zZTTWce7TV4cdLs9M+x6uQrlOggCgk=
 install:
 - pip install -U pip setuptools
 script:
 - cd sphinx
 - git fetch
-- git checkout -b stable origin/stable
+#- git checkout -b stable origin/stable
 - cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
@@ -32,6 +32,6 @@ after_success:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git config --global user.email "sphinx-auto-update"
 - git config --global user.name "sphinx-auto-update"
-- git add locale
+- git add .
 - git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
 - git push origin master
