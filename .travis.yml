@@ -20,9 +20,8 @@ install:
 script:
 - cd sphinx
 - git branch -a
-- git fetch
 - git status
-- git reset --hard origin/master
+- git checkout master
 - git status
 - cd ../locale
 - pip install -r ./requirements.txt
