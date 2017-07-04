@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2007-2016, Georg Brandl and the Sphinx team
+# This file is distributed under the same license as the Sphinx package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx 1.6+\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-28 17:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../sphinx/doc/authors.rst:6
+msgid "Sphinx authors"
+msgstr "Autores de Sphinx"
+
+#: ../../sphinx/AUTHORS:1
+msgid "Sphinx is written and maintained by Georg Brandl <georg@python.org>."
+msgstr "Sphinx es escrito y mantenido por Georg Brandl <georg@python.org>."
+
+#: ../../sphinx/AUTHORS:3
+msgid ""
+"Substantial parts of the templates were written by Armin Ronacher "
+"<armin.ronacher@active-4.com>."
+msgstr ""
+"Partes sustanciales de las plantillas fueron escritos por Armin Ronacher "
+"<armin.ronacher@active-4.com>."
+
+#: ../../sphinx/AUTHORS:6
+msgid "Other co-maintainers:"
+msgstr "Otros co-mantenedores:"
+
+#: ../../sphinx/AUTHORS:8
+msgid "Takayuki Shimizukawa <shimizukawa@gmail.com>"
+msgstr "Takayuki Shimizukawa <shimizukawa@gmail.com>"
+
+#: ../../sphinx/AUTHORS:9
+msgid "Daniel Neuhäuser <@DasIch>"
+msgstr "Daniel Neuhäuser <@DasIch>"
+
+#: ../../sphinx/AUTHORS:10
+msgid "Jon Waltman <@jonwaltman>"
+msgstr "Jon Waltman <@jonwaltman>"
+
+#: ../../sphinx/AUTHORS:11
+msgid "Rob Ruana <@RobRuana>"
+msgstr "Rob Ruana <@RobRuana>"
+
+#: ../../sphinx/AUTHORS:12
+msgid "Robert Lehmann <@lehmannro>"
+msgstr "Robert Lehmann <@lehmannro>"
+
+#: ../../sphinx/AUTHORS:13
+msgid "Roland Meister <@rolmei>"
+msgstr "Roland Meister <@rolmei>"
+
+#: ../../sphinx/AUTHORS:14
+msgid "Takeshi Komiya <@tk0miya>"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:16
+msgid "Other contributors, listed alphabetically, are:"
+msgstr "Otros contribuyentes, en orden alfabético, son:"
+
+#: ../../sphinx/AUTHORS:18
+msgid "Alastair Houghton -- Apple Help builder"
+msgstr "Alastair Houghton -- generador de Apple Help"
+
+#: ../../sphinx/AUTHORS:19
+msgid "Andi Albrecht -- agogo theme"
+msgstr "Andi Albrecht -- plantilla agogo"
+
+#: ../../sphinx/AUTHORS:20
+msgid "Jakob Lykke Andersen -- Rewritten C++ domain"
+msgstr "Jakob Lykke Andersen -- Reescrito dominio de C++"
+
+#: ../../sphinx/AUTHORS:21
+msgid "Henrique Bastos -- SVG support for graphviz extension"
+msgstr "Henrique Bastos -- Soporte SVG para extension graphviz"
+
+#: ../../sphinx/AUTHORS:22
+msgid "Daniel Bültmann -- todo extension"
+msgstr "Daniel Bültmann -- extension todo"
+
+#: ../../sphinx/AUTHORS:23
+msgid "Jean-François Burnol -- LaTeX improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:24
+msgid "Etienne Desautels -- apidoc module"
+msgstr "Etienne Desautels -- modulo apidoc"
+
+#: ../../sphinx/AUTHORS:25
+msgid "Michael Droettboom -- inheritance_diagram extension"
+msgstr "Michael Droettboom -- extension inheritance_diagram"
+
+#: ../../sphinx/AUTHORS:26
+msgid "Charles Duffy -- original graphviz extension"
+msgstr "Charles Duffy -- extension original graphviz"
+
+#: ../../sphinx/AUTHORS:27
+msgid "Kevin Dunn -- MathJax extension"
+msgstr "Kevin Dunn -- extension MathJax"
+
+#: ../../sphinx/AUTHORS:28
+msgid "Josip Dzolonga -- coverage builder"
+msgstr "Josip Dzolonga -- contructor de coverage"
+
+#: ../../sphinx/AUTHORS:29
+msgid "Buck Evan -- dummy builder"
+msgstr "Buck Evan -- constructor falso"
+
+#: ../../sphinx/AUTHORS:30
+msgid "Hernan Grecco -- search improvements"
+msgstr "Hernan Grecco -- mejoras de búsqueda"
+
+#: ../../sphinx/AUTHORS:31
+msgid "Horst Gutmann -- internationalization support"
+msgstr "Horst Gutmann -- apoyo a la internacionalización"
+
+#: ../../sphinx/AUTHORS:32
+msgid "Martin Hans -- autodoc improvements"
+msgstr "Martin Hans -- mejoras en autodoc"
+
+#: ../../sphinx/AUTHORS:33
+msgid "Doug Hellmann -- graphviz improvements"
+msgstr "Doug Hellmann -- mejoras en graphviz"
+
+#: ../../sphinx/AUTHORS:34
+msgid "Timotheus Kampik - JS theme & search enhancements"
+msgstr "Timotheus Kampik - Tema JS & mejoras de búsqueda"
+
+#: ../../sphinx/AUTHORS:35
+msgid "Dave Kuhlman -- original LaTeX writer"
+msgstr "Dave Kuhlman -- escritor original para LaTeX"
+
+#: ../../sphinx/AUTHORS:36
+msgid "Blaise Laflamme -- pyramid theme"
+msgstr "Blaise Laflamme -- plantilla pyramid"
+
+#: ../../sphinx/AUTHORS:37
+msgid "Thomas Lamb -- linkcheck builder"
+msgstr "Thomas Lamb -- constructor para linkcheck"
+
+#: ../../sphinx/AUTHORS:38
+msgid "Łukasz Langa -- partial support for autodoc"
+msgstr "Łukasz Langa -- soporte parcial para autodoc"
+
+#: ../../sphinx/AUTHORS:39
+msgid "Ian Lee -- quickstart improvements"
+msgstr "Ian Lee -- mejoras en quickstart"
+
+#: ../../sphinx/AUTHORS:40
+msgid "Robert Lehmann -- gettext builder (GSOC project)"
+msgstr "Robert Lehmann -- constructor para gettext (Proyecto GSOC)"
+
+#: ../../sphinx/AUTHORS:41
+msgid "Dan MacKinlay -- metadata fixes"
+msgstr "Dan MacKinlay -- correcciones de metadatos"
+
+#: ../../sphinx/AUTHORS:42
+msgid "Martin Mahner -- nature theme"
+msgstr "Martin Mahner -- plantilla nature"
+
+#: ../../sphinx/AUTHORS:43
+msgid "Will Maier -- directory HTML builder"
+msgstr "Will Maier -- directorio de constructor de HTML"
+
+#: ../../sphinx/AUTHORS:44
+msgid "Jacob Mason -- websupport library (GSOC project)"
+msgstr "Jacob Mason -- biblioteca websupport (proyecto GSOC)"
+
+#: ../../sphinx/AUTHORS:45
+msgid "Glenn Matthews -- python domain signature improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:46
+msgid "Roland Meister -- epub builder"
+msgstr "Roland Meister -- constructor para epub"
+
+#: ../../sphinx/AUTHORS:47
+msgid "Ezio Melotti -- collapsible sidebar JavaScript"
+msgstr "Ezio Melotti -- barra lateral pegable en JavaScript"
+
+#: ../../sphinx/AUTHORS:48
+msgid "Bruce Mitchener -- Minor epub improvement"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:49
+msgid "Daniel Neuhäuser -- JavaScript domain, Python 3 support (GSOC)"
+msgstr ""
+"Daniel Neuhäuser -- dominio para JavaScript, suporte para Python 3 (GSOC)"
+
+#: ../../sphinx/AUTHORS:50
+msgid "Christopher Perkins -- autosummary integration"
+msgstr "Christopher Perkins -- integracion con autosummary"
+
+#: ../../sphinx/AUTHORS:51
+msgid "Benjamin Peterson -- unittests"
+msgstr "Benjamin Peterson -- unittests"
+
+#: ../../sphinx/AUTHORS:52
+msgid "\\T. Powers -- HTML output improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:53
+msgid "Jeppe Pihl -- literalinclude improvements"
+msgstr "Jeppe Pihl -- mejoras en literalinclude"
+
+#: ../../sphinx/AUTHORS:54
+msgid "Rob Ruana -- napoleon extension"
+msgstr "Rob Ruana -- extension napoleon"
+
+#: ../../sphinx/AUTHORS:55
+msgid "Stefan Seefeld -- toctree improvements"
+msgstr "Stefan Seefeld -- mejoras en toctree"
+
+#: ../../sphinx/AUTHORS:56
+msgid "Gregory Szorc -- performance improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:57
+msgid ""
+"Shibukawa Yoshiki -- pluggable search API and Japanese search, epub3 builder"
+" improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:58
+msgid "Taku Shimizu -- epub3 builder"
+msgstr "Taku Shimizu -- constructor de epub3"
+
+#: ../../sphinx/AUTHORS:59
+msgid "Antonio Valentino -- qthelp builder"
+msgstr "Antonio Valentino -- constructor qthelp"
+
+#: ../../sphinx/AUTHORS:60
+msgid "Filip Vavera -- napoleon todo directive"
+msgstr "Filip Vavera -- napoleon todo directive"
+
+#: ../../sphinx/AUTHORS:61
+msgid "Pauli Virtanen -- autodoc improvements, autosummary extension"
+msgstr "Pauli Virtanen -- mejoras en autodoc, extensión autosummary"
+
+#: ../../sphinx/AUTHORS:62
+msgid "Stefan van der Walt -- autosummary extension"
+msgstr "Stefan van der Walt -- extensión autosummary"
+
+#: ../../sphinx/AUTHORS:63
+msgid "Thomas Waldmann -- apidoc module fixes"
+msgstr "Thomas Waldmann -- arreglos en el modulo apidoc"
+
+#: ../../sphinx/AUTHORS:64
+msgid "John Waltman -- Texinfo builder"
+msgstr "John Waltman -- constructor para Texinfo"
+
+#: ../../sphinx/AUTHORS:65
+msgid "Barry Warsaw -- setup command improvements"
+msgstr "Barry Warsaw -- mejoras en comandos de instalacion"
+
+#: ../../sphinx/AUTHORS:66
+msgid "Sebastian Wiesner -- image handling, distutils support"
+msgstr "Sebastian Wiesner -- manejo de imagen, soporte para distutils"
+
+#: ../../sphinx/AUTHORS:67
+msgid "Michael Wilson -- Intersphinx HTTP basic auth support"
+msgstr ""
+"Michael Wilson -- soporte de autenticación básica de HTTP en InterSphinx"
+
+#: ../../sphinx/AUTHORS:68
+msgid "Joel Wurtz -- cellspanning support in LaTeX"
+msgstr "Joel Wurtz -- soporte para cellspanning en LaTeX"
+
+#: ../../sphinx/AUTHORS:69
+msgid "Hong Xu -- svg support in imgmath extension and various bug fixes"
+msgstr ""
+"Hong Xu -- SVG apoyo en extensión imgmath y varias correcciones de errores"
+
+#: ../../sphinx/AUTHORS:71
+msgid "Many thanks for all contributions!"
+msgstr "¡Muchas gracias por todos los aportes!"
+
+#: ../../sphinx/AUTHORS:73
+msgid ""
+"There are also a few modules or functions incorporated from other authors "
+"and projects:"
+msgstr ""
+"También hay unos pocos módulos o funciones incorporadas de otros autores y "
+"proyectos:"
+
+#: ../../sphinx/AUTHORS:76
+msgid ""
+"sphinx.util.jsdump uses the basestring encoding from simplejson, written by "
+"Bob Ippolito, released under the MIT license"
+msgstr ""
+"sphinx.util.jsdump utiliza la cadena de codificación de simplejson, escrito "
+"por Bob Ippolito, publicado bajo la licencia MIT"
+
+#: ../../sphinx/AUTHORS:78
+msgid ""
+"sphinx.util.stemmer was written by Vivake Gupta, placed in the Public Domain"
+msgstr ""
+"sphinx.util.stemmer fue escrito por Vivake Gupta, colocado en el Dominio "
+"Publico"
