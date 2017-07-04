@@ -30,6 +30,7 @@ script:
 - git checkout .tx/config
 after_success:
 - openssl aes-256-cbc -K $encrypted_84c89a8a6637_key -iv $encrypted_84c89a8a6637_iv -in .secrets/key.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git config --global user.email "sphinx-auto-update"
 - git config --global user.name "sphinx-auto-update"
