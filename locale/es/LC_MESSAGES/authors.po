@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 02:29+0000\n"
+"POT-Creation-Date: 2017-07-05 02:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Alvarez Alejandro <eliluminado00@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,15 +64,15 @@ msgstr "Roland Meister <@rolmei>"
 
 #: ../../sphinx/AUTHORS:14
 msgid "Takeshi Komiya <@tk0miya>"
-msgstr ""
+msgstr "Takeshi Komiya <@tk0miya>"
 
 #: ../../sphinx/AUTHORS:15
 msgid "Jean-François Burnol <@jfbu>"
-msgstr ""
+msgstr "Jean-François Burnol <@jfbu>"
 
 #: ../../sphinx/AUTHORS:16
 msgid "Yoshiki Shibukawa <@shibu_jp>"
-msgstr ""
+msgstr "Yoshiki Shibukawa <@shibu_jp>"
 
 #: ../../sphinx/AUTHORS:18
 msgid "Other contributors, listed alphabetically, are:"
@@ -100,7 +100,7 @@ msgstr "Daniel Bültmann -- extension todo"
 
 #: ../../sphinx/AUTHORS:25
 msgid "Marco Buttu -- doctest extension (pyversion option)"
-msgstr ""
+msgstr "Marco Buttu -- doctest extensión (opción pyversion)"
 
 #: ../../sphinx/AUTHORS:26
 msgid "Etienne Desautels -- apidoc module"
@@ -188,7 +188,7 @@ msgstr "Jacob Mason -- biblioteca websupport (proyecto GSOC)"
 
 #: ../../sphinx/AUTHORS:47
 msgid "Glenn Matthews -- python domain signature improvements"
-msgstr ""
+msgstr "Glenn Matthews -- Mejoras en la firma de dominios python"
 
 #: ../../sphinx/AUTHORS:48
 msgid "Roland Meister -- epub builder"
@@ -200,7 +200,7 @@ msgstr "Ezio Melotti -- barra lateral pegable en JavaScript"
 
 #: ../../sphinx/AUTHORS:50
 msgid "Bruce Mitchener -- Minor epub improvement"
-msgstr ""
+msgstr "Bruce Mitchener -- Mejora menor en epub"
 
 #: ../../sphinx/AUTHORS:51
 msgid "Daniel Neuhäuser -- JavaScript domain, Python 3 support (GSOC)"
@@ -217,7 +217,7 @@ msgstr "Benjamin Peterson -- unittests"
 
 #: ../../sphinx/AUTHORS:54
 msgid "\\T. Powers -- HTML output improvements"
-msgstr ""
+msgstr "\\T. Powers -- mejora en la salida HTML"
 
 #: ../../sphinx/AUTHORS:55
 msgid "Jeppe Pihl -- literalinclude improvements"
@@ -233,7 +233,7 @@ msgstr "Stefan Seefeld -- mejoras en toctree"
 
 #: ../../sphinx/AUTHORS:58
 msgid "Gregory Szorc -- performance improvements"
-msgstr ""
+msgstr "Gregory Szorc -- mejoras en el rendimiento"
 
 #: ../../sphinx/AUTHORS:59
 msgid "Taku Shimizu -- epub3 builder"
@@ -288,6 +288,7 @@ msgstr ""
 #: ../../sphinx/AUTHORS:71
 msgid "Stephen Finucane -- setup command improvements and documentation"
 msgstr ""
+"Stephen Finucane -- mejoras en comandos de configuración y documentación"
 
 #: ../../sphinx/AUTHORS:73
 msgid "Many thanks for all contributions!"
