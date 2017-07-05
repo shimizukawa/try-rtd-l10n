@@ -20,11 +20,7 @@ install:
 script:
 - cd sphinx
 - git branch -a
-- git status
-- git symbolic-ref HEAD  || echo ''  # avoid error status
-- git checkout master
-- git status
-- git symbolic-ref HEAD
+- git checkout master  # checkout sphinx master
 - cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
@@ -38,18 +34,11 @@ script:
 - git checkout .tx/config
 after_success:
 - git branch -a
-- git status
-- git symbolic-ref HEAD
-- git checkout master
-- git status
-- git symbolic-ref HEAD
+- git checkout master  # attach this repo to master
 - git config --global user.email "sphinx-auto-update"
 - git config --global user.name "sphinx-auto-update"
 - git add .
-- git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
-- git status
-- git symbolic-ref HEAD
-- git status
+- git commit -m "[skip ci] by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
 - git remote -v
 - git remote add github git@github.com:shimizukawa/try-rtd-l10n.git
 - git push github master
