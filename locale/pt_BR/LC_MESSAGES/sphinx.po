@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:03+0000\n"
+"POT-Creation-Date: 2017-07-05 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
@@ -17,64 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:3
-msgid "project"
-msgstr "projeto"
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:7
-msgid ""
-"This documentation is for version <b><a href=\"changes.html\">%(version)s</a></b>, which is\n"
-"  not released yet."
-msgstr ""
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:9
-msgid ""
-"You can use it from the\n"
-"  <a href=\"https://github.com/sphinx-doc/sphinx/\">Git repo</a> or look for\n"
-"  released versions in the <a href=\"https://pypi.python.org/pypi/Sphinx\">Python\n"
-"    Package Index</a>."
-msgstr ""
-"Você pode usar o repositório\n"
-"<a href=\"https://github.com/sphinx-doc/sphinx/\">Git Repositório</a> ou dar uma olhada\n"
-"nas versões anteriores <a href=\"https://pypi.python.org/pypi/Sphinx\">\n"
-"Índice de Pacotes Python</a>."
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:14
-msgid "Current version: <b><a href=\"changes.html\">%(version)s</a></b>"
-msgstr ""
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:15
-msgid ""
-"Get Sphinx from the <a href=\"https://pypi.python.org/pypi/Sphinx\">Python Package\n"
-"Index</a>, or install it with:"
-msgstr ""
-"Obter Sphinx em <a href=\"https://pypi.python.org/pypi/Sphinx\">Índice de Pacotes\n"
-" Python</a> ou instalar com:"
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:20
-msgid "Questions? Suggestions?"
-msgstr "Questões? Sugestões?"
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:22
-msgid ""
-"Join the <a href=\"http://groups.google.com/group/sphinx-users\">sphinx-"
-"users</a> mailing list on Google Groups:"
-msgstr ""
-"Junte-se a <a href=\"http://groups.google.com/group/sphinx-users\">Usuários "
-"Sphinx</a> lista de email do Google Groups:"
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:29
-msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."
-msgstr "ou visite o canal <tt>#sphinx-doc</tt> em FreeNode."
-
-#: ../../sphinx/doc/_templates/indexsidebar.html:30
-msgid ""
-"You can also open an issue at the\n"
-"  <a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
-msgstr ""
-"Também é possível abrir um requerimento em:\n"
-"<a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
 
 #: ../../sphinx/doc/_templates/index.html:2
 msgid "Overview"
@@ -342,3 +284,61 @@ msgstr "<a href=\"%(path)s\">Guia do Desenvolvedor Sphinx</a></li>"
 #: ../../sphinx/doc/_templates/index.html:121
 msgid "<a href=\"%(path)s\">Sphinx Authors</a></li>"
 msgstr "<a href=\"%(path)s\">Autores Sphinx</a></li>"
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:3
+msgid "project"
+msgstr "projeto"
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:7
+msgid ""
+"This documentation is for version <b><a href=\"changes.html\">%(version)s</a></b>, which is\n"
+"  not released yet."
+msgstr ""
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:9
+msgid ""
+"You can use it from the\n"
+"  <a href=\"https://github.com/sphinx-doc/sphinx/\">Git repo</a> or look for\n"
+"  released versions in the <a href=\"https://pypi.python.org/pypi/Sphinx\">Python\n"
+"    Package Index</a>."
+msgstr ""
+"Você pode usar o repositório\n"
+"<a href=\"https://github.com/sphinx-doc/sphinx/\">Git Repositório</a> ou dar uma olhada\n"
+"nas versões anteriores <a href=\"https://pypi.python.org/pypi/Sphinx\">\n"
+"Índice de Pacotes Python</a>."
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:14
+msgid "Current version: <b><a href=\"changes.html\">%(version)s</a></b>"
+msgstr ""
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:15
+msgid ""
+"Get Sphinx from the <a href=\"https://pypi.python.org/pypi/Sphinx\">Python Package\n"
+"Index</a>, or install it with:"
+msgstr ""
+"Obter Sphinx em <a href=\"https://pypi.python.org/pypi/Sphinx\">Índice de Pacotes\n"
+" Python</a> ou instalar com:"
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:20
+msgid "Questions? Suggestions?"
+msgstr "Questões? Sugestões?"
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:22
+msgid ""
+"Join the <a href=\"http://groups.google.com/group/sphinx-users\">sphinx-"
+"users</a> mailing list on Google Groups:"
+msgstr ""
+"Junte-se a <a href=\"http://groups.google.com/group/sphinx-users\">Usuários "
+"Sphinx</a> lista de email do Google Groups:"
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:29
+msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."
+msgstr "ou visite o canal <tt>#sphinx-doc</tt> em FreeNode."
+
+#: ../../sphinx/doc/_templates/indexsidebar.html:30
+msgid ""
+"You can also open an issue at the\n"
+"  <a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
+msgstr ""
+"Também é possível abrir um requerimento em:\n"
+"<a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
