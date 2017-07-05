@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2007-2016, Georg Brandl and the Sphinx team
+# Copyright (C) 2007-2017, Georg Brandl and the Sphinx team
 # This file is distributed under the same license as the Sphinx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.6+\n"
+"Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-28 17:21+0000\n"
+"POT-Creation-Date: 2017-07-05 02:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2016\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +155,7 @@ msgstr ""
 #: ../../sphinx/doc/markup/code.rst:98
 msgid ""
 "The first line number can be selected with the ``lineno-start`` option.  If "
-"present, ``linenos`` is automatically activated as well."
+"present, ``linenos`` is automatically activated as well::"
 msgstr ""
 
 #: ../../sphinx/doc/markup/code.rst:106
@@ -248,85 +248,106 @@ msgstr ""
 
 #: ../../sphinx/doc/markup/code.rst:187
 msgid ""
-"When specifying particular parts of a file to display, it can be useful to "
-"display exactly which lines are being presented. This can be done using the "
-"``lineno-match`` option."
+"With lines selected using ``start-after`` it is still possible to use "
+"``lines``, the first allowed line having by convention the line number "
+"``1``."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:191
+#: ../../sphinx/doc/markup/code.rst:190
+msgid ""
+"When lines have been selected in any of the ways described above, the line "
+"numbers in ``emphasize-lines`` also refer to the selection, with the first "
+"selected line having number ``1``."
+msgstr ""
+
+#: ../../sphinx/doc/markup/code.rst:194
+msgid ""
+"When specifying particular parts of a file to display, it can be useful to "
+"display the original line numbers. This can be done using the ``lineno-"
+"match`` option, which is however allowed only when the selection consists of"
+" contiguous lines."
+msgstr ""
+
+#: ../../sphinx/doc/markup/code.rst:199
 msgid ""
 "You can prepend and/or append a line to the included code, using the "
 "``prepend`` and ``append`` option, respectively.  This is useful e.g. for "
 "highlighting PHP code that doesn't include the ``<?php``/``?>`` markers."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:196
+#: ../../sphinx/doc/markup/code.rst:204
 msgid ""
 "If you want to show the diff of the code, you can specify the old file by "
 "giving a ``diff`` option::"
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:202
+#: ../../sphinx/doc/markup/code.rst:210
 msgid ""
 "This shows the diff between example.py and example.py.orig with unified diff"
 " format."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:205
+#: ../../sphinx/doc/markup/code.rst:213
 msgid "The ``encoding`` option."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:207
+#: ../../sphinx/doc/markup/code.rst:215
 msgid ""
 "The ``pyobject``, ``lines``, ``start-after`` and ``end-before`` options, as "
 "well as support for absolute filenames."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:210
+#: ../../sphinx/doc/markup/code.rst:218
 msgid "The ``prepend`` and ``append`` options, as well as ``tab-width``."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:212
+#: ../../sphinx/doc/markup/code.rst:220
 msgid "The ``diff`` option. The ``lineno-match`` option."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:218
+#: ../../sphinx/doc/markup/code.rst:223
+msgid ""
+"With both ``start-after`` and ``lines`` in use, the first line as per "
+"``start-after`` is considered to be with line number ``1`` for ``lines``."
+msgstr ""
+
+#: ../../sphinx/doc/markup/code.rst:228
 msgid "Caption and name"
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:222
+#: ../../sphinx/doc/markup/code.rst:232
 msgid ""
 "A ``caption`` option can be given to show that name before the code block. A"
 " ``name`` option can be provided implicit target name that can be referenced"
 " by using :rst:role:`ref`. For example::"
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:234
+#: ../../sphinx/doc/markup/code.rst:244
 msgid ""
 ":rst:dir:`literalinclude` also supports the ``caption`` and ``name`` option."
-" ``caption`` has a additional feature that if you leave the value empty, the"
-" shown filename will be exactly the one given as an argument."
+" ``caption`` has an additional feature that if you leave the value empty, "
+"the shown filename will be exactly the one given as an argument."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:240
+#: ../../sphinx/doc/markup/code.rst:250
 msgid "Dedent"
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:244
+#: ../../sphinx/doc/markup/code.rst:254
 msgid ""
 "A ``dedent`` option can be given to strip indentation characters from the "
 "code block. For example::"
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:252
+#: ../../sphinx/doc/markup/code.rst:262
 msgid ":rst:dir:`code-block` also supports the ``dedent`` option."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:256
+#: ../../sphinx/doc/markup/code.rst:266
 msgid "Footnotes"
 msgstr "Notas a pie de página"
 
-#: ../../sphinx/doc/markup/code.rst:257
+#: ../../sphinx/doc/markup/code.rst:267
 msgid ""
 "There is a standard ``.. include`` directive, but it raises errors if the "
 "file is not found.  This one only emits a warning."
