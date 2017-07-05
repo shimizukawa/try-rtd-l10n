@@ -36,12 +36,19 @@ script:
 - rm -R es ja pt_BR
 - tx pull -l es,ja,pt_BR
 - git checkout .tx/config
+after_success:
+- git branch -a
+- git status
+- git symbolic-ref HEAD
+- git checkout master
+- git status
+- git symbolic-ref HEAD
 - git config --global user.email "sphinx-auto-update"
 - git config --global user.name "sphinx-auto-update"
 - git add .
 - git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
 - git status
-after_success:
+- git symbolic-ref HEAD
 - git status
 - git remote -v
 - git remote add github git@github.com:shimizukawa/try-rtd-l10n.git
