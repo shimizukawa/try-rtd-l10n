@@ -21,7 +21,7 @@ script:
 - cd sphinx
 - git branch -a
 - git status
-- git symbolic-ref HEAD
+- git symbolic-ref HEAD  || echo ''  # avoid error status
 - git checkout master
 - git status
 - git symbolic-ref HEAD
