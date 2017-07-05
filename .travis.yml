@@ -21,8 +21,10 @@ script:
 - cd sphinx
 - git branch -a
 - git status
+- git symbolic-ref HEAD
 - git checkout master
 - git status
+- git symbolic-ref HEAD
 - cd ../locale
 - pip install -r ./requirements.txt
 - sphinx-intl create-transifexrc
