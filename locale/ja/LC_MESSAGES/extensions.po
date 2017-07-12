@@ -28,6 +28,8 @@ msgid ""
 "Sphinx allows adding \"extensions\" to the build process, each of which can "
 "modify almost any aspect of document processing."
 msgstr ""
+"たくさんのプロジェクトではそのドキュメントに独自の機能を必要としているため、Sphinxでは \"拡張\" "
+"をビルド中に加える事が出来ます。拡張により、ドキュメント処理中のほぼすべての場面に変更を加える事が出来ます。"
 
 #: ../../sphinx/doc/extensions.rst:10
 msgid ""

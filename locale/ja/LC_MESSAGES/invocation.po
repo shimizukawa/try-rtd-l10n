@@ -161,6 +161,7 @@ msgstr "Makefileとbatファイルの生成オプション"
 #: ../../sphinx/doc/invocation.rst:131
 msgid "Makefile/make.bat uses (or not use) make-mode. Default is use."
 msgstr ""
+"Makefile/make.bat の形式でmake-modeを利用します(または使いません)。デフォルトではmake-modeを使います。"
 
 #: ../../sphinx/doc/invocation.rst:133
 msgid "make-mode is default."

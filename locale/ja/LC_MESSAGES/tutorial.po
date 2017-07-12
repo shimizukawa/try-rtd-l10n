@@ -578,7 +578,7 @@ msgstr ":doc:`テーマの選択 <theming>`"
 
 #: ../../sphinx/doc/tutorial.rst:311
 msgid ":doc:`setuptools`"
-msgstr ""
+msgstr ":doc:`setuptools`"
 
 #: ../../sphinx/doc/tutorial.rst:312
 msgid ":ref:`Templating <templating>`"
