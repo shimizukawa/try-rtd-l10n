@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-16 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arihiro TAKASE <artakase@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:4
-msgid "sphinx-apidoc manual page"
-msgstr "sphinx-apidoc マニュアルページ"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:2
+msgid "sphinx-apidoc"
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:7
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:5
 msgid "Synopsis"
 msgstr "概要"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:9
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:7
 msgid ""
 "**sphinx-apidoc** [*options*] -o <*outputdir*> <*sourcedir*> [*pathnames* "
 "...]"
@@ -34,28 +34,25 @@ msgstr ""
 "**sphinx-apidoc** [*options*] -o <*outputdir*> <*sourcedir*> [*pathnames* "
 "...]"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:13
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:10
 msgid "Description"
 msgstr "説明"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:15
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:12
 msgid ""
 ":program:`sphinx-apidoc` is a tool for automatic generation of Sphinx "
-"sources that, using the autodoc extension, document a whole package in the "
-"style of other automatic API documentation tools."
+"sources that, using the :rst:dir:`autodoc` extension, document a whole "
+"package in the style of other automatic API documentation tools."
 msgstr ""
-":program:`sphinx-apidoc` "
-"はSphinxで使用するソースを自動生成するツールです。autodoc拡張を使って、他の自動API生成ツールと同じようにパッケージ全体のドキュメントを生成できます。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:19
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:16
 msgid ""
-"*sourcedir* must point to a Python package.  Any *pathnames* given are paths"
-" to be excluded from the generation."
+"*sourcedir* is the path to a Python package to document, and *outputdir* is "
+"the directory where the generated sources are placed. Any *pathnames* given "
+"are paths to be excluded from the generation."
 msgstr ""
-"*sourcedir* はPythonパッケージを示さなければなりません。 *pathnames* を与えると、そのパスは生成されません。 "
-"*pathnames*  は複数指定できます。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:24
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:22
 msgid ""
 "``sphinx-apidoc`` generates source files that use :mod:`sphinx.ext.autodoc` "
 "to document all found modules.  If any modules have side effects on import, "
@@ -65,7 +62,7 @@ msgstr ""
 "を使って、見つけた全てのモジュールをドキュメント化します。もしインポートによる副作用があれば、 ``sphinx-build`` が実行されるとき "
 "``autodoc`` により実行されます。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:28
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:26
 msgid ""
 "If you document scripts (as opposed to library modules), make sure their "
 "main routine is protected by a ``if __name__ == '__main__'`` condition."
@@ -73,99 +70,110 @@ msgstr ""
 "もしあなたが  (ライブラリモジュールではなく)  スクリプトをドキュメント化したいのであれば、スクリプトのメインルーチンが ``if __name__"
 " == '__main__'`` 条件により保護されていることを確認して下さい。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:33
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:30
 msgid "Options"
 msgstr "オプション"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:35
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:36
 msgid ""
-"Directory to place the output files.  If it does not exist, it is created."
-msgstr "ファイルの出力先ディレクトリ。ディレクトリが存在しない場合、作成されます。"
+"Directory to place the output files. If it does not exist, it is created."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:37
-msgid "Usually, apidoc does not overwrite files, unless this option is given."
-msgstr "通常はapidocはどんなファイルも上書きしません。このオプションを指定すると上書きするようになります。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:40
+msgid "Force overwritting of any existing generated files."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:39
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:44
 msgid "Follow symbolic links."
 msgstr "シンボリックリンクを辿ります。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:40
-msgid "If given, apidoc does not create any files."
-msgstr "このオプションを設定すると、apidocはどんなファイルも生成しません。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:48
+msgid "Do not create any files."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:41
-msgid "Suffix for the source files generated, default is ``rst``."
-msgstr "このオプションにより出力ファイルのファイル拡張子を選択します。デフォルトでは ``rst`` です。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:52
+msgid "Suffix for the source files generated. Defaults to ``rst``."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:42
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:56
 msgid "Maximum depth for the generated table of contents file."
 msgstr "目次を生成する最大の深さを設定します。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:43
-msgid "Do not create a table of contents file."
-msgstr "目次ファイルを生成しません。"
-
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:44
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:60
 msgid ""
-"If given, a full Sphinx project is generated (``conf.py``, ``Makefile`` "
-"etc.) using sphinx-quickstart."
+"Do not create a table of contents file. Ignored when :option:`--full` is "
+"provided."
 msgstr ""
-"このオプションが与えられた場合、sphinx-quickstartを使って(``conf.py``, ``Makefile`` "
-"などが含まれる)完全なSphinxプロジェクトが生成されます。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:46
-msgid "Put each module file in its own page."
-msgstr "各モジュールのファイルをそれぞれのページに置きます。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:65
+msgid ""
+"Generate a full Sphinx project (``conf.py``, ``Makefile`` etc.) using the "
+"same mechanism as :program:`sphinx-quickstart`."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:47
-msgid "Don't create headings for the modules/packages"
-msgstr "モジュールやパッケージ用の見出しテキストを生成しません。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:70
+msgid "Put documentation for each module on its own page."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:48
-msgid "Include \"_private\" modules"
-msgstr "\"_private\" モジュールを含めます。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:76
+msgid ""
+"Do not create headings for the modules/packages. This is useful, for "
+"example, when docstrings already contain headings."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:50
-msgid "These options are used with ``-F``:"
-msgstr "これらのオプションは ``-F`` と一緒に使います:"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:81
+msgid "Include \"_private\" modules."
+msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:52
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:87
+msgid ""
+"By default sphinx-apidoc processes sys.path searching for modules only. "
+"Python 3.3 introduced :pep:`420` implicit namespaces that allow module path "
+"structures such as ``foo/bar/module.py`` or ``foo/bar/baz/__init__.py`` "
+"(notice that ``bar`` and ``foo`` are namespaces, not modules)."
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:92
+msgid "Interpret paths recursively according to PEP-0420."
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:96
+msgid "Put module documentation before submodule documentation."
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:98
+msgid "These options are used when :option:`--full` is specified:"
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:102
 msgid "Append module_path to sys.path."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:53
-msgid "Project name to put into the configuration."
-msgstr "設定ファイルに挿入するプロジェクト名を指定します。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:106
+msgid ""
+"Sets the project name to put in generated files (see :confval:`project`)."
+msgstr "生成したファイルに含めるプロジェクト名を指定します ( :confval:`project` も参照)。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:54
-msgid "Author name(s) to put into the configuration."
-msgstr "設定ファイルに挿入する著者名を指定します。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:110
+msgid ""
+"Sets the author name(s) to put in generated files (see "
+":confval:`copyright`)."
+msgstr "生成したファイルに含める著者名を指定します ( :confval:`copyright` も参照)。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:55
-msgid "Project version."
-msgstr "プロジェクトのバージョン。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:115
+msgid ""
+"Sets the project version to put in generated files (see :confval:`version`)."
+msgstr "生成したファイルに含めるプロジェクトのバージョンを指定します ( :confval:`version` も参照)。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:56
-msgid "Project release."
-msgstr "プロジェクトのリリース。"
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:119
+msgid ""
+"Sets the project release to put in generated files (see :confval:`release`)."
+msgstr "生成したファイルに含めるプロジェクトのリリースを指定します ( :confval:`release` も参照)。"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:60
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:122
 msgid "See also"
 msgstr "参考"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:62
-msgid ":manpage:`sphinx-build(1)`"
-msgstr ":manpage:`sphinx-build(1)`"
-
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:66
-msgid "Author"
-msgstr "作者"
-
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:68
-msgid ""
-"Etienne Desautels, <etienne.desautels@gmail.com>, Georg Brandl "
-"<georg@python.org> et al."
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:124
+msgid ":manpage:`sphinx-build(1)`, :manpage:`sphinx-autogen(1)`"
 msgstr ""
-"Etienne Desautels, <etienne.desautels@gmail.com>, Georg Brandl "
-"<georg@python.org> et al."

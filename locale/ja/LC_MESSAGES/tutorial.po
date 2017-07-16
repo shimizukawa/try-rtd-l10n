@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-16 04:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takaaki AOKI <aoki@sakura.nucleng.kyoto-u.ac.jp>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -81,10 +81,8 @@ msgstr "いくつかの質問が行われます。ここでは最低限\"autodoc
 #: ../../sphinx/doc/tutorial.rst:38
 msgid ""
 "There is also an automatic \"API documentation\" generator called :program"
-":`sphinx-apidoc`; see :ref:`invocation-apidoc` for details."
+":`sphinx-apidoc`; see :doc:`/man/sphinx-apidoc` for details."
 msgstr ""
-":program:`sphinx-apidoc` という \"APIドキュメント\"の自動生成機能もあります。 :ref:`invocation-"
-"apidoc`  を参照して下さい。"
 
 #: ../../sphinx/doc/tutorial.rst:43
 msgid "Defining document structure"
@@ -236,11 +234,9 @@ msgstr ""
 
 #: ../../sphinx/doc/tutorial.rst:129
 msgid ""
-"|more| See :ref:`invocation` for all options that :program:`sphinx-build` "
-"supports."
+"|more| Refer to the :program:`sphinx-build man page <sphinx-build>` for all "
+"options that :program:`sphinx-build` supports."
 msgstr ""
-"|more| :program:`sphinx-build` がサポートする完全なオプションは、 :ref:`invocation` "
-"を参照してください。"
 
 #: ../../sphinx/doc/tutorial.rst:132
 msgid ""
@@ -599,7 +595,6 @@ msgstr "脚注"
 #: ../../sphinx/doc/tutorial.rst:319
 msgid ""
 "This is the usual layout.  However, :file:`conf.py` can also live in another"
-" directory, the :term:`configuration directory`.  See :ref:`invocation`."
+" directory, the :term:`configuration directory`.  Refer to the :program"
+":`sphinx-build man page <sphinx-build>` for more information."
 msgstr ""
-"これは基本的なレイアウトです。しかし、 :file:`conf.py` を :term:`設定ディレクトリ` "
-"と呼ばれる他の場所に置くこともできます。詳しくは :ref:`invocation` をご覧下さい。"
