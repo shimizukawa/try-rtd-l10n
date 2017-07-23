@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-23 05:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Georg Brandl <g.brandl@gmx.net>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -422,7 +422,7 @@ msgstr ""
 msgid "It is customary to put the opening bracket before the comma."
 msgstr "通常、カンマの前に開き括弧を付けます。"
 
-#: ../../sphinx/doc/domains.rst:305 ../../sphinx/doc/domains.rst:938
+#: ../../sphinx/doc/domains.rst:305 ../../sphinx/doc/domains.rst:939
 msgid "Info field lists"
 msgstr "詳細情報フィールドのリスト"
 
@@ -762,19 +762,19 @@ msgstr "前の説明で述べた、シンプルなC言語のマクロへの参�
 msgid "Reference a C-language type."
 msgstr "C言語の型への参照です。"
 
-#: ../../sphinx/doc/domains.rst:545
+#: ../../sphinx/doc/domains.rst:546
 msgid "The C++ Domain"
 msgstr "C++ドメイン"
 
-#: ../../sphinx/doc/domains.rst:547
+#: ../../sphinx/doc/domains.rst:548
 msgid "The C++ domain (name **cpp**) supports documenting C++ projects."
 msgstr "C++ドメインは(**cpp**)は、C++プロジェクトのドキュメント作成をサポートします。"
 
-#: ../../sphinx/doc/domains.rst:551
+#: ../../sphinx/doc/domains.rst:552
 msgid "Directives"
 msgstr "ディレクティブ"
 
-#: ../../sphinx/doc/domains.rst:553
+#: ../../sphinx/doc/domains.rst:554
 msgid ""
 "The following directives are available. All declarations can start with a "
 "visibility statement (``public``, ``private`` or ``protected``)."
@@ -782,234 +782,234 @@ msgstr ""
 "以下のディレクティブを使用できます。全ての定義にはアクセス制御識別子(``public``, ``private``, "
 "``protected``)を最初に付けられます。"
 
-#: ../../sphinx/doc/domains.rst:558
+#: ../../sphinx/doc/domains.rst:559
 msgid ""
 "Describe a class/struct, possibly with specification of inheritance, e.g.,::"
 msgstr "クラスや構造について説明します。継承についての情報も書けます。"
 
-#: ../../sphinx/doc/domains.rst:562
+#: ../../sphinx/doc/domains.rst:563
 msgid "The class can be directly declared inside a nested scope, e.g.,::"
 msgstr "クラスはネストしたスコープの中で直接宣言することができます、 例として ::"
 
-#: ../../sphinx/doc/domains.rst:566
+#: ../../sphinx/doc/domains.rst:567
 msgid "A class template can be declared::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:570
+#: ../../sphinx/doc/domains.rst:571
 msgid "or with a line break::"
 msgstr "もしくは改行を用いて::"
 
-#: ../../sphinx/doc/domains.rst:575
+#: ../../sphinx/doc/domains.rst:576
 msgid "Full and partial template specialisations can be declared::"
 msgstr "完全な、もしくは一部のテンプレートの専門化は次のように宣言できます::"
 
-#: ../../sphinx/doc/domains.rst:586
+#: ../../sphinx/doc/domains.rst:587
 msgid "Describe a function or member function, e.g.,::"
 msgstr "関数とメンバーの説明です。例えば以下のように書きます::"
 
-#: ../../sphinx/doc/domains.rst:612
+#: ../../sphinx/doc/domains.rst:613
 msgid "Function templates can also be described::"
 msgstr "Functionテンプレートは次のようにも表現できます::"
 
-#: ../../sphinx/doc/domains.rst:617
+#: ../../sphinx/doc/domains.rst:618
 msgid "and function template specialisations::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:626
+#: ../../sphinx/doc/domains.rst:627
 msgid "Describe a variable or member variable, e.g.,::"
 msgstr "変数とメンバー変数の説明です。例えば以下のように書きます::"
 
-#: ../../sphinx/doc/domains.rst:634
+#: ../../sphinx/doc/domains.rst:635
 msgid "Variable templates can also be described::"
 msgstr "変数テンプレートは次のようにも表現できます::"
 
-#: ../../sphinx/doc/domains.rst:644
+#: ../../sphinx/doc/domains.rst:645
 msgid ""
 "Describe a type as in a typedef declaration, a type alias declaration, or "
 "simply the name of a type with unspecified type, e.g.,::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:659
+#: ../../sphinx/doc/domains.rst:660
 msgid "A type alias can also be templated::"
 msgstr "エイリアス型は次のようにも宣言が可能です::"
 
-#: ../../sphinx/doc/domains.rst:664
+#: ../../sphinx/doc/domains.rst:665
 msgid "The example are rendered as follows."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:668
+#: ../../sphinx/doc/domains.rst:669
 msgid "A typedef-like declaration of a type."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:672
+#: ../../sphinx/doc/domains.rst:673
 msgid "Declaration of a type alias with unspecified type."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:676
+#: ../../sphinx/doc/domains.rst:677
 msgid "Declaration of a type alias."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:686
+#: ../../sphinx/doc/domains.rst:687
 msgid ""
 "Describe a (scoped) enum, possibly with the underlying type specified. Any "
 "enumerators declared inside an unscoped enum will be declared both in the "
 "enum scope and in the parent scope. Examples::"
 msgstr "列挙型について説明します。型指定やスコープ指定もできます。どの列挙もスコープ無し列挙型の中に書くこともできます。例::"
 
-#: ../../sphinx/doc/domains.rst:710
+#: ../../sphinx/doc/domains.rst:711
 msgid "Describe an enumerator, optionally with its value defined, e.g.,::"
 msgstr "列挙子について説明します。値指定もできます。例::"
 
-#: ../../sphinx/doc/domains.rst:720
+#: ../../sphinx/doc/domains.rst:721
 msgid ""
 "The support for concepts is experimental. It is based on the Concepts "
 "Technical Specification, and the features may change as the TS evolves."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:723
+#: ../../sphinx/doc/domains.rst:724
 msgid ""
 "Describe a variable concept or a function concept. Both must have exactly 1 "
 "template parameter list. The name may be a nested name. Examples::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:747
+#: ../../sphinx/doc/domains.rst:748
 msgid "They will render as follows:"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:751
+#: ../../sphinx/doc/domains.rst:752
 msgid ""
 "Proxy to an element of a notional sequence that can be compared, indirected,"
 " or incremented."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:754
+#: ../../sphinx/doc/domains.rst:755
 msgid "**Notation**"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:758
+#: ../../sphinx/doc/domains.rst:759
 msgid "An lvalue."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:760
+#: ../../sphinx/doc/domains.rst:761
 msgid "**Valid Expressions**"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:762
+#: ../../sphinx/doc/domains.rst:763
 msgid ":cpp:expr:`*r`, when :cpp:expr:`r` is dereferenceable."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:763
+#: ../../sphinx/doc/domains.rst:764
 msgid ""
 ":cpp:expr:`++r`, with return type :cpp:expr:`It&`, when :cpp:expr:`r` is "
 "incrementable."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:767
+#: ../../sphinx/doc/domains.rst:768
 msgid ""
 "Holder of elements, to which it can provide access via "
 ":cpp:concept:`Iterator` s."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:771
+#: ../../sphinx/doc/domains.rst:772
 msgid "Options"
 msgstr "オプション"
 
-#: ../../sphinx/doc/domains.rst:773
+#: ../../sphinx/doc/domains.rst:774
 msgid "Some directives support options:"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:775
+#: ../../sphinx/doc/domains.rst:776
 msgid "``:noindex:``, see :ref:`basic-domain-markup`."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:776
+#: ../../sphinx/doc/domains.rst:777
 msgid ""
 "``:tparam-line-spec:``, for templated declarations. If specified, each "
 "template parameter will be rendered on a separate line."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:781
+#: ../../sphinx/doc/domains.rst:782
 msgid "Constrained Templates"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:783
+#: ../../sphinx/doc/domains.rst:784
 msgid ""
 "The support for constrained templates is experimental. It is based on the "
 "Concepts Technical Specification, and the features may change as the TS "
 "evolves."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:786
+#: ../../sphinx/doc/domains.rst:787
 msgid "Sphinx does not currently support ``requires`` clauses."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:789
+#: ../../sphinx/doc/domains.rst:790
 msgid "Placeholders"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:791
+#: ../../sphinx/doc/domains.rst:792
 msgid ""
 "Declarations may use the name of a concept to introduce constrained template"
 " parameters, or the keyword ``auto`` to introduce unconstrained template "
 "parameters::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:804
+#: ../../sphinx/doc/domains.rst:805
 msgid "Template Introductions"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:806
+#: ../../sphinx/doc/domains.rst:807
 msgid ""
 "Simple constrained function or class templates can be declared with a "
 "`template introduction` instead of a template parameter list::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:817
+#: ../../sphinx/doc/domains.rst:818
 msgid "They are rendered as follows."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:821
+#: ../../sphinx/doc/domains.rst:822
 msgid ""
 "A function template with a template parameter constrained to be an Iterator."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:825
+#: ../../sphinx/doc/domains.rst:826
 msgid ""
 "A class template with a template parameter constrained to be "
 "LessThanComparable."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:827
+#: ../../sphinx/doc/domains.rst:828
 msgid ""
 "Note however that no checking is performed with respect to parameter "
 "compatibility. E.g., ``Iterator{A, B, C}`` will be accepted as an "
 "introduction even though it would not be valid C++."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:833
+#: ../../sphinx/doc/domains.rst:834
 msgid "Inline Expressions and Tpes"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:837
+#: ../../sphinx/doc/domains.rst:838
 msgid ""
 "A role for inserting a C++ expression or type as inline text. For example::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:847
+#: ../../sphinx/doc/domains.rst:848
 msgid "will be rendered as follows:"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:853
+#: ../../sphinx/doc/domains.rst:854
 msgid ""
 "An expression: :cpp:expr:`a * f(a)`. A type: :cpp:expr:`const "
 "MySortedContainer<int>&`."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:857
+#: ../../sphinx/doc/domains.rst:858
 msgid "Namespacing"
 msgstr "名前空間"
 
-#: ../../sphinx/doc/domains.rst:859
+#: ../../sphinx/doc/domains.rst:860
 msgid ""
 "Declarations in the C++ domain are as default placed in global scope. The "
 "current scope can be changed using three namespace directives. They manage a"
@@ -1019,107 +1019,107 @@ msgid ""
 "undos the most recent ``cpp:namespace-push`` directive."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:870
+#: ../../sphinx/doc/domains.rst:871
 msgid ""
 "Changes the current scope for the subsequent objects to the given scope, and"
 " resets the namespace directive stack. Note that the namespace does not need"
 " to correspond to C++ namespaces, but can end in names of classes, e.g.,::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:877
+#: ../../sphinx/doc/domains.rst:878
 msgid ""
 "All subsequent objects will be defined as if their name were declared with "
 "the scope prepended. The subsequent cross-references will be searched for "
 "starting in the current scope."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:880
+#: ../../sphinx/doc/domains.rst:881
 msgid ""
 "Using ``NULL``, ``0``, or ``nullptr`` as the scope will change to global "
 "scope."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:882
+#: ../../sphinx/doc/domains.rst:883
 msgid "A namespace declaration can also be templated, e.g.,::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:891
+#: ../../sphinx/doc/domains.rst:892
 msgid ""
 "declares ``size`` as a member function of the class template "
 "``std::vector``. Equivalently this could have been declared using::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:899
+#: ../../sphinx/doc/domains.rst:900
 msgid "or:::"
 msgstr "もしくは::"
 
-#: ../../sphinx/doc/domains.rst:907
+#: ../../sphinx/doc/domains.rst:908
 msgid "Change the scope relatively to the current scope. For example, after::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:913
+#: ../../sphinx/doc/domains.rst:914
 msgid "the current scope will be ``A::B::C::D``."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:917
+#: ../../sphinx/doc/domains.rst:918
 msgid ""
 "Undo the previous ``cpp:namespace-push`` directive (*not* just pop a scope)."
 " For example, after::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:926
+#: ../../sphinx/doc/domains.rst:927
 msgid "the current scope will be ``A::B`` (*not* ``A::B::C``)."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:928
+#: ../../sphinx/doc/domains.rst:929
 msgid ""
 "If no previous ``cpp:namespace-push`` directive has been used, but only a "
 "``cpp:namespace`` directive, then the current scope will be reset to global "
 "scope. That is, ``.. cpp:namespace:: A::B`` is equivalent to::"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:940
+#: ../../sphinx/doc/domains.rst:941
 msgid ""
 "The C++ directives support the following info fields (see also :ref:`info-"
 "field-lists`):"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:942
+#: ../../sphinx/doc/domains.rst:943
 msgid "`param`, `parameter`, `arg`, `argument`: Description of a parameter."
 msgstr "`param`, `parameter`, `arg`, `argument`: パラメーターの説明です。"
 
-#: ../../sphinx/doc/domains.rst:943
+#: ../../sphinx/doc/domains.rst:944
 msgid "`tparam`: Description of a template parameter."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:944
+#: ../../sphinx/doc/domains.rst:945
 msgid "`returns`, `return`: Description of a return value."
 msgstr "`returns`, `return`: 返り値の値について説明をします"
 
-#: ../../sphinx/doc/domains.rst:945
+#: ../../sphinx/doc/domains.rst:946
 msgid ""
 "`throws`, `throw`, `exception`: Description of a possibly thrown exception."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:951
+#: ../../sphinx/doc/domains.rst:952
 msgid "Cross-referencing"
 msgstr "クロスリファレンス"
 
-#: ../../sphinx/doc/domains.rst:953
+#: ../../sphinx/doc/domains.rst:954
 msgid "These roles link to the given declaration types:"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:965
+#: ../../sphinx/doc/domains.rst:966
 msgid ""
 "Reference a C++ declaration by name (see below for details). The name must "
 "be properly qualified relative to the position of the link."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:968
+#: ../../sphinx/doc/domains.rst:969
 msgid "Note on References with Templates Parameters/Arguments"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:970
+#: ../../sphinx/doc/domains.rst:971
 msgid ""
 "Sphinx's syntax to give references a custom title can interfere with linking"
 " to class templates, if nothing follows the closing angle bracket, i.e. if "
@@ -1129,11 +1129,11 @@ msgid ""
 "``:cpp:class:`MyClass\\<int>```."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:977
+#: ../../sphinx/doc/domains.rst:978
 msgid "Note on References to Overloaded Functions"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:979
+#: ../../sphinx/doc/domains.rst:980
 msgid ""
 "It is currently impossible to link to a specific version of an overloaded "
 "method.  Currently the C++ domain is the first domain that has basic support"
@@ -1143,25 +1143,25 @@ msgid ""
 msgstr ""
 "現在の実装では、オーバーロードされた特定のメソッドに対してリンクを張ることはできません。C++ドメインは、オーバーロードされたメソッドを持つ言語をサポートする最初のドメインです。きちんとそれぞれのメソッドを比較できるようなデータ構造を持つまでは、特定のメソッドを参照するために見難い構文を導入するのは避けたいと考えています。現在のSphinxでは、オーバーロードされた最初のメソッドや関数をリンクしに行きます。"
 
-#: ../../sphinx/doc/domains.rst:987
+#: ../../sphinx/doc/domains.rst:988
 msgid "Declarations without template parameters and template arguments"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:989
+#: ../../sphinx/doc/domains.rst:990
 msgid ""
 "For linking to non-templated declarations the name must be a nested name, "
 "e.g., ``f`` or ``MyClass::f``."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:993
+#: ../../sphinx/doc/domains.rst:994
 msgid "Templated declarations"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:995 ../../sphinx/doc/domains.rst:1023
+#: ../../sphinx/doc/domains.rst:996 ../../sphinx/doc/domains.rst:1024
 msgid "Assume the following declarations."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1005
+#: ../../sphinx/doc/domains.rst:1006
 msgid ""
 "In general the reference must include the template paraemter declarations, "
 "e.g., ``template\\<typename TOuter> Wrapper::Outer`` "
@@ -1170,7 +1170,7 @@ msgid ""
 " That is, ``template\\<typename UOuter> Wrapper::Outer`` will not work."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1010
+#: ../../sphinx/doc/domains.rst:1011
 msgid ""
 "The inner class template can not be directly referenced, unless the current "
 "namespace is changed or the following shorthand is used. If a template "
@@ -1179,25 +1179,25 @@ msgid ""
 "following references work."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1016
+#: ../../sphinx/doc/domains.rst:1017
 msgid "``Wrapper::Outer`` (:cpp:class:`Wrapper::Outer`)"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1017
+#: ../../sphinx/doc/domains.rst:1018
 msgid "``Wrapper::Outer::Inner`` (:cpp:class:`Wrapper::Outer::Inner`)"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1018
+#: ../../sphinx/doc/domains.rst:1019
 msgid ""
 "``template\\<typename TInner> Wrapper::Outer::Inner`` "
 "(:cpp:class:`template\\<typename TInner> Wrapper::Outer::Inner`)"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1021
+#: ../../sphinx/doc/domains.rst:1022
 msgid "(Full) Template Specialisations"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1040
+#: ../../sphinx/doc/domains.rst:1041
 msgid ""
 "In general the reference must include a template parameter list for each "
 "template argument list. The full specialisation above can therefore be "
@@ -1209,15 +1209,15 @@ msgid ""
 "``Outer\\<int>::Inner\\<bool>`` (:cpp:class:`Outer\\<int>::Inner\\<bool>`)."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1048
+#: ../../sphinx/doc/domains.rst:1049
 msgid "Partial Template Specialisations"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1050
+#: ../../sphinx/doc/domains.rst:1051
 msgid "Assume the following declaration."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1055
+#: ../../sphinx/doc/domains.rst:1056
 msgid ""
 "References to partial specialisations must always include the template "
 "parameter lists, e.g., ``template\\<typename T> Outer\\<T*>`` "
@@ -1225,19 +1225,19 @@ msgid ""
 " succeed if the template parameter identifiers are equal strings."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1061
+#: ../../sphinx/doc/domains.rst:1062
 msgid "Configuration Variables"
 msgstr "設定値"
 
-#: ../../sphinx/doc/domains.rst:1063
+#: ../../sphinx/doc/domains.rst:1064
 msgid "See :ref:`cpp-config`."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1067
+#: ../../sphinx/doc/domains.rst:1068
 msgid "The Standard Domain"
 msgstr "標準ドメイン"
 
-#: ../../sphinx/doc/domains.rst:1069
+#: ../../sphinx/doc/domains.rst:1070
 msgid ""
 "The so-called \"standard\" domain collects all markup that doesn't warrant a"
 " domain of its own.  Its directives and roles are not prefixed with a domain"
@@ -1245,7 +1245,7 @@ msgid ""
 msgstr ""
 "標準ドメインには、固有のドメインを作るまでもないすべてのマークアップが含まれます。これらのディレクティブやロールには、ドメイン名のプリフィックスは付きません。"
 
-#: ../../sphinx/doc/domains.rst:1073
+#: ../../sphinx/doc/domains.rst:1074
 msgid ""
 "The standard domain is also where custom object descriptions, added using "
 "the :func:`~sphinx.application.Sphinx.add_object_type` API, are placed."
@@ -1253,18 +1253,18 @@ msgstr ""
 "標準ドメインには、 :func:`~sphinx.application.Sphinx.add_object_type` "
 "APIを使って追加されたカスタムの説明ディレクティブ、ロールも含まれます。"
 
-#: ../../sphinx/doc/domains.rst:1076
+#: ../../sphinx/doc/domains.rst:1077
 msgid ""
 "There is a set of directives allowing documenting command-line programs:"
 msgstr "現在は、コマンドラインのプログラムを説明するためのディレクティブ群が提供されています:"
 
-#: ../../sphinx/doc/domains.rst:1080
+#: ../../sphinx/doc/domains.rst:1081
 msgid ""
 "Describes a command line argument or switch.  Option argument names should "
 "be enclosed in angle brackets.  Examples::"
 msgstr "コマンド ・ ライン引数またはスイッチを説明します。オプションの引数名は括弧で囲む必要があります。例えば:"
 
-#: ../../sphinx/doc/domains.rst:1091
+#: ../../sphinx/doc/domains.rst:1092
 msgid ""
 "The directive will create cross-reference targets for the given options, "
 "referencable by :rst:role:`option` (in the example case, you'd use something"
@@ -1274,12 +1274,12 @@ msgstr ""
 "にて参照されます(この例の場合は  ``:option:`dest_dir```, ``:option:`-m```, "
 "``:option:`--module``` という形式です)。"
 
-#: ../../sphinx/doc/domains.rst:1095
+#: ../../sphinx/doc/domains.rst:1096
 msgid ""
 "``cmdoption`` directive is a deprecated alias for the ``option`` directive."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1099
+#: ../../sphinx/doc/domains.rst:1100
 msgid ""
 "Describes an environment variable that the documented code or program uses "
 "or defines.  Referencable by :rst:role:`envvar`."
@@ -1287,7 +1287,7 @@ msgstr ""
 "現在ドキュメントの対象ととなっているコードやプログラムが使用したり、定義する環境変数について説明します。 :rst:role:`envvar` "
 "というロールを使って参照できます。"
 
-#: ../../sphinx/doc/domains.rst:1104
+#: ../../sphinx/doc/domains.rst:1105
 msgid ""
 "Like :rst:dir:`py:currentmodule`, this directive produces no output. "
 "Instead, it serves to notify Sphinx that all following :rst:dir:`option` "
@@ -1298,7 +1298,7 @@ msgstr ""
 ":rst:dir:`option` ディレクティブが説明するオプションが、ここで指定された *名前* "
 "を持つプログラムに属するということを認識できるようになります。"
 
-#: ../../sphinx/doc/domains.rst:1108
+#: ../../sphinx/doc/domains.rst:1109
 msgid ""
 "If you use :rst:dir:`program`, you have to qualify the references in your "
 ":rst:role:`option` roles by the program name, so if you have the following "
@@ -1307,14 +1307,14 @@ msgstr ""
 ":rst:dir:`program` を使用する場合には、 :rst:role:`option` "
 "ロールとプログラム名を適合させる必要があります。以下のような状況について見てみます::"
 
-#: ../../sphinx/doc/domains.rst:1124
+#: ../../sphinx/doc/domains.rst:1125
 msgid ""
 "then ``:option:`rm -r``` would refer to the first option, while "
 "``:option:`svn -r``` would refer to the second one."
 msgstr ""
 "この場合、 ``:option:`rm -r``` 最初のオプションを示し、 ``:option:`svn -r``` は２番目のオプションを示します。"
 
-#: ../../sphinx/doc/domains.rst:1127
+#: ../../sphinx/doc/domains.rst:1128
 msgid ""
 "The program name may contain spaces (in case you want to document "
 "subcommands like ``svn add`` and ``svn commit`` separately)."
@@ -1322,13 +1322,13 @@ msgstr ""
 "プログラム名はスペースを含むこともできます。そのため、 ``svn add`` や、 ``svn commit`` "
 "などのサブコマンドを個別に取り扱いたい、というケースにも対応できます。"
 
-#: ../../sphinx/doc/domains.rst:1133
+#: ../../sphinx/doc/domains.rst:1134
 msgid ""
 "There is also a very generic object description directive, which is not tied"
 " to any domain:"
 msgstr "どこのドメインにも属さないような、非常に汎用的なオブジェクトの説明用のディレクティブも存在します:"
 
-#: ../../sphinx/doc/domains.rst:1139
+#: ../../sphinx/doc/domains.rst:1140
 msgid ""
 "This directive produces the same formatting as the specific ones provided by"
 " domains, but does not create index entries or cross-referencing targets. "
@@ -1336,15 +1336,15 @@ msgid ""
 msgstr ""
 "このディレクティブはドメインで提供されているディレクティブを使ったのと、同じ形式にフォーマットされたテキストを生成します。その代わり、インデックスのエントリーや、クロスリファレンスのターゲットは作成されません::"
 
-#: ../../sphinx/doc/domains.rst:1149
+#: ../../sphinx/doc/domains.rst:1150
 msgid "The JavaScript Domain"
 msgstr "JavaScriptドメイン"
 
-#: ../../sphinx/doc/domains.rst:1151
+#: ../../sphinx/doc/domains.rst:1152
 msgid "The JavaScript domain (name **js**) provides the following directives:"
 msgstr "JavaScriptドメイン(**js**)は次のようなディレクティブを提供します:"
 
-#: ../../sphinx/doc/domains.rst:1155
+#: ../../sphinx/doc/domains.rst:1156
 msgid ""
 "This directive sets the module name for object declarations that follow "
 "after. The module name is used in the global module index and in cross "
@@ -1352,7 +1352,7 @@ msgid ""
 ":rst:dir:`py:class` would, for example."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1160
+#: ../../sphinx/doc/domains.rst:1161
 msgid ""
 "By default, this directive will create a linkable entity and will cause an "
 "entry in the global module index, unless the ``noindex`` option is "
@@ -1360,12 +1360,12 @@ msgid ""
 "current module name."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1165
+#: ../../sphinx/doc/domains.rst:1166
 msgid ""
 "To clear the current module, set the module name to ``null`` or ``None``"
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1171
+#: ../../sphinx/doc/domains.rst:1172
 msgid ""
 "Describes a JavaScript function or method.  If you want to describe "
 "arguments as optional use square brackets as :ref:`documented <signatures>` "
@@ -1374,14 +1374,14 @@ msgstr ""
 "JavaScriptの関数やメソッドの説明をします。オプショナルな引数を説明したい場合には、Pythonシグニチャのために :ref:`説明したように "
 "<signatures>` 角カッコを使用します。"
 
-#: ../../sphinx/doc/domains.rst:1175
+#: ../../sphinx/doc/domains.rst:1176
 msgid ""
 "You can use fields to give more details about arguments and their expected "
 "types, errors which may be thrown by the function, and the value being "
 "returned::"
 msgstr "引数や期待される型、関数から投げられるエラー、returnで返される値などのフィールド情報の詳細を書くこともできます::"
 
-#: ../../sphinx/doc/domains.rst:1189 ../../sphinx/doc/domains.rst:1218
+#: ../../sphinx/doc/domains.rst:1190 ../../sphinx/doc/domains.rst:1219
 msgid "This is rendered as:"
 msgstr "次のようにレンダリングされます:"
 
@@ -1389,15 +1389,15 @@ msgstr "次のようにレンダリングされます:"
 msgid "Arguments"
 msgstr "引数"
 
-#: ../../sphinx/doc/domains.rst:1193
+#: ../../sphinx/doc/domains.rst:1194
 msgid "An URI to the location of the resource."
 msgstr "リソースの場所を示すURI。"
 
-#: ../../sphinx/doc/domains.rst:1194
+#: ../../sphinx/doc/domains.rst:1195
 msgid "Gets called with the object."
 msgstr "このオブジェクトのコールバック"
 
-#: ../../sphinx/doc/domains.rst:1195
+#: ../../sphinx/doc/domains.rst:1196
 msgid ""
 "Gets called in case the request fails. And a lot of other text so we need "
 "multiple lines."
@@ -1407,57 +1407,57 @@ msgstr "リクエストが失敗した時のコールバック。また、他の
 msgid "Throws"
 msgstr "例外"
 
-#: ../../sphinx/doc/domains.rst:1198
+#: ../../sphinx/doc/domains.rst:1199
 msgid "For whatever reason in that case."
 msgstr "その場合のなにかの理由"
 
-#: ../../sphinx/doc/domains.rst:1199
+#: ../../sphinx/doc/domains.rst:1200
 msgid "Something."
 msgstr "なにか"
 
-#: ../../sphinx/doc/domains.rst:1203
+#: ../../sphinx/doc/domains.rst:1204
 msgid ""
 "This directive is an alias for :rst:dir:`js:function`, however it describes "
 "a function that is implemented as a method on a class object."
 msgstr ""
 
-#: ../../sphinx/doc/domains.rst:1210
+#: ../../sphinx/doc/domains.rst:1211
 msgid ""
 "Describes a constructor that creates an object.  This is basically like a "
 "function but will show up with a `class` prefix::"
 msgstr "オブジェクトを作るコンストラクタの説明をします。基本的には関数と似ていますが、 `class` という文字が表示されます::"
 
-#: ../../sphinx/doc/domains.rst:1222
+#: ../../sphinx/doc/domains.rst:1223
 msgid "The name of the animal"
 msgstr "動物の名前"
 
-#: ../../sphinx/doc/domains.rst:1223
+#: ../../sphinx/doc/domains.rst:1224
 msgid "an optional age for the animal"
 msgstr "動物の年齢。これはオプションです。"
 
-#: ../../sphinx/doc/domains.rst:1227
+#: ../../sphinx/doc/domains.rst:1228
 msgid "Describes a global variable or constant."
 msgstr "グローバル変数や定数の説明です。"
 
-#: ../../sphinx/doc/domains.rst:1231
+#: ../../sphinx/doc/domains.rst:1232
 msgid "Describes the attribute *name* of *object*."
 msgstr "**オブジェクト** の持つ **属性名** を説明します。"
 
-#: ../../sphinx/doc/domains.rst:1235 ../../sphinx/doc/domains.rst:1290
+#: ../../sphinx/doc/domains.rst:1236 ../../sphinx/doc/domains.rst:1291
 msgid "These roles are provided to refer to the described objects:"
 msgstr "このドメインでは、オブジェクトの説明を参照する、次のようなロールが提供されています:"
 
-#: ../../sphinx/doc/domains.rst:1246
+#: ../../sphinx/doc/domains.rst:1247
 msgid "The reStructuredText domain"
 msgstr "reStructuredTextドメイン"
 
-#: ../../sphinx/doc/domains.rst:1248
+#: ../../sphinx/doc/domains.rst:1249
 msgid ""
 "The reStructuredText domain (name **rst**) provides the following "
 "directives:"
 msgstr "reStructuredTextドメイン(**rst**)は、次のようなディレクティブを提供します:"
 
-#: ../../sphinx/doc/domains.rst:1252
+#: ../../sphinx/doc/domains.rst:1253
 msgid ""
 "Describes a reST directive.  The *name* can be a single directive name or "
 "actual directive syntax (`..` prefix and `::` suffix) with arguments that "
@@ -1466,27 +1466,27 @@ msgstr ""
 "reSTディレクティブの説明をします。 *name* には単独のディレクティブ名か、引数付きの実際のディレクティブの文法(`..` "
 "を前に付けたり、後ろに `::` を付けたり)で記述をします。例::"
 
-#: ../../sphinx/doc/domains.rst:1264 ../../sphinx/doc/domains.rst:1282
+#: ../../sphinx/doc/domains.rst:1265 ../../sphinx/doc/domains.rst:1283
 msgid "will be rendered as:"
 msgstr "これは次のようにレンダリングされます"
 
-#: ../../sphinx/doc/domains.rst:1268 ../../sphinx/doc/domains.rst:1286
+#: ../../sphinx/doc/domains.rst:1269 ../../sphinx/doc/domains.rst:1287
 msgid "Foo description."
 msgstr "Fooの説明"
 
-#: ../../sphinx/doc/domains.rst:1272
+#: ../../sphinx/doc/domains.rst:1273
 msgid "Bar description."
 msgstr "Barの説明"
 
-#: ../../sphinx/doc/domains.rst:1276
+#: ../../sphinx/doc/domains.rst:1277
 msgid "Describes a reST role.  For example::"
 msgstr "reSTのロールの説明をします。 例::"
 
-#: ../../sphinx/doc/domains.rst:1297
+#: ../../sphinx/doc/domains.rst:1298
 msgid "More domains"
 msgstr "追加のドメイン"
 
-#: ../../sphinx/doc/domains.rst:1299
+#: ../../sphinx/doc/domains.rst:1300
 msgid ""
 "The sphinx-contrib_ repository contains more domains available as "
 "extensions; currently Ada_, CoffeeScript_, Erlang_, HTTP_, Lasso_, MATLAB_, "
