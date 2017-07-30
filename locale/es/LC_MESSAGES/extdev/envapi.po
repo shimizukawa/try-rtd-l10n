@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-30 05:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
@@ -38,22 +38,18 @@ msgid "Source directory."
 msgstr ""
 
 #: ../../sphinx/doc/extdev/envapi.rst:24
-msgid "Directory containing ``conf.py``."
-msgstr ""
-
-#: ../../sphinx/doc/extdev/envapi.rst:28
 msgid "Directory for storing pickled doctrees."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/envapi.rst:32
+#: ../../sphinx/doc/extdev/envapi.rst:28
 msgid "A set of all existing docnames."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/envapi.rst:36
+#: ../../sphinx/doc/extdev/envapi.rst:32
 msgid "Dictionary mapping docnames to \"metadata\" (see :ref:`metadata`)."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/envapi.rst:40
+#: ../../sphinx/doc/extdev/envapi.rst:36
 msgid "Dictionary mapping docnames to the docutils node for their main title."
 msgstr ""
 
@@ -62,7 +58,7 @@ msgstr ""
 msgid "Returns the docname of the document currently being parsed."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/envapi.rst:44
+#: ../../sphinx/doc/extdev/envapi.rst:40
 msgid "**Utility methods**"
 msgstr ""
 

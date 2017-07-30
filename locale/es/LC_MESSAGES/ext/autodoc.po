@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-30 05:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Georg Brandl <g.brandl@gmx.net>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -442,15 +442,22 @@ msgid ""
 " be mocked."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:390
+#: ../../sphinx/doc/ext/autodoc.rst:391
+msgid ""
+"This value controls the behavior of :option:`sphinx-build -W` during "
+"importing modules. If ``False`` is given, autodoc forcely suppresses the "
+"error if the imported module emits warnings.  By default, ``True``."
+msgstr ""
+
+#: ../../sphinx/doc/ext/autodoc.rst:397
 msgid "Docstring preprocessing"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:392
+#: ../../sphinx/doc/ext/autodoc.rst:399
 msgid "autodoc provides the following additional events:"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:398
+#: ../../sphinx/doc/ext/autodoc.rst:405
 msgid ""
 "Emitted when autodoc has read and processed a docstring.  *lines* is a list "
 "of strings -- the lines of the processed docstring -- that the event handler"
@@ -462,31 +469,31 @@ msgstr ""
 msgid "Parameters"
 msgstr "Parámetros"
 
-#: ../../sphinx/doc/ext/autodoc.rst:402 ../../sphinx/doc/ext/autodoc.rst:422
-#: ../../sphinx/doc/ext/autodoc.rst:464
+#: ../../sphinx/doc/ext/autodoc.rst:409 ../../sphinx/doc/ext/autodoc.rst:429
+#: ../../sphinx/doc/ext/autodoc.rst:471
 msgid "the Sphinx application object"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:403 ../../sphinx/doc/ext/autodoc.rst:423
-#: ../../sphinx/doc/ext/autodoc.rst:465
+#: ../../sphinx/doc/ext/autodoc.rst:410 ../../sphinx/doc/ext/autodoc.rst:430
+#: ../../sphinx/doc/ext/autodoc.rst:472
 msgid ""
 "the type of the object which the docstring belongs to (one of "
 "``\"module\"``, ``\"class\"``, ``\"exception\"``, ``\"function\"``, "
 "``\"method\"``, ``\"attribute\"``)"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:406 ../../sphinx/doc/ext/autodoc.rst:426
-#: ../../sphinx/doc/ext/autodoc.rst:468
+#: ../../sphinx/doc/ext/autodoc.rst:413 ../../sphinx/doc/ext/autodoc.rst:433
+#: ../../sphinx/doc/ext/autodoc.rst:475
 msgid "the fully qualified name of the object"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:407 ../../sphinx/doc/ext/autodoc.rst:427
-#: ../../sphinx/doc/ext/autodoc.rst:469
+#: ../../sphinx/doc/ext/autodoc.rst:414 ../../sphinx/doc/ext/autodoc.rst:434
+#: ../../sphinx/doc/ext/autodoc.rst:476
 msgid "the object itself"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:408 ../../sphinx/doc/ext/autodoc.rst:428
-#: ../../sphinx/doc/ext/autodoc.rst:472
+#: ../../sphinx/doc/ext/autodoc.rst:415 ../../sphinx/doc/ext/autodoc.rst:435
+#: ../../sphinx/doc/ext/autodoc.rst:479
 msgid ""
 "the options given to the directive: an object with attributes "
 "``inherited_members``, ``undoc_members``, ``show_inheritance`` and "
@@ -494,31 +501,31 @@ msgid ""
 "auto directive"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:412
+#: ../../sphinx/doc/ext/autodoc.rst:419
 msgid "the lines of the docstring, see above"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:418
+#: ../../sphinx/doc/ext/autodoc.rst:425
 msgid ""
 "Emitted when autodoc has formatted a signature for an object. The event "
 "handler can return a new tuple ``(signature, return_annotation)`` to change "
 "what Sphinx puts into the output."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:432
+#: ../../sphinx/doc/ext/autodoc.rst:439
 msgid ""
 "function signature, as a string of the form ``\"(parameter_1, "
 "parameter_2)\"``, or ``None`` if introspection didn't succeed and signature "
 "wasn't specified in the directive."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:435
+#: ../../sphinx/doc/ext/autodoc.rst:442
 msgid ""
 "function return annotation as a string of the form ``\" -> annotation\"``, "
 "or ``None`` if there is no return annotation"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:438
+#: ../../sphinx/doc/ext/autodoc.rst:445
 msgid ""
 "The :mod:`sphinx.ext.autodoc` module provides factory functions for commonly"
 " needed docstring processing in event :event:`autodoc-process-docstring`:"
@@ -559,24 +566,24 @@ msgid ""
 " be processed."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:446
+#: ../../sphinx/doc/ext/autodoc.rst:453
 msgid "Skipping members"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:448
+#: ../../sphinx/doc/ext/autodoc.rst:455
 msgid ""
 "autodoc allows the user to define a custom method for determining whether a "
 "member should be included in the documentation by using the following event:"
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:455
+#: ../../sphinx/doc/ext/autodoc.rst:462
 msgid ""
 "Emitted when autodoc has to decide whether a member should be included in "
 "the documentation.  The member is excluded if a handler returns ``True``.  "
 "It is included if the handler returns ``False``."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:459
+#: ../../sphinx/doc/ext/autodoc.rst:466
 msgid ""
 "If more than one enabled extension handles the ``autodoc-skip-member`` "
 "event, autodoc will use the first non-``None`` value returned by a handler. "
@@ -584,7 +591,7 @@ msgid ""
 "autodoc and other enabled extensions."
 msgstr ""
 
-#: ../../sphinx/doc/ext/autodoc.rst:470
+#: ../../sphinx/doc/ext/autodoc.rst:477
 msgid ""
 "a boolean indicating if autodoc will skip this member if the user handler "
 "does not override the decision"

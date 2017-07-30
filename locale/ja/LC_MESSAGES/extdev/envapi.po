@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-07-30 05:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: shirou - しろう <shirou.faw@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -39,22 +39,18 @@ msgid "Source directory."
 msgstr "ソースディレクトリ。"
 
 #: ../../sphinx/doc/extdev/envapi.rst:24
-msgid "Directory containing ``conf.py``."
-msgstr " ``conf.py`` が含まれるディレクトリ。"
-
-#: ../../sphinx/doc/extdev/envapi.rst:28
 msgid "Directory for storing pickled doctrees."
 msgstr "pickle化された doctree を格納するディレクトリ"
 
-#: ../../sphinx/doc/extdev/envapi.rst:32
+#: ../../sphinx/doc/extdev/envapi.rst:28
 msgid "A set of all existing docnames."
 msgstr "存在しているdocnameの集合"
 
-#: ../../sphinx/doc/extdev/envapi.rst:36
+#: ../../sphinx/doc/extdev/envapi.rst:32
 msgid "Dictionary mapping docnames to \"metadata\" (see :ref:`metadata`)."
 msgstr "docnameをメタデータにマッピングするための辞書です。(参考： :ref:`metadata`)."
 
-#: ../../sphinx/doc/extdev/envapi.rst:40
+#: ../../sphinx/doc/extdev/envapi.rst:36
 msgid "Dictionary mapping docnames to the docutils node for their main title."
 msgstr "docnameをdocutilのメインタイトルのノードにマッピングするための辞書です。"
 
@@ -63,7 +59,7 @@ msgstr "docnameをdocutilのメインタイトルのノードにマッピング�
 msgid "Returns the docname of the document currently being parsed."
 msgstr "現在のドキュメントに対応するdocnameを返します。"
 
-#: ../../sphinx/doc/extdev/envapi.rst:44
+#: ../../sphinx/doc/extdev/envapi.rst:40
 msgid "**Utility methods**"
 msgstr "**ユーティリティ関数**"
 

@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-05 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +84,7 @@ msgstr "これはリポジトリに含まれている寄贈された拡張の現
 
 #: ../../sphinx/doc/develop.rst:30
 msgid "aafig: render embedded ASCII art as nice images using aafigure_"
-msgstr ""
+msgstr "aafig: aafigure_ を使い、素敵な画像としてASCIIアートを埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:31
 msgid "actdiag: embed activity diagrams by using actdiag_"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:35
 msgid "astah: embed diagram by using astah"
-msgstr ""
+msgstr "astah: astahを使ってダイアグラムを埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:36
 msgid "autoanysrc: Gather reST documentation from any source files"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:37
 msgid "autorun: Execute code in a ``runblock`` directive"
-msgstr ""
+msgstr "autorun: ``runblock`` ディレクティブ内のコードを実行します。"
 
 #: ../../sphinx/doc/develop.rst:38
 msgid "blockdiag: embed block diagrams by using blockdiag_"
@@ -138,7 +138,7 @@ msgstr "cheeseshop: PyPIパッケージへのリンクを簡単に作成出来�
 
 #: ../../sphinx/doc/develop.rst:43
 msgid "clearquest: create tables from ClearQuest_ queries"
-msgstr ""
+msgstr "clearquest: ClearQuest_ クエリーを使ってテーブルを作成します。"
 
 #: ../../sphinx/doc/develop.rst:44
 msgid "cmakedomain_: a domain for CMake_"
@@ -146,11 +146,11 @@ msgstr "cmakedomain_: CMakeのドメイン_"
 
 #: ../../sphinx/doc/develop.rst:45
 msgid "coffeedomain: a domain for (auto)documenting CoffeeScript source code"
-msgstr ""
+msgstr "coffeedomain: CoffeeScriptソースコードを(自動で)ドキュメントするドメインです。"
 
 #: ../../sphinx/doc/develop.rst:46
 msgid "context: a builder for ConTeXt"
-msgstr ""
+msgstr "context: ConTeXtのためのビルダーです。"
 
 #: ../../sphinx/doc/develop.rst:47
 msgid "disqus: embed Disqus comments in documents"
@@ -168,7 +168,7 @@ msgstr "doxylink: Doxygenが生成した外部のHTMLドキュメントへのリ
 
 #: ../../sphinx/doc/develop.rst:50
 msgid "domaintools_: A tool for easy domain creation"
-msgstr ""
+msgstr "domaintools_: 簡便なドメイン作成用ツール"
 
 #: ../../sphinx/doc/develop.rst:51
 msgid "email: obfuscate email addresses"
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:58
 msgid "gnuplot: produces images using gnuplot_ language"
-msgstr ""
+msgstr "gnuplot: gnuplot_ を使って画像を生成します。"
 
 #: ../../sphinx/doc/develop.rst:59
 msgid ""
@@ -216,7 +216,7 @@ msgstr "googlemaps: `Google Maps`_ を使って地図を埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:62
 msgid "httpdomain: a domain for documenting RESTful HTTP APIs"
-msgstr ""
+msgstr "httpdomain: RESTful HTTP APIをドキュメント化するドメインです。"
 
 #: ../../sphinx/doc/develop.rst:63
 msgid "hyphenator: client-side hyphenation of HTML using hyphenator_"
@@ -238,12 +238,12 @@ msgstr "lassodomain: Lasso_ source codeをドキュメントするためのド�
 msgid ""
 "libreoffice: an extension to include any drawing supported by LibreOffice "
 "(e.g. odg, vsd, ...)"
-msgstr ""
+msgstr "libreoffice: LibreOfficeでサポートされている描画(例： odg, vsd)を取り込むエクステンションです。"
 
 #: ../../sphinx/doc/develop.rst:68
 msgid ""
 "lilypond: an extension inserting music scripts from Lilypond_ in PNG format"
-msgstr ""
+msgstr "lilypond: Lilypond_ を使って楽譜をPNG画像として挿入する拡張です。"
 
 #: ../../sphinx/doc/develop.rst:69
 msgid "makedomain_: a domain for `GNU Make`_"
@@ -251,23 +251,23 @@ msgstr "makedomain_: `GNU Make`のためのドメイン_"
 
 #: ../../sphinx/doc/develop.rst:70
 msgid "matlabdomain: document MATLAB_ code"
-msgstr ""
+msgstr "matlabdomain: MATLAB_ コードをドキュメントするためのドメイン"
 
 #: ../../sphinx/doc/develop.rst:71
 msgid "mockautodoc: mock imports"
-msgstr ""
+msgstr "mockautodoc: インポートをモックする"
 
 #: ../../sphinx/doc/develop.rst:72
 msgid "mscgen: embed mscgen-formatted MSC (Message Sequence Chart)s"
-msgstr ""
+msgstr "mscgen: mscgen形式のMSC (Message Sequence Chart) を埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:73
 msgid "napoleon: supports `Google style`_ and `NumPy style`_ docstrings"
-msgstr ""
+msgstr "napoleon: `Google style`_ と `NumPy style`_ のdocstringsをサポートします。"
 
 #: ../../sphinx/doc/develop.rst:74
 msgid "nicovideo: embed videos from nicovideo"
-msgstr ""
+msgstr "nicovideo: ニコニコ動画からの動画を埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:75
 msgid "nwdiag: embed network diagrams by using nwdiag_"
@@ -281,11 +281,11 @@ msgstr "omegat: OmegaT_ との連携をサポートするツールです(Sphinx 
 msgid ""
 "osaka: convert standard Japanese doc to Osaka dialect (this is a joke "
 "extension)"
-msgstr ""
+msgstr "osaka: 日本語の標準語を大阪弁に変換します(ジョーク拡張です)。"
 
 #: ../../sphinx/doc/develop.rst:78
 msgid "paverutils: an alternate integration of Sphinx with Paver_"
-msgstr ""
+msgstr "paverutils: Paver_ とSphinxの別の連携を行います。"
 
 #: ../../sphinx/doc/develop.rst:79
 msgid "phpdomain: an extension for PHP support"
@@ -299,11 +299,11 @@ msgstr "plantuml: PlantUML_ を使ってUMLダイアグラムを埋め込みま�
 msgid ""
 "py_directive: Execute python code in a ``py`` directive and return a math "
 "node"
-msgstr ""
+msgstr "py_directive: Pythonコードを\"py\"ディレクティブで実行し、Mathノードを返す。"
 
 #: ../../sphinx/doc/develop.rst:83
 msgid "rawfiles: copy raw files, like a CNAME"
-msgstr ""
+msgstr "rawfiles: CNAMEのように元のファイルをコピーします。"
 
 #: ../../sphinx/doc/develop.rst:84
 msgid ""
@@ -315,7 +315,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:86
 msgid "restbuilder: a builder for reST (reStructuredText) files"
-msgstr ""
+msgstr "restbuilder: reST (reStructuredText) ファイルに対するビルダー"
 
 #: ../../sphinx/doc/develop.rst:87
 msgid "rubydomain: an extension for Ruby support (Sphinx 1.0 needed)"
@@ -337,7 +337,7 @@ msgstr "seqdiag: seqdiag_ を使ってシーケンス図を埋め込みます。
 
 #: ../../sphinx/doc/develop.rst:92
 msgid "slide: embed presentation slides on slideshare_ and other sites"
-msgstr ""
+msgstr "slide: slideshare_ や他のサイトのプレゼンスライドを埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:93
 msgid "swf_: embed flash files"
@@ -345,11 +345,11 @@ msgstr "swf_: Flashを埋め込みます。"
 
 #: ../../sphinx/doc/develop.rst:94
 msgid "sword: an extension inserting Bible verses from Sword_"
-msgstr ""
+msgstr "sword: Sword_ からBible versesを埋め込む拡張です。"
 
 #: ../../sphinx/doc/develop.rst:95
 msgid "tikz: draw pictures with the `TikZ/PGF LaTeX package`_"
-msgstr ""
+msgstr "tikz: `TikZ/PGF LaTeX package`_ を使って絵を書きます。"
 
 #: ../../sphinx/doc/develop.rst:96
 msgid "traclinks: create TracLinks_ to a Trac_ instance from within Sphinx"
@@ -372,7 +372,7 @@ msgstr "youtube: YouTube_ から動画を埋め込みます。"
 #: ../../sphinx/doc/develop.rst:100
 msgid ""
 "zopeext: provide an ``autointerface`` directive for using `Zope interfaces`_"
-msgstr ""
+msgstr "zopeext: `Zope interfaces`_ を使って ``autointerface`` ディレクティブを提供します。"
 
 #: ../../sphinx/doc/develop.rst:103
 msgid ""
