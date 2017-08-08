@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-16 04:56+0000\n"
+"POT-Creation-Date: 2017-08-08 05:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,7 +237,7 @@ msgid "Additionally, the following filters are available"
 msgstr ""
 
 #: ../../sphinx/doc/ext/autosummary.rst:239
-msgid "Escape any special characters in the text to be used in formatting RST contexts. For instance, this prevents asterisks making things bolt. This replaces the builtin Jinja `escape filter`_ that does html-escaping."
+msgid "Escape any special characters in the text to be used in formatting RST contexts. For instance, this prevents asterisks making things bold. This replaces the builtin Jinja `escape filter`_ that does html-escaping."
 msgstr ""
 
 #: ../../sphinx/doc/ext/autosummary.rst:245
