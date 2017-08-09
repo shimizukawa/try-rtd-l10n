@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-08-09 05:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Builtin themes"
 msgstr "組み込みテーマ"
 
-#: ../../sphinx/doc/theming.rst:69 ../../sphinx/doc/theming.rst:383
+#: ../../sphinx/doc/theming.rst:69 ../../sphinx/doc/theming.rst:389
 msgid "**Theme overview**"
 msgstr "**テーマ一覧**"
 
@@ -227,7 +227,7 @@ msgstr ""
 "**classic** -- `Python 2のドキュメント <https://docs.python.org/2/>`_ "
 "とよく似たテーマです。以下のようなカスタマイズ用オプションを持っています:"
 
-#: ../../sphinx/doc/theming.rst:133 ../../sphinx/doc/theming.rst:242
+#: ../../sphinx/doc/theming.rst:133 ../../sphinx/doc/theming.rst:248
 msgid ""
 "**rightsidebar** (true or false): Put the sidebar on the right side. "
 "Defaults to ``False``."
@@ -313,7 +313,7 @@ msgstr "**bgcolor** (CSSカラー): Bodyの背景色です。"
 msgid "**textcolor** (CSS color): Body text color."
 msgstr "**textcolor** (CSSカラー): Bodyのテキストカラーです。"
 
-#: ../../sphinx/doc/theming.rst:162 ../../sphinx/doc/theming.rst:201
+#: ../../sphinx/doc/theming.rst:162 ../../sphinx/doc/theming.rst:207
 msgid "**linkcolor** (CSS color): Body link color."
 msgstr "**linkcolor** (CSSカラー): Bodyのリンクのカラーです。"
 
@@ -355,14 +355,19 @@ msgstr "**headfont** (CSS フォントファミリー): 見出しのためのフ
 
 #: ../../sphinx/doc/theming.rst:174
 msgid ""
-"**sphinxdoc** -- The theme used for this documentation.  It features a "
-"sidebar on the right side.  There are currently no options beyond "
+"**sphinxdoc** -- The theme originally used by this documentation. It "
+"features a sidebar on the right side. There are currently no options beyond "
 "*nosidebar* and *sidebarwidth*."
 msgstr ""
-"**sphinxdoc** -- このドキュメンテーションに使用されているテーマ。右側のサイドバーが特徴です。現在のところ *nosidebar* と "
-"*sidebarwidth* 以外のオプションはありません。"
 
-#: ../../sphinx/doc/theming.rst:178
+#: ../../sphinx/doc/theming.rst:180
+msgid ""
+"The Sphinx documentation now uses `an adjusted version of the sphinxdoc "
+"theme <https://github.com/sphinx-"
+"doc/sphinx/tree/master/doc/_themes/sphinx13>`_."
+msgstr ""
+
+#: ../../sphinx/doc/theming.rst:184
 msgid ""
 "**scrolls** -- A more lightweight theme, based on `the Jinja documentation "
 "<http://jinja.pocoo.org/>`_.  The following color options are available:"
@@ -370,66 +375,66 @@ msgstr ""
 "**scrolls** -- `テンプレートエンジンのJinjaのドキュメント <http://jinja.pocoo.org/>`_ "
 "で使用されている、軽量なテーマです。次のような色に関するオプションがあります。"
 
-#: ../../sphinx/doc/theming.rst:181
+#: ../../sphinx/doc/theming.rst:187
 msgid "**headerbordercolor**"
 msgstr "**headerbordercolor**"
 
-#: ../../sphinx/doc/theming.rst:182
+#: ../../sphinx/doc/theming.rst:188
 msgid "**subheadlinecolor**"
 msgstr "**subheadlinecolor**"
 
-#: ../../sphinx/doc/theming.rst:183
+#: ../../sphinx/doc/theming.rst:189
 msgid "**linkcolor**"
 msgstr "**linkcolor**"
 
-#: ../../sphinx/doc/theming.rst:184
+#: ../../sphinx/doc/theming.rst:190
 msgid "**visitedlinkcolor**"
 msgstr "**visitedlinkcolor**"
 
-#: ../../sphinx/doc/theming.rst:185
+#: ../../sphinx/doc/theming.rst:191
 msgid "**admonitioncolor**"
 msgstr "**admonitioncolor**"
 
-#: ../../sphinx/doc/theming.rst:187
+#: ../../sphinx/doc/theming.rst:193
 msgid ""
 "**agogo** -- A theme created by Andi Albrecht.  The following options are "
 "supported:"
 msgstr "**agogo** -- Andi Albrechtが作ったテーマです。次のようなオプションが提供されています:"
 
-#: ../../sphinx/doc/theming.rst:190
+#: ../../sphinx/doc/theming.rst:196
 msgid "**bodyfont** (CSS font family): Font for normal text."
 msgstr "**bodyfont** (CSSフォントファミリー): 通常のテキストのフォントです。"
 
-#: ../../sphinx/doc/theming.rst:191
+#: ../../sphinx/doc/theming.rst:197
 msgid "**headerfont** (CSS font family): Font for headings."
 msgstr "**headerfont** (CSSフォントファミリー): 見出しのフォントです。"
 
-#: ../../sphinx/doc/theming.rst:192
+#: ../../sphinx/doc/theming.rst:198
 msgid "**pagewidth** (CSS length): Width of the page content, default 70em."
 msgstr "**pagewidth** (CSS長さ): ページのコンテンツの幅です。デフォルトは 70em です。"
 
-#: ../../sphinx/doc/theming.rst:193
+#: ../../sphinx/doc/theming.rst:199
 msgid ""
 "**documentwidth** (CSS length): Width of the document (without sidebar), "
 "default 50em."
 msgstr "**documentwidth** (CSS長さ): ドキュメントの幅です。デフォルトは 50em です。"
 
-#: ../../sphinx/doc/theming.rst:195
+#: ../../sphinx/doc/theming.rst:201
 msgid "**sidebarwidth** (CSS length): Width of the sidebar, default 20em."
 msgstr "**sidebarwidth** (CSS長さ): サイドバーの幅です。デフォルトは 20em です。"
 
-#: ../../sphinx/doc/theming.rst:196
+#: ../../sphinx/doc/theming.rst:202
 msgid "**bgcolor** (CSS color): Background color."
 msgstr "**bgcolor** (CSSカラー): 背景の色です。"
 
-#: ../../sphinx/doc/theming.rst:197
+#: ../../sphinx/doc/theming.rst:203
 msgid ""
 "**headerbg** (CSS value for \"background\"): background for the header area,"
 " default a grayish gradient."
 msgstr ""
 "**headerbg** (CSSの\"background\"の値): ヘッダーの領域の背景です。デフォルトはグラデーションのかかったグレーです。"
 
-#: ../../sphinx/doc/theming.rst:199
+#: ../../sphinx/doc/theming.rst:205
 msgid ""
 "**footerbg** (CSS value for \"background\"): background for the footer area,"
 " default a light gray gradient."
@@ -437,33 +442,33 @@ msgstr ""
 "**footerbg** (CSSの\"background\"の値): "
 "フッターの領域の背景です。デフォルトはグラデーションのかかった明るいグレーです。"
 
-#: ../../sphinx/doc/theming.rst:202
+#: ../../sphinx/doc/theming.rst:208
 msgid ""
 "**headercolor1**, **headercolor2** (CSS color): colors for <h1> and <h2> "
 "headings."
 msgstr "**headercolor1**, **headercolor2** (CSSカラー): <h1>, <h2>の色です。"
 
-#: ../../sphinx/doc/theming.rst:204
+#: ../../sphinx/doc/theming.rst:210
 msgid ""
 "**headerlinkcolor** (CSS color): Color for the backreference link in "
 "headings."
 msgstr "**headerlinkcolor** (CSSカラー): 見出しの逆参照のリンクの色です。"
 
-#: ../../sphinx/doc/theming.rst:206
+#: ../../sphinx/doc/theming.rst:212
 msgid ""
 "**textalign** (CSS *text-align* value): Text alignment for the body, default"
 " is ``justify``."
 msgstr ""
 "**textalign** (CSS *text-align* の値): Bodyのテキストの配置です。デフォルトは ``justify`` です。"
 
-#: ../../sphinx/doc/theming.rst:209
+#: ../../sphinx/doc/theming.rst:215
 msgid ""
 "**nature** -- A greenish theme.  There are currently no options beyond "
 "*nosidebar* and *sidebarwidth*."
 msgstr ""
 "**nature** -- 緑色系のテーマ。現在のところ *nosidebar* と *sidebarwidth* 以外のオプションはありません。"
 
-#: ../../sphinx/doc/theming.rst:212
+#: ../../sphinx/doc/theming.rst:218
 msgid ""
 "**pyramid** -- A theme from the Pyramid web framework project, designed by "
 "Blaise Laflamme.  There are currently no options beyond *nosidebar* and "
@@ -472,7 +477,7 @@ msgstr ""
 "**pyramid** -- Pyramid ウェブフレームワークプロジェクト由来のテーマ。 Blaise Laflamme "
 "によってデザインされました。現在のところ *nosidebar* と *sidebarwidth* 以外のオプションはありません。"
 
-#: ../../sphinx/doc/theming.rst:216
+#: ../../sphinx/doc/theming.rst:222
 msgid ""
 "**haiku** -- A theme without sidebar inspired by the `Haiku OS user guide "
 "<https://www.haiku-os.org/docs/userguide/en/contents.html>`_.  The following"
@@ -482,7 +487,7 @@ msgstr ""
 "os.org/docs/userguide/en/contents.html>`_ "
 "にインスパイアされた、サイドバーのないテーマです。次のようなオプションが提供されています:"
 
-#: ../../sphinx/doc/theming.rst:220
+#: ../../sphinx/doc/theming.rst:226
 msgid ""
 "**full_logo** (true or false, default ``False``): If this is true, the "
 "header will only show the :confval:`html_logo`.  Use this for large logos. "
@@ -493,7 +498,7 @@ msgstr ""
 ":confval:`html_logo` "
 "だけが表示されます。大きなロゴを使用するときに設定して下さい。Falseが設定されると、ロゴはフローティングで右寄せに表示され(あれば)、ドキュメントタイトルがヘッダに表示されます。"
 
-#: ../../sphinx/doc/theming.rst:224
+#: ../../sphinx/doc/theming.rst:230
 msgid ""
 "**textcolor**, **headingcolor**, **linkcolor**, **visitedlinkcolor**, "
 "**hoverlinkcolor** (CSS colors): Colors for various body elements."
@@ -501,7 +506,7 @@ msgstr ""
 "**textcolor**, **headingcolor**, **linkcolor**, **visitedlinkcolor**, "
 "**hoverlinkcolor** (CSS カラー): それぞれの要素の色。"
 
-#: ../../sphinx/doc/theming.rst:227
+#: ../../sphinx/doc/theming.rst:233
 msgid ""
 "**traditional** -- A theme resembling the old Python documentation.  There "
 "are currently no options beyond *nosidebar* and *sidebarwidth*."
@@ -509,7 +514,7 @@ msgstr ""
 "**traditional** -- 古い Python ドキュメントに似たテーマ。現在のところ *nosidebar* と "
 "*sidebarwidth* 以外のオプションはありません。"
 
-#: ../../sphinx/doc/theming.rst:230
+#: ../../sphinx/doc/theming.rst:236
 msgid ""
 "**epub** -- A theme for the epub builder.  This theme tries to save visual "
 "space which is a sparse resource on ebook readers.  The following options "
@@ -518,7 +523,7 @@ msgstr ""
 "**epub** -- epub ビルダーのためのテーマ。このテーマは、 ebook "
 "リーダの希少な資源である視覚空間を節約しようとします。次のオプションがサポートされています:"
 
-#: ../../sphinx/doc/theming.rst:234
+#: ../../sphinx/doc/theming.rst:240
 msgid ""
 "**relbar1** (true or false, default ``True``): If this is true, the "
 "`relbar1` block is inserted in the epub output, otherwise it is omitted."
@@ -526,7 +531,7 @@ msgstr ""
 "**relbar1** (true / false, デフォルトは true): これが ``True`` の場合、 `relbar1` ブロックは "
 "epub 出力に挿入されます。そうでなければ省略されます。"
 
-#: ../../sphinx/doc/theming.rst:236
+#: ../../sphinx/doc/theming.rst:242
 msgid ""
 "**footer**  (true or false, default ``True``): If this is true, the `footer`"
 " block is inserted in the epub output, otherwise it is omitted."
@@ -534,18 +539,18 @@ msgstr ""
 "**footer** (true / false, デフォルトは true): これが  ``True`` の場合、 `footer` ブロックは "
 "epub 出力に挿入されます。そうでなければ省略されます。"
 
-#: ../../sphinx/doc/theming.rst:239
+#: ../../sphinx/doc/theming.rst:245
 msgid ""
 "**bizstyle** -- A simple bluish theme. The following options are supported "
 "beyond *nosidebar* and *sidebarwidth*:"
 msgstr ""
 "**bizstyle** -- シンプルな青みがかったテーマ。 *nosidebar* と *sidebarwidth* オプションがサポートされます:"
 
-#: ../../sphinx/doc/theming.rst:245
+#: ../../sphinx/doc/theming.rst:251
 msgid "'alabaster', 'sphinx_rtd_theme' and 'bizstyle' theme."
 msgstr "'alabaster', 'sphinx_rtd_theme', 'bizstyle' テーマ。"
 
-#: ../../sphinx/doc/theming.rst:248
+#: ../../sphinx/doc/theming.rst:254
 msgid ""
 "The 'default' theme has been renamed to 'classic'. 'default' is still "
 "available, however it will emit a notice that it is an alias for the new "
@@ -553,26 +558,26 @@ msgid ""
 msgstr ""
 "default'テーマは'classic'に名前が変更されました。'default'という名前はまだ使用できますが、これを使うと、新しい'alabaster'テーマのエイリアスだという通知が出力されます。"
 
-#: ../../sphinx/doc/theming.rst:254
+#: ../../sphinx/doc/theming.rst:260
 msgid "Creating themes"
 msgstr "テーマを作成する"
 
-#: ../../sphinx/doc/theming.rst:256
+#: ../../sphinx/doc/theming.rst:262
 msgid ""
 "As said, themes are either a directory or a zipfile (whose name is the theme"
 " name), containing the following:"
 msgstr ""
 "すでに説明している通り、テーマは以下のファイルを持つディレクトリかzipファイルです。ディレクトリ名かzipファイルの名前がテーマ名になります:"
 
-#: ../../sphinx/doc/theming.rst:259
+#: ../../sphinx/doc/theming.rst:265
 msgid "A :file:`theme.conf` file, see below."
 msgstr ":file:`theme.conf` ファイル"
 
-#: ../../sphinx/doc/theming.rst:260
+#: ../../sphinx/doc/theming.rst:266
 msgid "HTML templates, if needed."
 msgstr "HTMLテンプレート(必要に応じて)"
 
-#: ../../sphinx/doc/theming.rst:261
+#: ../../sphinx/doc/theming.rst:267
 msgid ""
 "A ``static/`` directory containing any static files that will be copied to "
 "the output static directory on build.  These can be images, styles, script "
@@ -580,7 +585,7 @@ msgid ""
 msgstr ""
 "ビルド時に出力のディレクトリにコピーされる静的ファイルを含む ``static/`` ディレクトリ。画像、スタイルシート、スクリプトファイルなどです。"
 
-#: ../../sphinx/doc/theming.rst:264
+#: ../../sphinx/doc/theming.rst:270
 msgid ""
 "The :file:`theme.conf` file is in INI format [1]_ (readable by the standard "
 "Python :mod:`ConfigParser` module) and has the following structure:"
@@ -588,7 +593,7 @@ msgstr ""
 ":file:`theme.conf` ファイルは Pythonの標準ライブラリの :mod:`ConfigParser` モジュールで読み込み可能な "
 "INIフォーマット [1]_ で記述します。以下のような構造になっています:"
 
-#: ../../sphinx/doc/theming.rst:277
+#: ../../sphinx/doc/theming.rst:283
 msgid ""
 "The **inherit** setting gives the name of a \"base theme\", or ``none``.  "
 "The base theme will be used to locate missing templates (most themes will "
@@ -600,7 +605,7 @@ msgstr ""
 "を指定します。もし見つからないテンプレートがあれば、継承元のテーマのテンプレートが使用されるようになります。ほとんどのテーマでは、 ``basic`` "
 "のテーマで使用されているのと同じように使用するのであれば、テンプレートをすべて提供する必要はありません。同様に、オプション、すべての静的なファイルも継承されます。"
 
-#: ../../sphinx/doc/theming.rst:282
+#: ../../sphinx/doc/theming.rst:288
 msgid ""
 "The **stylesheet** setting gives the name of a CSS file which will be "
 "referenced in the HTML header.  If you need more than one CSS file, either "
@@ -612,7 +617,7 @@ msgstr ""
 " ``@import`` を使用して他のCSSをインクルードするか、必要なだけ ``<link rel=\"stylesheet\">`` "
 "タグを追加する、カスタムのHTMLテンプレートを使用します。この設定は :confval:`html_style` の設定値で上書きされます。"
 
-#: ../../sphinx/doc/theming.rst:288
+#: ../../sphinx/doc/theming.rst:294
 msgid ""
 "The **pygments_style** setting gives the name of a Pygments style to use for"
 " highlighting.  This can be overridden by the user in the "
@@ -621,7 +626,7 @@ msgstr ""
 "**pygments_style** には、ハイライトに使用する、Pygmentsのスタイルの名前を設定します。この設定は、コンフィグ値の "
 ":confval:`pygments_style` を使用することで、上書きできます。"
 
-#: ../../sphinx/doc/theming.rst:292
+#: ../../sphinx/doc/theming.rst:298
 msgid ""
 "The **options** section contains pairs of variable names and default values."
 " These options can be overridden by the user in "
@@ -632,46 +637,46 @@ msgstr ""
 ":confval:`html_theme_options` を設定することで、ユーザ側で上書きできます。また、すべてのテンプレートからは、 "
 "``theme_<名前>`` として、この設定値にアクセスできます。"
 
-#: ../../sphinx/doc/theming.rst:300
+#: ../../sphinx/doc/theming.rst:306
 msgid "Distribute your theme as a python package"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:302
+#: ../../sphinx/doc/theming.rst:308
 msgid ""
 "As a way to distribute your theme, you can use python package.  Python "
 "package brings to users easy setting up ways."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:305
+#: ../../sphinx/doc/theming.rst:311
 msgid ""
 "To distribute your theme as a python package, please define an entry point "
 "called ``sphinx.html_themes`` in your setup.py file, and write a ``setup()``"
 " function to register your themes using ``add_html_theme()`` API in it::"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:327
+#: ../../sphinx/doc/theming.rst:333
 msgid ""
 "If your theme package contains two or more themes, please call "
 "``add_html_theme()`` twice or more."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:330
+#: ../../sphinx/doc/theming.rst:336
 msgid "'sphinx_themes' entry_points feature."
 msgstr "entry_points の `sphinx_themes` 機能"
 
-#: ../../sphinx/doc/theming.rst:333
+#: ../../sphinx/doc/theming.rst:339
 msgid "``sphinx_themes`` entry_points has been deprecated."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:336
+#: ../../sphinx/doc/theming.rst:342
 msgid "``sphinx.html_themes`` entry_points feature."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:340
+#: ../../sphinx/doc/theming.rst:346
 msgid "Templating"
 msgstr "テンプレート"
 
-#: ../../sphinx/doc/theming.rst:342
+#: ../../sphinx/doc/theming.rst:348
 msgid ""
 "The :doc:`guide to templating <templating>` is helpful if you want to write "
 "your own templates.  What is important to keep in mind is the order in which"
@@ -680,19 +685,19 @@ msgstr ""
 "もし自分でテンプレートを書こうと思っている場合には、 :doc:`テンプレートガイド <templating>` "
 "を読むと参考になるでしょう。テンプレートに関して知っておくべきことは、Sphinxがテンプレートを探索する順序です:"
 
-#: ../../sphinx/doc/theming.rst:346
+#: ../../sphinx/doc/theming.rst:352
 msgid "First, in the user's ``templates_path`` directories."
 msgstr "最初は、ユーザの ``templates_path`` ディレクトリ"
 
-#: ../../sphinx/doc/theming.rst:347
+#: ../../sphinx/doc/theming.rst:353
 msgid "Then, in the selected theme."
 msgstr "その次は、選択されたテーマ内"
 
-#: ../../sphinx/doc/theming.rst:348
+#: ../../sphinx/doc/theming.rst:354
 msgid "Then, in its base theme, its base's base theme, etc."
 msgstr "それから先は、テーマの継承元のテーマを順に探索"
 
-#: ../../sphinx/doc/theming.rst:350
+#: ../../sphinx/doc/theming.rst:356
 msgid ""
 "When extending a template in the base theme with the same name, use the "
 "theme name as an explicit directory: ``{% extends \"basic/layout.html\" "
@@ -704,11 +709,11 @@ msgstr ""
 "``templates_path`` の中のテンプレートでも、 \"エクスクラメーションマーク(!)\" "
 "のシンタックスを使用して、テンプレートのドキュメント内であると指定することもできます。"
 
-#: ../../sphinx/doc/theming.rst:357
+#: ../../sphinx/doc/theming.rst:363
 msgid "Static templates"
 msgstr "静的テンプレート"
 
-#: ../../sphinx/doc/theming.rst:359
+#: ../../sphinx/doc/theming.rst:365
 msgid ""
 "Since theme options are meant for the user to configure a theme more easily,"
 " without having to write a custom stylesheet, it is necessary to be able to "
@@ -717,7 +722,7 @@ msgid ""
 msgstr ""
 "テーマオプションを使用すると、ユーザがカスタムのスタイルシートを書く必要もなく、テーマを簡単にカスタマイズできるようになります。これはHTMLファイルと同じように、テンプレート静的ファイルでも行えます。Sphinxはこのために、\"静的テンプレート\"と呼ばれるものをサポートしています。"
 
-#: ../../sphinx/doc/theming.rst:364
+#: ../../sphinx/doc/theming.rst:370
 msgid ""
 "If the name of a file in the ``static/`` directory of a theme (or in the "
 "user's static path, for that matter) ends with ``_t``, it will be processed "
@@ -734,7 +739,7 @@ msgstr ""
 "というファイルを持っていますが、これは色のオプションを持ったスタイルシートのテンプレートです。ドキュメントがビルドされる時に、すべてのテンプレートタグが処理されて、色のオプションがスタイルシートに書き込まれて、出力ディレクトリには"
 " ``_static/classic.css`` ファイルとして出力されます。"
 
-#: ../../sphinx/doc/theming.rst:373
+#: ../../sphinx/doc/theming.rst:379
 msgid ""
 "It is not an executable Python file, as opposed to :file:`conf.py`, because "
 "that would pose an unnecessary security risk if themes are shared."
@@ -742,19 +747,19 @@ msgstr ""
 "これは :file:`conf.py` "
 "とは異なり、実行可能はPythonファイルではありません。これは、テーマが共有されても、不必要なセキュリティのリスクを抱えないようにするために、このようになっています。"
 
-#: ../../sphinx/doc/theming.rst:378
+#: ../../sphinx/doc/theming.rst:384
 msgid "Third Party Themes"
 msgstr "サードパーティ製のテーマ"
 
-#: ../../sphinx/doc/theming.rst:385
+#: ../../sphinx/doc/theming.rst:391
 msgid "|sphinx_rtd_theme|"
 msgstr "|sphinx_rtd_theme|"
 
-#: ../../sphinx/doc/theming.rst:387
+#: ../../sphinx/doc/theming.rst:393
 msgid "*sphinx_rtd_theme*"
 msgstr "*sphinx_rtd_theme*"
 
-#: ../../sphinx/doc/theming.rst:392
+#: ../../sphinx/doc/theming.rst:398
 msgid ""
 "**sphinx_rtd_theme** -- `Read the Docs Sphinx Theme`_. This is a mobile-"
 "friendly sphinx theme that was made for readthedocs.org. View a working demo"
@@ -766,6 +771,6 @@ msgstr ""
 "readthedocs.org で確認できます。インストールとオプションの情報は `Read the Docs Sphinx Theme`_ "
 "ページを参照してください。"
 
-#: ../../sphinx/doc/theming.rst:399
+#: ../../sphinx/doc/theming.rst:405
 msgid "**sphinx_rtd_theme** has become optional."
 msgstr "**sphinx_rtd_theme*はオプショナルになりました。"
