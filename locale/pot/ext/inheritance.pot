@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-08-20 05:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:52
 #: ../../sphinx/doc/ext/inheritance.rst:61
+#: ../../sphinx/doc/ext/inheritance.rst:76
 msgid "For example::"
 msgstr ""
 
@@ -75,5 +76,9 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:68
 msgid "A dictionary of graphviz edge attributes for inheritance diagrams."
+msgstr ""
+
+#: ../../sphinx/doc/ext/inheritance.rst:72
+msgid "Allows mapping the full qualified name of the class to custom values (useful when exposing the underlying path of a class is not desirable, e.g. it's a private class and should not be instantiated by the user)."
 msgstr ""
 
