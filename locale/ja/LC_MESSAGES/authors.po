@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-08-22 05:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: 大川剛 <tu44okawa3@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -237,8 +237,8 @@ msgid "Taku Shimizu -- epub3 builder"
 msgstr "Taku Shimizu - epub3 ビルダー"
 
 #: ../../sphinx/AUTHORS:60
-msgid "Antonio Valentino -- qthelp builder"
-msgstr "Antonio Valentino -- qthelp ビルダー"
+msgid "Antonio Valentino -- qthelp builder, docstring inheritance"
+msgstr ""
 
 #: ../../sphinx/AUTHORS:61
 msgid "Filip Vavera -- napoleon todo directive"
