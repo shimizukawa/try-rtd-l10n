@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-05 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -159,6 +159,7 @@ msgstr ""
 msgid ""
 "Since Sphinx-1.5, the epub3 builder is used for the default builder of epub."
 msgstr ""
+"Desde Sphinx-1.5, o construtor epub3 é usado para o construtor de epub."
 
 #: ../../sphinx/doc/builders.rst:152
 msgid ""
@@ -180,22 +181,25 @@ msgid ""
 "in a \"minimal\" TeX distribution installation. For example, on Ubuntu, the "
 "following packages need to be installed for successful PDF builds:"
 msgstr ""
+"O arquivo LaTeX produzido utiliza diversos pacotes LaTeX que podem não estar"
+" presentes em uma distribuição \"mínima\" TeX. Por exemplo, no Ubuntu, os "
+"seguintes pacotes devem estar instalados, para o construtor PDF funcionar:"
 
 #: ../../sphinx/doc/builders.rst:165
 msgid "texlive-latex-recommended"
-msgstr ""
+msgstr "texlive-latex-recomendado"
 
 #: ../../sphinx/doc/builders.rst:166
 msgid "texlive-fonts-recommended"
-msgstr ""
+msgstr "texlive-fonts-recomendados"
 
 #: ../../sphinx/doc/builders.rst:167
 msgid "texlive-latex-extra"
-msgstr ""
+msgstr "texlive-latex-extra"
 
 #: ../../sphinx/doc/builders.rst:168
 msgid "latexmk (for ``make latexpdf``)"
-msgstr ""
+msgstr "latexmk (para ``make latexpdf``)"
 
 #: ../../sphinx/doc/builders.rst:170
 msgid ""
@@ -203,6 +207,10 @@ msgid ""
 "``xcolor.sty`` included in latex-recommended, earlier ones have it in latex-"
 "xcolor. Unicode engines will need texlive-luatex or texlive-xetex."
 msgstr ""
+"Sphinx irá usar ``xcolor.sty`` se presente: distribuições recentes do Ubuntu"
+" tem ``xcolor.sty`` incluído no latex-recomendado,  versões antigas usam  "
+"latex-xcolor. Mecanismos Unicode são necessários para texlive-luatex ou "
+"texlive-xetex."
 
 #: ../../sphinx/doc/builders.rst:175
 msgid ""
@@ -210,16 +218,20 @@ msgid ""
 "mentioned packages, which are from a TeXLive 2013 snapshot dated February "
 "2014."
 msgstr ""
+"Teste do Sphinx LaTeX feito no Ubuntu trusty com os pacotes mencionados, a "
+"partir de imagem TeXLive 2013 datada de Fevereiro de 2014."
 
 #: ../../sphinx/doc/builders.rst:179
 msgid ""
 "Formerly, testing had been done for some years on Ubuntu precise (based on "
 "TeXLive 2009)."
 msgstr ""
+"Formalmente testado por vários anos no Ubuntu precise (baseado no TeXLive "
+"2009)."
 
 #: ../../sphinx/doc/builders.rst:182
 msgid "Use of ``latexmk`` for ``make latexpdf`` on GNU/Linux and Mac OS X"
-msgstr ""
+msgstr "Uso do  ``latexmk`` para ``make latexpdf`` no GNU/Linux e Mac OS X"
 
 #: ../../sphinx/doc/builders.rst:185
 msgid ""
@@ -227,6 +239,10 @@ msgid ""
 "``sphinx-build`` run) uses ``latexmk`` (not on Windows). One can pass to "
 "``latexmk`` options via the ``LATEXMKOPTS`` Makefile variable. For example:"
 msgstr ""
+"Desde 1.6, ``make latexpdf`` (ou ``make -C \"<builddir>/latex\"`` após uma  "
+"``sphinx-build`` execução) usa ``latexmk`` (não no Windows). Pode passar "
+"opções para  ``latexmk`` através de variáveis  ``LATEXMKOPTS`` Makefile. Por"
+" exemplo:"
 
 #: ../../sphinx/doc/builders.rst:195
 msgid ""
@@ -234,6 +250,9 @@ msgid ""
 "or higher (Jan 17) and ``xelatex`` is the :confval:`latex_engine`, then "
 "``LATEXMKOPTS=\"-xelatex\"`` will speed up PDF builds."
 msgstr ""
+"reduz ao mínimo a saída na console. Se a versão ``latexmk`` é  4.52b ou "
+"maior (Jan 17) e ``xelatex`` for :confval:`latex_engine`, então  "
+"``LATEXMKOPTS=\"-xelatex\"`` será otimizado como construtor PDF."
 
 #: ../../sphinx/doc/builders.rst:199
 msgid ""
@@ -241,6 +260,9 @@ msgid ""
 "variable ``LATEXOPTS`` (for example ``LATEXOPTS=\"--"
 "interaction=nonstopmode\"``)."
 msgstr ""
+"Para passar opções diretamento para executável  ``(pdf|xe|lua)latex`` "
+"executable, usar a variável ``LATEXOPTS`` (por exemplo  ``LATEXOPTS=\"--"
+"interaction=nonstopmode\"``)."
 
 #: ../../sphinx/doc/builders.rst:209
 msgid ""
@@ -251,6 +273,12 @@ msgid ""
 " from some problems when used with recent Sphinx versions.  See the `rst2pdf"
 " manual`_ for usage instructions."
 msgstr ""
+"Notar que o construtor PDF está sendo provido por  `rinohtype`_. O nome do "
+"construtor é  ``rinoh``. Consulte o manual  `rinohtype manual`_ para "
+"detalhes. Há também um construtor PDF usando ReportLab em `rst2pdf`_ versão "
+"0.12 ou maior. Contudo, rst2pdf não vem sendo ativamente mantido e sofre "
+"alguns problemas nas versões recentes do Sphinx.  Ver manual `rst2pdf "
+"manual`_ para instruções uso."
 
 #: ../../sphinx/doc/builders.rst:224
 msgid ""
@@ -292,6 +320,11 @@ msgid ""
 "by the GNU project.  More information on Texinfo can be found at "
 "`<https://www.gnu.org/software/texinfo/>`_."
 msgstr ""
+"Formato Info é a base da ajuda on-line usado por GNU Emacs e por programas "
+"baseados em termina :program:`info`.  Ver :ref:`texinfo-faq` para mais "
+"detalhes.  O formato Texinfo é o sistema de documentação usado pelo projeto "
+"GNU.  Mais informação sobre Texinfo pode ser encontrado em  "
+"`<https://www.gnu.org/software/texinfo/>`_."
 
 #: ../../sphinx/doc/builders.rst:278
 msgid ""
@@ -318,6 +351,10 @@ msgid ""
 "module.  Known modules implementing this interface are `simplejson`, "
 "`phpserialize`, `plistlib`, and others."
 msgstr ""
+"O módulo que implementa funções `dump()`, `load()`, `dumps()` e `loads()` em"
+" acordo com funções com o mesmo nome do módulo usado.  Módulos conhecidos "
+"que implementam essa interface são `simplejson`,  `phpserialize`, `plistlib`"
+" e outros."
 
 #: ../../sphinx/doc/builders.rst:305
 msgid "The suffix for all regular files."
