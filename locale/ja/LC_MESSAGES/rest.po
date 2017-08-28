@@ -266,6 +266,8 @@ msgid ""
 "For *grid tables* (:duref:`ref <grid-tables>`), you have to \"paint\" the "
 "cell grid yourself.  They look like this::"
 msgstr ""
+"**グリッドテーブル** (:duref:`ref <grid-"
+"tables>`)は、セルのグリッドを自分で線描する必要があります。これは次のようになります::"
 
 #: ../../sphinx/doc/rest.rst:175
 msgid ""
@@ -273,6 +275,8 @@ msgid ""
 "limited: they must contain more than one row, and the first column cells "
 "cannot contain multiple lines.  They look like this::"
 msgstr ""
+"**シンプルテーブル** (:duref:`ref <simple-"
+"tables>`)はより書くのが簡単な方法ですが、制限があります。1つ以上の列を含み、最初のカラムには複数行のテキストを書くことができません。次のように表現されます::"
 
 #: ../../sphinx/doc/rest.rst:188
 msgid ""
