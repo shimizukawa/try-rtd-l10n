@@ -283,6 +283,9 @@ msgid ""
 "Two more syntaxes are supported: *CSV tables* and *List tables*. They use an"
 " *explicit markup block*, see `Directives`_ section."
 msgstr ""
+"さらに、2つのシンタックス、*CSV tables* と *List "
+"tables*がサポートされています。この2つのシンタックスは*明示的なマークアップのブロック*を使用します。 `ディレクティブ`_ "
+"のセクションを参照してください。"
 
 #: ../../sphinx/doc/rest.rst:192
 msgid "Hyperlinks"

@@ -522,7 +522,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/autodoc.rst:381
 msgid "Will mock all imports under the ``django`` package."
-msgstr ""
+msgstr " ``django`` パッケージの下でインポートされたすべてのものをモックします。"
 
 #: ../../sphinx/doc/ext/autodoc.rst:385
 msgid ""

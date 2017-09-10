@@ -81,6 +81,9 @@ msgid ""
 "library index.  From this information it generates \"next chapter\", "
 "\"previous chapter\" and \"parent chapter\" links."
 msgstr ""
+"Sphinxはこのディレクティブから、関連するドキュメントが ``intro``, ``strings`` "
+"という順番を持っていて、これらのファイルがライブラリインデックスの子供であるという情報を収集します。これらの情報を使って、\"next "
+"chapter\", \"previous chapter\", \"parent chapter\"というリンクが作成されます。"
 
 #: ../../sphinx/doc/markup/toctree.rst:49
 msgid "**Entries**"
@@ -193,6 +196,8 @@ msgid ""
 " in the list. This can be useful when using the ``glob`` flag option to "
 "reverse the ordering of the files.  Example::"
 msgstr ""
+"リストのエントリーの順序を反転 するために``reversed`` フラグオプションを使うことができます。 "
+"このオプションは、``glob``フラグオプションを使ってファイルの順序を反転するときに有用です。"
 
 #: ../../sphinx/doc/markup/toctree.rst:136
 msgid "You can also give a \"hidden\" option to the directive, like this::"
