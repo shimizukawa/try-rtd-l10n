@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-09 05:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Projeto eXcript <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgid ""
 "theme to inherit, which highlighting style to use, and what options exist "
 "for customizing the theme's look and feel."
 msgstr ""
-"Sphinx suporta modificação de aparência da saída HTML através de *temas*. Um"
+"Sphinx suporta modificação da aparência da saída HTML através de *temas*. Um"
 " tema é uma coleção de modelos HTML, folha(s) de estilo(s) e outros arquivos"
 " estáticos. Adicionalmente, tem um arquivo de configuração no qual podem ser"
 " especificados derivações para o tema, qual ênfase de estilo usar e quais "
@@ -68,6 +68,9 @@ msgid ""
 "and a black background for the relation bar (the bar with the navigation "
 "links at the page's top and bottom)."
 msgstr ""
+"Isso lhe daria o tema clássico, mas com uma barra lateral no lado direito e "
+"um fundo preto para a barra de relação (a barra com os links de navegação na"
+" parte superior e inferior da página)."
 
 #: ../../sphinx/doc/theming.rst:37
 msgid ""
@@ -677,7 +680,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:384
 msgid "Third Party Themes"
-msgstr ""
+msgstr "Temas de Terceiros"
 
 #: ../../sphinx/doc/theming.rst:391
 msgid "|sphinx_rtd_theme|"
@@ -697,4 +700,4 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:405
 msgid "**sphinx_rtd_theme** has become optional."
-msgstr ""
+msgstr "**sphinx_rtd_theme** tornou-se opcional."
