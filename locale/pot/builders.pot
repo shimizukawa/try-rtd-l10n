@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-09-25 05:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,186 +211,190 @@ msgid "This builder produces no output.  The input is only parsed and checked fo
 msgstr ""
 
 #: ../../sphinx/doc/builders.rst:405
-msgid "This builder scans all documents for external links, tries to open them with :mod:`urllib2`, and writes an overview which ones are broken and redirected to standard output and to :file:`output.txt` in the output directory."
+msgid "This builder scans all documents for external links, tries to open them with ``requests``, and writes an overview which ones are broken and redirected to standard output and to :file:`output.txt` in the output directory."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:418
+#: ../../sphinx/doc/builders.rst:417
+msgid "Since Sphinx-1.5, the linkcheck builder comes to use requests module."
+msgstr ""
+
+#: ../../sphinx/doc/builders.rst:422
 msgid "This builder produces Docutils-native XML files.  The output can be transformed with standard XML tools such as XSLT processors into arbitrary final forms."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:432
+#: ../../sphinx/doc/builders.rst:436
 msgid "This builder is used for debugging the Sphinx/Docutils \"Reader to Transform to Writer\" pipeline. It produces compact pretty-printed \"pseudo-XML\", files where nesting is indicated by indentation (no end-tags). External attributes for all elements are output, and internal attributes for any leftover \"pending\" elements are also given."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:447
+#: ../../sphinx/doc/builders.rst:451
 msgid "Built-in Sphinx extensions that offer more builders are:"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:449
+#: ../../sphinx/doc/builders.rst:453
 msgid ":mod:`~sphinx.ext.doctest`"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:450
+#: ../../sphinx/doc/builders.rst:454
 msgid ":mod:`~sphinx.ext.coverage`"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:456
+#: ../../sphinx/doc/builders.rst:460
 msgid "Serialization builder details"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:458
+#: ../../sphinx/doc/builders.rst:462
 msgid "All serialization builders outputs one file per source file and a few special files.  They also copy the reST source files in the directory ``_sources`` under the output directory."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:462
+#: ../../sphinx/doc/builders.rst:466
 msgid "The :class:`.PickleHTMLBuilder` is a builtin subclass that implements the pickle serialization interface."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:465
+#: ../../sphinx/doc/builders.rst:469
 msgid "The files per source file have the extensions of :attr:`~.SerializingHTMLBuilder.out_suffix`, and are arranged in directories just as the source files are.  They unserialize to a dictionary (or dictionary like structure) with these keys:"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:472
+#: ../../sphinx/doc/builders.rst:476
 msgid "``body``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:471
+#: ../../sphinx/doc/builders.rst:475
 msgid "The HTML \"body\" (that is, the HTML rendering of the source file), as rendered by the HTML translator."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:475
+#: ../../sphinx/doc/builders.rst:479
 msgid "``title``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:475
+#: ../../sphinx/doc/builders.rst:479
 msgid "The title of the document, as HTML (may contain markup)."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:478
+#: ../../sphinx/doc/builders.rst:482
 msgid "``toc``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:478
+#: ../../sphinx/doc/builders.rst:482
 msgid "The table of contents for the file, rendered as an HTML ``<ul>``."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:481
+#: ../../sphinx/doc/builders.rst:485
 msgid "``display_toc``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:481
+#: ../../sphinx/doc/builders.rst:485
 msgid "A boolean that is ``True`` if the ``toc`` contains more than one entry."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:484
+#: ../../sphinx/doc/builders.rst:488
 msgid "``current_page_name``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:484
+#: ../../sphinx/doc/builders.rst:488
 msgid "The document name of the current file."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:490
+#: ../../sphinx/doc/builders.rst:494
 msgid "``parents``, ``prev`` and ``next``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:487
+#: ../../sphinx/doc/builders.rst:491
 msgid "Information about related chapters in the TOC tree.  Each relation is a dictionary with the keys ``link`` (HREF for the relation) and ``title`` (title of the related document, as HTML).  ``parents`` is a list of relations, while ``prev`` and ``next`` are a single relation."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:493
+#: ../../sphinx/doc/builders.rst:497
 msgid "``sourcename``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:493
+#: ../../sphinx/doc/builders.rst:497
 msgid "The name of the source file under ``_sources``."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:495
+#: ../../sphinx/doc/builders.rst:499
 msgid "The special files are located in the root output directory.  They are:"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:514
+#: ../../sphinx/doc/builders.rst:518
 msgid ":attr:`.SerializingHTMLBuilder.globalcontext_filename`"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:498
+#: ../../sphinx/doc/builders.rst:502
 msgid "A pickled dict with these keys:"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:501
+#: ../../sphinx/doc/builders.rst:505
 msgid "``project``, ``copyright``, ``release``, ``version``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:501
+#: ../../sphinx/doc/builders.rst:505
 msgid "The same values as given in the configuration file."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:504
+#: ../../sphinx/doc/builders.rst:508
 msgid "``style``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:504
+#: ../../sphinx/doc/builders.rst:508
 msgid ":confval:`html_style`."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:507
+#: ../../sphinx/doc/builders.rst:511
 msgid "``last_updated``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:507
+#: ../../sphinx/doc/builders.rst:511
 msgid "Date of last build."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:511
+#: ../../sphinx/doc/builders.rst:515
 msgid "``builder``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:510
+#: ../../sphinx/doc/builders.rst:514
 msgid "Name of the used builder, in the case of pickles this is always ``'pickle'``."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:514
+#: ../../sphinx/doc/builders.rst:518
 msgid "``titles``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:514
+#: ../../sphinx/doc/builders.rst:518
 msgid "A dictionary of all documents' titles, as HTML strings."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:524
+#: ../../sphinx/doc/builders.rst:528
 msgid ":attr:`.SerializingHTMLBuilder.searchindex_filename`"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:517
+#: ../../sphinx/doc/builders.rst:521
 msgid "An index that can be used for searching the documentation.  It is a pickled list with these entries:"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:520
+#: ../../sphinx/doc/builders.rst:524
 msgid "A list of indexed docnames."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:521
+#: ../../sphinx/doc/builders.rst:525
 msgid "A list of document titles, as HTML strings, in the same order as the first list."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:523
+#: ../../sphinx/doc/builders.rst:527
 msgid "A dict mapping word roots (processed by an English-language stemmer) to a list of integers, which are indices into the first list."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:533
+#: ../../sphinx/doc/builders.rst:537
 msgid "``environment.pickle``"
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:527
+#: ../../sphinx/doc/builders.rst:531
 msgid "The build environment.  This is always a pickle file, independent of the builder and a copy of the environment that was used when the builder was started."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:531
+#: ../../sphinx/doc/builders.rst:535
 msgid "Document common members."
 msgstr ""
 
-#: ../../sphinx/doc/builders.rst:533
+#: ../../sphinx/doc/builders.rst:537
 msgid "Unlike the other pickle files this pickle file requires that the ``sphinx`` package is available on unpickling."
 msgstr ""
 

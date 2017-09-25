@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-16 04:56+0000\n"
+"POT-Creation-Date: 2017-09-25 05:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Alvarez Alejandro <eliluminado00@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -241,9 +241,9 @@ msgstr ""
 
 #: ../../sphinx/doc/tutorial.rst:156
 msgid ""
-"The most prominent domain is the Python domain.  To e.g. document the Python"
-" built-in function ``enumerate()``, you would add this to one of your source"
-" files::"
+"The most prominent domain is the Python domain. For example, to document "
+"Python's built-in function ``enumerate()``, you would add this to one of "
+"your source files::"
 msgstr ""
 
 #: ../../sphinx/doc/tutorial.rst:165
