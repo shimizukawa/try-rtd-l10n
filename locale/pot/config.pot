@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-03 05:39+0000\n"
+"POT-Creation-Date: 2017-10-09 05:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../sphinx/doc/config.rst:661
 #: ../../sphinx/doc/config.rst:1286
-#: ../../sphinx/doc/config.rst:2083
+#: ../../sphinx/doc/config.rst:2089
 msgid "A dictionary of options that influence the look and feel of the selected theme.  These are theme-specific.  For the options understood by the builtin themes, see :ref:`this section <builtin-themes>`."
 msgstr ""
 
@@ -2169,78 +2169,82 @@ msgid "Options for QtHelp output"
 msgstr ""
 
 #: ../../sphinx/doc/config.rst:2070
-msgid "These options influence QtHelp output."
+msgid "These options influence qthelp output.  As this builder derives from the HTML builder, the HTML options also apply where appropriate."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2074
+#: ../../sphinx/doc/config.rst:2075
 msgid "The basename for the qthelp file.  It defaults to the :confval:`project` name."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2078
+#: ../../sphinx/doc/config.rst:2079
+msgid "The namespace for the qthelp file.  It defaults to ``org.sphinx.<project_name>.<project_version>``."
+msgstr ""
+
+#: ../../sphinx/doc/config.rst:2084
 msgid "The HTML theme for the qthelp output. This defaults to ``'nonav'``."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2089
+#: ../../sphinx/doc/config.rst:2095
 msgid "Options for the linkcheck builder"
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2093
+#: ../../sphinx/doc/config.rst:2099
 msgid "A list of regular expressions that match URIs that should not be checked when doing a ``linkcheck`` build.  Example::"
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2102
+#: ../../sphinx/doc/config.rst:2108
 msgid "The number of times the linkcheck builder will attempt to check a URL before declaring it broken. Defaults to 1 attempt."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2109
+#: ../../sphinx/doc/config.rst:2115
 msgid "A timeout value, in seconds, for the linkcheck builder.  The default is to use Python's global socket timeout."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2116
+#: ../../sphinx/doc/config.rst:2122
 msgid "The number of worker threads to use when checking links.  Default is 5 threads."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2123
+#: ../../sphinx/doc/config.rst:2129
 msgid "If true, check the validity of ``#anchor``\\ s in links. Since this requires downloading the whole document, it's considerably slower when enabled. Default is ``True``."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2131
+#: ../../sphinx/doc/config.rst:2137
 msgid "A list of regular expressions that match URIs that should skip checking the validity of anchors in links. This allows skipping entire sites, where anchors are used to control dynamic pages, or just specific anchors within a page, where javascript is used to add anchors dynamically, or use the fragment as part of to trigger an internal REST request. Default is ``[\"/#!\"]``."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2142
+#: ../../sphinx/doc/config.rst:2148
 msgid "Options for the XML builder"
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2146
+#: ../../sphinx/doc/config.rst:2152
 msgid "If true, pretty-print the XML.  Default is ``True``."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2152
+#: ../../sphinx/doc/config.rst:2158
 msgid "Footnotes"
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2153
+#: ../../sphinx/doc/config.rst:2159
 msgid "A note on available globbing syntax: you can use the standard shell constructs ``*``, ``?``, ``[...]`` and ``[!...]`` with the feature that these all don't match slashes.  A double star ``**`` can be used to match any sequence of characters *including* slashes."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2162
+#: ../../sphinx/doc/config.rst:2168
 msgid "Options for the C++ domain"
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2166
+#: ../../sphinx/doc/config.rst:2172
 msgid "A list of prefixes that will be ignored when sorting C++ objects in the global index. For example ``['awesome_lib::']``."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2173
+#: ../../sphinx/doc/config.rst:2179
 msgid "A list of strings that the parser additionally should accept as attributes. This can for example be used when attributes have been ``#define`` d for portability."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2180
+#: ../../sphinx/doc/config.rst:2186
 msgid "A list of strings that the parser additionally should accept as attributes with one argument. That is, if ``my_align_as`` is in the list, then ``my_align_as(X)`` is parsed as an attribute for all strings ``X`` that have balanced brances (``()``, ``[]``, and ``{}``). This can for example be used when attributes have been ``#define`` d for portability."
 msgstr ""
 
-#: ../../sphinx/doc/config.rst:2188
+#: ../../sphinx/doc/config.rst:2194
 msgid "Example of configuration file"
 msgstr ""
 
