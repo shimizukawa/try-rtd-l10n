@@ -155,6 +155,8 @@ msgid ""
 "`sphinx-intl`_ is a useful tool to work with Sphinx translation flow. This "
 "section describe an easy way to translate with sphinx-intl."
 msgstr ""
+"`sphinx-intl`_は一連のSphinxの翻訳作業で使える有用なツールです。このセクションでは sphinx-"
+"intlを使った簡単な翻訳方法について説明します。"
 
 #: ../../sphinx/doc/intl.rst:79
 msgid ""
@@ -185,7 +187,7 @@ msgstr "ドキュメントの翻訳可能なメッセージを pot ファイル�
 msgid ""
 "As a result, many pot files are generated under ``_build/gettext`` "
 "directory."
-msgstr ""
+msgstr "結果として、多くのポートファイルが ``_build/gettext`` ディレクティブの下に生成されます。"
 
 #: ../../sphinx/doc/intl.rst:100
 msgid "Setup/Update your `locale_dir`:"
@@ -319,7 +321,7 @@ msgstr "例:"
 
 #: ../../sphinx/doc/intl.rst:0
 msgid "Project ID"
-msgstr ""
+msgstr "プロジェクトのID"
 
 #: ../../sphinx/doc/intl.rst:206
 msgid "``sphinx-document-test_1_0``"
@@ -327,7 +329,7 @@ msgstr "``sphinx-document-test_1_0``"
 
 #: ../../sphinx/doc/intl.rst:0
 msgid "Project URL"
-msgstr ""
+msgstr "プロジェクトのURL"
 
 #: ../../sphinx/doc/intl.rst:207
 msgid "``https://www.transifex.com/projects/p/sphinx-document-test_1_0/``"
