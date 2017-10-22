@@ -225,7 +225,7 @@ msgstr "この場合も、deprecation warnings をオンにしておくと、テ
 msgid ""
 "Arguments to pytest can be passed via tox, e.g. in order to run a particular"
 " test::"
-msgstr ""
+msgstr "pytestに対しての引数はtoxを通して渡されます。例えば、特定のテストを実行するためには::"
 
 #: ../../sphinx/CONTRIBUTING.rst:132
 msgid "Build the documentation and check the output for different builders::"

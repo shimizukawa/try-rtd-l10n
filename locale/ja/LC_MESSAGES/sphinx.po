@@ -34,7 +34,7 @@ msgstr "ユーザの声:"
 msgid ""
 "&#8220;Cheers for a great tool that actually makes programmers <b>want</b>\n"
 "      to write documentation!&#8220;"
-msgstr ""
+msgstr "&#8220;プログラマーにドキュメントを本当に書きたくさせる、優れたツールを応援しましょう！ <b>want</b>&#8220;"
 
 #: ../../sphinx/doc/_templates/index.html:12
 msgid ""
@@ -267,6 +267,8 @@ msgid ""
 "This documentation is for version <b><a href=\"changes.html\">%(version)s</a></b>, which is\n"
 "  not released yet."
 msgstr ""
+"このドキュメントはバージョン <b><a href=\"changes.html\">%(version)s</a></b>向けのもので、\n"
+"当該バージョンはまだリリースされていません。"
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:9
 msgid ""
@@ -281,7 +283,7 @@ msgstr ""
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:14
 msgid "Current version: <b><a href=\"changes.html\">%(version)s</a></b>"
-msgstr ""
+msgstr "現行のバージョン: <b><a href=\"changes.html\">%(version)s</a></b>"
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:15
 msgid ""

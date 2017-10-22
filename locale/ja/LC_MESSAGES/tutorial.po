@@ -83,6 +83,8 @@ msgid ""
 "There is also an automatic \"API documentation\" generator called :program"
 ":`sphinx-apidoc`; see :doc:`/man/sphinx-apidoc` for details."
 msgstr ""
+":program:`sphinx-apidoc`; と呼ばれる、自動\"API ドキュメンテーション\" "
+"生成機能もあります。詳しくは、:doc:`/man/sphinx-apidoc`を参照してください。"
 
 #: ../../sphinx/doc/tutorial.rst:43
 msgid "Defining document structure"
@@ -237,6 +239,8 @@ msgid ""
 "|more| Refer to the :program:`sphinx-build man page <sphinx-build>` for all "
 "options that :program:`sphinx-build` supports."
 msgstr ""
+"|more| :program:`sphinx-build` サポートのすべてのオプションについては.:program:`sphinx-build "
+"man ページ <sphinx-build>`を参照してください。"
 
 #: ../../sphinx/doc/tutorial.rst:132
 msgid ""
@@ -286,6 +290,8 @@ msgid ""
 "Python's built-in function ``enumerate()``, you would add this to one of "
 "your source files::"
 msgstr ""
+"最も著名なドメインPython domainです。例えば、Pythonのビルトイン関数の "
+"``enumerate()``の度ドキュメントを書けば、ご自身のソースファイルにそれが追加されます。"
 
 #: ../../sphinx/doc/tutorial.rst:165
 msgid "This is rendered like this:"
@@ -596,3 +602,6 @@ msgid ""
 " directory, the :term:`configuration directory`.  Refer to the :program"
 ":`sphinx-build man page <sphinx-build>` for more information."
 msgstr ""
+"これは一般的なレイアウトです。しかし、 :file:`conf.py` はもう一つのディレクトリ、 :term:`configuration "
+"directory`にも存在します。詳しい情報は、 :program:`sphinx-build man ページ <sphinx-build>` "
+"を参照してください。"

@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-20 05:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Arihiro TAKASE <artakase@gmail.com>, 2017\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:36
 msgid "You can use ``caption`` option to give a caption to the diagram."
-msgstr ""
+msgstr "ダイアグラムに見出しをつけるには、``caption``オプションを利用できます。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:38
 msgid ""
@@ -84,7 +84,7 @@ msgstr "``private-bases`` オプションを追加しました。以前は常に
 
 #: ../../sphinx/doc/ext/inheritance.rst:42
 msgid "Added ``caption`` option"
-msgstr ""
+msgstr "追加された``caption``オプション "
 
 #: ../../sphinx/doc/ext/inheritance.rst:46
 msgid "New config values are:"

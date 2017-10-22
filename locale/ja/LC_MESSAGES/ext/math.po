@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-05 03:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -78,11 +78,11 @@ msgstr "もし表示されるすべての数式に番号を振りたい場合、
 msgid ""
 "A string that are used for format of label of references to equations. As a "
 "special character, ``{number}`` will be replaced to equaition number."
-msgstr ""
+msgstr "文字列は式への参照を示すラベル書式として扱われます。特別な文字として、``{number}``は式番号に置き換えられます。 "
 
 #: ../../sphinx/doc/ext/math.rst:45
 msgid "Example: ``'Eq.{number}'`` is rendered as ``Eq.10``"
-msgstr ""
+msgstr "例: ``'Eq.{number}'`` は ``Eq.10``として表示されます。"
 
 #: ../../sphinx/doc/ext/math.rst:47
 msgid ":mod:`.mathbase` defines these new markup elements:"
@@ -335,6 +335,9 @@ msgid ""
 " for details. If you want MathJax to be available offline, you have to "
 "download it and set this value to a different path."
 msgstr ""
+" デフォルトは``https://`` URLで、`cdnjs`__コンテントデリバリーネットワークから JSファイル群をロードします。詳しくは "
+"`MathJax Getting Started page`__を見てください。 "
+"MathJaxをオフラインで利用したい場合は、MathJaxをダウンロードし、この値を別のパスに設定しなければなりません。"
 
 #: ../../sphinx/doc/ext/math.rst:245 ../../sphinx/doc/ext/math.rst:270
 msgid ""
