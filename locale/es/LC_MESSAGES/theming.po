@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-09 05:09+0000\n"
+"POT-Creation-Date: 2017-10-30 05:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Builtin themes"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:69 ../../sphinx/doc/theming.rst:389
+#: ../../sphinx/doc/theming.rst:69 ../../sphinx/doc/theming.rst:396
 msgid "**Theme overview**"
 msgstr ""
 
@@ -533,7 +533,7 @@ msgid ""
 "Python :mod:`ConfigParser` module) and has the following structure:"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:283
+#: ../../sphinx/doc/theming.rst:284
 msgid ""
 "The **inherit** setting gives the name of a \"base theme\", or ``none``.  "
 "The base theme will be used to locate missing templates (most themes will "
@@ -542,7 +542,7 @@ msgid ""
 "well."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:288
+#: ../../sphinx/doc/theming.rst:289
 msgid ""
 "The **stylesheet** setting gives the name of a CSS file which will be "
 "referenced in the HTML header.  If you need more than one CSS file, either "
@@ -551,14 +551,21 @@ msgid ""
 " the :confval:`html_style` config value will override this setting."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:294
+#: ../../sphinx/doc/theming.rst:295
 msgid ""
 "The **pygments_style** setting gives the name of a Pygments style to use for"
 " highlighting.  This can be overridden by the user in the "
 ":confval:`pygments_style` config value."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:298
+#: ../../sphinx/doc/theming.rst:299
+msgid ""
+"The **sidebars** setting gives the comma separated list of sidebar templates"
+" for constructing sidebars.  This can be overridden by the user in the "
+":confval:`html_sidebars` config value."
+msgstr ""
+
+#: ../../sphinx/doc/theming.rst:303
 msgid ""
 "The **options** section contains pairs of variable names and default values."
 " These options can be overridden by the user in "
@@ -566,65 +573,69 @@ msgid ""
 "``theme_<name>``."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:306
+#: ../../sphinx/doc/theming.rst:307
+msgid "sidebar settings"
+msgstr ""
+
+#: ../../sphinx/doc/theming.rst:313
 msgid "Distribute your theme as a python package"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:308
+#: ../../sphinx/doc/theming.rst:315
 msgid ""
 "As a way to distribute your theme, you can use python package.  Python "
 "package brings to users easy setting up ways."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:311
+#: ../../sphinx/doc/theming.rst:318
 msgid ""
 "To distribute your theme as a python package, please define an entry point "
 "called ``sphinx.html_themes`` in your setup.py file, and write a ``setup()``"
 " function to register your themes using ``add_html_theme()`` API in it::"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:333
+#: ../../sphinx/doc/theming.rst:340
 msgid ""
 "If your theme package contains two or more themes, please call "
 "``add_html_theme()`` twice or more."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:336
+#: ../../sphinx/doc/theming.rst:343
 msgid "'sphinx_themes' entry_points feature."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:339
+#: ../../sphinx/doc/theming.rst:346
 msgid "``sphinx_themes`` entry_points has been deprecated."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:342
+#: ../../sphinx/doc/theming.rst:349
 msgid "``sphinx.html_themes`` entry_points feature."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:346
+#: ../../sphinx/doc/theming.rst:353
 msgid "Templating"
 msgstr "Plantillas"
 
-#: ../../sphinx/doc/theming.rst:348
+#: ../../sphinx/doc/theming.rst:355
 msgid ""
 "The :doc:`guide to templating <templating>` is helpful if you want to write "
 "your own templates.  What is important to keep in mind is the order in which"
 " Sphinx searches for templates:"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:352
+#: ../../sphinx/doc/theming.rst:359
 msgid "First, in the user's ``templates_path`` directories."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:353
+#: ../../sphinx/doc/theming.rst:360
 msgid "Then, in the selected theme."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:354
+#: ../../sphinx/doc/theming.rst:361
 msgid "Then, in its base theme, its base's base theme, etc."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:356
+#: ../../sphinx/doc/theming.rst:363
 msgid ""
 "When extending a template in the base theme with the same name, use the "
 "theme name as an explicit directory: ``{% extends \"basic/layout.html\" "
@@ -632,11 +643,11 @@ msgid ""
 "\"exclamation mark\" syntax as described in the templating document."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:363
+#: ../../sphinx/doc/theming.rst:370
 msgid "Static templates"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:365
+#: ../../sphinx/doc/theming.rst:372
 msgid ""
 "Since theme options are meant for the user to configure a theme more easily,"
 " without having to write a custom stylesheet, it is necessary to be able to "
@@ -644,7 +655,7 @@ msgid ""
 "called \"static templates\", like this:"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:370
+#: ../../sphinx/doc/theming.rst:377
 msgid ""
 "If the name of a file in the ``static/`` directory of a theme (or in the "
 "user's static path, for that matter) ends with ``_t``, it will be processed "
@@ -656,25 +667,25 @@ msgid ""
 "processed."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:379
+#: ../../sphinx/doc/theming.rst:386
 msgid ""
 "It is not an executable Python file, as opposed to :file:`conf.py`, because "
 "that would pose an unnecessary security risk if themes are shared."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:384
+#: ../../sphinx/doc/theming.rst:391
 msgid "Third Party Themes"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:391
+#: ../../sphinx/doc/theming.rst:398
 msgid "|sphinx_rtd_theme|"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:393
+#: ../../sphinx/doc/theming.rst:400
 msgid "*sphinx_rtd_theme*"
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:398
+#: ../../sphinx/doc/theming.rst:405
 msgid ""
 "**sphinx_rtd_theme** -- `Read the Docs Sphinx Theme`_. This is a mobile-"
 "friendly sphinx theme that was made for readthedocs.org. View a working demo"
@@ -682,6 +693,6 @@ msgid ""
 "`Read the Docs Sphinx Theme`_ page."
 msgstr ""
 
-#: ../../sphinx/doc/theming.rst:405
+#: ../../sphinx/doc/theming.rst:412
 msgid "**sphinx_rtd_theme** has become optional."
 msgstr ""
