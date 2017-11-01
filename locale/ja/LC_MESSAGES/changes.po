@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-31 05:56+0000\n"
+"POT-Creation-Date: 2017-11-01 05:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -165,87 +165,91 @@ msgstr ""
 msgid "HTML themes can set up default sidebars through ``theme.conf``"
 msgstr ""
 
-#: ../../sphinx/CHANGES:48 ../../sphinx/CHANGES:321
+#: ../../sphinx/CHANGES:45
+msgid "#3160: html: Use ``<kdb>`` to represent ``:kbd:`` role"
+msgstr ""
+
+#: ../../sphinx/CHANGES:49 ../../sphinx/CHANGES:321
 msgid "Features removed"
 msgstr ""
 
-#: ../../sphinx/CHANGES:50 ../../sphinx/CHANGES:323
+#: ../../sphinx/CHANGES:51 ../../sphinx/CHANGES:323
 msgid "Configuration variables"
 msgstr ""
 
-#: ../../sphinx/CHANGES:52
+#: ../../sphinx/CHANGES:53
 msgid "html_use_smartypants"
 msgstr ""
 
-#: ../../sphinx/CHANGES:53
+#: ../../sphinx/CHANGES:54
 msgid "latex_keep_old_macro_names"
 msgstr ""
 
-#: ../../sphinx/CHANGES:54
+#: ../../sphinx/CHANGES:55
 msgid "latex_elements['footer']"
 msgstr ""
 
-#: ../../sphinx/CHANGES:56
+#: ../../sphinx/CHANGES:57
 msgid "utility methods of ``sphinx.application.Sphinx`` class"
 msgstr ""
 
-#: ../../sphinx/CHANGES:58
+#: ../../sphinx/CHANGES:59
 msgid "buildername (property)"
 msgstr ""
 
-#: ../../sphinx/CHANGES:59
+#: ../../sphinx/CHANGES:60
 msgid "_display_chunk()"
 msgstr ""
 
-#: ../../sphinx/CHANGES:60
+#: ../../sphinx/CHANGES:61
 msgid "old_status_iterator()"
 msgstr ""
 
-#: ../../sphinx/CHANGES:61
+#: ../../sphinx/CHANGES:62
 msgid "status_iterator()"
 msgstr ""
 
-#: ../../sphinx/CHANGES:62
+#: ../../sphinx/CHANGES:63
 msgid "_directive_helper()"
 msgstr ""
 
-#: ../../sphinx/CHANGES:64
+#: ../../sphinx/CHANGES:65
 msgid "utility methods of ``sphinx.environment.BuildEnvironment`` class"
 msgstr ""
 
-#: ../../sphinx/CHANGES:66
+#: ../../sphinx/CHANGES:67
 msgid "currmodule (property)"
 msgstr ""
 
-#: ../../sphinx/CHANGES:67
+#: ../../sphinx/CHANGES:68
 msgid "currclass (property)"
 msgstr ""
 
-#: ../../sphinx/CHANGES:69
+#: ../../sphinx/CHANGES:70
 msgid "epub2 builder"
 msgstr ""
 
-#: ../../sphinx/CHANGES:70
+#: ../../sphinx/CHANGES:71
 msgid "prefix and colorfunc parameter for warn()"
 msgstr ""
 
-#: ../../sphinx/CHANGES:71
+#: ../../sphinx/CHANGES:72
 msgid "``sphinx.util.compat`` module"
 msgstr ""
 
-#: ../../sphinx/CHANGES:72
+#: ../../sphinx/CHANGES:73
 msgid "``sphinx.util.nodes.process_only_nodes()``"
 msgstr ""
 
-#: ../../sphinx/CHANGES:73
+#: ../../sphinx/CHANGES:74
 msgid "LaTeX environment ``notice``, use ``sphinxadmonition`` instead"
 msgstr ""
 
-#: ../../sphinx/CHANGES:74
+#: ../../sphinx/CHANGES:75
 msgid "LaTeX ``\\sphinxstylethead``, use ``\\sphinxstyletheadfamily``"
 msgstr ""
 
-#: ../../sphinx/CHANGES:77 ../../sphinx/CHANGES:104 ../../sphinx/CHANGES:122
+#: ../../sphinx/CHANGES:78 ../../sphinx/CHANGES:104 ../../sphinx/CHANGES:122
 #: ../../sphinx/CHANGES:153 ../../sphinx/CHANGES:185 ../../sphinx/CHANGES:226
 #: ../../sphinx/CHANGES:405 ../../sphinx/CHANGES:523 ../../sphinx/CHANGES:543
 #: ../../sphinx/CHANGES:557 ../../sphinx/CHANGES:594 ../../sphinx/CHANGES:635
@@ -265,10 +269,6 @@ msgstr ""
 #: ../../sphinx/CHANGES:2275 ../../sphinx/CHANGES:2477
 msgid "Bugs fixed"
 msgstr "バグ修正"
-
-#: ../../sphinx/CHANGES:79
-msgid "#3160: Why doesn't Sphinx translate :kbd: roles to HTML's <kbd> tags?"
-msgstr ""
 
 #: ../../sphinx/CHANGES:80
 msgid "#3882: Update the order of files for HTMLHelp and QTHelp"
