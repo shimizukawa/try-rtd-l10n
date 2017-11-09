@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-23 05:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,7 @@ msgstr "Roland Meister <@rolmei>"
 
 #: ../../sphinx/AUTHORS:14
 msgid "Takeshi Komiya <@tk0miya>"
-msgstr ""
+msgstr "Takeshi Komiya <@tk0miya>"
 
 #: ../../sphinx/AUTHORS:15
 msgid "Jean-François Burnol <@jfbu>"
@@ -193,7 +193,7 @@ msgstr "Jacob Mason -- biblioteca websupport (projeto GSOC)"
 
 #: ../../sphinx/AUTHORS:48
 msgid "Glenn Matthews -- python domain signature improvements"
-msgstr ""
+msgstr "Glenn Matthews -- python domain signature melhorias"
 
 #: ../../sphinx/AUTHORS:49
 msgid "Roland Meister -- epub builder"
@@ -205,7 +205,7 @@ msgstr "Ezio Melotti -- barra lateral retrátil JavaScript"
 
 #: ../../sphinx/AUTHORS:51
 msgid "Bruce Mitchener -- Minor epub improvement"
-msgstr ""
+msgstr "Bruce Mitchener -- Minor epub melhoria"
 
 #: ../../sphinx/AUTHORS:52
 msgid "Daniel Neuhäuser -- JavaScript domain, Python 3 support (GSOC)"
@@ -221,7 +221,7 @@ msgstr "Benjamin Peterson -- testes unitários"
 
 #: ../../sphinx/AUTHORS:55
 msgid "\\T. Powers -- HTML output improvements"
-msgstr ""
+msgstr "\\T. Powers -- HTML output melhoria"
 
 #: ../../sphinx/AUTHORS:56
 msgid "Jeppe Pihl -- literalinclude improvements"
@@ -237,7 +237,7 @@ msgstr "Stefan Seefeld -- melhorias no toctree"
 
 #: ../../sphinx/AUTHORS:59
 msgid "Gregory Szorc -- performance improvements"
-msgstr ""
+msgstr "Gregory Szorc -- performance melhoria"
 
 #: ../../sphinx/AUTHORS:60
 msgid "Taku Shimizu -- epub3 builder"

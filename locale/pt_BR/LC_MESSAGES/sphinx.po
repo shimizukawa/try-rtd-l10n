@@ -174,11 +174,11 @@ msgstr "todas funções, classes, termos"
 
 #: ../../sphinx/doc/_templates/index.html:68
 msgid "Changes"
-msgstr ""
+msgstr "Atualizações"
 
 #: ../../sphinx/doc/_templates/index.html:69
 msgid "release history"
-msgstr ""
+msgstr "histório liberação"
 
 #: ../../sphinx/doc/_templates/index.html:75
 msgid ""
@@ -294,6 +294,8 @@ msgid ""
 "This documentation is for version <b><a href=\"changes.html\">%(version)s</a></b>, which is\n"
 "  not released yet."
 msgstr ""
+"This documentation is for version <b><a href=\"changes.html\">%(version)s</a></b>, a qual\n"
+"  não foi liberada ainda."
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:9
 msgid ""
@@ -309,7 +311,7 @@ msgstr ""
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:14
 msgid "Current version: <b><a href=\"changes.html\">%(version)s</a></b>"
-msgstr ""
+msgstr "Versão Corrente: <b><a href=\"changes.html\">%(version)s</a></b>"
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:15
 msgid ""
