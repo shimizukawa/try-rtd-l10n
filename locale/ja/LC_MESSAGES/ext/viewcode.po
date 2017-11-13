@@ -54,8 +54,9 @@ msgid ""
 "side effects, this option else they produce nothing.  The default is "
 "``True``."
 msgstr ""
-"これに ``True``が設定されている場合、viewcode "
-"エクステンションは他のモジュールによってインポートされる関数、クラス、属性などのエイリアスオブジェクトを追跡します。副作用としてこのオプションが指定されない場合、何も起こりません。規定値は``True``です。"
+"これに ``True`` が設定されている場合、viewcode "
+"エクステンションは他のモジュールによってインポートされる関数、クラス、属性などのエイリアスオブジェクトを追跡します。副作用としてこのオプションが指定されない場合、何も起こりません。規定値は"
+" ``True`` です。"
 
 #: ../../sphinx/doc/ext/viewcode.rst:34
 msgid ""
