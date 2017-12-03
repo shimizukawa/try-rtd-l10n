@@ -457,10 +457,14 @@ msgid ""
 " ``requests``, and writes an overview which ones are broken and redirected "
 "to standard output and to :file:`output.txt` in the output directory."
 msgstr ""
+"Esses construtores buscam em todos os documentos para ligações externas, "
+"tenta abrir esses links com ``requests``, e grava uma visão com os "
+"inconsistentes e redireciona para a saída padrão e para :file:`output.txt` "
+"no diretório de saída."
 
 #: ../../sphinx/doc/builders.rst:417
 msgid "Since Sphinx-1.5, the linkcheck builder comes to use requests module."
-msgstr ""
+msgstr "Desde Sphinx-1.5, o modulo do construtor linkcheck está disponível."
 
 #: ../../sphinx/doc/builders.rst:422
 msgid ""
