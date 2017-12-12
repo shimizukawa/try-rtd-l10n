@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2017-12-12 06:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: 大川剛 <tu44okawa3@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -190,11 +190,15 @@ msgstr "``emphasize-lines`` を追加しました。"
 msgid "``lineno-start`` has been added."
 msgstr "``lineno-start`` を追加しました。"
 
-#: ../../sphinx/doc/markup/code.rst:126
+#: ../../sphinx/doc/markup/code.rst:124
+msgid "LaTeX supports the ``emphasize-lines`` option."
+msgstr ""
+
+#: ../../sphinx/doc/markup/code.rst:128
 msgid "Includes"
 msgstr "インクルード"
 
-#: ../../sphinx/doc/markup/code.rst:130
+#: ../../sphinx/doc/markup/code.rst:132
 msgid ""
 "Longer displays of verbatim text may be included by storing the example text"
 " in an external file containing only plain text.  The file may be included "
@@ -205,7 +209,7 @@ msgstr ""
 " ``literalinclude`` ディレクティブを使用します。 [1]_ 例えば、 :file:`example.py` "
 "というPythonソースコードをインクルードするには以下のようにします::"
 
-#: ../../sphinx/doc/markup/code.rst:137
+#: ../../sphinx/doc/markup/code.rst:139
 msgid ""
 "The file name is usually relative to the current file's path.  However, if "
 "it is absolute (starting with ``/``), it is relative to the top source "
@@ -214,13 +218,13 @@ msgstr ""
 "ソースコードのファイルは通常、現在のパスからの相対パスで指定します。 ``/`` "
 "から開始されているときはトップのソースディレクトリからのパス指定をできます。"
 
-#: ../../sphinx/doc/markup/code.rst:141
+#: ../../sphinx/doc/markup/code.rst:143
 msgid ""
 "Tabs in the input are expanded if you give a ``tab-width`` option with the "
 "desired tab width."
 msgstr "``tab-width`` オプションを指定すると、入力ファイル中のタブを希望の幅に展開できます。"
 
-#: ../../sphinx/doc/markup/code.rst:144
+#: ../../sphinx/doc/markup/code.rst:146
 msgid ""
 "Like :rst:dir:`code-block`, the directive supports the ``linenos`` flag "
 "option to switch on line numbers, the ``lineno-start`` option to select the "
@@ -233,7 +237,7 @@ msgstr ""
 "``emphasize-lines`` で指定した行を強調できます。加えて、 ``language`` "
 "オプションを使うと、ファイルの標準の言語と違う言語を選択できます。オプションのサンプルを示します:"
 
-#: ../../sphinx/doc/markup/code.rst:155
+#: ../../sphinx/doc/markup/code.rst:157
 msgid ""
 "Include files are assumed to be encoded in the :confval:`source_encoding`. "
 "If the file has a different encoding, you can specify it with the "
@@ -243,7 +247,7 @@ msgstr ""
 "で設定されているエンコードで保存されているものとして処理されます。もし違うエンコーディングのファイルを読み込む場合には ``encoding`` "
 "オプションで設定できます::"
 
-#: ../../sphinx/doc/markup/code.rst:162
+#: ../../sphinx/doc/markup/code.rst:164
 msgid ""
 "The directive also supports including only parts of the file.  If it is a "
 "Python module, you can select a class, function or method to include using "
@@ -252,7 +256,7 @@ msgstr ""
 "このディレクティブは、ファイル全体ではなく、一部分だけを読み込むこともサポートしています。もしPythonモジュールの場合には、 "
 "``pyobject`` オプションを使用してクラス、関数、メソッドの単位でインクルードすることもできます::"
 
-#: ../../sphinx/doc/markup/code.rst:169
+#: ../../sphinx/doc/markup/code.rst:171
 msgid ""
 "This would only include the code lines belonging to the ``start()`` method "
 "in the ``Timer`` class within the file."
@@ -260,17 +264,17 @@ msgstr ""
 "上記のサンプルを書くと、指定されたファイルに含まれる、 ``Timer`` クラスの ``start()`` "
 "メソッドに属するコード行だけがドキュメントに挿入されます。"
 
-#: ../../sphinx/doc/markup/code.rst:172
+#: ../../sphinx/doc/markup/code.rst:174
 msgid ""
 "Alternately, you can specify exactly which lines to include by giving a "
 "``lines`` option::"
 msgstr "これとは別に、 ``lines`` オプションを使って行番号を正確に指定することでも部分的なインクルードを行えます::"
 
-#: ../../sphinx/doc/markup/code.rst:178
+#: ../../sphinx/doc/markup/code.rst:180
 msgid "This includes the lines 1, 3, 5 to 10 and lines 20 to the last line."
 msgstr "このサンプルでは、指定されたファイルの 1行目, 3行目, 5〜10行目, そして20行目から最終行までのコードがインクルードされます。"
 
-#: ../../sphinx/doc/markup/code.rst:180
+#: ../../sphinx/doc/markup/code.rst:182
 msgid ""
 "Another way to control which part of the file is included is to use the "
 "``start-after`` and ``end-before`` options (or only one of them).  If "
@@ -284,7 +288,7 @@ msgstr ""
 "にオプションとして文字列が指定されると、その文字列を含む行から始まるコードがインクルードされます。 ``end-before`` "
 "にオプションとして文字列が指定されると、指定された文字列が含まれる行の前の部分がインクルードされます。"
 
-#: ../../sphinx/doc/markup/code.rst:187
+#: ../../sphinx/doc/markup/code.rst:189
 msgid ""
 "With lines selected using ``start-after`` it is still possible to use "
 "``lines``, the first allowed line having by convention the line number "
@@ -293,16 +297,14 @@ msgstr ""
 "``start-"
 "after``を使って行を選択したときも、``lines``をあわせて使うことができます。慣習にそって、選択されている最初の行の番号を``1``としています。"
 
-#: ../../sphinx/doc/markup/code.rst:190
+#: ../../sphinx/doc/markup/code.rst:192
 msgid ""
 "When lines have been selected in any of the ways described above, the line "
-"numbers in ``emphasize-lines`` also refer to the selection, with the first "
-"selected line having number ``1``."
+"numbers in ``emphasize-lines`` refer to those selected lines, counted "
+"consecutively starting at ``1``."
 msgstr ""
-"``emphasize-lines``についても、選択したコードを行番号で参照できます。 "
-"先に説明したいずれの選択方法にも対応していて、選択したコードの最初の行の番号が``1``となります。"
 
-#: ../../sphinx/doc/markup/code.rst:194
+#: ../../sphinx/doc/markup/code.rst:196
 msgid ""
 "When specifying particular parts of a file to display, it can be useful to "
 "display the original line numbers. This can be done using the ``lineno-"
@@ -312,7 +314,7 @@ msgstr ""
 "ファイルの一部を表示するように指定した場合、ファイルの行番号をそのまま表示するように指定することもできます。その場合は、 ``lineno-"
 "match`` オプションを設定して下さい。ただし、このオプションは選択された行が切れ目なくつながっている場合でのみ有効です。"
 
-#: ../../sphinx/doc/markup/code.rst:199
+#: ../../sphinx/doc/markup/code.rst:201
 msgid ""
 "You can prepend and/or append a line to the included code, using the "
 "``prepend`` and ``append`` option, respectively.  This is useful e.g. for "
@@ -321,23 +323,23 @@ msgstr ""
 "``prepend``, ``append`` オプションを使用すると、読み込まれた行の前後にコード行を追加できます。例えば、 "
 "``<?php``/``?>`` マーカーを含まないPHPコードをハイライトする際などに役立ちます。"
 
-#: ../../sphinx/doc/markup/code.rst:204
+#: ../../sphinx/doc/markup/code.rst:206
 msgid ""
 "If you want to show the diff of the code, you can specify the old file by "
 "giving a ``diff`` option::"
 msgstr "もしあなたがコードの差分を表示したいなら、``diff`` オプションを与えて古いファイルを記述できます::"
 
-#: ../../sphinx/doc/markup/code.rst:210
+#: ../../sphinx/doc/markup/code.rst:212
 msgid ""
 "This shows the diff between example.py and example.py.orig with unified diff"
 " format."
 msgstr "このオプションはexample.pyとexample.py.origの差分をユニファイドdiffフォーマットで表示します。"
 
-#: ../../sphinx/doc/markup/code.rst:213
+#: ../../sphinx/doc/markup/code.rst:215
 msgid "The ``encoding`` option."
 msgstr "``encoding`` オプションを追加しました。"
 
-#: ../../sphinx/doc/markup/code.rst:215
+#: ../../sphinx/doc/markup/code.rst:217
 msgid ""
 "The ``pyobject``, ``lines``, ``start-after`` and ``end-before`` options, as "
 "well as support for absolute filenames."
@@ -345,25 +347,25 @@ msgstr ""
 "``pyobject``, ``lines``, ``start-after``, ``end-before`` "
 "オプションと、絶対パスファイル名のサポートを追加しました。"
 
-#: ../../sphinx/doc/markup/code.rst:218
+#: ../../sphinx/doc/markup/code.rst:220
 msgid "The ``prepend`` and ``append`` options, as well as ``tab-width``."
 msgstr "``prepend``, ``append``,  ``tab-width`` を追加しました。"
 
-#: ../../sphinx/doc/markup/code.rst:220
+#: ../../sphinx/doc/markup/code.rst:222
 msgid "The ``diff`` option. The ``lineno-match`` option."
 msgstr "``diff`` オプション、``lineno-match`` オプション。"
 
-#: ../../sphinx/doc/markup/code.rst:223
+#: ../../sphinx/doc/markup/code.rst:225
 msgid ""
 "With both ``start-after`` and ``lines`` in use, the first line as per "
 "``start-after`` is considered to be with line number ``1`` for ``lines``."
 msgstr ""
 
-#: ../../sphinx/doc/markup/code.rst:228
+#: ../../sphinx/doc/markup/code.rst:230
 msgid "Caption and name"
 msgstr "captionとnameオプション"
 
-#: ../../sphinx/doc/markup/code.rst:232
+#: ../../sphinx/doc/markup/code.rst:234
 msgid ""
 "A ``caption`` option can be given to show that name before the code block. A"
 " ``name`` option can be provided implicit target name that can be referenced"
@@ -372,7 +374,7 @@ msgstr ""
 "``caption`` オプションはコードブロックの前に表示する文字列を指定します。 ``name`` オプションは :rst:role:`ref` "
 "で参照できるターゲット名です。例::"
 
-#: ../../sphinx/doc/markup/code.rst:244
+#: ../../sphinx/doc/markup/code.rst:246
 msgid ""
 ":rst:dir:`literalinclude` also supports the ``caption`` and ``name`` option."
 " ``caption`` has an additional feature that if you leave the value empty, "
@@ -381,25 +383,25 @@ msgstr ""
 ":rst:dir:`literalinclude` も ``caption`` と ``name`` オプションをサポートします。 "
 "``caption`` の追加機能として、値を空で指定した場合、ディレクティブの引数に指定したファイル名がキャプションとして使用されます。"
 
-#: ../../sphinx/doc/markup/code.rst:250
+#: ../../sphinx/doc/markup/code.rst:252
 msgid "Dedent"
 msgstr "Dedent"
 
-#: ../../sphinx/doc/markup/code.rst:254
+#: ../../sphinx/doc/markup/code.rst:256
 msgid ""
 "A ``dedent`` option can be given to strip indentation characters from the "
 "code block. For example::"
 msgstr "``dedent`` オプションによってコードブロック内にあるインデントを取り除くことができます。例::"
 
-#: ../../sphinx/doc/markup/code.rst:262
+#: ../../sphinx/doc/markup/code.rst:264
 msgid ":rst:dir:`code-block` also supports the ``dedent`` option."
 msgstr ":rst:dir:`code-block` も ``dedent`` オプションをサポートします。"
 
-#: ../../sphinx/doc/markup/code.rst:266
+#: ../../sphinx/doc/markup/code.rst:268
 msgid "Footnotes"
 msgstr "脚注"
 
-#: ../../sphinx/doc/markup/code.rst:267
+#: ../../sphinx/doc/markup/code.rst:269
 msgid ""
 "There is a standard ``.. include`` directive, but it raises errors if the "
 "file is not found.  This one only emits a warning."
