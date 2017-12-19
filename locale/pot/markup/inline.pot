@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-16 04:56+0000\n"
+"POT-Creation-Date: 2017-12-19 06:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,11 +221,11 @@ msgid "Link to the specified figures, tables, code-blocks and sections; the stan
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:230
-msgid "If an explicit link text is given (like usual: ``:numref:`Image of Sphinx (Fig. %s) <my-figure>```), the link caption will be the title of the reference. As a special character, `%s` and `{number}` will be replaced to figure number.  `{name}` will be replaced to figure caption. If no explicit link text is given, the value of :confval:`numfig_format` is used to default value of link text."
+msgid "If an explicit link text is given (as usual: ``:numref:`Image of Sphinx (Fig. %s) <my-figure>```), the link caption will serve as title of the reference. As placeholders, `%s` and `{number}` get replaced by the figure number and  `{name}` by the figure caption. If no explicit link text is given, the :confval:`numfig_format` setting is used as fall-back default."
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:237
-msgid "If :confval:`numfig` is ``False``, figures are not numbered. so this role inserts not a reference but labels or link text."
+msgid "If :confval:`numfig` is ``False``, figures are not numbered, so this role inserts not a reference but the label or the link text."
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:241
