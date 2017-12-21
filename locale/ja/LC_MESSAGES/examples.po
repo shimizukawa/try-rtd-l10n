@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-18 06:20+0000\n"
+"POT-Creation-Date: 2017-12-21 06:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -536,553 +536,557 @@ msgid "Documentation using another builtin theme"
 msgstr "その他の組み込みテーマを使用しているドキュメント"
 
 #: ../../sphinx/EXAMPLES:144
-msgid "Breathe: https://breathe.readthedocs.io/ (haiku)"
+msgid "Arcade: http://arcade.academy/ (sphinx_rtd_theme)"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:145
-msgid "MPipe: https://vmlaker.github.io/mpipe/ (sphinx13)"
+msgid "Breathe: https://breathe.readthedocs.io/ (haiku)"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:146
-msgid "NLTK: http://www.nltk.org/ (agogo)"
+msgid "MPipe: https://vmlaker.github.io/mpipe/ (sphinx13)"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:147
+msgid "NLTK: http://www.nltk.org/ (agogo)"
+msgstr ""
+
+#: ../../sphinx/EXAMPLES:148
 msgid ""
 "Programmieren mit PyGTK und Glade (German): http://www.florian-diesch.de/doc"
 "/python-und-glade/online/ (agogo, customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:149
+#: ../../sphinx/EXAMPLES:150
 msgid "PyPubSub: https://pypubsub.readthedocs.io/ (bizstyle)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:150
+#: ../../sphinx/EXAMPLES:151
 msgid ""
 "Pylons: http://docs.pylonsproject.org/projects/pylons-webframework/ "
 "(pyramid)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:151
+#: ../../sphinx/EXAMPLES:152
 msgid ""
 "Pyramid web framework: https://docs.pylonsproject.org/projects/pyramid/ "
 "(pyramid)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:153
+#: ../../sphinx/EXAMPLES:154
 msgid "Sphinx: http://www.sphinx-doc.org/ (sphinx13) :-)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:154
+#: ../../sphinx/EXAMPLES:155
 msgid "Valence: http://docs.valence.desire2learn.com/ (haiku, customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:157
+#: ../../sphinx/EXAMPLES:158
 msgid "Documentation using sphinx_rtd_theme"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:159
+#: ../../sphinx/EXAMPLES:160
 msgid "Annotator: http://docs.annotatorjs.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:160
+#: ../../sphinx/EXAMPLES:161
 msgid "Ansible: https://docs.ansible.com/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:161
+#: ../../sphinx/EXAMPLES:162
 msgid "ASE: https://wiki.fysik.dtu.dk/ase/"
 msgstr "ASE: https://wiki.fysik.dtu.dk/ase/"
 
-#: ../../sphinx/EXAMPLES:162
+#: ../../sphinx/EXAMPLES:163
 msgid "Autofac: http://docs.autofac.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:163
+#: ../../sphinx/EXAMPLES:164
 msgid "BigchainDB: https://docs.bigchaindb.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:164
+#: ../../sphinx/EXAMPLES:165
 msgid "Blocks: https://blocks.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:165
+#: ../../sphinx/EXAMPLES:166
 msgid "bootstrap-datepicker: https://bootstrap-datepicker.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:166
+#: ../../sphinx/EXAMPLES:167
 msgid "Certbot: https://letsencrypt.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:167
+#: ../../sphinx/EXAMPLES:168
 msgid "Chainer: https://docs.chainer.org/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:168
+#: ../../sphinx/EXAMPLES:169
 msgid "CherryPy: http://docs.cherrypy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:169
+#: ../../sphinx/EXAMPLES:170
 msgid "Chainer: https://docs.chainer.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:170
+#: ../../sphinx/EXAMPLES:171
 msgid "CodeIgniter: https://www.codeigniter.com/user_guide/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:171
+#: ../../sphinx/EXAMPLES:172
 msgid "Conda: https://conda.io/docs/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:172
+#: ../../sphinx/EXAMPLES:173
 msgid "Corda: https://docs.corda.net/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:173
+#: ../../sphinx/EXAMPLES:174
 msgid "Dask: https://dask.pydata.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:174
+#: ../../sphinx/EXAMPLES:175
 msgid "Databricks: https://docs.databricks.com/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:175
+#: ../../sphinx/EXAMPLES:176
 msgid "Dataiku DSS: https://doc.dataiku.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:176
+#: ../../sphinx/EXAMPLES:177
 msgid "edX: http://docs.edx.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:177
+#: ../../sphinx/EXAMPLES:178
 msgid "Electrum: http://docs.electrum.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:178
+#: ../../sphinx/EXAMPLES:179
 msgid "Elemental: http://libelemental.org/documentation/dev/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:179
+#: ../../sphinx/EXAMPLES:180
 msgid "ESWP3: https://eswp3.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:180
+#: ../../sphinx/EXAMPLES:181
 msgid "Ethereum Homestead: http://www.ethdocs.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:181
+#: ../../sphinx/EXAMPLES:182
 msgid "Fidimag: https://fidimag.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:182
+#: ../../sphinx/EXAMPLES:183
 msgid "Flake8: http://flake8.pycqa.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:183
+#: ../../sphinx/EXAMPLES:184
 msgid "GeoNode: http://docs.geonode.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:184
+#: ../../sphinx/EXAMPLES:185
 msgid "Godot: https://godot.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:185
+#: ../../sphinx/EXAMPLES:186
 msgid "Graylog: http://docs.graylog.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:186
+#: ../../sphinx/EXAMPLES:187
 msgid "GPAW: https://wiki.fysik.dtu.dk/gpaw/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:187
+#: ../../sphinx/EXAMPLES:188
 msgid "HDF5 for Python (h5py): http://docs.h5py.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:188
+#: ../../sphinx/EXAMPLES:189
 msgid "Hyperledger Fabric: https://hyperledger-fabric.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:189
+#: ../../sphinx/EXAMPLES:190
 msgid "Hyperledger Sawtooth: https://intelledger.github.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:190
+#: ../../sphinx/EXAMPLES:191
 msgid "IdentityServer: http://docs.identityserver.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:191
+#: ../../sphinx/EXAMPLES:192
 msgid "Idris: http://docs.idris-lang.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:192
+#: ../../sphinx/EXAMPLES:193
 msgid "javasphinx: https://bronto-javasphinx.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:193
+#: ../../sphinx/EXAMPLES:194
 msgid "Julia: https://julia.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:194
+#: ../../sphinx/EXAMPLES:195
 msgid "Jupyter Notebook: https://jupyter-notebook.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:195
+#: ../../sphinx/EXAMPLES:196
 msgid "Lasagne: https://lasagne.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:196
+#: ../../sphinx/EXAMPLES:197
 msgid "Linguistica: https://linguistica-uchicago.github.io/lxa5/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:197
+#: ../../sphinx/EXAMPLES:198
 msgid "Linux kernel: https://www.kernel.org/doc/html/latest/index.html"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:198
+#: ../../sphinx/EXAMPLES:199
 msgid "MathJax: https://docs.mathjax.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:199
+#: ../../sphinx/EXAMPLES:200
 msgid "MDTraj: http://mdtraj.org/latest/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:200
+#: ../../sphinx/EXAMPLES:201
 msgid "MICrobial Community Analysis (micca): http://micca.org/docs/latest/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:201
+#: ../../sphinx/EXAMPLES:202
 msgid "MicroPython: https://docs.micropython.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:202
+#: ../../sphinx/EXAMPLES:203
 msgid "Minds: https://www.minds.org/docs/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:203
+#: ../../sphinx/EXAMPLES:204
 msgid "Mink: http://mink.behat.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:204
+#: ../../sphinx/EXAMPLES:205
 msgid "Mockery: http://docs.mockery.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:205
+#: ../../sphinx/EXAMPLES:206
 msgid "mod_wsgi: https://modwsgi.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:206
+#: ../../sphinx/EXAMPLES:207
 msgid "MoinMoin: https://moin-20.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:207
+#: ../../sphinx/EXAMPLES:208
 msgid "Mopidy: https://docs.mopidy.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:208
+#: ../../sphinx/EXAMPLES:209
 msgid "MyHDL: http://docs.myhdl.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:209
+#: ../../sphinx/EXAMPLES:210
 msgid "Nextflow: https://www.nextflow.io/docs/latest/index.html"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:210
+#: ../../sphinx/EXAMPLES:211
 msgid "NICOS: https://forge.frm2.tum.de/nicos/doc/nicos-master/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:211
+#: ../../sphinx/EXAMPLES:212
 msgid "Pelican: http://docs.getpelican.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:212
+#: ../../sphinx/EXAMPLES:213
 msgid "picamera: https://picamera.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:213
+#: ../../sphinx/EXAMPLES:214
 msgid "Pillow: https://pillow.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:214
+#: ../../sphinx/EXAMPLES:215
 msgid "pip: https://pip.pypa.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:215
+#: ../../sphinx/EXAMPLES:216
 msgid "Paver: https://paver.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:216
+#: ../../sphinx/EXAMPLES:217
 msgid "peewee: http://docs.peewee-orm.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:217
+#: ../../sphinx/EXAMPLES:218
 msgid "Phinx: http://docs.phinx.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:218
+#: ../../sphinx/EXAMPLES:219
 msgid "phpMyAdmin: https://docs.phpmyadmin.net/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:219
+#: ../../sphinx/EXAMPLES:220
 msgid "Pweave: http://mpastell.com/pweave/"
 msgstr "Pyre: http://docs.danse.us/pyre/sphinx/"
 
-#: ../../sphinx/EXAMPLES:220
+#: ../../sphinx/EXAMPLES:221
 msgid "PyPy: http://doc.pypy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:221
+#: ../../sphinx/EXAMPLES:222
 msgid "python-sqlparse: https://sqlparse.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:222
+#: ../../sphinx/EXAMPLES:223
 msgid "PyVISA: https://pyvisa.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:223
+#: ../../sphinx/EXAMPLES:224
 msgid "Read The Docs: https://docs.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:224
+#: ../../sphinx/EXAMPLES:225
 msgid ""
 "Free your information from their silos (French): http://redaction-"
 "technique.org/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:226
+#: ../../sphinx/EXAMPLES:227
 msgid "Releases Sphinx extension: https://releases.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:227
+#: ../../sphinx/EXAMPLES:228
 msgid "Qtile: http://docs.qtile.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:228
+#: ../../sphinx/EXAMPLES:229
 msgid "Quex: http://quex.sourceforge.net/doc/html/main.html"
 msgstr "Quex: http://quex.sourceforge.net/doc/html/main.html"
 
-#: ../../sphinx/EXAMPLES:229
+#: ../../sphinx/EXAMPLES:230
 msgid "Satchmo: http://docs.satchmoproject.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:230
+#: ../../sphinx/EXAMPLES:231
 msgid "Scapy: https://scapy.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:231
+#: ../../sphinx/EXAMPLES:232
 msgid "SimPy: http://simpy.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:232
+#: ../../sphinx/EXAMPLES:233
 msgid "SlamData: http://docs.slamdata.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:233
+#: ../../sphinx/EXAMPLES:234
 msgid "Solidity: https://solidity.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:234
+#: ../../sphinx/EXAMPLES:235
 msgid "Sonos Controller (SoCo): http://docs.python-soco.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:235
+#: ../../sphinx/EXAMPLES:236
 msgid "Sphinx AutoAPI: https://sphinx-autoapi.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:236
+#: ../../sphinx/EXAMPLES:237
 msgid "sphinx-argparse: https://sphinx-argparse.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:237
+#: ../../sphinx/EXAMPLES:238
 msgid "Sphinx-Gallery: https://sphinx-gallery.readthedocs.io/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:238
+#: ../../sphinx/EXAMPLES:239
 msgid "StarUML: http://docs.staruml.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:239
+#: ../../sphinx/EXAMPLES:240
 msgid "Sublime Text Unofficial Documentation: http://docs.sublimetext.info/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:240
+#: ../../sphinx/EXAMPLES:241
 msgid "SunPy: http://docs.sunpy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:241
+#: ../../sphinx/EXAMPLES:242
 msgid "Sylius: http://docs.sylius.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:242
+#: ../../sphinx/EXAMPLES:243
 msgid "Tango Controls: https://tango-controls.readthedocs.io/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:243
+#: ../../sphinx/EXAMPLES:244
 msgid "Topshelf: http://docs.topshelf-project.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:244
+#: ../../sphinx/EXAMPLES:245
 msgid "Theano: http://www.deeplearning.net/software/theano/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:245
+#: ../../sphinx/EXAMPLES:246
 msgid "ThreatConnect: https://docs.threatconnect.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:246
+#: ../../sphinx/EXAMPLES:247
 msgid "Tuleap: https://tuleap.net/doc/en/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:247
+#: ../../sphinx/EXAMPLES:248
 msgid "TYPO3: https://docs.typo3.org/ (customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:248
+#: ../../sphinx/EXAMPLES:249
 msgid "uWSGI: https://uwsgi-docs.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:249
+#: ../../sphinx/EXAMPLES:250
 msgid "Wagtail: http://docs.wagtail.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:250
+#: ../../sphinx/EXAMPLES:251
 msgid ""
 "Web Application Attack and Audit Framework (w3af): http://docs.w3af.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:251
+#: ../../sphinx/EXAMPLES:252
 msgid "Weblate: https://docs.weblate.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:252
+#: ../../sphinx/EXAMPLES:253
 msgid "x265: https://x265.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:253
+#: ../../sphinx/EXAMPLES:254
 msgid "ZeroNet: https://zeronet.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:256
+#: ../../sphinx/EXAMPLES:257
 msgid "Documentation using sphinx_bootstrap_theme"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:258
+#: ../../sphinx/EXAMPLES:259
 msgid "Bootstrap Theme: https://ryan-roemer.github.io/sphinx-bootstrap-theme/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:259
+#: ../../sphinx/EXAMPLES:260
 msgid "C/C++ Software Development with Eclipse: http://eclipsebook.in/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:260
+#: ../../sphinx/EXAMPLES:261
 msgid "Dataverse: http://guides.dataverse.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:261
+#: ../../sphinx/EXAMPLES:262
 msgid "e-cidadania: http://e-cidadania.readthedocs.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:262
+#: ../../sphinx/EXAMPLES:263
 msgid "Hangfire: http://docs.hangfire.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:263
+#: ../../sphinx/EXAMPLES:264
 msgid "Hedge: https://documen.tician.de/hedge/"
 msgstr "Hedge: https://documen.tician.de/hedge/"
 
-#: ../../sphinx/EXAMPLES:264
+#: ../../sphinx/EXAMPLES:265
 msgid "ObsPy: https://docs.obspy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:265
+#: ../../sphinx/EXAMPLES:266
 msgid "Open Dylan: https://opendylan.org/documentation/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:266
+#: ../../sphinx/EXAMPLES:267
 msgid "Pootle: http://docs.translatehouse.org/projects/pootle/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:267
+#: ../../sphinx/EXAMPLES:268
 msgid "PyUblas: https://documen.tician.de/pyublas/"
 msgstr "PyUblas: https://documen.tician.de/pyublas/"
 
-#: ../../sphinx/EXAMPLES:268
+#: ../../sphinx/EXAMPLES:269
 msgid "seaborn: https://seaborn.pydata.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:271
+#: ../../sphinx/EXAMPLES:272
 msgid "Documentation using a custom theme or integrated in a website"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:273
+#: ../../sphinx/EXAMPLES:274
 msgid "Apache Cassandra: https://cassandra.apache.org/doc/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:274
+#: ../../sphinx/EXAMPLES:275
 msgid "Astropy: http://docs.astropy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:275
+#: ../../sphinx/EXAMPLES:276
 msgid "Bokeh: https://bokeh.pydata.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:276
+#: ../../sphinx/EXAMPLES:277
 msgid "Boto 3: https://boto3.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:277
+#: ../../sphinx/EXAMPLES:278
 msgid "CakePHP: https://book.cakephp.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:278
+#: ../../sphinx/EXAMPLES:279
 msgid "CasperJS: http://docs.casperjs.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:279
+#: ../../sphinx/EXAMPLES:280
 msgid "Ceph: http://docs.ceph.com/docs/master/"
 msgstr "Ceph: http://docs.ceph.com/docs/master/"
 
-#: ../../sphinx/EXAMPLES:280
+#: ../../sphinx/EXAMPLES:281
 msgid "Chef: https://docs.chef.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:281
+#: ../../sphinx/EXAMPLES:282
 msgid "CKAN: http://docs.ckan.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:282
+#: ../../sphinx/EXAMPLES:283
 msgid "Confluent Platform: http://docs.confluent.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:283
+#: ../../sphinx/EXAMPLES:284
 msgid "Django: https://docs.djangoproject.com/"
 msgstr "Django: https://docs.djangoproject.com/"
 
-#: ../../sphinx/EXAMPLES:284
+#: ../../sphinx/EXAMPLES:285
 msgid "Doctrine: http://docs.doctrine-project.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:285
+#: ../../sphinx/EXAMPLES:286
 msgid ""
 "Enterprise Toolkit for Acrobat products: https://www.adobe.com/devnet-"
 "docs/acrobatetk/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:287
+#: ../../sphinx/EXAMPLES:288
 msgid "Gameduino: http://excamera.com/sphinx/gameduino/"
 msgstr "Gameduino: http://excamera.com/sphinx/gameduino/"
 
-#: ../../sphinx/EXAMPLES:288
+#: ../../sphinx/EXAMPLES:289
 msgid "gensim: https://radimrehurek.com/gensim/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:289
+#: ../../sphinx/EXAMPLES:290
 msgid "GeoServer: http://docs.geoserver.org/"
 msgstr "GeoServer: http://docs.geoserver.org/"
 
-#: ../../sphinx/EXAMPLES:290
+#: ../../sphinx/EXAMPLES:291
 msgid "gevent: http://www.gevent.org/"
 msgstr "gevent: http://www.gevent.org/"
 
-#: ../../sphinx/EXAMPLES:291
+#: ../../sphinx/EXAMPLES:292
 msgid ""
 "GHC - Glasgow Haskell Compiler: http://downloads.haskell.org/~ghc/master"
 "/users-guide/"
@@ -1090,196 +1094,196 @@ msgstr ""
 "GHC - Glasgow Haskell Compiler: http://downloads.haskell.org/~ghc/master"
 "/users-guide/"
 
-#: ../../sphinx/EXAMPLES:292
+#: ../../sphinx/EXAMPLES:293
 msgid "Guzzle: http://docs.guzzlephp.org/en/stable/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:293
+#: ../../sphinx/EXAMPLES:294
 msgid "H2O.ai: http://docs.h2o.ai/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:294
+#: ../../sphinx/EXAMPLES:295
 msgid ""
 "Istihza (Turkish Python documentation project): https://belgeler.yazbel.com"
 "/python-istihza/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:295
+#: ../../sphinx/EXAMPLES:296
 msgid "Kombu: http://docs.kombu.me/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:296
+#: ../../sphinx/EXAMPLES:297
 msgid "Lasso: http://lassoguide.com/"
 msgstr "Lasso: http://lassoguide.com/"
 
-#: ../../sphinx/EXAMPLES:297
+#: ../../sphinx/EXAMPLES:298
 msgid "Mako: http://docs.makotemplates.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:298
+#: ../../sphinx/EXAMPLES:299
 msgid "MirrorBrain: http://mirrorbrain.org/docs/"
 msgstr "MirrorBrain: http://mirrorbrain.org/docs/"
 
-#: ../../sphinx/EXAMPLES:299
+#: ../../sphinx/EXAMPLES:300
 msgid "MongoDB: https://docs.mongodb.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:300
+#: ../../sphinx/EXAMPLES:301
 msgid "Music21: http://web.mit.edu/music21/doc/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:301
+#: ../../sphinx/EXAMPLES:302
 msgid "MyHDL: http://docs.myhdl.org/en/latest/"
 msgstr "MyHDL: http://docs.myhdl.org/en/latest/"
 
-#: ../../sphinx/EXAMPLES:302
+#: ../../sphinx/EXAMPLES:303
 msgid "nose: https://nose.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:303
+#: ../../sphinx/EXAMPLES:304
 msgid "ns-3: https://www.nsnam.org/documentation/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:304
+#: ../../sphinx/EXAMPLES:305
 msgid "NumPy: https://docs.scipy.org/doc/numpy/reference/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:305
+#: ../../sphinx/EXAMPLES:306
 msgid "ObjectListView: http://objectlistview.sourceforge.net/python/"
 msgstr "ObjectListView: http://objectlistview.sourceforge.net/python/"
 
-#: ../../sphinx/EXAMPLES:306
+#: ../../sphinx/EXAMPLES:307
 msgid "OpenERP: https://doc.odoo.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:307
+#: ../../sphinx/EXAMPLES:308
 msgid "OpenCV: http://docs.opencv.org/"
 msgstr "OpenCV: http://docs.opencv.org/"
 
-#: ../../sphinx/EXAMPLES:308
+#: ../../sphinx/EXAMPLES:309
 msgid "OpenLayers: http://docs.openlayers.org/"
 msgstr ""
 "OpenLayers: http://docs.openlayers.org/OpenLayers: "
 "http://docs.openlayers.org/"
 
-#: ../../sphinx/EXAMPLES:309
+#: ../../sphinx/EXAMPLES:310
 msgid "OpenTURNS: http://openturns.github.io/openturns/master/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:310
+#: ../../sphinx/EXAMPLES:311
 msgid "Open vSwitch: http://docs.openvswitch.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:311
+#: ../../sphinx/EXAMPLES:312
 msgid "PlatformIO: http://docs.platformio.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:312
+#: ../../sphinx/EXAMPLES:313
 msgid "PyEphem: http://rhodesmill.org/pyephem/"
 msgstr "PyEphem: http://rhodesmill.org/pyephem/"
 
-#: ../../sphinx/EXAMPLES:313
+#: ../../sphinx/EXAMPLES:314
 msgid "Pygments: http://pygments.org/docs/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:314
+#: ../../sphinx/EXAMPLES:315
 msgid ""
 "Plone User Manual (German): https://www.hasecke.com/plone-"
 "benutzerhandbuch/4.0/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:315
+#: ../../sphinx/EXAMPLES:316
 msgid "PSI4: http://www.psicode.org/psi4manual/master/index.html"
 msgstr "PSI4: http://www.psicode.org/psi4manual/master/index.html"
 
-#: ../../sphinx/EXAMPLES:316
+#: ../../sphinx/EXAMPLES:317
 msgid "PyMOTW: https://pymotw.com/2/"
 msgstr "PyMOTW: https://pymotw.com/2/"
 
-#: ../../sphinx/EXAMPLES:317
+#: ../../sphinx/EXAMPLES:318
 msgid ""
 "python-aspectlib: https://python-aspectlib.readthedocs.io/ "
 "(`sphinx_py3doc_enhanced_theme "
 "<https://pypi.python.org/pypi/sphinx_py3doc_enhanced_theme>`__)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:319
+#: ../../sphinx/EXAMPLES:320
 msgid "QGIS: https://qgis.org/en/docs/index.html"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:320
+#: ../../sphinx/EXAMPLES:321
 msgid "qooxdoo: http://www.qooxdoo.org/current/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:321
+#: ../../sphinx/EXAMPLES:322
 msgid "Roundup: http://www.roundup-tracker.org/"
 msgstr "Roundup: http://www.roundup-tracker.org/"
 
-#: ../../sphinx/EXAMPLES:322
+#: ../../sphinx/EXAMPLES:323
 msgid "SaltStack: https://docs.saltstack.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:323
+#: ../../sphinx/EXAMPLES:324
 msgid "scikit-learn: http://scikit-learn.org/stable/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:324
+#: ../../sphinx/EXAMPLES:325
 msgid "SciPy: https://docs.scipy.org/doc/scipy/refrence/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:325
+#: ../../sphinx/EXAMPLES:326
 msgid "Scrapy: https://doc.scrapy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:326
+#: ../../sphinx/EXAMPLES:327
 msgid "Seaborn: https://seaborn.pydata.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:327
+#: ../../sphinx/EXAMPLES:328
 msgid "Selenium: http://docs.seleniumhq.org/docs/"
 msgstr "Selenium: http://docs.seleniumhq.org/docs/"
 
-#: ../../sphinx/EXAMPLES:328
+#: ../../sphinx/EXAMPLES:329
 msgid "Self: http://www.selflanguage.org/"
 msgstr "Self: http://www.selflanguage.org/"
 
-#: ../../sphinx/EXAMPLES:329
+#: ../../sphinx/EXAMPLES:330
 msgid "Substance D: https://docs.pylonsproject.org/projects/substanced/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:330
+#: ../../sphinx/EXAMPLES:331
 msgid "Sulu: http://docs.sulu.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:331
+#: ../../sphinx/EXAMPLES:332
 msgid "SQLAlchemy: https://docs.sqlalchemy.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:332
+#: ../../sphinx/EXAMPLES:333
 msgid "tinyTiM: http://tinytim.sourceforge.net/docs/2.0/"
 msgstr "tinyTiM: http://tinytim.sourceforge.net/docs/2.0/"
 
-#: ../../sphinx/EXAMPLES:333
+#: ../../sphinx/EXAMPLES:334
 msgid "Twisted: http://twistedmatrix.com/documents/current/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:334
+#: ../../sphinx/EXAMPLES:335
 msgid "Ubuntu Packaging Guide: http://packaging.ubuntu.com/html/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:335
+#: ../../sphinx/EXAMPLES:336
 msgid "WebFaction: https://docs.webfaction.com/"
 msgstr "WebFaction: https://docs.webfaction.com/"
 
-#: ../../sphinx/EXAMPLES:336
+#: ../../sphinx/EXAMPLES:337
 msgid "WTForms: https://wtforms.readthedocs.io/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:339
+#: ../../sphinx/EXAMPLES:340
 msgid "Homepages and other non-documentation sites"
 msgstr "ホームページや、ドキュメント以外のサイト"
 
-#: ../../sphinx/EXAMPLES:341
+#: ../../sphinx/EXAMPLES:342
 msgid ""
 "Arizona State University PHY494/PHY598/CHM598 Simulation approaches to Bio- "
 "and Nanophysics: "
@@ -1287,67 +1291,67 @@ msgid ""
 "(classic)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:344
+#: ../../sphinx/EXAMPLES:345
 msgid "Benoit Boissinot: https://bboissin.appspot.com/ (classic, customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:345
+#: ../../sphinx/EXAMPLES:346
 msgid ""
 "Computer Networks, Parallelization, and Simulation Laboratory (CNPSLab): "
 "https://lab.miletic.net/ (sphinx_rtd_theme)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:347
+#: ../../sphinx/EXAMPLES:348
 msgid ""
 "Deep Learning Tutorials: http://www.deeplearning.net/tutorial/ (sphinxdoc)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:348
+#: ../../sphinx/EXAMPLES:349
 msgid ""
 "Loyola University Chicago COMP 339-439 Distributed Systems course: "
 "http://books.cs.luc.edu/distributedsystems/ (sphinx_bootstrap_theme)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:350
+#: ../../sphinx/EXAMPLES:351
 msgid ""
 "Pylearn2: http://www.deeplearning.net/software/pylearn2/ (sphinxdoc, "
 "customized)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:351
+#: ../../sphinx/EXAMPLES:352
 msgid ""
 "SciPy Cookbook: https://scipy-cookbook.readthedocs.io/ (sphinx_rtd_theme)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:352
+#: ../../sphinx/EXAMPLES:353
 msgid ""
 "The Wine Cellar Book: https://www.thewinecellarbook.com/doc/en/ (sphinxdoc)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:353
+#: ../../sphinx/EXAMPLES:354
 msgid ""
 "Thomas Cokelaer's Python, Sphinx and reStructuredText tutorials: http"
 "://thomas-cokelaer.info/tutorials/ (standard)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:355
+#: ../../sphinx/EXAMPLES:356
 msgid ""
 "UC Berkeley ME233 Advanced Control Systems II course: https://berkeley-"
 "me233.github.io/ (sphinxdoc)"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:359
+#: ../../sphinx/EXAMPLES:360
 msgid "Books produced using Sphinx"
 msgstr "Sphinxを使って書かれた書籍"
 
-#: ../../sphinx/EXAMPLES:361
+#: ../../sphinx/EXAMPLES:362
 msgid ""
 "\"Die Wahrheit des Sehens. Der DEKALOG von Krzysztof Kieślowski\": "
 "https://literatur.hasecke.com/post/die-wahrheit-des-sehens-dekalog-"
 "kieslowski/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:363
+#: ../../sphinx/EXAMPLES:364
 msgid ""
 "\"Expert Python Programming\": https://www.packtpub.com/application-"
 "development/expert-python-programming"
@@ -1355,74 +1359,74 @@ msgstr ""
 "\"Expert Python Programming\": https://www.packtpub.com/application-"
 "development/expert-python-programming"
 
-#: ../../sphinx/EXAMPLES:365
+#: ../../sphinx/EXAMPLES:366
 msgid ""
 "\"Expert Python Programming\" (Japanese translation): "
 "https://www.amazon.co.jp/dp/4048686291/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:367
+#: ../../sphinx/EXAMPLES:368
 msgid "\"LassoGuide\": http://www.lassosoft.com/Lasso-Documentation"
 msgstr "\"LassoGuide\": http://www.lassosoft.com/Lasso-Documentation"
 
-#: ../../sphinx/EXAMPLES:368
+#: ../../sphinx/EXAMPLES:369
 msgid ""
 "\"Learning Sphinx\" (in Japanese): "
 "https://www.oreilly.co.jp/books/9784873116488/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:370
+#: ../../sphinx/EXAMPLES:371
 msgid ""
 "\"Mercurial: the definitive guide (Second edition)\": https://book"
 ".mercurial-scm.org/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:372
+#: ../../sphinx/EXAMPLES:373
 msgid "\"Pioneers and Prominent Men of Utah\": http://pioneers.rstebbing.com/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:373
+#: ../../sphinx/EXAMPLES:374
 msgid ""
 "\"Pomodoro Technique Illustrated\" (Japanese translation): "
 "https://www.amazon.co.jp/dp/4048689525/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:375
+#: ../../sphinx/EXAMPLES:376
 msgid ""
 "\"Python Professional Programming\" (in Japanese): "
 "http://www.amazon.co.jp/dp/4798032948/"
 msgstr "\"Pythonプロフェッショナルプログラミング\" (日本語): http://www.amazon.co.jp/dp/4798032948/"
 
-#: ../../sphinx/EXAMPLES:377
+#: ../../sphinx/EXAMPLES:378
 msgid ""
 "\"The ``repoze.bfg`` Web Application Framework\": https://www.amazon.com"
 "/repoze-bfg-Web-Application-Framework-Version/dp/0615345379"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:379
+#: ../../sphinx/EXAMPLES:380
 msgid ""
 "\"Simple and Steady Way of Learning for Software Engineering\" (in "
 "Japanese): https://www.amazon.co.jp/dp/477414259X/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:381
+#: ../../sphinx/EXAMPLES:382
 msgid ""
 "\"Software-Dokumentation mit Sphinx\": https://www.amazon.de/dp/1497448689/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:382
+#: ../../sphinx/EXAMPLES:383
 msgid "\"Theoretical Physics Reference\": http://www.theoretical-physics.net/"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:383
+#: ../../sphinx/EXAMPLES:384
 msgid "\"The Varnish Book\": https://info.varnish-software.com/the-varnish-book"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:387
+#: ../../sphinx/EXAMPLES:388
 msgid "Theses produced using Sphinx"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:389
+#: ../../sphinx/EXAMPLES:390
 msgid ""
 "\"A Web-Based System for Comparative Analysis of OpenStreetMap Data by the "
 "Use of CouchDB\": https://www.yumpu.com/et/document/view/11722645"
@@ -1432,12 +1436,12 @@ msgstr ""
 "https://www.yumpu.com/et/document/view/11722645/masterthesis-"
 "markusmayr-0542042"
 
-#: ../../sphinx/EXAMPLES:392
+#: ../../sphinx/EXAMPLES:393
 msgid ""
 "\"Content Conditioning and Distribution for Dynamic Virtual Worlds\": "
 "https://www.cs.princeton.edu/research/techreps/TR-941-12"
 msgstr ""
 
-#: ../../sphinx/EXAMPLES:394
+#: ../../sphinx/EXAMPLES:395
 msgid "\"The Sphinx Thesis Resource\": https://jterrace.github.io/sphinxtr/"
 msgstr ""
