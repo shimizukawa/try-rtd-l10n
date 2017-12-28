@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-19 06:20+0000\n"
+"POT-Creation-Date: 2017-12-28 06:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "First, it tries standard cross-reference targets that would be referenced
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:65
-msgid "Custom objects added to the standard domain by extensions (see :meth:`.add_object_type`) are also searched."
+msgid "Custom objects added to the standard domain by extensions (see :meth:`Sphinx.add_object_type`) are also searched."
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:68
