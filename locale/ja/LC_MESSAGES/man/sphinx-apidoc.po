@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-16 04:56+0000\n"
+"POT-Creation-Date: 2017-12-29 06:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arihiro TAKASE <artakase@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -171,9 +171,19 @@ msgid ""
 msgstr "生成したファイルに含めるプロジェクトのリリースを指定します ( :confval:`release` も参照)。"
 
 #: ../../sphinx/doc/man/sphinx-apidoc.rst:122
+msgid "Environment"
+msgstr "環境"
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:126
+msgid ""
+"A comma-separated list of option to append to generated ``automodule`` "
+"directives. Defaults to ``members,undoc-members,show-inheritance``."
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:130
 msgid "See also"
 msgstr "参考"
 
-#: ../../sphinx/doc/man/sphinx-apidoc.rst:124
+#: ../../sphinx/doc/man/sphinx-apidoc.rst:132
 msgid ":manpage:`sphinx-build(1)`, :manpage:`sphinx-autogen(1)`"
 msgstr ""
