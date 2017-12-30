@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-20 06:28+0000\n"
+"POT-Creation-Date: 2017-12-30 06:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
@@ -512,19 +512,23 @@ msgstr ""
 msgid ""
 "As the :ref:`deprecation-policy` describes, the first release of Sphinx that"
 " deprecates a feature (``A.B``) should raise a ``RemovedInSphinxXXWarning`` "
-"(where XX is the Sphinx version where the feature will be removed) when the "
-"deprecated feature is invoked. Assuming we have good test coverage, these "
-"warnings are converted to errors when running the test suite with warnings "
-"enabled: ``python -Wall tests/run.py``. Thus, when adding a "
-"``RemovedInSphinxXXWarning`` you need to eliminate or silence any warnings "
-"generated when running the tests."
+"(where ``XX`` is the Sphinx version where the feature will be removed) when "
+"the deprecated feature is invoked. Assuming we have good test coverage, "
+"these warnings are converted to errors when running the test suite with "
+"warnings enabled::"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:332
+#: ../../sphinx/CONTRIBUTING.rst:329
+msgid ""
+"Thus, when adding a ``RemovedInSphinxXXWarning`` you need to eliminate or "
+"silence any warnings generated when running the tests."
+msgstr ""
+
+#: ../../sphinx/CONTRIBUTING.rst:335
 msgid "Deprecation policy"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:334
+#: ../../sphinx/CONTRIBUTING.rst:337
 msgid ""
 "A feature release may deprecate certain features from previous releases. If "
 "a feature is deprecated in feature release 1.A, it will continue to work in "
@@ -534,51 +538,51 @@ msgid ""
 " over at least 2 feature releases."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:341
+#: ../../sphinx/CONTRIBUTING.rst:344
 msgid ""
 "So, for example, if we decided to start the deprecation of a function in "
 "Sphinx 1.4:"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:344
+#: ../../sphinx/CONTRIBUTING.rst:347
 msgid ""
 "Sphinx 1.4.x will contain a backwards-compatible replica of the function "
 "which will raise a ``RemovedInSphinx16Warning``."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:347
+#: ../../sphinx/CONTRIBUTING.rst:350
 msgid ""
 "Sphinx 1.5 (the version that follows 1.4) will still contain the backwards-"
 "compatible replica."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:350
+#: ../../sphinx/CONTRIBUTING.rst:353
 msgid "Sphinx 1.6 will remove the feature outright."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:352
+#: ../../sphinx/CONTRIBUTING.rst:355
 msgid ""
 "The warnings are displayed by default. You can turn off display of these "
 "warnings with:"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:355
+#: ../../sphinx/CONTRIBUTING.rst:358
 msgid "``PYTHONWARNINGS= make html`` (Linux/Mac)"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:356
+#: ../../sphinx/CONTRIBUTING.rst:359
 msgid "``export PYTHONWARNINGS=`` and do ``make html`` (Linux/Mac)"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:357
+#: ../../sphinx/CONTRIBUTING.rst:360
 msgid "``set PYTHONWARNINGS=`` and do ``make html`` (Windows)"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:360
+#: ../../sphinx/CONTRIBUTING.rst:363
 msgid "Unit Testing"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:362
+#: ../../sphinx/CONTRIBUTING.rst:365
 msgid ""
 "Sphinx has been tested with pytest runner. Sphinx developers write unit "
 "tests using pytest notation. Utility functions and pytest fixtures for "
@@ -587,24 +591,24 @@ msgid ""
 "``sphinx.testing`` will help your test implementation."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:368
+#: ../../sphinx/CONTRIBUTING.rst:371
 msgid ""
 "How to use pytest fixtures that are provided by ``sphinx.testing``? You can "
 "require ``'sphinx.testing.fixtures'`` in your test modules or "
 "``conftest.py`` files like this::"
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:374
+#: ../../sphinx/CONTRIBUTING.rst:377
 msgid ""
 "If you want to know more detailed usage, please refer to "
 "``tests/conftest.py`` and other ``test_*.py`` files under ``tests`` "
 "directory."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:379
+#: ../../sphinx/CONTRIBUTING.rst:382
 msgid "Prior to Sphinx - 1.5.2, Sphinx was running the test with nose."
 msgstr ""
 
-#: ../../sphinx/CONTRIBUTING.rst:381
+#: ../../sphinx/CONTRIBUTING.rst:384
 msgid "``sphinx.testing`` as a experimental."
 msgstr ""
