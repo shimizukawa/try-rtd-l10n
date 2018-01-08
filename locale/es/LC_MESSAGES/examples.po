@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-03 06:29+0000\n"
+"POT-Creation-Date: 2018-01-08 06:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -369,7 +369,7 @@ msgid "SymPy: http://docs.sympy.org/"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:96
-msgid "TurboGears: https://turbogears.readthedocs.org/ (customized)"
+msgid "TurboGears: https://turbogears.readthedocs.io/ (customized)"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:97
@@ -973,7 +973,7 @@ msgid "Dataverse: http://guides.dataverse.org/"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:262
-msgid "e-cidadania: http://e-cidadania.readthedocs.org/"
+msgid "e-cidadania: https://e-cidadania.readthedocs.io/"
 msgstr ""
 
 #: ../../sphinx/EXAMPLES:263

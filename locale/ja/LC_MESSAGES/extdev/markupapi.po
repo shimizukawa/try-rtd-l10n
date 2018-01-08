@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-03 06:29+0000\n"
+"POT-Creation-Date: 2018-01-08 06:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -201,16 +201,29 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/markupapi.rst:126
 msgid ""
+"``sphinx.util.docutils.switch_source_input()`` allows to change a target "
+"file during nested_parse.  It is useful to mixed contents.  For example, "
+"``sphinx. ext.autodoc`` uses it to parse docstrings::"
+msgstr ""
+
+#: ../../sphinx/doc/extdev/markupapi.rst:141
+msgid ""
+"Until Sphinx-1.6, ``sphinx.ext.autodoc.AutodocReporter`` is used for this "
+"purpose. For now, it is replaced by ``switch_source_input()``."
+msgstr ""
+
+#: ../../sphinx/doc/extdev/markupapi.rst:144
+msgid ""
 "If you don't need the wrapping node, you can use any concrete node type and "
 "return ``node.children`` from the Directive."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/markupapi.rst:132
+#: ../../sphinx/doc/extdev/markupapi.rst:150
 msgid ""
 "`Creating directives <http://docutils.sourceforge.net/docs/howto/rst-"
 "directives.html>`_"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/markupapi.rst:133
+#: ../../sphinx/doc/extdev/markupapi.rst:151
 msgid "HOWTO of the Docutils documentation"
 msgstr ""

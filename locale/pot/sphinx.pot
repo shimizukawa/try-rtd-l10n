@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 06:33+0000\n"
+"POT-Creation-Date: 2018-01-08 06:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,11 +49,11 @@ msgstr ""
 msgid "Join the <a href=\"http://groups.google.com/group/sphinx-users\">sphinx-users</a> mailing list on Google Groups:"
 msgstr ""
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:29
+#: ../../sphinx/doc/_templates/indexsidebar.html:31
 msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."
 msgstr ""
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:30
+#: ../../sphinx/doc/_templates/indexsidebar.html:32
 msgid "You can also open an issue at the\n"
 "  <a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
 msgstr ""
@@ -182,9 +182,9 @@ msgstr ""
 #: ../../sphinx/doc/_templates/index.html:75
 msgid "\n"
 "    You can also download PDF/EPUB versions of the Sphinx documentation:\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/pdf/stable/\">PDF version</a> generated from\n"
+"    a <a href=\"https://media.readthedocs.org/pdf/sphinx/stable/sphinx.pdf\">PDF version</a> generated from\n"
 "    the LaTeX Sphinx produces, and\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/epub/stable/\">EPUB version</a>.\n"
+"    a <a href=\"https://media.readthedocs.org/epub/sphinx/stable/sphinx.epub\">EPUB version</a>.\n"
 "   "
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 
 #: ../../sphinx/doc/_templates/index.html:108
 msgid "Need a place to host your Sphinx docs?\n"
-"    <a href=\"http://readthedocs.org\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
+"    <a href=\"https://readthedocs.org/\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
 "    already, and integrates well with projects' source control.  It also features a\n"
 "    powerful built-in search that exceeds the possibilities of Sphinx' JavaScript-based\n"
 "    offline search."

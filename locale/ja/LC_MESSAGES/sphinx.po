@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 06:33+0000\n"
+"POT-Creation-Date: 2018-01-08 06:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -65,11 +65,11 @@ msgstr ""
 "Googleグループの<a href=\"http://groups.google.com/group/sphinx-users\">sphinx-"
 "users</a> グループへの参加"
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:29
+#: ../../sphinx/doc/_templates/indexsidebar.html:31
 msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."
 msgstr "もしくは、FreeNodeの<tt>#sphinx-doc</tt>チャンネルへどうぞ。"
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:30
+#: ../../sphinx/doc/_templates/indexsidebar.html:32
 msgid ""
 "You can also open an issue at the\n"
 "  <a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
@@ -226,14 +226,11 @@ msgstr "リリース履歴"
 msgid ""
 "\n"
 "    You can also download PDF/EPUB versions of the Sphinx documentation:\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/pdf/stable/\">PDF version</a> generated from\n"
+"    a <a href=\"https://media.readthedocs.org/pdf/sphinx/stable/sphinx.pdf\">PDF version</a> generated from\n"
 "    the LaTeX Sphinx produces, and\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/epub/stable/\">EPUB version</a>.\n"
+"    a <a href=\"https://media.readthedocs.org/epub/sphinx/stable/sphinx.epub\">EPUB version</a>.\n"
 "   "
 msgstr ""
-"\n"
-"SphinxドキュメントのPDFやEPUB版をダウンロードすることもできます:\n"
-"<a href=\"http://readthedocs.org/projects/sphinx/downloads/pdf/stable/\">Sphinx が出力した LaTeX から生成したPDF版<a>、並びに<a href=\"http://readthedocs.org/projects/sphinx/downloads/epub/stable/\">EPUB版</a>"
 
 #: ../../sphinx/doc/_templates/index.html:83
 msgid "Examples"
@@ -291,13 +288,11 @@ msgstr "ホスティング"
 #: ../../sphinx/doc/_templates/index.html:108
 msgid ""
 "Need a place to host your Sphinx docs?\n"
-"    <a href=\"http://readthedocs.org\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
+"    <a href=\"https://readthedocs.org/\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
 "    already, and integrates well with projects' source control.  It also features a\n"
 "    powerful built-in search that exceeds the possibilities of Sphinx' JavaScript-based\n"
 "    offline search."
 msgstr ""
-"Sphinxドキュメントをホスティングして欲しい?\n"
-"<a href=\"http://readthedocs.org\">readthedocs.org</a> はたくさんのSphinxドキュメントをすでにホスティングしています。readthedocsは、ソースコード管理機能や、SphinxのJavaScriptによる検索より強力な検索も提供しています。"
 
 #: ../../sphinx/doc/_templates/index.html:114
 msgid "Contributor Guide"

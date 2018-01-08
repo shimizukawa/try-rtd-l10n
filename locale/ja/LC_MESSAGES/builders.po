@@ -165,18 +165,19 @@ msgid ""
 "in a \"minimal\" TeX distribution installation. For example, on Ubuntu, the "
 "following packages need to be installed for successful PDF builds:"
 msgstr ""
+"生成されるLaTeXファイルは、最低限のTeXディストリビューションと、そのほかにいくつかのLaTeXパッケージを使用しています。例えば、Ubuntuでは、PDFがビルドできるようにするため、以下のパッケージをインストールする必要があります。"
 
 #: ../../sphinx/doc/builders.rst:165
 msgid "texlive-latex-recommended"
-msgstr ""
+msgstr "texlive-latex-recommended"
 
 #: ../../sphinx/doc/builders.rst:166
 msgid "texlive-fonts-recommended"
-msgstr ""
+msgstr "texlive-fonts-recommended"
 
 #: ../../sphinx/doc/builders.rst:167
 msgid "texlive-latex-extra"
-msgstr ""
+msgstr "texlive-latex-extra"
 
 #: ../../sphinx/doc/builders.rst:168
 msgid "latexmk (for ``make latexpdf``)"

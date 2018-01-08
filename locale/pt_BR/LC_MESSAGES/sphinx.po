@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-07 06:33+0000\n"
+"POT-Creation-Date: 2018-01-08 06:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Peretto <peretto@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
@@ -66,11 +66,11 @@ msgstr ""
 "Junte-se a <a href=\"http://groups.google.com/group/sphinx-users\">Usuários "
 "Sphinx</a> lista de email do Google Groups:"
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:29
+#: ../../sphinx/doc/_templates/indexsidebar.html:31
 msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."
 msgstr "ou visite o canal <tt>#sphinx-doc</tt> em FreeNode."
 
-#: ../../sphinx/doc/_templates/indexsidebar.html:30
+#: ../../sphinx/doc/_templates/indexsidebar.html:32
 msgid ""
 "You can also open an issue at the\n"
 "  <a href=\"https://github.com/sphinx-doc/sphinx/issues\">tracker</a>."
@@ -244,14 +244,11 @@ msgstr "histório liberação"
 msgid ""
 "\n"
 "    You can also download PDF/EPUB versions of the Sphinx documentation:\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/pdf/stable/\">PDF version</a> generated from\n"
+"    a <a href=\"https://media.readthedocs.org/pdf/sphinx/stable/sphinx.pdf\">PDF version</a> generated from\n"
 "    the LaTeX Sphinx produces, and\n"
-"    a <a href=\"http://readthedocs.org/projects/sphinx/downloads/epub/stable/\">EPUB version</a>.\n"
+"    a <a href=\"https://media.readthedocs.org/epub/sphinx/stable/sphinx.epub\">EPUB version</a>.\n"
 "   "
 msgstr ""
-"\n"
-"    Também pode ser feito o Download de versões PDF/EPUB de documentação Sphinx:<a href=\"http://readthedocs.org/projects/sphinx/downloads/pdf/stable/\">PDF versão</a> gerada a partir do que é produzido com LaTeX Sphinx e <a href=\"http://readthedocs.org/projects/sphinx/downloads/epub/stable/\">EPUB Versão</a>.\n"
-"   "
 
 #: ../../sphinx/doc/_templates/index.html:83
 msgid "Examples"
@@ -314,16 +311,11 @@ msgstr "Hospedagem"
 #: ../../sphinx/doc/_templates/index.html:108
 msgid ""
 "Need a place to host your Sphinx docs?\n"
-"    <a href=\"http://readthedocs.org\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
+"    <a href=\"https://readthedocs.org/\">readthedocs.org</a> hosts a lot of Sphinx docs\n"
 "    already, and integrates well with projects' source control.  It also features a\n"
 "    powerful built-in search that exceeds the possibilities of Sphinx' JavaScript-based\n"
 "    offline search."
 msgstr ""
-"Precisa de um local para hospedar Documentos Sphinx?\n"
-"<a href=\"http://readthedocs.org\">readthedocs.org</a> hospeda diversos docs Sphinx\n"
-"e integra perfeitamente esses projetos com de controle de versão. Também possui\n"
-"funcionalidade poderosa, de busca ímplicita, que excede as possibilidades\n"
-"normais de busca off-line existentes no Sphinx JavaScript."
 
 #: ../../sphinx/doc/_templates/index.html:114
 msgid "Contributor Guide"

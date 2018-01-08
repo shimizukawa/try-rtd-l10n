@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-03 06:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +50,8 @@ msgid ""
 "StorageBackend class is moved to sphinxcontrib.websupport.storage from "
 "sphinx.websupport.storage."
 msgstr ""
+"StorageBackend クラスは sphinx.websupport.storage "
+"からsphinxcontrib.websupport.storage へ移動しました。"
 
 #: ../../sphinx/doc/web/storagebackends.rst:31
 msgid "StorageBackend Methods"
@@ -162,6 +164,8 @@ msgid ""
 "Raises :class:`~sphinxcontrib.websupport.errors.UserNotAuthorizedError` if "
 "moderator is False and `username` doesn't match the username on the comment."
 msgstr ""
+"Raises :class:`~sphinxcontrib.websupport.errors.UserNotAuthorizedError` "
+"モデレーターが失敗した場合、もしくは `username` がコメント上のusernameと一致しない場合に行います。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:7
@@ -186,6 +190,9 @@ msgid ""
 ":class:`~sphinxcontrib.websupport.WebSupport`'s "
 ":meth:`~sphinxcontrib.websupport.WebSupport.get_data` method."
 msgstr ""
+"ノード用にデータを回復させる場合の呼び出し。*source* と *comments* という二つのキーを持つ辞書を返します。\n"
+"これらのキーは以下によって説明されています。\n"
+":class:`~sphinxcontrib.websupport.WebSupport`'s :meth:`~sphinxcontrib.websupport.WebSupport.get_data` method."
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.get_data:6
