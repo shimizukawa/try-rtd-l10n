@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-03 06:29+0000\n"
+"POT-Creation-Date: 2018-01-13 06:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -317,86 +317,86 @@ msgid "The name of a :command:`make` variable."
 msgstr ""
 
 #: ../../sphinx/doc/markup/inline.rst:357
-msgid "A reference to a Unix manual page including the section, e.g. ``:manpage:`ls(1)```."
+msgid "A reference to a Unix manual page including the section, e.g. ``:manpage:`ls(1)```. Creates a hyperlink to an external site rendering the manpage if :confval:`manpages_url` is defined."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:362
+#: ../../sphinx/doc/markup/inline.rst:363
 msgid "Menu selections should be marked using the ``menuselection`` role.  This is used to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation, or any subsequence of such a sequence.  The names of individual selections should be separated by ``-->``."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:368
+#: ../../sphinx/doc/markup/inline.rst:369
 msgid "For example, to mark the selection \"Start > Programs\", use this markup::"
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:372
+#: ../../sphinx/doc/markup/inline.rst:373
 msgid "When including a selection that includes some trailing indicator, such as the ellipsis some operating systems use to indicate that the command opens a dialog, the indicator should be omitted from the selection name."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:376
+#: ../../sphinx/doc/markup/inline.rst:377
 msgid "``menuselection`` also supports ampersand accelerators just like :rst:role:`guilabel`."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:381
+#: ../../sphinx/doc/markup/inline.rst:382
 msgid "The name of a MIME type, or a component of a MIME type (the major or minor portion, taken alone)."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:386
+#: ../../sphinx/doc/markup/inline.rst:387
 msgid "The name of a Usenet newsgroup."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:390
+#: ../../sphinx/doc/markup/inline.rst:391
 msgid "The name of an executable program.  This may differ from the file name for the executable for some platforms.  In particular, the ``.exe`` (or other) extension should be omitted for Windows programs."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:396
+#: ../../sphinx/doc/markup/inline.rst:397
 msgid "A regular expression. Quotes should not be included."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:400
+#: ../../sphinx/doc/markup/inline.rst:401
 msgid "A piece of literal text, such as code.  Within the contents, you can use curly braces to indicate a \"variable\" part, as in :rst:role:`file`.  For example, in ``:samp:`print 1+{variable}```, the part ``variable`` would be emphasized."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:405
+#: ../../sphinx/doc/markup/inline.rst:406
 msgid "If you don't need the \"variable part\" indication, use the standard ````code```` instead."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:408
+#: ../../sphinx/doc/markup/inline.rst:409
 msgid "There is also an :rst:role:`index` role to generate index entries."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:410
+#: ../../sphinx/doc/markup/inline.rst:411
 msgid "The following roles generate external links:"
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:414
+#: ../../sphinx/doc/markup/inline.rst:415
 msgid "A reference to a Python Enhancement Proposal.  This generates appropriate index entries. The text \"PEP *number*\\ \" is generated; in the HTML output, this text is a hyperlink to an online copy of the specified PEP.  You can link to a specific section by saying ``:pep:`number#anchor```."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:421
+#: ../../sphinx/doc/markup/inline.rst:422
 msgid "A reference to an Internet Request for Comments.  This generates appropriate index entries. The text \"RFC *number*\\ \" is generated; in the HTML output, this text is a hyperlink to an online copy of the specified RFC.  You can link to a specific section by saying ``:rfc:`number#anchor```."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:427
+#: ../../sphinx/doc/markup/inline.rst:428
 msgid "Note that there are no special roles for including hyperlinks as you can use the standard reST markup for that purpose."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:434
+#: ../../sphinx/doc/markup/inline.rst:435
 msgid "Substitutions"
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:436
+#: ../../sphinx/doc/markup/inline.rst:437
 msgid "The documentation system provides three substitutions that are defined by default. They are set in the build configuration file."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:441
+#: ../../sphinx/doc/markup/inline.rst:442
 msgid "Replaced by the project release the documentation refers to.  This is meant to be the full version string including alpha/beta/release candidate tags, e.g. ``2.5.2b3``.  Set by :confval:`release`."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:447
+#: ../../sphinx/doc/markup/inline.rst:448
 msgid "Replaced by the project version the documentation refers to. This is meant to consist only of the major and minor version parts, e.g. ``2.5``, even for version 2.5.1.  Set by :confval:`version`."
 msgstr ""
 
-#: ../../sphinx/doc/markup/inline.rst:453
+#: ../../sphinx/doc/markup/inline.rst:454
 msgid "Replaced by either today's date (the date on which the document is read), or the date set in the build configuration file.  Normally has the format ``April 14, 2007``.  Set by :confval:`today_fmt` and :confval:`today`."
 msgstr ""
 
