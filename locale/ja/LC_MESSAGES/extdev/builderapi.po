@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-03 06:29+0000\n"
+"POT-Creation-Date: 2018-01-14 06:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Arihiro TAKASE <artakase@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -45,13 +45,20 @@ msgid "The builder's output format, or '' if no document output is produced."
 msgstr ""
 
 #: ../../sphinx/sphinx/builders/__init__.pydocstring of
+#: sphinx.builders.Builder.epilog:1
+msgid ""
+"The message emitted upon successful build completion. This can be a printf-"
+"style template string with the following keys: ``outdir``, ``project``"
+msgstr ""
+
+#: ../../sphinx/sphinx/builders/__init__.pydocstring of
 #: sphinx.builders.Builder.supported_image_types:1
 msgid ""
 "The list of MIME types of image formats supported by the builder. Image "
 "files are searched in the order in which they appear here."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/builderapi.rst:20
+#: ../../sphinx/doc/extdev/builderapi.rst:21
 msgid "These methods are predefined and will be called from the application:"
 msgstr "これらのメソッドは事前に定義されており、アプリケーションから呼び出されます。"
 
@@ -91,7 +98,7 @@ msgstr "メインのビルド用メソッドです。"
 msgid "First updates the environment, and then calls :meth:`write`."
 msgstr "最初に環境をアップデートしてから、 :meth:`write` を呼びます。"
 
-#: ../../sphinx/doc/extdev/builderapi.rst:28
+#: ../../sphinx/doc/extdev/builderapi.rst:29
 msgid "These methods can be overridden in concrete builder classes:"
 msgstr "これらのメソッドは派生されたビルダークラス側でオーバーライドできます:"
 
