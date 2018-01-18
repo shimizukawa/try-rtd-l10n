@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.7.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-16 06:41+0000\n"
+"POT-Creation-Date: 2018-01-18 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -49,11 +49,9 @@ msgstr "オプション"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:23
 msgid ""
-"Quiet mode that will skips interactive wizard to specify options. This "
-"option requires `-p`, `-a` and `-v` options."
+"Quiet mode that will skip interactive wizard to specify options. This option"
+" requires `-p`, `-a` and `-v` options."
 msgstr ""
-"Quietモードはオプションを定義する対話式ウィザードをスキップします。このオプションは  `-p`, `-a` および `-v` "
-"オプションを必要します。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:28
 msgid "Display usage summary or Sphinx version."
