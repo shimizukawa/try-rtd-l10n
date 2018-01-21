@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7.0+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-16 06:41+0000\n"
+"POT-Creation-Date: 2018-01-21 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: shirou - しろう <shirou.faw@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -882,7 +882,7 @@ msgstr "イベントハンドラからの戻り値が利用されるようにな
 
 #: ../../sphinx/doc/extdev/appapi.rst:617
 msgid ""
-"Emmited when Consistency checks phase.  You can check consistency of "
+"Emitted when Consistency checks phase.  You can check consistency of "
 "metadata for whole of documents."
 msgstr ""
 
@@ -986,23 +986,25 @@ msgstr "1.2より前のバージョンでは ``sphinx.__version__`` の文字列
 msgid "The Config object"
 msgstr "Config オブジェクト"
 
-#: ../../sphinx/doc/extdev/appapi.rst:693
+#: ../../sphinx/sphinx/config.pydocstring of sphinx.config.Config:1
+msgid "Configuration file abstraction."
+msgstr ""
+
+#: ../../sphinx/sphinx/config.pydocstring of sphinx.config.Config:3
 msgid ""
 "The config object makes the values of all config values available as "
 "attributes."
 msgstr "config オブジェクトはすべての設定値を属性として利用できるよう保持します。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:696
+#: ../../sphinx/sphinx/config.pydocstring of sphinx.config.Config:6
 msgid ""
-"It is available as the ``config`` attribute on the application and "
-"environment objects.  For example, to get the value of :confval:`language`, "
-"use either ``app.config.language`` or ``env.config.language``."
+"It is exposed via the :py:attr:`sphinx.application.Application.config` and "
+":py:attr:`sphinx.environment.Environment.config` attributes. For example, to"
+" get the value of :confval:`language`, use either ``app.config.language`` or"
+" ``env.config.language``."
 msgstr ""
-"これは、アプリケーションおよび環境オブジェクト内において、 ``config`` 属性としてアクセスできます。例えば、 "
-":confval:`language` の値を取得したい場合、``app.config.language`` または "
-"``env.config.language`` のように使用します。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:704
+#: ../../sphinx/doc/extdev/appapi.rst:697
 msgid "The template bridge"
 msgstr "テンプレートブリッジ"
 
@@ -1064,11 +1066,15 @@ msgstr ""
 "指定された **context** (Python辞書)を使用して、 **template** "
 "で指定された文字列形式のテンプレートのレンダリングを行います。ビルダーから呼ばれます。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:715
+#: ../../sphinx/doc/extdev/appapi.rst:708
 msgid "Exceptions"
 msgstr "例外"
 
-#: ../../sphinx/doc/extdev/appapi.rst:721
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:1
+msgid "Base class for Sphinx errors."
+msgstr ""
+
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:3
 msgid ""
 "This is the base class for \"nice\" exceptions.  When such an exception is "
 "raised, Sphinx will abort the build and present the exception category and "
@@ -1077,13 +1083,13 @@ msgstr ""
 "これは \"ナイスな\" "
 "例外を作成するための基底クラスです。この例外が発生すると、Sphinxはビルドを中止し、例外のカテゴリとメッセージをユーザーに表示します。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:725
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:7
 msgid ""
 "Extensions are encouraged to derive from this exception for their custom "
 "errors."
 msgstr "拡張プログラムでは、この例外を継承しカスタマイズすることが強く推奨されます。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:728
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:10
 msgid ""
 "Exceptions *not* derived from :exc:`SphinxError` are treated as unexpected "
 "and shown to the user with a part of the traceback (and the full traceback "
@@ -1092,7 +1098,7 @@ msgstr ""
 ":exc:`SphinxError` から *継承されない* "
 "例外は予期しない例外として扱われ、トレースバックの一部を表示(そして、全部を一時ファイルに保存)します。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:734
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:16
 msgid ""
 "Description of the exception \"category\", used in converting the exception "
 "to a string (\"category: message\").  Should be set accordingly in "
@@ -1101,21 +1107,19 @@ msgstr ""
 "例外の \"category\" の記述部分は、例外内容を文字列に変換する場合に利用されます(\"category: message\" という書式)。"
 " 例外のサブクラスに応じて適切に設定するべきです。"
 
-#: ../../sphinx/doc/extdev/appapi.rst:740
-msgid ""
-"Used for erroneous values or nonsensical combinations of configuration "
-"values."
-msgstr "コンフィグ値において、誤った値や、おかしな値の組み合わせが与えられた場合に利用されます。"
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.ConfigError:1
+msgid "Configuration error."
+msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:745
-msgid "Used for errors in setting up extensions."
-msgstr "拡張機能のセットアップ中に発生した例外に対して使用します。"
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.ExtensionError:1
+msgid "Extension error."
+msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:749
-msgid "Used for errors to do with themes."
-msgstr "テーマの処理中に生じた例外に対して使用します。"
+#: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.ThemeError:1
+msgid "Theme error."
+msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:753
-msgid ""
-"Raised when the docs require a higher Sphinx version than the current one."
-msgstr "ドキュメントが現在よりも高いSphinxのバージョンを要求した場合に発生します。"
+#: ../../sphinx/sphinx/errors.pydocstring of
+#: sphinx.errors.VersionRequirementError:1
+msgid "Incompatible Sphinx version error."
+msgstr ""

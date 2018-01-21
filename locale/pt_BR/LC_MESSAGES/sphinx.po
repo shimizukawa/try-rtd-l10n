@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7.0+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-19 06:41+0000\n"
+"POT-Creation-Date: 2018-01-21 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Peretto <peretto@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
@@ -237,12 +237,9 @@ msgstr ""
 #: ../../sphinx/doc/_templates/index.html:100
 msgid ""
 "A Japanese book about Sphinx has been published by O'Reilly:\n"
-"    <a href=\"http://www.oreilly.co.jp/books/9784873116488/\">Sphinxをはじめよう /\n"
+"    <a href=\"https://www.oreilly.co.jp/books/9784873116488/\">Sphinxをはじめよう /\n"
 "      Learning Sphinx</a>."
 msgstr ""
-"Um livro em Japonês, sobre Sphinx foi publicado por O'Reilly:\n"
-"<a href=\"http://www.oreilly.co.jp/books/9784873116488/\">Sphinxをはじめよう /\n"
-"Aprendendo Sphinx</a>."
 
 #: ../../sphinx/doc/_templates/index.html:106
 msgid "Hosting"
@@ -319,11 +316,9 @@ msgstr "Questões? Sugestões?"
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:22
 msgid ""
-"Join the <a href=\"http://groups.google.com/group/sphinx-users\">sphinx-"
+"Join the <a href=\"https://groups.google.com/group/sphinx-users\">sphinx-"
 "users</a> mailing list on Google Groups:"
 msgstr ""
-"Junte-se a <a href=\"http://groups.google.com/group/sphinx-users\">Usuários "
-"Sphinx</a> lista de email do Google Groups:"
 
 #: ../../sphinx/doc/_templates/indexsidebar.html:31
 msgid "or come to the <tt>#sphinx-doc</tt> channel on FreeNode."

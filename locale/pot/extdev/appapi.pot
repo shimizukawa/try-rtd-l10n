@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7.0+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-16 06:41+0000\n"
+"POT-Creation-Date: 2018-01-21 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -481,7 +481,7 @@ msgid "The handlers' return value is now used."
 msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:617
-msgid "Emmited when Consistency checks phase.  You can check consistency of metadata for whole of documents."
+msgid "Emitted when Consistency checks phase.  You can check consistency of metadata for whole of documents."
 msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:622
@@ -540,15 +540,19 @@ msgstr ""
 msgid "The Config object"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:693
+#: ../../sphinx/sphinx/config.py:docstring of sphinx.config.Config:1
+msgid "Configuration file abstraction."
+msgstr ""
+
+#: ../../sphinx/sphinx/config.py:docstring of sphinx.config.Config:3
 msgid "The config object makes the values of all config values available as attributes."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:696
-msgid "It is available as the ``config`` attribute on the application and environment objects.  For example, to get the value of :confval:`language`, use either ``app.config.language`` or ``env.config.language``."
+#: ../../sphinx/sphinx/config.py:docstring of sphinx.config.Config:6
+msgid "It is exposed via the :py:attr:`sphinx.application.Application.config` and :py:attr:`sphinx.environment.Environment.config` attributes. For example, to get the value of :confval:`language`, use either ``app.config.language`` or ``env.config.language``."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:704
+#: ../../sphinx/doc/extdev/appapi.rst:697
 msgid "The template bridge"
 msgstr ""
 
@@ -580,39 +584,43 @@ msgstr ""
 msgid "Called by the builder to render a template given as a string with a specified context (a Python dictionary)."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:715
+#: ../../sphinx/doc/extdev/appapi.rst:708
 msgid "Exceptions"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:721
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.SphinxError:1
+msgid "Base class for Sphinx errors."
+msgstr ""
+
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.SphinxError:3
 msgid "This is the base class for \"nice\" exceptions.  When such an exception is raised, Sphinx will abort the build and present the exception category and message to the user."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:725
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.SphinxError:7
 msgid "Extensions are encouraged to derive from this exception for their custom errors."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:728
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.SphinxError:10
 msgid "Exceptions *not* derived from :exc:`SphinxError` are treated as unexpected and shown to the user with a part of the traceback (and the full traceback saved in a temporary file)."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:734
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.SphinxError:16
 msgid "Description of the exception \"category\", used in converting the exception to a string (\"category: message\").  Should be set accordingly in subclasses."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:740
-msgid "Used for erroneous values or nonsensical combinations of configuration values."
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.ConfigError:1
+msgid "Configuration error."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:745
-msgid "Used for errors in setting up extensions."
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.ExtensionError:1
+msgid "Extension error."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:749
-msgid "Used for errors to do with themes."
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.ThemeError:1
+msgid "Theme error."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/appapi.rst:753
-msgid "Raised when the docs require a higher Sphinx version than the current one."
+#: ../../sphinx/sphinx/errors.py:docstring of sphinx.errors.VersionRequirementError:1
+msgid "Incompatible Sphinx version error."
 msgstr ""
 

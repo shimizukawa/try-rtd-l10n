@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7.0+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-16 06:41+0000\n"
+"POT-Creation-Date: 2018-01-21 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Gerard Flanagan has written a script to convert pure HTML to reST; it can
 msgstr ""
 
 #: ../../sphinx/doc/intro.rst:35
-msgid "For converting the old Python docs to Sphinx, a converter was written which can be found at `the Python SVN repository <http://svn.python.org/projects/doctools/converter>`_.  It contains generic code to convert Python-doc-style LaTeX markup to Sphinx reST."
+msgid "For converting the old Python docs to Sphinx, a converter was written which can be found at `the Python SVN repository <https://svn.python.org/projects/doctools/converter/>`_.  It contains generic code to convert Python-doc-style LaTeX markup to Sphinx reST."
 msgstr ""
 
 #: ../../sphinx/doc/intro.rst:40
@@ -57,7 +57,7 @@ msgid "Christophe de Vienne wrote a tool to convert from Open/LibreOffice docume
 msgstr ""
 
 #: ../../sphinx/doc/intro.rst:46
-msgid "To convert different markups, `Pandoc <http://pandoc.org/>`_ is a very helpful tool."
+msgid "To convert different markups, `Pandoc <https://pandoc.org/>`_ is a very helpful tool."
 msgstr ""
 
 #: ../../sphinx/doc/intro.rst:51
