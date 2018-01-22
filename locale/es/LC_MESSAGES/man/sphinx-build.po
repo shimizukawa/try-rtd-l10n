@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 06:42+0000\n"
+"POT-Creation-Date: 2018-01-22 06:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -273,14 +273,19 @@ msgstr ""
 msgid ""
 "Distribute the build over *N* processes in parallel, to make building on "
 "multiprocessor machines more effective.  Note that not all parts and not all"
-" builders of Sphinx can be parallelized."
+" builders of Sphinx can be parallelized.  If ``auto`` argument is given, "
+"Sphinx uses the number of CPUs as *N*."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:148
+#: ../../sphinx/doc/man/sphinx-build.rst:149
 msgid "This option should be considered *experimental*."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:153
+#: ../../sphinx/doc/man/sphinx-build.rst:152
+msgid "Support ``auto`` argument."
+msgstr ""
+
+#: ../../sphinx/doc/man/sphinx-build.rst:157
 msgid ""
 "Don't look for the :file:`conf.py` in the source directory, but use the "
 "given configuration directory instead.  Note that various other files and "
@@ -289,130 +294,130 @@ msgid ""
 "too."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:163
+#: ../../sphinx/doc/man/sphinx-build.rst:167
 msgid ""
 "Don't look for a configuration file; only take options via the ``-D`` "
 "option."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:169
+#: ../../sphinx/doc/man/sphinx-build.rst:173
 msgid ""
 "Override a configuration value set in the :file:`conf.py` file.  The value "
 "must be a number, string, list or dictionary value."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:172
+#: ../../sphinx/doc/man/sphinx-build.rst:176
 msgid ""
 "For lists, you can separate elements with a comma like this: ``-D "
 "html_theme_path=path1,path2``."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:175
+#: ../../sphinx/doc/man/sphinx-build.rst:179
 msgid ""
 "For dictionary values, supply the setting name and key like this: ``-D "
 "latex_elements.docclass=scrartcl``."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:178
+#: ../../sphinx/doc/man/sphinx-build.rst:182
 msgid "For boolean values, use ``0`` or ``1`` as the value."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:180
+#: ../../sphinx/doc/man/sphinx-build.rst:184
 msgid "The value can now be a dictionary value."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:183
+#: ../../sphinx/doc/man/sphinx-build.rst:187
 msgid "The value can now also be a list value."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:188
+#: ../../sphinx/doc/man/sphinx-build.rst:192
 msgid "Make the *name* assigned to *value* in the HTML templates."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:194
+#: ../../sphinx/doc/man/sphinx-build.rst:198
 msgid ""
 "Run in nit-picky mode.  Currently, this generates warnings for all missing "
 "references.  See the config value :confval:`nitpick_ignore` for a way to "
 "exclude some references as \"known missing\"."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:200
+#: ../../sphinx/doc/man/sphinx-build.rst:204
 msgid "Do not emit colored output."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:204
+#: ../../sphinx/doc/man/sphinx-build.rst:208
 msgid ""
 "Increase verbosity (loglevel).  This option can be given up to three times "
 "to get more debug logging output.  It implies :option:`-T`."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:211
+#: ../../sphinx/doc/man/sphinx-build.rst:215
 msgid ""
 "Do not output anything on standard output, only write warnings and errors to"
 " standard error."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:216
+#: ../../sphinx/doc/man/sphinx-build.rst:220
 msgid ""
 "Do not output anything on standard output, also suppress warnings.  Only "
 "errors are written to standard error."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:221
+#: ../../sphinx/doc/man/sphinx-build.rst:225
 msgid ""
 "Write warnings (and errors) to the given file, in addition to standard "
 "error."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:225
+#: ../../sphinx/doc/man/sphinx-build.rst:229
 msgid ""
 "Turn warnings into errors.  This means that the build stops at the first "
 "warning and ``sphinx-build`` exits with exit status 1."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:230
+#: ../../sphinx/doc/man/sphinx-build.rst:234
 msgid ""
 "Display the full traceback when an unhandled exception occurs.  Otherwise, "
 "only a summary is displayed and the traceback information is saved to a file"
 " for further analysis."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:238
+#: ../../sphinx/doc/man/sphinx-build.rst:242
 msgid ""
 "(Useful for debugging only.)  Run the Python debugger, :mod:`pdb`, if an "
 "unhandled exception occurs while building."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:243
+#: ../../sphinx/doc/man/sphinx-build.rst:247
 msgid "Display usage summary or Sphinx version."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:247
+#: ../../sphinx/doc/man/sphinx-build.rst:251
 msgid ""
 "You can also give one or more filenames on the command line after the source"
 " and build directories. Sphinx will then try to build only these output "
 "files (and their dependencies)."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:252
+#: ../../sphinx/doc/man/sphinx-build.rst:256
 msgid "Environment Variables"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:254
+#: ../../sphinx/doc/man/sphinx-build.rst:258
 msgid "The :program:`sphinx-build` refers following environment variables:"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:258
+#: ../../sphinx/doc/man/sphinx-build.rst:262
 msgid ""
 "A path to make command.  A command name is also allowed. :program:`sphinx-"
 "build` uses it to invoke sub-build process on make-mode."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:264
+#: ../../sphinx/doc/man/sphinx-build.rst:268
 msgid "Makefile Options"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:265
+#: ../../sphinx/doc/man/sphinx-build.rst:269
 msgid ""
 "The :file:`Makefile` and :file:`make.bat` files created by :program:`sphinx-"
 "quickstart` usually run :program:`sphinx-build` only with the :option:`-b` "
@@ -420,61 +425,61 @@ msgid ""
 "customize behavior:"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:272
+#: ../../sphinx/doc/man/sphinx-build.rst:276
 msgid "The value for '\"papersize\"` key of :confval:`latex_elements`."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:276
+#: ../../sphinx/doc/man/sphinx-build.rst:280
 msgid "The command to use instead of ``sphinx-build``."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:280
+#: ../../sphinx/doc/man/sphinx-build.rst:284
 msgid ""
 "The build directory to use instead of the one chosen in :program:`sphinx-"
 "quickstart`."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:285
+#: ../../sphinx/doc/man/sphinx-build.rst:289
 msgid "Additional options for :program:`sphinx-build`."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:290
+#: ../../sphinx/doc/man/sphinx-build.rst:294
 msgid "Deprecation Warnings"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:292
+#: ../../sphinx/doc/man/sphinx-build.rst:296
 msgid ""
 "If any deprecation warning like ``RemovedInSphinxXXXWarning`` are displayed "
 "when building a user's document, some Sphinx extension is using deprecated "
 "features. In that case, please report it to author of the extension."
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:296
+#: ../../sphinx/doc/man/sphinx-build.rst:300
 msgid ""
 "To disable the deprecation warnings, please set ``PYTHONWARNINGS=`` "
 "environment variable to your environment. For example:"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:299
+#: ../../sphinx/doc/man/sphinx-build.rst:303
 msgid "``PYTHONWARNINGS= make html`` (Linux/Mac)"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:300
+#: ../../sphinx/doc/man/sphinx-build.rst:304
 msgid "``export PYTHONWARNINGS=`` and do ``make html`` (Linux/Mac)"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:301
+#: ../../sphinx/doc/man/sphinx-build.rst:305
 msgid "``set PYTHONWARNINGS=`` and do ``make html`` (Windows)"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:302
+#: ../../sphinx/doc/man/sphinx-build.rst:306
 msgid "modify your Makefile/make.bat and set the environment variable"
 msgstr ""
 
-#: ../../sphinx/doc/man/sphinx-build.rst:305
+#: ../../sphinx/doc/man/sphinx-build.rst:309
 msgid "See also"
 msgstr "Ver también"
 
-#: ../../sphinx/doc/man/sphinx-build.rst:307
+#: ../../sphinx/doc/man/sphinx-build.rst:311
 msgid ":manpage:`sphinx-quickstart(1)`"
 msgstr ""
