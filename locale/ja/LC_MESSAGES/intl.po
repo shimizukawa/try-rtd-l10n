@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+\n"
+"Project-Id-Version: Sphinx 1.6.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 06:42+0000\n"
+"POT-Creation-Date: 2018-01-28 02:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,8 +35,10 @@ msgstr ""
 #: ../../sphinx/doc/intl.rst:15
 msgid ""
 "Workflow visualization of translations in Sphinx.  (The stick-figure is "
-"taken from an `XKCD comic <https://xkcd.com/779/>`_.)"
+"taken from an `XKCD comic <http://xkcd.com/779/>`_.)"
 msgstr ""
+"Sphinxによる翻訳のビジュアルなワークフロー(棒人間の絵は `XKCD comic <http://xkcd.com/779/>`_ "
+"から借りました)"
 
 #: ../../sphinx/doc/intl.rst:22
 msgid "Sphinx internationalization details"
@@ -437,9 +439,12 @@ msgstr "脚注"
 #: ../../sphinx/doc/intl.rst:304
 msgid ""
 "See the `GNU gettext utilities "
-"<https://www.gnu.org/software/gettext/manual/gettext.html#Introduction>`_ "
-"for details on that software suite."
+"<http://www.gnu.org/software/gettext/manual/gettext.html#Introduction>`_ for"
+" details on that software suite."
 msgstr ""
+"このツール群の詳細については、 `GNU gettextユーティリティ "
+"<http://www.gnu.org/software/gettext/manual/gettext.html#Introduction>`_ "
+"を参照してください。"
 
 #: ../../sphinx/doc/intl.rst:307
 msgid "Because nobody expects the Spanish Inquisition!"

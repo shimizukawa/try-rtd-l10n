@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2007-2017, Georg Brandl and the Sphinx team
+# Copyright (C) 2007-2018, Georg Brandl and the Sphinx team
 # This file is distributed under the same license as the Sphinx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7+\n"
+"Project-Id-Version: Sphinx 1.6.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2018-01-28 02:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -641,11 +641,11 @@ msgstr "``PYTHONWARNINGS= make html`` (Linux/Mac)"
 
 #: ../../sphinx/doc/invocation.rst:435
 msgid "``export PYTHONWARNINGS=`` and do ``make html`` (Linux/Mac)"
-msgstr "``export PYTHONWARNINGS=`` として、 ``make html`` を実行する(Linux/Mac)"
+msgstr "``export PYTHONWARNINGS=`` をしてから、 ``make html`` を実行してください(Linux/Mac)"
 
 #: ../../sphinx/doc/invocation.rst:436
 msgid "``set PYTHONWARNINGS=`` and do ``make html`` (Windows)"
-msgstr "``set PYTHONWARNINGS=`` として ``make html``を実行する(Windows)"
+msgstr "``set PYTHONWARNINGS=`` をして ``make html``を実行してください (Windows)"
 
 #: ../../sphinx/doc/invocation.rst:437
 msgid "modify your Makefile/make.bat and set the environment variable"
@@ -708,25 +708,17 @@ msgid "With this option given, no files will be written at all."
 msgstr "このオプションが与えられた場合は、いかなるファイルにも記述がなされません"
 
 #: ../../sphinx/doc/invocation.rst:485
-msgid "Put documentation for each module on its own page."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:491
-msgid "Include \"_private\" modules."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:497
 msgid ""
 "This option selects the file name suffix of output files.  By default, this "
 "is ``rst``."
 msgstr "このオプションにより出力ファイルのファイル拡張子を選択します。デフォルトでは ``rst`` です。"
 
-#: ../../sphinx/doc/invocation.rst:502
+#: ../../sphinx/doc/invocation.rst:490
 msgid ""
 "This sets the maximum depth of the table of contents, if one is generated."
 msgstr "目次を生成する最大の深さを設定します。"
 
-#: ../../sphinx/doc/invocation.rst:506
+#: ../../sphinx/doc/invocation.rst:494
 msgid ""
 "This option makes sphinx-apidoc follow symbolic links when recursing the "
 "filesystem to discover packages and modules. You may need it if you want to "
@@ -740,7 +732,7 @@ msgstr ""
 "<https://pypi.python.org/pypi/collective.recipe.omelette/>`_ "
 "を使ったソースディレクトリからドキュメントを生成する場合に必要になります。デフォルトではシンボリックリンクは無視されます。"
 
-#: ../../sphinx/doc/invocation.rst:517
+#: ../../sphinx/doc/invocation.rst:505
 msgid ""
 "This prevents the generation of a table-of-contents file ``modules.rst``. "
 "This has no effect when :option:`--full` is given."
@@ -748,13 +740,7 @@ msgstr ""
 "このオプションをつけるとTOCファイルの ``modules.rst`` を生成しません。ただし、 :option:`--full` "
 "オプションが渡された場合には無効となり生成されます。"
 
-#: ../../sphinx/doc/invocation.rst:522
-msgid ""
-"Don't create headings for the module/package packages (e.g. when the "
-"docstrings already contain them)."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:529
+#: ../../sphinx/doc/invocation.rst:510
 msgid ""
 "This option makes sphinx-apidoc create a full Sphinx project, using the same"
 " mechanism as :program:`sphinx-quickstart`.  Most configuration values are "
@@ -764,7 +750,7 @@ msgstr ""
 "このオプションをつけると sphinx-apidoc は :program:`sphinx-quickstart` "
 "と同じように完全なSphinxプロジェクトを生成します。ほとんどの設定値はデフォルトに設定されますが、以下のオプションを使って最も重要な値を自分で設定出来ます。"
 
-#: ../../sphinx/doc/invocation.rst:536
+#: ../../sphinx/doc/invocation.rst:517
 msgid ""
 "By default sphinx-apidoc processes sys.path searching for modules only. "
 "Python 3.3 introduced :pep:`420` implicit namespaces that allow module path "
@@ -772,38 +758,38 @@ msgid ""
 "(notice that ``bar`` and ``foo`` are namespaces, not modules)."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:541
+#: ../../sphinx/doc/invocation.rst:522
 msgid ""
 "Specifying this option interprets paths recursively according to PEP-0420."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:545
+#: ../../sphinx/doc/invocation.rst:526
 msgid ""
 "This option makes sphinx-apidoc put module documentation before submodule "
 "documentation."
 msgstr "このオプションはサブモジュールドキュメンテーションの前にsphinx-apidocがモジュールドキュメンテーションを行うようにします。"
 
-#: ../../sphinx/doc/invocation.rst:550
+#: ../../sphinx/doc/invocation.rst:531
 msgid "Append module_path to sys.path."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:554
+#: ../../sphinx/doc/invocation.rst:535
 msgid ""
 "Sets the project name to put in generated files (see :confval:`project`)."
 msgstr "生成したファイルに含めるプロジェクト名を指定します ( :confval:`project` も参照)。"
 
-#: ../../sphinx/doc/invocation.rst:558
+#: ../../sphinx/doc/invocation.rst:539
 msgid ""
 "Sets the author name(s) to put in generated files (see "
 ":confval:`copyright`)."
 msgstr "生成したファイルに含める著者名を指定します ( :confval:`copyright` も参照)。"
 
-#: ../../sphinx/doc/invocation.rst:562
+#: ../../sphinx/doc/invocation.rst:543
 msgid ""
 "Sets the project version to put in generated files (see :confval:`version`)."
 msgstr "生成したファイルに含めるプロジェクトのバージョンを指定します ( :confval:`version` も参照)。"
 
-#: ../../sphinx/doc/invocation.rst:566
+#: ../../sphinx/doc/invocation.rst:547
 msgid ""
 "Sets the project release to put in generated files (see :confval:`release`)."
 msgstr "生成したファイルに含めるプロジェクトのリリースを指定します ( :confval:`release` も参照)。"

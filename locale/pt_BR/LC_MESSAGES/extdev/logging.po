@@ -6,11 +6,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+\n"
+"Project-Id-Version: Sphinx 1.6.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 06:42+0000\n"
+"POT-Creation-Date: 2018-01-28 02:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,112 +21,86 @@ msgstr ""
 msgid "Logging API"
 msgstr ""
 
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.getLogger:1
+#: ../../sphinx/doc/extdev/logging.rst:8
 msgid ""
-"Get logger wrapped by :class:`sphinx.util.logging.SphinxLoggerAdapter`."
+"Returns a logger wrapped by :class:`SphinxLoggerAdapter` with the specified "
+"*name*."
 msgstr ""
 
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.getLogger:3
-msgid ""
-"Sphinx logger always uses ``sphinx.*`` namesapce to be independent from "
-"settings of root logger.  It ensure logging is consistent even if a third-"
-"party extension or imported application resets logger settings."
-msgstr ""
-
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.getLogger:7
+#: ../../sphinx/doc/extdev/logging.rst:10
 msgid "Example usage::"
 msgstr ""
 
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.SphinxLoggerAdapter:1
-msgid "LoggerAdapter allowing ``type`` and ``subtype`` keywords."
-msgstr ""
-
-#: ../../sphinx/doc/extdev/logging.rst:16
+#: ../../sphinx/doc/extdev/logging.rst:23
 msgid ""
 "Logs a message on this logger with the specified level. Basically, the "
 "arguments are as with python's logging module."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:19
-#: ../../sphinx/doc/extdev/logging.rst:47
+#: ../../sphinx/doc/extdev/logging.rst:26
+#: ../../sphinx/doc/extdev/logging.rst:54
 msgid "In addition, Sphinx logger supports following keyword arguments:"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:23
+#: ../../sphinx/doc/extdev/logging.rst:30
 msgid "**type**, ***subtype***"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:22
+#: ../../sphinx/doc/extdev/logging.rst:29
 msgid ""
 "Categories of warning logs.  It is used to suppress warnings by "
 ":confval:`suppress_warnings` setting."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:33
+#: ../../sphinx/doc/extdev/logging.rst:40
 msgid "**location**"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:26
+#: ../../sphinx/doc/extdev/logging.rst:33
 msgid ""
 "Where the warning happened.  It is used to include the path and line number "
 "in each log.  It allows docname, tuple of docname and line number and "
 "nodes::"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:36
-#: ../../sphinx/doc/extdev/logging.rst:55
+#: ../../sphinx/doc/extdev/logging.rst:43
+#: ../../sphinx/doc/extdev/logging.rst:62
 msgid "**color**"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:36
+#: ../../sphinx/doc/extdev/logging.rst:43
 msgid ""
 "The color of logs.  By default, warning level logs are colored as "
 "``\"darkred\"``.  The others are not colored."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:44
+#: ../../sphinx/doc/extdev/logging.rst:51
 msgid ""
 "Logs a message to this logger with the specified level. Basically, the "
 "arguments are as with python's logging module."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:51
+#: ../../sphinx/doc/extdev/logging.rst:58
 msgid "**nonl**"
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:50
+#: ../../sphinx/doc/extdev/logging.rst:57
 msgid ""
 "If true, the logger does not fold lines at the end of the log message. The "
 "default is ``False``."
 msgstr ""
 
-#: ../../sphinx/doc/extdev/logging.rst:54
+#: ../../sphinx/doc/extdev/logging.rst:61
 msgid ""
 "The color of logs.  By default, debug level logs are colored as "
 "``\"darkgray\"``, and debug2 level ones are ``\"lightgray\"``. The others "
 "are not colored."
 msgstr ""
 
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.pending_logging:1
-msgid "Contextmanager to pend logging all logs temporary."
+#: ../../sphinx/doc/extdev/logging.rst:67
+msgid "Marks all logs as pending::"
 msgstr ""
 
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.pending_logging:3
-msgid "For example::"
-msgstr "Por exemplo::"
-
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.pending_warnings:1
-msgid "Contextmanager to pend logging warnings temporary."
-msgstr ""
-
-#: ../../sphinx/sphinx/util/logging.pydocstring of
-#: sphinx.util.logging.pending_warnings:3
-msgid "Similar to :func:`pending_logging`."
+#: ../../sphinx/doc/extdev/logging.rst:77
+msgid "Marks warning logs as pending.  Similar to :func:`pending_logging`."
 msgstr ""

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2007-2017, Georg Brandl and the Sphinx team
+# Copyright (C) 2007-2018, Georg Brandl and the Sphinx team
 # This file is distributed under the same license as the Sphinx package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.7+\n"
+"Project-Id-Version: Sphinx 1.6.7+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-05 03:20+0000\n"
+"POT-Creation-Date: 2018-01-28 02:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -538,66 +538,54 @@ msgid "With this option given, no files will be written at all."
 msgstr ""
 
 #: ../../sphinx/doc/invocation.rst:485
-msgid "Put documentation for each module on its own page."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:491
-msgid "Include \"_private\" modules."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:497
 msgid "This option selects the file name suffix of output files.  By default, this is ``rst``."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:502
+#: ../../sphinx/doc/invocation.rst:490
 msgid "This sets the maximum depth of the table of contents, if one is generated."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:506
+#: ../../sphinx/doc/invocation.rst:494
 msgid "This option makes sphinx-apidoc follow symbolic links when recursing the filesystem to discover packages and modules. You may need it if you want to generate documentation from a source directory managed by `collective.recipe.omelette <https://pypi.python.org/pypi/collective.recipe.omelette/>`_. By default, symbolic links are skipped."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:517
+#: ../../sphinx/doc/invocation.rst:505
 msgid "This prevents the generation of a table-of-contents file ``modules.rst``. This has no effect when :option:`--full` is given."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:522
-msgid "Don't create headings for the module/package packages (e.g. when the docstrings already contain them)."
-msgstr ""
-
-#: ../../sphinx/doc/invocation.rst:529
+#: ../../sphinx/doc/invocation.rst:510
 msgid "This option makes sphinx-apidoc create a full Sphinx project, using the same mechanism as :program:`sphinx-quickstart`.  Most configuration values are set to default values, but you can influence the most important ones using the following options."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:536
+#: ../../sphinx/doc/invocation.rst:517
 msgid "By default sphinx-apidoc processes sys.path searching for modules only. Python 3.3 introduced :pep:`420` implicit namespaces that allow module path structures such as ``foo/bar/module.py`` or ``foo/bar/baz/__init__.py`` (notice that ``bar`` and ``foo`` are namespaces, not modules)."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:541
+#: ../../sphinx/doc/invocation.rst:522
 msgid "Specifying this option interprets paths recursively according to PEP-0420."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:545
+#: ../../sphinx/doc/invocation.rst:526
 msgid "This option makes sphinx-apidoc put module documentation before submodule documentation."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:550
+#: ../../sphinx/doc/invocation.rst:531
 msgid "Append module_path to sys.path."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:554
+#: ../../sphinx/doc/invocation.rst:535
 msgid "Sets the project name to put in generated files (see :confval:`project`)."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:558
+#: ../../sphinx/doc/invocation.rst:539
 msgid "Sets the author name(s) to put in generated files (see :confval:`copyright`)."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:562
+#: ../../sphinx/doc/invocation.rst:543
 msgid "Sets the project version to put in generated files (see :confval:`version`)."
 msgstr ""
 
-#: ../../sphinx/doc/invocation.rst:566
+#: ../../sphinx/doc/invocation.rst:547
 msgid "Sets the project release to put in generated files (see :confval:`release`)."
 msgstr ""
 
