@@ -6,11 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.6.7+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:03+0000\n"
+"POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2016\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,8 +24,8 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:11
 msgid ""
-"This extension allows you to embed `Graphviz <http://graphviz.org/>`_ graphs"
-" in your documents."
+"This extension allows you to embed `Graphviz <https://graphviz.org/>`_ "
+"graphs in your documents."
 msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:14

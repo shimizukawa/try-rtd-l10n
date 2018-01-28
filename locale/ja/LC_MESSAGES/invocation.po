@@ -641,11 +641,11 @@ msgstr "``PYTHONWARNINGS= make html`` (Linux/Mac)"
 
 #: ../../sphinx/doc/invocation.rst:435
 msgid "``export PYTHONWARNINGS=`` and do ``make html`` (Linux/Mac)"
-msgstr "``export PYTHONWARNINGS=`` をしてから、 ``make html`` を実行してください(Linux/Mac)"
+msgstr "``export PYTHONWARNINGS=`` として、 ``make html`` を実行する(Linux/Mac)"
 
 #: ../../sphinx/doc/invocation.rst:436
 msgid "``set PYTHONWARNINGS=`` and do ``make html`` (Windows)"
-msgstr "``set PYTHONWARNINGS=`` をして ``make html``を実行してください (Windows)"
+msgstr "``set PYTHONWARNINGS=`` として ``make html``を実行する(Windows)"
 
 #: ../../sphinx/doc/invocation.rst:437
 msgid "modify your Makefile/make.bat and set the environment variable"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.6.7+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:03+0000\n"
+"POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,23 +352,27 @@ msgstr ""
 msgid "Sphinx's merged cells interact well with ``p{width}``, ``\\X{a}{b}``, ``Y{f}`` and tabulary's columns."
 msgstr ""
 
-#: ../../sphinx/doc/markup/misc.rst:327
-msgid "Math"
-msgstr ""
-
-#: ../../sphinx/doc/markup/misc.rst:329
-msgid "See :ref:`math-support`."
+#: ../../sphinx/doc/markup/misc.rst:328
+msgid ":rst:dir:`tabularcolumns` conflicts with ``:widths:`` option of table directives.  If both are specified, ``:widths:`` option will be ignored."
 msgstr ""
 
 #: ../../sphinx/doc/markup/misc.rst:332
-msgid "Footnotes"
+msgid "Math"
 msgstr ""
 
-#: ../../sphinx/doc/markup/misc.rst:333
-msgid "For most builders name and format are the same. At the moment only builders derived from the html builder distinguish between the builder format and the builder name."
+#: ../../sphinx/doc/markup/misc.rst:334
+msgid "See :ref:`math-support`."
 msgstr ""
 
 #: ../../sphinx/doc/markup/misc.rst:337
+msgid "Footnotes"
+msgstr ""
+
+#: ../../sphinx/doc/markup/misc.rst:338
+msgid "For most builders name and format are the same. At the moment only builders derived from the html builder distinguish between the builder format and the builder name."
+msgstr ""
+
+#: ../../sphinx/doc/markup/misc.rst:342
 msgid "Note that the current builder tag is not available in ``conf.py``, it is only available after the builder is initialized."
 msgstr ""
 

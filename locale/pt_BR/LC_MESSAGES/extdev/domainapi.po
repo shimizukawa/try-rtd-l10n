@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.6.7+\n"
+"Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:03+0000\n"
+"POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,11 @@ msgid ""
 " a dictionary whose 'version' key is equal to the domain class' "
 ":attr:`data_version` attribute.  Otherwise, `IOError` is raised and the "
 "pickled environment is discarded."
+msgstr ""
+
+#: ../../sphinx/sphinx/domains/__init__.pydocstring of
+#: sphinx.domains.Domain.add_object_type:1
+msgid "Add an object type."
 msgstr ""
 
 #: ../../sphinx/sphinx/domains/__init__.pydocstring of
@@ -194,15 +199,15 @@ msgstr ""
 #: sphinx.domains.Domain.resolve_xref:7
 msgid ""
 "If no resolution can be found, None can be returned; the xref node will then"
-" given to the 'missing-reference' event, and if that yields no resolution, "
-"replaced by *contnode*."
+" given to the :event:`missing-reference` event, and if that yields no "
+"resolution, replaced by *contnode*."
 msgstr ""
 
 #: ../../sphinx/sphinx/domains/__init__.pydocstring of
 #: sphinx.domains.Domain.resolve_xref:11
 msgid ""
 "The method can also raise :exc:`sphinx.environment.NoUri` to suppress the "
-"'missing-reference' event being emitted."
+":event:`missing-reference` event being emitted."
 msgstr ""
 
 #: ../../sphinx/sphinx/domains/__init__.pydocstring of
