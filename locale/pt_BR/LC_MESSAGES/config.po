@@ -29,6 +29,10 @@ msgid ""
 "configuration file\" and contains (almost) all configuration needed to "
 "customize Sphinx input and output behavior."
 msgstr ""
+"O :term:`configuration directory` deve conter um arquivo chamado "
+":file:`conf.py`. Esse arquivo  (contendo código Python) é chamado \"arquivo "
+"de configuração da montagem\" e (geralmente) contém toda configuração "
+"necessária para adaptar as entradas do  Sphinx e o comportamento da saída."
 
 #: ../../sphinx/doc/config.rst:16
 msgid ""
@@ -36,6 +40,9 @@ msgid ""
 "directory to adjust `Docutils`_ configuration if not otherwise overriden or "
 "set by Sphinx."
 msgstr ""
+"Arquivo opcional `docutils.conf`_ pode ser adicionado no diretório da "
+"configuração para ajustar configuração `Docutils`_ para sobrepor-se às "
+"configurações  do Sphinx."
 
 #: ../../sphinx/doc/config.rst:24
 msgid ""
@@ -130,6 +137,8 @@ msgid ""
 "Additional configurations, such as adding stylesheets, javascripts, "
 "builders, etc. can be made through the :doc:`/extdev/appapi`."
 msgstr ""
+"Configurações adicionais, como adição de folhas de estilo, javascript, "
+"montadores, etc. pode ser feita através de :doc:`/extdev/appapi`."
 
 #: ../../sphinx/doc/config.rst:67
 msgid "General configuration"
@@ -254,7 +263,7 @@ msgstr ""
 
 #: ../../sphinx/doc/config.rst:141
 msgid "``'library/xml'`` -- ignores the ``library/xml`` directory"
-msgstr ""
+msgstr "``'library/xml'`` -- ignora o diretório de ``library/xml``"
 
 #: ../../sphinx/doc/config.rst:142
 msgid ""
@@ -266,7 +275,7 @@ msgstr ""
 
 #: ../../sphinx/doc/config.rst:144
 msgid "``'**/.svn'`` -- ignores all ``.svn`` directories"
-msgstr ""
+msgstr "``'**/.svn'`` -- ignora todos diretórios  ``.svn`` "
 
 #: ../../sphinx/doc/config.rst:146
 msgid ""
@@ -527,28 +536,34 @@ msgid ""
 "role will like to <https://manpages.debian.org/man(1)>. The patterns "
 "available are:"
 msgstr ""
+"URL referência cruzada :rst:role:`manpage` de diretivas. Se definido para  "
+"``https://manpages.debian.org/{path}``, a regra :literal:`:manpage:`man(1)``"
+" irá formar <https://manpages.debian.org/man(1)>. Os padrões disponíveis "
+"são:"
 
 #: ../../sphinx/doc/config.rst:303
 msgid "``page`` - the manual page (``man``)"
-msgstr ""
+msgstr "``page`` - página manual (``man``)"
 
 #: ../../sphinx/doc/config.rst:304
 msgid "``section`` - the manual section (``1``)"
-msgstr ""
+msgstr "``section`` - a seção do manual (``1``)"
 
 #: ../../sphinx/doc/config.rst:305
 msgid "``path`` - the original manual page and section specified (``man(1)``)"
 msgstr ""
+"``path`` - a página original e a seção especificada do manual  (``man(1)``)"
 
 #: ../../sphinx/doc/config.rst:307
 msgid "This also supports manpages specified as ``man.1``."
-msgstr ""
+msgstr "Também suporta páginas especificadas como ``man.1``."
 
 #: ../../sphinx/doc/config.rst:309
 msgid ""
 "This currently affects only HTML writers but could be expanded in the "
 "future."
 msgstr ""
+"Atualmente afeta somente geração HTML mas pode ser expandido no futuro."
 
 #: ../../sphinx/doc/config.rst:316
 msgid ""
@@ -579,6 +594,9 @@ msgid ""
 "have a caption.  The :rst:role:`numref` role is enabled. Obeyed so far only "
 "by HTML and LaTeX builders. Default is ``False``."
 msgstr ""
+"Se verdadeiro, figuras, tabelas e bloco de códigos são automaticamente "
+"numerados, caso tenham legenda.  Se a regra :rst:role:`numref` estivar "
+"habilitada.  Abrange atualmente HTML e LaTeX. Padrão ``False``."
 
 #: ../../sphinx/doc/config.rst:339
 msgid ""
@@ -613,6 +631,8 @@ msgid ""
 "if set to ``0``, figures, tables and code-blocks are continuously numbered "
 "starting at ``1``."
 msgstr ""
+"se configurado para ``0``, figuras, tabelas e bloco de código são "
+"continuamente numerados iniciando em ``1``."
 
 #: ../../sphinx/doc/config.rst:360
 msgid ""
@@ -621,6 +641,10 @@ msgid ""
 "naturally applies only if section numbering has been activated via the "
 "``:numbered:`` option of the :rst:dir:`toctree` directive."
 msgstr ""
+"se ``1`` (padrão) números serão ``x.1``, ``x.2``, ... com ``x`` o número da "
+"seção (nível superior de seção); em ``x.`` se não houver secão). Isso "
+"naturalmente se aplica, somente se numeração foi ativada através da opção "
+"``:numbered:`` da diretiva :rst:dir:`toctree` ."
 
 #: ../../sphinx/doc/config.rst:364
 msgid ""
@@ -3077,7 +3101,7 @@ msgstr ""
 
 #: ../../sphinx/doc/config.rst:1815
 msgid "Defaults to ``''`` also with ``'lualatex'``."
-msgstr ""
+msgstr "Padrão para  ``''`` também com  ``'lualatex'``."
 
 #: ../../sphinx/doc/config.rst:1823
 msgid "``'fncychap'``"
@@ -3105,11 +3129,11 @@ msgstr "Conteúdo adicional preâmbulo, Padrão vazio. Ver :doc:`latex`."
 
 #: ../../sphinx/doc/config.rst:1829
 msgid "``'atendofbody'``"
-msgstr ""
+msgstr "``'atendofbody'``"
 
 #: ../../sphinx/doc/config.rst:1828
 msgid "Additional document content (right before the indices), default empty."
-msgstr ""
+msgstr "Conteúdo adicional do documento (antes dos índices), padrão vazio."
 
 #: ../../sphinx/doc/config.rst:1837
 msgid "``'figure_align'``"
@@ -3139,11 +3163,12 @@ msgstr "Conteúdo adicional rodapé (antes dos índices), padrão vazio."
 
 #: ../../sphinx/doc/config.rst:1842
 msgid "Use ``'atendofbody'`` key instead."
-msgstr ""
+msgstr "Usar chave ``'atendofbody'`` no lugar."
 
 #: ../../sphinx/doc/config.rst:1845
 msgid "Keys that don't need to be overridden unless in special cases are:"
 msgstr ""
+"Chaves que não precisam ser sobrepostas, menos nesses casos especiais:"
 
 #: ../../sphinx/doc/config.rst:1853
 msgid "``'extraclassoptions'``"
@@ -3155,6 +3180,9 @@ msgid ""
 " will allow chapters (for documents of the ``'manual'`` type) to start on "
 "any page."
 msgstr ""
+"Padrão termo vazio.  Exemplo: ``'extraclassoptions': 'openany'`` permite "
+"capítulos (para documentos do tipo ``'manual'`` ) iniciar em qualquer "
+"página."
 
 #: ../../sphinx/doc/config.rst:1853
 msgid "Added this documentation."
@@ -3172,12 +3200,19 @@ msgid ""
 "levels (of all sorts). Leaving it to the empty string means to obey the "
 "LaTeX default."
 msgstr ""
+"LaTeX permite por padrão pelo menos 6 níveis para listas subordinadas e "
+"ambientes de citação, com pelo menos 4 listas numeradas, 4 listas com "
+"marcadores. Configurações para essa chave por exemplo: para ``'10'`` (como "
+"termo) irá permitir até 10 níveis hierárquicos (de todos tipos). Deixando em"
+" branco significa obedecer padrões LaTeX."
 
 #: ../../sphinx/doc/config.rst:1864
 msgid ""
 "Using this key may prove incompatible with some LaTeX packages or special "
 "document classes which do their own list customization."
 msgstr ""
+"Usando essa chave pode ocasionar incompatibilidade com alguns pacotes LaTeX "
+"ou classes especiais que possuem suas configurações."
 
 #: ../../sphinx/doc/config.rst:1867
 msgid ""
@@ -3185,6 +3220,9 @@ msgid ""
 "executed inside the document preamble. Use then rather the dedicated "
 "commands of this LaTeX package."
 msgstr ""
+"Configurando chave irá silenciosamente *ignorado* se "
+"``\\usepackage{enumitem}`` for executado dentro de um preambulo de "
+"documento.  Usar comandos dedicados do pacote LaTeX."
 
 #: ../../sphinx/doc/config.rst:1878
 msgid "``'inputenc'``"
@@ -3195,6 +3233,9 @@ msgid ""
 "\"inputenc\" package inclusion, defaults to "
 "``'\\\\usepackage[utf8]{inputenc}'`` when using pdflatex. Otherwise empty."
 msgstr ""
+"\"inputenc\" inclusão de pacote, padrão para "
+"``'\\\\usepackage[utf8]{inputenc}'`` quando usando  pdflatex. Senão deixar "
+"vazio."
 
 #: ../../sphinx/doc/config.rst:1877
 msgid ""
@@ -3224,6 +3265,8 @@ msgid ""
 "Defaults to ``'\\\\usepackage{fontspec}'`` when :confval:`latex_engine` is "
 "``'xelatex'``."
 msgstr ""
+"Padrão para ``'\\\\usepackage{fontspec}'`` quando  :confval:`latex_engine` "
+"for ``'xelatex'``."
 
 #: ../../sphinx/doc/config.rst:1890
 msgid "``'lualatex'`` also uses ``fontspec`` per default."
@@ -3283,6 +3326,13 @@ msgid ""
 "integer multiple of the baseline. See the :ref:`hmargin "
 "<latexsphinxsetuphmargin>` documentation for more."
 msgstr ""
+"O local do arquivo LaTeX foi movido após `\\usepackage{sphinx}`` e "
+"``\\sphinxsetup{..}``, consequentemente também após inserção chave  "
+"``'fontpkg'``. Dessa maneira pode configurar opções do layout do papel de "
+"uma maneira especial para documentos Japoneses: o largura do texto será em "
+"múltiplos de  *zenkaku*  e a altura do texto será um inteiro múltiplo da "
+"linha base. Ver documentação  :ref:`hmargin <latexsphinxsetuphmargin>` para "
+"detalhes."
 
 #: ../../sphinx/doc/config.rst:1931
 msgid "``'hyperref'``"
@@ -3294,14 +3344,17 @@ msgid ""
 "``\\urlstyle{same}``. This is done after :file:`sphinx.sty` file is loaded "
 "and before executing the contents of ``'preamble'`` key."
 msgstr ""
+"inclusão pacote \"hyperref\" ; também carrega pacote \"hypcap\" e requisitos"
+" ``\\urlstyle{same}``. Isso é afeito após o arquivo :file:`sphinx.sty` ter "
+"sido carregado e antes de executar conteúdos da chave ``'preamble'``."
 
 #: ../../sphinx/doc/config.rst:1929
 msgid "Loading of packages \"hyperref\" and \"hypcap\" is mandatory."
-msgstr ""
+msgstr "Carga dos pacotes  \"hyperref\" e \"hypcap\"  é obrigatória."
 
 #: ../../sphinx/doc/config.rst:1931
 msgid "Previously this was done from inside :file:`sphinx.sty`."
-msgstr ""
+msgstr "Previamente era feito internamente do  :file:`sphinx.sty`."
 
 #: ../../sphinx/doc/config.rst:1936
 msgid "``'maketitle'``"
@@ -3313,6 +3366,9 @@ msgid ""
 "by the Sphinx ``manual`` and ``howto`` classes.) Override if you want to "
 "generate a differently-styled title page."
 msgstr ""
+"Chama \"maketitle\", padrão ``'\\\\maketitle'`` (foi redefinido nas classes "
+"Sphinx ``manual`` e ``howto``). Sobrepõe se desejar gerar título de página "
+"com estilo diferente."
 
 #: ../../sphinx/doc/config.rst:1940
 msgid "``'releasename'``"
@@ -3324,6 +3380,9 @@ msgid ""
 "``'Release'``. As for *title* and *author* used in the tuples of "
 ":confval:`latex_documents`, it is inserted as LaTeX markup."
 msgstr ""
+"valor que prefixa elemente ``'release'`` na página título, padrão "
+"``'Release'``. Como *title* e *author* usado em pares de "
+":confval:`latex_documents`, iserá inserido no código LaTeX."
 
 #: ../../sphinx/doc/config.rst:1952
 msgid "``'tableofcontents'``"
@@ -3482,6 +3541,8 @@ msgid ""
 "A boolean that decides whether section numbers are included in text output. "
 "Default is ``True``."
 msgstr ""
+"Booleano que decide quando os números de seção são incluídos na saída do "
+"texto. Padrão é  ``True``."
 
 #: ../../sphinx/doc/config.rst:2051
 msgid ""
@@ -3716,7 +3777,7 @@ msgstr ""
 
 #: ../../sphinx/doc/config.rst:2207
 msgid "Options for QtHelp output"
-msgstr ""
+msgstr "Opções para saída QtHelp"
 
 #: ../../sphinx/doc/config.rst:2209
 msgid ""

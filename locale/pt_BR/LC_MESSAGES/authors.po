@@ -85,7 +85,7 @@ msgstr "Alastair Houghton -- Construtor Ajuda Apple "
 
 #: ../../sphinx/AUTHORS:21
 msgid "Alexander Todorov -- inheritance_diagram tests and improvements"
-msgstr ""
+msgstr "Alexander Todorov -- inheritance_diagram testes e melhorias"
 
 #: ../../sphinx/AUTHORS:22
 msgid "Andi Albrecht -- agogo theme"
@@ -153,7 +153,7 @@ msgstr "Doug Hellmann -- melhorias no graphviz"
 
 #: ../../sphinx/AUTHORS:38
 msgid "Tim Hoffmann -- theme improvements"
-msgstr ""
+msgstr "Tim Hoffmann -- melhorias no tema"
 
 #: ../../sphinx/AUTHORS:39
 msgid "Timotheus Kampik - JS theme & search enhancements"
@@ -205,7 +205,7 @@ msgstr "Glenn Matthews -- python domain signature melhorias"
 
 #: ../../sphinx/AUTHORS:51
 msgid "Kurt McKee -- documentation updates"
-msgstr ""
+msgstr "Kurt McKee -- atualização da documentação"
 
 #: ../../sphinx/AUTHORS:52
 msgid "Roland Meister -- epub builder"
@@ -293,7 +293,7 @@ msgstr "Michael Wilson -- Intersphinx HTTP básico e suporte autent."
 
 #: ../../sphinx/AUTHORS:73
 msgid "Matthew Woodcraft -- text output improvements"
-msgstr ""
+msgstr "Matthew Woodcraft -- melhorias na saída de texto"
 
 #: ../../sphinx/AUTHORS:74
 msgid "Joel Wurtz -- cellspanning support in LaTeX"
