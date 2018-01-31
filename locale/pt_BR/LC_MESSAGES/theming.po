@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:36+0000\n"
+"POT-Creation-Date: 2018-01-31 06:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
@@ -729,3 +729,9 @@ msgstr ""
 #: ../../sphinx/doc/theming.rst:423
 msgid "**sphinx_rtd_theme** has become optional."
 msgstr "**sphinx_rtd_theme** tornou-se opcional."
+
+#: ../../sphinx/doc/theming.rst:427
+msgid ""
+"Besides this, there are a lot of third party themes.  You can find them on "
+"PyPI__, GitHub__, sphinx-themes.org__ and so on."
+msgstr ""
