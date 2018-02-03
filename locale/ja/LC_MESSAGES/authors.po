@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:36+0000\n"
+"POT-Creation-Date: 2018-02-03 06:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: 大川剛 <tu44okawa3@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
@@ -304,17 +304,21 @@ msgstr "Hong Xu -- imgmath拡張でのSVGサポートとたくさんのバグ修
 msgid "Stephen Finucane -- setup command improvements and documentation"
 msgstr ""
 
-#: ../../sphinx/AUTHORS:78
+#: ../../sphinx/AUTHORS:77
+msgid "Daniel Pizetta -- inheritance diagram improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:79
 msgid "Many thanks for all contributions!"
 msgstr "全ての協力者にとても感謝しています。"
 
-#: ../../sphinx/AUTHORS:80
+#: ../../sphinx/AUTHORS:81
 msgid ""
 "There are also a few modules or functions incorporated from other authors "
 "and projects:"
 msgstr "さらにいくつかのモジュールや関数について、他の作者のプロジェクトのコードを使わせてもらっています:"
 
-#: ../../sphinx/AUTHORS:83
+#: ../../sphinx/AUTHORS:84
 msgid ""
 "sphinx.util.jsdump uses the basestring encoding from simplejson, written by "
 "Bob Ippolito, released under the MIT license"
@@ -322,7 +326,7 @@ msgstr ""
 "sphinx.util.jsdumpは、simplejsonのbasestringエンコーディング実装を利用しています。作者はBob "
 "IppolitoでMITライセンスです。"
 
-#: ../../sphinx/AUTHORS:85
+#: ../../sphinx/AUTHORS:86
 msgid ""
 "sphinx.util.stemmer was written by Vivake Gupta, placed in the Public Domain"
 msgstr "sphinx.util.stemmerはVivake Guptaによって書かれました。ライセンスはPublic Domainです。"

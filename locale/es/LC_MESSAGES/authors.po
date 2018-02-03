@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:36+0000\n"
+"POT-Creation-Date: 2018-02-03 06:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Alvarez Alejandro <eliluminado00@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
@@ -310,11 +310,15 @@ msgid "Stephen Finucane -- setup command improvements and documentation"
 msgstr ""
 "Stephen Finucane -- mejoras en comandos de configuración y documentación"
 
-#: ../../sphinx/AUTHORS:78
+#: ../../sphinx/AUTHORS:77
+msgid "Daniel Pizetta -- inheritance diagram improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:79
 msgid "Many thanks for all contributions!"
 msgstr "¡Muchas gracias por todos los aportes!"
 
-#: ../../sphinx/AUTHORS:80
+#: ../../sphinx/AUTHORS:81
 msgid ""
 "There are also a few modules or functions incorporated from other authors "
 "and projects:"
@@ -322,7 +326,7 @@ msgstr ""
 "También hay unos pocos módulos o funciones incorporadas de otros autores y "
 "proyectos:"
 
-#: ../../sphinx/AUTHORS:83
+#: ../../sphinx/AUTHORS:84
 msgid ""
 "sphinx.util.jsdump uses the basestring encoding from simplejson, written by "
 "Bob Ippolito, released under the MIT license"
@@ -330,7 +334,7 @@ msgstr ""
 "sphinx.util.jsdump utiliza la cadena de codificación de simplejson, escrito "
 "por Bob Ippolito, publicado bajo la licencia MIT"
 
-#: ../../sphinx/AUTHORS:85
+#: ../../sphinx/AUTHORS:86
 msgid ""
 "sphinx.util.stemmer was written by Vivake Gupta, placed in the Public Domain"
 msgstr ""

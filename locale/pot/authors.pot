@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx 1.8.0+\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 02:36+0000\n"
+"POT-Creation-Date: 2018-02-03 06:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,19 +300,23 @@ msgstr ""
 msgid "Stephen Finucane -- setup command improvements and documentation"
 msgstr ""
 
-#: ../../sphinx/AUTHORS:78
+#: ../../sphinx/AUTHORS:77
+msgid "Daniel Pizetta -- inheritance diagram improvements"
+msgstr ""
+
+#: ../../sphinx/AUTHORS:79
 msgid "Many thanks for all contributions!"
 msgstr ""
 
-#: ../../sphinx/AUTHORS:80
+#: ../../sphinx/AUTHORS:81
 msgid "There are also a few modules or functions incorporated from other authors and projects:"
 msgstr ""
 
-#: ../../sphinx/AUTHORS:83
+#: ../../sphinx/AUTHORS:84
 msgid "sphinx.util.jsdump uses the basestring encoding from simplejson, written by Bob Ippolito, released under the MIT license"
 msgstr ""
 
-#: ../../sphinx/AUTHORS:85
+#: ../../sphinx/AUTHORS:86
 msgid "sphinx.util.stemmer was written by Vivake Gupta, placed in the Public Domain"
 msgstr ""
 
