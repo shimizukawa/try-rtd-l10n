@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Arihiro TAKASE <artakase@gmail.com>, 2017\n"
+"Last-Translator: cocoatomo, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,6 +126,7 @@ msgid ""
 "Custom objects added to the standard domain by extensions (see "
 ":meth:`Sphinx.add_object_type`) are also searched."
 msgstr ""
+"拡張によって標準ドメインに追加されたカスタムオブジェクト(:meth:`Sphinx.add_object_type` を参照)も検索されます。"
 
 #: ../../sphinx/doc/markup/inline.rst:68
 msgid ""
@@ -250,12 +251,14 @@ msgid ""
 "but you must give the link an explicit title, using this syntax: "
 "``:ref:`Link title <label-name>```."
 msgstr ""
+"セクションタイトルの前にないラベルに対しても参照することはできますが、タイトルを明示する必要があります。この場合には ``:ref:`リンクラベル "
+"<ラベル名>``` という文法を使用します。"
 
 #: ../../sphinx/doc/markup/inline.rst:154
 msgid ""
 "Reference labels must start with an underscore. When referencing a label, "
 "the underscore must be omitted (see examples above)."
-msgstr ""
+msgstr "参照ラベルはアンダースコアで始まる必要があります。ラベルを参照するときには、先頭のアンダースコアは取り除く必要があります(上の例を参照)。"
 
 #: ../../sphinx/doc/markup/inline.rst:157
 msgid ""
