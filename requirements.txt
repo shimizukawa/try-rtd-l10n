@@ -1,2 +1,2 @@
 -e ./sphinx
-sphinx-intl[transifex]
+sphinx-intl[transifex]>=0.9.11

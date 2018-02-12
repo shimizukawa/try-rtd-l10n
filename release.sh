@@ -2,7 +2,7 @@
 
 set -ex
 
-RELEASE=1_7
+RELEASE=1_8
 
 # setup environment
 SPHINXINTL_TRANSIFEX_USERNAME=sphinxjp
