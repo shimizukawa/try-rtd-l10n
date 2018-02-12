@@ -140,6 +140,9 @@ msgid ""
 "equation number to be issued.  See :rst:role:`eq` for an example.  The "
 "numbering style depends on the output format."
 msgstr ""
+"通常、数式には番号が付きません。数式に番号をつけたい場合は、 ``label`` "
+"オプションを使用してください。これが指定されると、数式のラベルを選択できます。この数式のラベルを使ってクロスリファレンスを作成することができます。例は "
+":rst:role:`eq` を参照してください。ナンバリングの形式は出力フォーマットに依存します。"
 
 #: ../../sphinx/doc/ext/math.rst:100
 msgid ""
@@ -153,7 +156,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/math.rst:114
 msgid "Role for cross-referencing equations via their label.  Example::"
-msgstr ""
+msgstr "数式のラベルに対する、クロスリファレンスを行うためのロールです。例::"
 
 #: ../../sphinx/doc/ext/math.rst:124
 msgid ":mod:`sphinx.ext.imgmath` -- Render math as images"
@@ -361,7 +364,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/math.rst:261
 msgid "You can also give a full ``https://`` URL different from the CDN URL."
-msgstr ""
+msgstr "また、CDN URLではなく別の ``https://`` 等で始まるURLを指定してもいいでしょう。"
 
 #: ../../sphinx/doc/ext/math.rst:265
 msgid ":mod:`sphinx.ext.jsmath` -- Render math via JavaScript"
