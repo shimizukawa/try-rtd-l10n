@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-12 13:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:2
 msgid "Projects using Sphinx"
-msgstr "Sphinxを使用しているプロジェクト"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:4
 msgid ""
@@ -29,21 +28,16 @@ msgid ""
 "included, please mail to `the Google group "
 "<https://groups.google.com/forum/#!forum/sphinx-users>`_."
 msgstr ""
-"このアルファベット順のリスト(未完成)は、プロジェクトのドキュメントの作成にSphinxを使用していたり、使用しようとしているプロジェクトの一覧です。もしもこのリストに追加して欲しい場合には、"
-" `SphinxのGoogleグループ <https://groups.google.com/forum/#!forum/sphinx-users>`_"
-" にメールしてください。"
 
 #: ../../sphinx/EXAMPLES:9
 msgid ""
 "I've grouped the list into sections to make it easier to find interesting "
 "examples."
 msgstr ""
-"興味をもったサンプルを探しやすいように、いくつかのセクションに分けてリストしています。 日本のページは、 `Sphinx-Users.jp <http"
-"://sphinx-users.jp/example.html>`_ でまとめています。"
 
 #: ../../sphinx/EXAMPLES:13
 msgid "Documentation using the alabaster theme"
-msgstr "alabasterテーマを使用しているドキュメント"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:15
 msgid "Alabaster: https://alabaster.readthedocs.io/"
@@ -67,7 +61,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:20
 msgid "CodePy: https://documen.tician.de/codepy/"
-msgstr "CodePy: https://documen.tician.de/codepy/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:21
 msgid "Fabric: http://docs.fabfile.org/"
@@ -75,11 +69,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:22
 msgid "Fityk: http://fityk.nieto.pl/"
-msgstr "Fityk: http://fityk.nieto.pl/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:23
 msgid "Flask: http://flask.pocoo.org/docs/"
-msgstr "Flask: http://flask.pocoo.org/docs/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:24
 msgid "Flask-OpenID: https://pythonhosted.org/Flask-OpenID/"
@@ -107,7 +101,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:30
 msgid "MeshPy: https://documen.tician.de/meshpy/"
-msgstr "MeshPy: https://documen.tician.de/meshpy/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:31
 msgid "PyCUDA: https://documen.tician.de/pycuda/"
@@ -119,7 +113,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:33
 msgid "PyLangAcq: http://pylangacq.org/"
-msgstr "PyLangAcq: http://pylangacq.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:34
 msgid "pytest: https://docs.pytest.org/ (customized)"
@@ -155,7 +149,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:44
 msgid "Documentation using the classic theme"
-msgstr "クラシックテーマを使用するドキュメント"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:46
 msgid ""
@@ -205,7 +199,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:57
 msgid "Cormoran: http://cormoran.nhopkg.org/docs/"
-msgstr "Cormoran: http://cormoran.nhopkg.org/docs/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:58
 msgid "DEAP: https://deap.readthedocs.io/ (customized)"
@@ -223,7 +217,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:61
 msgid "F2py: http://f2py.sourceforge.net/docs/"
-msgstr "F2py: http://f2py.sourceforge.net/docs/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:62
 msgid ""
@@ -256,15 +250,13 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:68
 msgid "GSL Shell: http://www.nongnu.org/gsl-shell/"
-msgstr "GSL Shell: http://www.nongnu.org/gsl-shell/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:69
 msgid ""
 "Hands-on Python Tutorial: http://anh.cs.luc.edu/python/hands-"
 "on/3.1/handsonHtml/"
 msgstr ""
-"Hands-on Python Tutorial: http://anh.cs.luc.edu/python/hands-"
-"on/3.1/handsonHtml/"
 
 #: ../../sphinx/EXAMPLES:70
 msgid "Kaa: http://api.freevo.org/kaa-base/ (customized)"
@@ -272,7 +264,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:71
 msgid "Leo: http://leoeditor.com/"
-msgstr "Leo: http://leoeditor.com/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:72
 msgid "LEPL: http://www.acooke.org/lepl/ (customized)"
@@ -296,11 +288,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:77
 msgid "OpenEXR: http://excamera.com/articles/26/doc/index.html"
-msgstr "OpenEXR: http://excamera.com/articles/26/doc/index.html"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:78
 msgid "OpenGDA: http://www.opengda.org/gdadoc/html/"
-msgstr "OpenGDA: http://www.opengda.org/gdadoc/html/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:79
 msgid "Peach^3: https://peach3.nl/doc/latest/userdoc/ (customized)"
@@ -316,7 +308,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:82
 msgid "Pyevolve: http://pyevolve.sourceforge.net/"
-msgstr "Pyevolve: http://pyevolve.sourceforge.net/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:83
 msgid "Pygame: https://www.pygame.org/docs/ (customized)"
@@ -360,7 +352,6 @@ msgstr ""
 msgid ""
 "Segway: http://noble.gs.washington.edu/proj/segway/doc/1.1.0/segway.html"
 msgstr ""
-"Segway: http://noble.gs.washington.edu/proj/segway/doc/1.1.0/segway.html"
 
 #: ../../sphinx/EXAMPLES:93
 msgid ""
@@ -374,7 +365,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:95
 msgid "SymPy: http://docs.sympy.org/"
-msgstr "SymPy: http://docs.sympy.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:96
 msgid "TurboGears: https://turbogears.readthedocs.io/ (customized)"
@@ -402,7 +393,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:101
 msgid "z3c: http://www.ibiblio.org/paulcarduner/z3ctutorial/"
-msgstr "z3c: http://www.ibiblio.org/paulcarduner/z3ctutorial/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:102
 msgid "zc.async: https://pythonhosted.org/zc.async/ (customized)"
@@ -414,7 +405,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:106
 msgid "Documentation using the sphinxdoc theme"
-msgstr "sphinxdocテーマを使用しているドキュメント"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:108
 msgid "cartopy: http://scitools.org.uk/cartopy/docs/latest/"
@@ -438,11 +429,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:113
 msgid "PyCantonese: http://pycantonese.org/"
-msgstr "PyCantonese: http://pycantonese.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:114
 msgid "Pyre: http://docs.danse.us/pyre/sphinx/"
-msgstr "NetworkX: http://networkx.lanl.gov/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:115
 msgid "pySPACE: https://pyspace.github.io/pyspace/"
@@ -450,7 +441,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:116
 msgid "Pysparse: http://pysparse.sourceforge.net/"
-msgstr "Pysparse: http://pysparse.sourceforge.net/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:117
 msgid ""
@@ -473,7 +464,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:122
 msgid "Turbulenz: http://docs.turbulenz.com/"
-msgstr "Turbulenz: http://docs.turbulenz.com/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:125
 msgid "Documentation using the nature theme"
@@ -485,7 +476,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:128
 msgid "Cython: http://docs.cython.org/"
-msgstr "Cython: http://docs.cython.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:129
 msgid "easybuild: https://easybuild.readthedocs.io/"
@@ -533,7 +524,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:142
 msgid "Documentation using another builtin theme"
-msgstr "その他の組み込みテーマを使用しているドキュメント"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:144
 msgid "Breathe: https://breathe.readthedocs.io/ (haiku)"
@@ -599,7 +590,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:163
 msgid "ASE: https://wiki.fysik.dtu.dk/ase/"
-msgstr "ASE: https://wiki.fysik.dtu.dk/ase/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:164
 msgid "Autofac: http://docs.autofac.org/"
@@ -831,7 +822,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:221
 msgid "Pweave: http://mpastell.com/pweave/"
-msgstr "Pyre: http://docs.danse.us/pyre/sphinx/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:222
 msgid "PyPy: http://doc.pypy.org/"
@@ -865,7 +856,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:230
 msgid "Quex: http://quex.sourceforge.net/doc/html/main.html"
-msgstr "Quex: http://quex.sourceforge.net/doc/html/main.html"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:231
 msgid "Satchmo: http://docs.satchmoproject.com/"
@@ -994,7 +985,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:265
 msgid "Hedge: https://documen.tician.de/hedge/"
-msgstr "Hedge: https://documen.tician.de/hedge/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:266
 msgid "ObsPy: https://docs.obspy.org/"
@@ -1010,7 +1001,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:269
 msgid "PyUblas: https://documen.tician.de/pyublas/"
-msgstr "PyUblas: https://documen.tician.de/pyublas/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:270
 msgid "seaborn: https://seaborn.pydata.org/"
@@ -1046,7 +1037,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:281
 msgid "Ceph: http://docs.ceph.com/docs/master/"
-msgstr "Ceph: http://docs.ceph.com/docs/master/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:282
 msgid "Chef: https://docs.chef.io/"
@@ -1062,7 +1053,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:285
 msgid "Django: https://docs.djangoproject.com/"
-msgstr "Django: https://docs.djangoproject.com/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:286
 msgid "Doctrine: http://docs.doctrine-project.org/"
@@ -1076,7 +1067,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:289
 msgid "Gameduino: http://excamera.com/sphinx/gameduino/"
-msgstr "Gameduino: http://excamera.com/sphinx/gameduino/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:290
 msgid "gensim: https://radimrehurek.com/gensim/"
@@ -1084,19 +1075,17 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:291
 msgid "GeoServer: http://docs.geoserver.org/"
-msgstr "GeoServer: http://docs.geoserver.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:292
 msgid "gevent: http://www.gevent.org/"
-msgstr "gevent: http://www.gevent.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:293
 msgid ""
 "GHC - Glasgow Haskell Compiler: http://downloads.haskell.org/~ghc/master"
 "/users-guide/"
 msgstr ""
-"GHC - Glasgow Haskell Compiler: http://downloads.haskell.org/~ghc/master"
-"/users-guide/"
 
 #: ../../sphinx/EXAMPLES:294
 msgid "Guzzle: http://docs.guzzlephp.org/en/stable/"
@@ -1118,7 +1107,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:298
 msgid "Lasso: http://lassoguide.com/"
-msgstr "Lasso: http://lassoguide.com/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:299
 msgid "Mako: http://docs.makotemplates.org/"
@@ -1126,7 +1115,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:300
 msgid "MirrorBrain: http://mirrorbrain.org/docs/"
-msgstr "MirrorBrain: http://mirrorbrain.org/docs/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:301
 msgid "MongoDB: https://docs.mongodb.com/"
@@ -1138,7 +1127,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:303
 msgid "MyHDL: http://docs.myhdl.org/en/latest/"
-msgstr "MyHDL: http://docs.myhdl.org/en/latest/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:304
 msgid "nose: https://nose.readthedocs.io/"
@@ -1154,7 +1143,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:307
 msgid "ObjectListView: http://objectlistview.sourceforge.net/python/"
-msgstr "ObjectListView: http://objectlistview.sourceforge.net/python/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:308
 msgid "OpenERP: https://doc.odoo.com/"
@@ -1162,13 +1151,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:309
 msgid "OpenCV: http://docs.opencv.org/"
-msgstr "OpenCV: http://docs.opencv.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:310
 msgid "OpenLayers: http://docs.openlayers.org/"
 msgstr ""
-"OpenLayers: http://docs.openlayers.org/OpenLayers: "
-"http://docs.openlayers.org/"
 
 #: ../../sphinx/EXAMPLES:311
 msgid "OpenTURNS: http://openturns.github.io/openturns/master/"
@@ -1184,7 +1171,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:314
 msgid "PyEphem: http://rhodesmill.org/pyephem/"
-msgstr "PyEphem: http://rhodesmill.org/pyephem/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:315
 msgid "Pygments: http://pygments.org/docs/"
@@ -1198,11 +1185,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:317
 msgid "PSI4: http://www.psicode.org/psi4manual/master/index.html"
-msgstr "PSI4: http://www.psicode.org/psi4manual/master/index.html"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:318
 msgid "PyMOTW: https://pymotw.com/2/"
-msgstr "PyMOTW: https://pymotw.com/2/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:319
 msgid ""
@@ -1221,7 +1208,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:323
 msgid "Roundup: http://www.roundup-tracker.org/"
-msgstr "Roundup: http://www.roundup-tracker.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:324
 msgid "SaltStack: https://docs.saltstack.com/"
@@ -1245,11 +1232,11 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:329
 msgid "Selenium: http://docs.seleniumhq.org/docs/"
-msgstr "Selenium: http://docs.seleniumhq.org/docs/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:330
 msgid "Self: http://www.selflanguage.org/"
-msgstr "Self: http://www.selflanguage.org/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:331
 msgid "Substance D: https://docs.pylonsproject.org/projects/substanced/"
@@ -1265,7 +1252,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:334
 msgid "tinyTiM: http://tinytim.sourceforge.net/docs/2.0/"
-msgstr "tinyTiM: http://tinytim.sourceforge.net/docs/2.0/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:335
 msgid "Twisted: http://twistedmatrix.com/documents/current/"
@@ -1277,7 +1264,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:337
 msgid "WebFaction: https://docs.webfaction.com/"
-msgstr "WebFaction: https://docs.webfaction.com/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:338
 msgid "WTForms: https://wtforms.readthedocs.io/"
@@ -1285,7 +1272,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:341
 msgid "Homepages and other non-documentation sites"
-msgstr "ホームページや、ドキュメント以外のサイト"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:343
 msgid ""
@@ -1346,7 +1333,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:361
 msgid "Books produced using Sphinx"
-msgstr "Sphinxを使って書かれた書籍"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:363
 msgid ""
@@ -1360,8 +1347,6 @@ msgid ""
 "\"Expert Python Programming\": https://www.packtpub.com/application-"
 "development/expert-python-programming"
 msgstr ""
-"\"Expert Python Programming\": https://www.packtpub.com/application-"
-"development/expert-python-programming"
 
 #: ../../sphinx/EXAMPLES:367
 msgid ""
@@ -1377,7 +1362,7 @@ msgstr ""
 
 #: ../../sphinx/EXAMPLES:370
 msgid "\"LassoGuide\": http://www.lassosoft.com/Lasso-Documentation"
-msgstr "\"LassoGuide\": http://www.lassosoft.com/Lasso-Documentation"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:371
 msgid ""
@@ -1405,7 +1390,7 @@ msgstr ""
 msgid ""
 "\"Python Professional Programming\" (in Japanese): "
 "http://www.amazon.co.jp/dp/4798032948/"
-msgstr "\"Pythonプロフェッショナルプログラミング\" (日本語): http://www.amazon.co.jp/dp/4798032948/"
+msgstr ""
 
 #: ../../sphinx/EXAMPLES:380
 msgid ""
@@ -1442,9 +1427,6 @@ msgid ""
 "Use of CouchDB\": https://www.yumpu.com/et/document/view/11722645"
 "/masterthesis-markusmayr-0542042"
 msgstr ""
-"\"CouchDBを用いたWebベースのシステムによるOpenStreetMapデータの比較分析\": "
-"https://www.yumpu.com/et/document/view/11722645/masterthesis-"
-"markusmayr-0542042"
 
 #: ../../sphinx/EXAMPLES:395
 msgid ""

@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:4
 msgid "Glossary"
-msgstr "Glosario"
+msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:7
 msgid "builder"
@@ -52,7 +51,7 @@ msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:21
 msgid "directive"
-msgstr "directiva"
+msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:23
 msgid ""
@@ -131,7 +130,7 @@ msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:70
 msgid "object"
-msgstr "objeto"
+msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:72
 msgid ""
@@ -153,7 +152,7 @@ msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:80
 msgid "role"
-msgstr "rol"
+msgstr ""
 
 #: ../../sphinx/doc/glossary.rst:82
 msgid ""

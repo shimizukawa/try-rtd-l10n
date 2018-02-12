@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/nodes.rst:4
 msgid "Doctree node classes added by Sphinx"
-msgstr "Sphinxが追加したDoctreeのノードクラス"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/nodes.rst:9
 msgid "Nodes for domain-specific object descriptions"
@@ -28,7 +27,7 @@ msgstr ""
 
 #: ../../sphinx/sphinx/addnodes.pydocstring of sphinx.addnodes.desc:1
 msgid "Node for object descriptions."
-msgstr "オブジェクト説明のノード"
+msgstr ""
 
 #: ../../sphinx/sphinx/addnodes.pydocstring of sphinx.addnodes.desc:3
 msgid ""
@@ -218,11 +217,11 @@ msgstr ""
 
 #: ../../sphinx/sphinx/addnodes.pydocstring of sphinx.addnodes.glossary:1
 msgid "Node to insert a glossary."
-msgstr "用語集を挿入するためのノード"
+msgstr ""
 
 #: ../../sphinx/sphinx/addnodes.pydocstring of sphinx.addnodes.toctree:1
 msgid "Node for inserting a \"TOC tree\"."
-msgstr "\"TOCツリー\" を挿入するためのノード"
+msgstr ""
 
 #: ../../sphinx/sphinx/addnodes.pydocstring of sphinx.addnodes.start_of_file:1
 msgid "Node to mark start of a new file, used in the LaTeX builder only."

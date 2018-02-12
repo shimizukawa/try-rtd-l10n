@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-21 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,16 +19,16 @@ msgstr ""
 
 #: ../../sphinx/doc/man/index.rst:2
 msgid "Man Pages"
-msgstr "Páginas Man"
+msgstr ""
 
 #: ../../sphinx/doc/man/index.rst:4
 msgid "These are the applications provided as part of Sphinx."
-msgstr "Essas são aplicações fornecidas como parte do Sphinx."
+msgstr ""
 
 #: ../../sphinx/doc/man/index.rst:7
 msgid "Core Applications"
-msgstr "Aplicações Núcleo"
+msgstr ""
 
 #: ../../sphinx/doc/man/index.rst:16
 msgid "Additional Applications"
-msgstr "Aplicações Adicionais"
+msgstr ""

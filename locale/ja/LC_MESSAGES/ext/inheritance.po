@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,19 +19,17 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:4
 msgid ":mod:`sphinx.ext.inheritance_diagram` -- Include inheritance diagrams"
-msgstr ":mod:`sphinx.ext.inheritance_diagram` -- 継承関係図の追加"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:11
 msgid ""
 "This extension allows you to include inheritance diagrams, rendered via the "
 ":mod:`Graphviz extension <sphinx.ext.graphviz>`."
 msgstr ""
-"この拡張機能を使うと、継承関係図をドキュメントに挿入できます。図は、 :mod:`Graphviz拡張 <sphinx.ext.graphviz>` "
-"を使ってレンダリングされます。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:14
 msgid "It adds this directive:"
-msgstr "この拡張機能は次のディレクティブを追加します。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:18
 msgid ""
@@ -40,8 +37,6 @@ msgid ""
 "name.  Class names can be unqualified; in that case they are taken to exist "
 "in the currently described module (see :rst:dir:`py:module`)."
 msgstr ""
-"このディレクティブは1つ以上の引数を持ちます。モジュールかクラス名を与えます。現在説明中のモジュールの中であれば(:rst:dir:`py:module`"
-" 参照)、クラス名の名前には完全修飾名以外も使えます。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:22
 msgid ""
@@ -50,7 +45,6 @@ msgid ""
 "generated which is then rendered via the graphviz extension to a directed "
 "graph."
 msgstr ""
-"与えられたクラス、もしくは与えられたモジュールに含まれるクラスごとに、ベースクラスが決定され、すべてのクラスから、有向性グラフとして、graphviz拡張を利用して図がレンダリングされます。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:27
 msgid ""
@@ -60,31 +54,25 @@ msgid ""
 " ``lib.``, you can give ``:parts: 1`` to remove that prefix from the "
 "displayed node names.)"
 msgstr ""
-"このディレクティブは ``parts`` "
-"というオプションを指定しています。これには整数を指定します。もしこれが与えられると、表示名から、モジュール名にあたる部分が削除されます。例えば、もしすべてのクラスの名前が"
-" ``lib.`` で始まっている場合に、 ``:parts: 1`` を指定すると、それぞれの表示名から ``lib.`` "
-"という文字が表示されなくなります。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:33
 msgid ""
 "It also supports a ``private-bases`` flag option; if given, private base "
 "classes (those whose name starts with ``_``) will be included."
 msgstr ""
-"これは ``private-bases`` フラグオプションも持っています。このフラグが与えられると、名前が ``_`` "
-"から始まる、プライベートなベースクラスも含むようになります。"
 
 #: ../../sphinx/doc/ext/inheritance.rst:36
 msgid "You can use ``caption`` option to give a caption to the diagram."
-msgstr "ダイアグラムに見出しをつけるには、``caption``オプションを利用できます。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:38
 msgid ""
 "Added ``private-bases`` option; previously, all bases were always included."
-msgstr "``private-bases`` オプションを追加しました。以前は常に全てのベースクラスが含まれていました。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:42
 msgid "Added ``caption`` option"
-msgstr "追加された``caption``オプション "
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:45
 msgid ""
@@ -118,25 +106,25 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:94
 msgid "New config values are:"
-msgstr "新しい設定値も追加されます。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:98
 msgid "A dictionary of graphviz graph attributes for inheritance diagrams."
-msgstr "継承関係図を出力する際の、graphvizのgraphの属性の辞書です。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:100
 #: ../../sphinx/doc/ext/inheritance.rst:109
 #: ../../sphinx/doc/ext/inheritance.rst:124
 msgid "For example::"
-msgstr "例えば::"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:107
 msgid "A dictionary of graphviz node attributes for inheritance diagrams."
-msgstr "継承関係図を出力する際の、graphvizのnodeの属性の辞書です。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:116
 msgid "A dictionary of graphviz edge attributes for inheritance diagrams."
-msgstr "継承関係図を出力する際の、graphvizのedgeの属性の辞書です。"
+msgstr ""
 
 #: ../../sphinx/doc/ext/inheritance.rst:120
 msgid ""

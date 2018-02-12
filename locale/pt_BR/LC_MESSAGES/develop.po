@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,39 +19,31 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:4
 msgid "Sphinx development"
-msgstr "Desenvolvimento do Sphinx"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:6
 msgid ""
 "Sphinx is a maintained by a group of volunteers.  We value every "
 "contribution!"
 msgstr ""
-"Sphinx é mantido por um grupo de voluntários. Nós damos valor a cada "
-"contribuição!"
 
 #: ../../sphinx/doc/develop.rst:8
 msgid ""
 "The code can be found in a Git repository, at https://github.com/sphinx-"
 "doc/sphinx/."
 msgstr ""
-"O Código pode ser encontrado no repositório Git, em https://github.com"
-"/sphinx-doc/sphinx/."
 
 #: ../../sphinx/doc/develop.rst:10
 msgid ""
 "Issues and feature requests should be raised in the `tracker "
 "<https://github.com/sphinx-doc/sphinx/issues>`_."
 msgstr ""
-"Requerimentos e funcionalidades podem ser encaminhados pelo rastreador "
-"`tracker <https://github.com/sphinx-doc/sphinx/issues>`_."
 
 #: ../../sphinx/doc/develop.rst:12
 msgid ""
 "The mailing list for development is at `Google Groups "
 "<https://groups.google.com/forum/#!forum/sphinx-dev>`_."
 msgstr ""
-"A lista de distribuição para desenvolvimento está em `Google Groups "
-"<https://groups.google.com/forum/#!forum/sphinx-dev>`_."
 
 #: ../../sphinx/doc/develop.rst:14
 msgid ""
@@ -64,18 +55,14 @@ msgstr ""
 msgid ""
 "For more about our development process and methods, see the :doc:`devguide`."
 msgstr ""
-"Saiba mais sobre o processo de desenvolvimento bem como os métodos, veja "
-":doc:`devguide`."
 
 #: ../../sphinx/doc/develop.rst:20
 msgid "Extensions"
-msgstr "Extensões"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:22
 msgid "To learn how to write your own extension, see :ref:`dev-extensions`."
 msgstr ""
-"Para aprender como escrever suas próprias extensões, ver :ref:`dev-"
-"extensions`."
 
 #: ../../sphinx/doc/develop.rst:24
 msgid ""
@@ -83,15 +70,10 @@ msgid ""
 "repository contains many contributed extensions.  Some of them have their "
 "own releases on PyPI, others you can install from a checkout."
 msgstr ""
-"O repositório `sphinx-contrib <https://bitbucket.org/birkenfeld/sphinx-"
-"contrib/>`_ contém algumas contiruições de extensões. Algumas com suas "
-"próprias versões no PyPI outras pode instalar através de checkout."
 
 #: ../../sphinx/doc/develop.rst:28
 msgid "This is the current list of contributed extensions in that repository:"
 msgstr ""
-"Essa é a lista corrente das contribuições e extensões que estão no "
-"repositório:"
 
 #: ../../sphinx/doc/develop.rst:30
 msgid "aafig: render embedded ASCII art as nice images using aafigure_"
@@ -99,15 +81,15 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:31
 msgid "actdiag: embed activity diagrams by using actdiag_"
-msgstr "actdiag: embute diagramas atividade usando actdiag_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:32
 msgid "adadomain: an extension for Ada support (Sphinx 1.0 needed)"
-msgstr "adadomain: suporte para Ada (Sphinx 1.0 necessário)"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:33
 msgid "ansi: parse ANSI color sequences inside documents"
-msgstr "ansi: passa cores e sequências ANSI dentro dos documentos"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:34
 msgid ""
@@ -129,7 +111,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:38
 msgid "blockdiag: embed block diagrams by using blockdiag_"
-msgstr "blockdiag: embed diagramas de bloco usando blockdiag_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:39
 msgid "cacoo: embed diagram from Cacoo"
@@ -145,7 +127,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:42
 msgid "cheeseshop: easily link to PyPI packages"
-msgstr "cheeseshop: links amigáveis pacotes PyPI"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:43
 msgid "clearquest: create tables from ClearQuest_ queries"
@@ -153,7 +135,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:44
 msgid "cmakedomain_: a domain for CMake_"
-msgstr "cmakedomain_: domínio para CMake_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:45
 msgid "coffeedomain: a domain for (auto)documenting CoffeeScript source code"
@@ -175,7 +157,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:49
 msgid "doxylink: Link to external Doxygen-generated HTML documentation"
-msgstr "doxylink: Link para documentação externa Doxygen HTML"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:50
 msgid "domaintools_: A tool for easy domain creation"
@@ -183,31 +165,27 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:51
 msgid "email: obfuscate email addresses"
-msgstr "email: disfarçes paa endereços de email"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:52
 msgid "erlangdomain: an extension for Erlang support (Sphinx 1.0 needed)"
-msgstr "erlangdomain: extensão suporte para Erlang (Sphinx 1.0 necessário)"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:53
 msgid "exceltable: embed Excel spreadsheets into documents using exceltable_"
-msgstr "exceltable: embutir planilhas Excel em documentos usando exceltable_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:54
 msgid ""
 "feed: an extension for creating syndication feeds and time-based overviews "
 "from your site content"
 msgstr ""
-"feed: uma extensão para assinatura feeds com base em tempo e visões do "
-"conteúdo do site"
 
 #: ../../sphinx/doc/develop.rst:56
 msgid ""
 "findanything_: an extension to add Sublime Text 2-like findanything panels "
 "to your documentation to find pages, sections and index entries while typing"
 msgstr ""
-"findanything_: extensão para adicionar Sublime Text 2 com  paineis para sua "
-"documentação encontrar páginas, seções e entradas de índice enquanto digita "
 
 #: ../../sphinx/doc/develop.rst:58
 msgid "gnuplot: produces images using gnuplot_ language"
@@ -217,15 +195,14 @@ msgstr ""
 msgid ""
 "googleanalytics: track web visitor statistics by using `Google Analytics`_"
 msgstr ""
-"googleanalytics: estatísticas e rastreia visitas usando `Google Analytics`_"
 
 #: ../../sphinx/doc/develop.rst:60
 msgid "googlechart: embed charts by using `Google Chart`_"
-msgstr "googlechar: gráficos embutidos usando `Google Chart`_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:61
 msgid "googlemaps: embed maps by using `Google Maps`_"
-msgstr "googlemaps: mapas embutidos usando `Google Maps`_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:62
 msgid "httpdomain: a domain for documenting RESTful HTTP APIs"
@@ -233,7 +210,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:63
 msgid "hyphenator: client-side hyphenation of HTML using hyphenator_"
-msgstr "hyphenator: hifenização HTML lado cliente usando hiphenator_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:64
 msgid "imgur: embed Imgur images, albums, and metadata in documents"
@@ -241,11 +218,11 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:65
 msgid "inlinesyntaxhighlight_: inline syntax highlighting"
-msgstr "inlinesyntaxhighlight_: inline syntax highlighting"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:66
 msgid "lassodomain: a domain for documenting Lasso_ source code"
-msgstr "lassodomain: domínio para documentação código fonte Lasso_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:67
 msgid ""
@@ -260,7 +237,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:69
 msgid "makedomain_: a domain for `GNU Make`_"
-msgstr "makedomain_: domínio para `GNU Make`_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:70
 msgid "matlabdomain: document MATLAB_ code"
@@ -284,13 +261,11 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:75
 msgid "nwdiag: embed network diagrams by using nwdiag_"
-msgstr "nwdiag: diagramas rede embutidos usando nwdiag_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:76
 msgid "omegat: support tools to collaborate with OmegaT_ (Sphinx 1.1 needed)"
 msgstr ""
-"omegat: suporta funcionalidades para colaboração com OmegaT_ (Sphinx 1.1 "
-"necessário)"
 
 #: ../../sphinx/doc/develop.rst:77
 msgid ""
@@ -304,11 +279,11 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:79
 msgid "phpdomain: an extension for PHP support"
-msgstr "phpdomain: extensão para suporte PHP"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:80
 msgid "plantuml: embed UML diagram by using PlantUML_"
-msgstr "plantuml: diagramas UML embutidos usando PlantUML_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:81
 msgid ""
@@ -325,8 +300,6 @@ msgid ""
 "requirements: declare requirements wherever you need (e.g. in test "
 "docstrings), mark statuses and collect them in a single list"
 msgstr ""
-"requirements: declara requerimentos onde for precisso (ex. em testes "
-"docstrings), marca status e coleta em uma simples lista"
 
 #: ../../sphinx/doc/develop.rst:86
 msgid "restbuilder: a builder for reST (reStructuredText) files"
@@ -334,23 +307,21 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:87
 msgid "rubydomain: an extension for Ruby support (Sphinx 1.0 needed)"
-msgstr "rubydomain: extensão para suporte a Ruby (Sphinx 1.0 necessário)"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:88
 msgid "sadisplay: display SqlAlchemy model sadisplay_"
-msgstr "sadisplay: exibir modelo SqlAlchemy sadisplay_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:89
 msgid ""
 "sdedit: an extension inserting sequence diagram by using Quick Sequence "
 "Diagram Editor (sdedit_)"
 msgstr ""
-"sdedit: extensão para inserir diagrama sequência usando Quick Seq. Diagram "
-"Editor (sdedit_)"
 
 #: ../../sphinx/doc/develop.rst:91
 msgid "seqdiag: embed sequence diagrams by using seqdiag_"
-msgstr "seqdiag: embutir diagramas de sequência usando seqdiag_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:92
 msgid "slide: embed presentation slides on slideshare_ and other sites"
@@ -358,7 +329,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:93
 msgid "swf_: embed flash files"
-msgstr "swf_: arquivos flash embutidos "
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:94
 msgid "sword: an extension inserting Bible verses from Sword_"
@@ -370,7 +341,7 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:96
 msgid "traclinks: create TracLinks_ to a Trac_ instance from within Sphinx"
-msgstr "traclinks: criar TracLinks_ para instância Trac_ dentro do Sphinx"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:97
 msgid ""
@@ -380,11 +351,11 @@ msgstr ""
 
 #: ../../sphinx/doc/develop.rst:98
 msgid "whooshindex: whoosh indexer extension"
-msgstr "whooshindex: extensão indexador whoosh"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:99
 msgid "youtube: embed videos from YouTube_"
-msgstr "youtube: embutir videos do YouTube_"
+msgstr ""
 
 #: ../../sphinx/doc/develop.rst:100
 msgid ""
@@ -396,5 +367,3 @@ msgid ""
 "See the :ref:`extension tutorial <exttut>` on getting started with writing "
 "your own extensions."
 msgstr ""
-"Ver :ref:`extension tutorial <exttut>` para como iniciar escrevendo suas "
-"próprias extensões."

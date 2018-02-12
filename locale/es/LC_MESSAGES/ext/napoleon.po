@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Alvarez Alejandro <eliluminado00@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -232,11 +231,11 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/napoleon.rst:186
 msgid ":ref:`example_google`"
-msgstr ":ref:`example_google`"
+msgstr ""
 
 #: ../../sphinx/doc/ext/napoleon.rst:187
 msgid ":ref:`example_numpy`"
-msgstr ":ref:`example_numpy`"
+msgstr ""
 
 #: ../../sphinx/doc/ext/napoleon.rst:191
 msgid "Type Annotations"

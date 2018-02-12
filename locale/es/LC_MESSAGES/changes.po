@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-12 13:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/changes.rst:8
 msgid "Changes in Sphinx"
-msgstr "Cambios en Sphinx"
+msgstr ""
 
 #: ../../sphinx/CHANGES:2
 msgid "Release 1.8.0 (in development)"
@@ -67,7 +66,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:20 ../../sphinx/CHANGES:55 ../../sphinx/CHANGES:107
 #: ../../sphinx/CHANGES:682 ../../sphinx/CHANGES:1002
 msgid "Deprecated"
-msgstr "Obsoleto"
+msgstr ""
 
 #: ../../sphinx/CHANGES:22
 msgid ""
@@ -4655,7 +4654,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:2218 ../../sphinx/CHANGES:2298
 #: ../../sphinx/CHANGES:2388 ../../sphinx/CHANGES:2693
 msgid "Documentation"
-msgstr "Documentación"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1667
 msgid ""
@@ -8784,7 +8783,7 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:3411
 msgid "Previous versions"
-msgstr "Versiones previas"
+msgstr ""
 
 #: ../../sphinx/CHANGES:3413
 msgid ""

@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,15 +23,15 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:5
 msgid "Synopsis"
-msgstr "Sinopse"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:7
 msgid "**sphinx-quickstart**"
-msgstr "**sphinx-quickstart**"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:10
 msgid "Description"
-msgstr "Descrição"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:12
 msgid ""
@@ -40,13 +39,10 @@ msgid ""
 " about your project and then generates a complete documentation directory "
 "and sample Makefile to be used with :manpage:`sphinx-build(1)`."
 msgstr ""
-":program:`sphinx-quickstart` é uma ferramenta que faz questões sobre seu "
-"projeto e então gera um diretório completo e um arquivo ou comando Make para"
-" ser usado com  :manpage:`sphinx-build(1)`."
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:17
 msgid "Options"
-msgstr "Opções"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:23
 msgid ""
@@ -56,7 +52,7 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:28
 msgid "Display usage summary or Sphinx version."
-msgstr "Exibir sumário uso ou versão Sphinx."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:31
 msgid "Structure Options"
@@ -64,7 +60,7 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:34
 msgid "If specified, separate source and build directories."
-msgstr "Se especificado, separa diretório fonte e de construção."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:38
 msgid ""
@@ -73,10 +69,6 @@ msgid ""
 "stylesheets and other static files. You can enter another prefix (such as "
 "\".\") to replace the underscore."
 msgstr ""
-"Dentro do diretório raiz, mais dois outros diretórios serão criados; "
-"\"_templates\" para modelos HTML personalizados e \"_static\" para folhas de"
-" estilo (arquivos .css) e outros tipos estátivos de arquivos. Pode ser usado"
-" outros prefixos como (\".\") para substituir o underscore."
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:44
 msgid "Project Basic Options"
@@ -84,35 +76,35 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:47
 msgid "Project name will be set. (see :confval:`project`)."
-msgstr "Nome do projeto será utilizado. (ver :confval:`project`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:51
 msgid "Author names. (see :confval:`copyright`)."
-msgstr "Nome autor. (ver :confval:`copyright`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:55
 msgid "Version of project. (see :confval:`version`)."
-msgstr "Versão do projeto. (ver :confval:`version`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:59
 msgid "Release of project. (see :confval:`release`)."
-msgstr "Release do projeto. (ver :confval:`release`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:63
 msgid "Document language. (see :confval:`language`)."
-msgstr "Idioma do Documento. (ver :confval:`language`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:67
 msgid "Source file suffix. (see :confval:`source_suffix`)."
-msgstr "Sufixo arquivos fonte. (ver :confval:`source_suffix`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:71
 msgid "Master document name. (see :confval:`master_doc`)."
-msgstr "Nome documento mestre.  (ver :confval:`master_doc`)."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:75
 msgid "Use epub."
-msgstr "Usar epub."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:78
 msgid "Extension Options"
@@ -120,39 +112,39 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:81
 msgid "Enable `sphinx.ext.autodoc` extension."
-msgstr "Habilitar extensão `sphinx.ext.autodoc`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:85
 msgid "Enable `sphinx.ext.doctest` extension."
-msgstr "Habilitar extensão `sphinx.ext.doctest`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:89
 msgid "Enable `sphinx.ext.intersphinx` extension."
-msgstr "Habilitar extensão `sphinx.ext.intersphinx`"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:93
 msgid "Enable `sphinx.ext.todo` extension."
-msgstr "Habilitar extensão `sphinx.ext.todo`"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:97
 msgid "Enable `sphinx.ext.coverage` extension."
-msgstr "Habilitar extensão `sphinx.ext.coverage`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:101
 msgid "Enable `sphinx.ext.imgmath` extension."
-msgstr "Habilitar extensão `sphinx.ext.imgmath`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:105
 msgid "Enable `sphinx.ext.mathjax` extension."
-msgstr "Habilitar extensão `sphinx.ext.mathjax`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:109
 msgid "Enable `sphinx.ext.ifconfig` extension."
-msgstr "Habilitar extensão `sphinx.ext.ifconfig`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:113
 msgid "Enable `sphinx.ext.viewcode` extension."
-msgstr "Habilitar extensão `sphinx.ext.viewcode`."
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:117
 msgid "Enable arbitary extensions."
@@ -175,11 +167,11 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:131
 msgid "Create (or not create) makefile."
-msgstr "Criar (ou não criar) makefile"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:135
 msgid "Create (or not create) batchfile"
-msgstr "Criar (ou não criar) batchfile"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:138
 msgid "Project templating"
@@ -232,8 +224,8 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:163
 msgid "See also"
-msgstr "Ver também"
+msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:165
 msgid ":manpage:`sphinx-build(1)`"
-msgstr ":manpage:`sphinx-build(1)`"
+msgstr ""

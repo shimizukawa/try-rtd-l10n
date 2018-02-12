@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:4
 msgid "Tutorial: Writing a simple extension"
-msgstr "Tutorial: Escrevendo uma extensão simples"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:6
 msgid ""
@@ -38,7 +37,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:16
 msgid "Important objects"
-msgstr "Objetos importantes"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:18
 msgid ""
@@ -48,7 +47,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:27
 msgid "**Application**"
-msgstr "**Applicação**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:22
 msgid ""
@@ -65,7 +64,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:40
 msgid "**Environment**"
-msgstr "**Ambiente**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:30
 msgid ""
@@ -90,7 +89,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:49
 msgid "**Builder**"
-msgstr "**Construtor**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:43
 msgid ""
@@ -108,7 +107,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:57
 msgid "**Config**"
-msgstr "**Config**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:52
 msgid ""
@@ -123,7 +122,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:60
 msgid "Build Phases"
-msgstr "Fases Construção"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:62
 msgid ""
@@ -133,7 +132,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:65
 msgid "**Phase 0: Initialization**"
-msgstr "**Phase 0: Inicialização**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:67
 msgid ""
@@ -145,7 +144,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:72
 msgid "**Phase 1: Reading**"
-msgstr "**Phase 1: Leitura**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:74
 msgid ""
@@ -180,7 +179,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:93
 msgid "**Phase 2: Consistency checks**"
-msgstr "**Phase 2: Verificações e consistências**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:95
 msgid "Some checking is done to ensure no surprises in the built documents."
@@ -188,7 +187,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:97
 msgid "**Phase 3: Resolving**"
-msgstr "**Fase 3: Resolução**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:99
 msgid ""
@@ -201,7 +200,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:105
 msgid "**Phase 4: Writing**"
-msgstr "**Fase 4: Gravação**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:107
 msgid ""
@@ -220,7 +219,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:119
 msgid "Extension Design"
-msgstr "Design de Extensão"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:121
 msgid "We want the extension to add the following to Sphinx:"
@@ -245,7 +244,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:132
 msgid "New directives, called ``todo`` and ``todolist``."
-msgstr "Novas diretivas, chamadas ``todo`` e ``todolist``."
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:133
 msgid ""
@@ -270,7 +269,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:145
 msgid "The Setup Function"
-msgstr "Config da Função"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:149
 msgid ""
@@ -309,7 +308,7 @@ msgstr ""
 #: ../../sphinx/doc/extdev/tutorial.rst:184
 msgid ""
 "We need to create the two node classes ``todo`` and ``todolist`` later."
-msgstr "Precisamos criar duas classes ``todo`` e depois ``todolist``."
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:186
 msgid ""
@@ -330,11 +329,11 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:196
 msgid "The Node Classes"
-msgstr "Anatomia de Classes"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:198
 msgid "Let's start with the node classes::"
-msgstr "Vamos iniciar com classes::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:214
 msgid ""
@@ -354,7 +353,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:228
 msgid "The Directive Classes"
-msgstr "Diretiva Classes"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:230
 msgid ""
@@ -367,7 +366,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:236
 msgid "The ``todolist`` directive is quite simple::"
-msgstr "Diretiva ``todolist`` é simples::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:245
 msgid ""
@@ -378,7 +377,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:248
 msgid "The ``todo`` directive function looks like this::"
-msgstr "Diretiva função ``todo`` parece com isso::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:278
 msgid ""
@@ -429,15 +428,13 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:323
 msgid "The Event Handlers"
-msgstr "Manipuladores de Eventos"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:325
 msgid ""
 "Finally, let's look at the event handlers.  First, the one for the :event"
 ":`env-purge-doc` event::"
 msgstr ""
-"Finalmente, vamos dar uma olhada nos manipuladores.  Primeiro, o evento "
-":event:`env-purge-doc`::"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:334
 msgid ""

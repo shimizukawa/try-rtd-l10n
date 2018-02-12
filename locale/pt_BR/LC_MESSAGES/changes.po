@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-12 13:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/changes.rst:8
 msgid "Changes in Sphinx"
-msgstr "Mudanças no Sphinx"
+msgstr ""
 
 #: ../../sphinx/CHANGES:2
 msgid "Release 1.8.0 (in development)"
@@ -42,7 +41,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:2548 ../../sphinx/CHANGES:2853
 #: ../../sphinx/CHANGES:3246
 msgid "Incompatible changes"
-msgstr "Atualizações Incompatíveis"
+msgstr ""
 
 #: ../../sphinx/CHANGES:10
 msgid ""
@@ -67,7 +66,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:20 ../../sphinx/CHANGES:55 ../../sphinx/CHANGES:107
 #: ../../sphinx/CHANGES:682 ../../sphinx/CHANGES:1002
 msgid "Deprecated"
-msgstr "Obsoleto"
+msgstr ""
 
 #: ../../sphinx/CHANGES:22
 msgid ""
@@ -101,7 +100,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:2562 ../../sphinx/CHANGES:2866
 #: ../../sphinx/CHANGES:3275
 msgid "Features added"
-msgstr "Funcionalidades adicionadas"
+msgstr ""
 
 #: ../../sphinx/CHANGES:32
 msgid "Add :event:`config-inited` event"
@@ -146,7 +145,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:2453 ../../sphinx/CHANGES:2498
 #: ../../sphinx/CHANGES:2700
 msgid "Bugs fixed"
-msgstr "Erros Corrigidos"
+msgstr ""
 
 #: ../../sphinx/CHANGES:43 ../../sphinx/CHANGES:64 ../../sphinx/CHANGES:264
 #: ../../sphinx/CHANGES:731 ../../sphinx/CHANGES:1210
@@ -2428,23 +2427,21 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:932
 msgid "latex, package fancybox is not longer a dependency of sphinx.sty"
-msgstr "latex, pacote fancybox não depende mais de sphinx.sty"
+msgstr ""
 
 #: ../../sphinx/CHANGES:933
 msgid "Use ``'locales'`` as a default value of `locale_dirs`"
-msgstr "Usar ``'locales'``  como valor padrão de `locale_dirs`"
+msgstr ""
 
 #: ../../sphinx/CHANGES:934
 msgid "latex, package ifthen is not any longer a dependency of sphinx.sty"
-msgstr "latex, pacote ifthen não depende mais de sphinx.sty"
+msgstr ""
 
 #: ../../sphinx/CHANGES:935
 msgid ""
 "latex, style file does not modify fancyvrb's Verbatim (also available as "
 "OriginalVerbatim) but uses sphinxVerbatim for name of custom wrapper."
 msgstr ""
-"latex, arquivo stilo não modifica fancyvrb Verbatim (tambem dispon. "
-"OriginalVerbatim) mas usa sphinxVerbatim para nomear wrapper configuráveis."
 
 #: ../../sphinx/CHANGES:937
 msgid ""
@@ -4065,15 +4062,13 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1497
 msgid "C++, added support for ``extern`` and ``thread_local``."
-msgstr "C++, adicionado suporte para ``extern``  e ``thread_local``."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1498
 msgid ""
 "C++, type declarations are now using the prefixes ``typedef``, ``using``, "
 "and ``type``, depending on the style of declaration."
 msgstr ""
-"C++, declarações tipo são prefixadas com ``typedef``, ``using``, e ``type``,"
-" dependendo do estilo da declaração."
 
 #: ../../sphinx/CHANGES:1500
 msgid "#2413: C++, fix crash on duplicate declarations"
@@ -4121,23 +4116,19 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1514
 msgid "Release 1.4 (released Mar 28, 2016)"
-msgstr "Release 1.4 (liberado em 28 Março de 2016)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1518
 msgid ""
 "Drop ``PorterStemmer`` package support. Use ``PyStemmer`` instead of "
 "``PorterStemmer`` to accelerate stemming."
 msgstr ""
-"Retirado suporte pacote ``PorterStemmer``. Usar  ``PyStemmer`` no lugar de  "
-"``PorterStemmer`` para acelerar stemm."
 
 #: ../../sphinx/CHANGES:1520
 msgid ""
 "sphinx_rtd_theme has become optional. Please install it manually. Refs "
 "#2087, #2086, #1845 and #2097. Thanks to Victor Zverovich."
 msgstr ""
-"sphinx_rtd_theme agora é opcional. Favor instalar manualmente. Ref. #2087, "
-"#2086, #1845 e #2097. Obrigado a Victor Zverovich."
 
 #: ../../sphinx/CHANGES:1522
 msgid ""
@@ -4159,7 +4150,7 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1528
 msgid "``sphinx.ext.graphviz``: show graph image in inline by default"
-msgstr "``sphinx.ext.graphviz``: exibir imagem gráfico inline por padrão."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1529
 msgid ""
@@ -4206,12 +4197,6 @@ msgid ""
 "also supported for backward compatibility until Sphinx-1.5. Later format "
 "will be disabled from Sphinx-1.5."
 msgstr ""
-"`Linguagem Marcada para Localidade e Data "
-"<http://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns>`_ "
-"como  ``\"MMMM dd, YYYY\"`` é o formato padrão para  `today_fmt` e "
-"`html_last_updated_fmt`. Contudo formato  strftime como ``\"%B %d, %Y\"`` "
-"também suportado para compatibilidade anterior. Posteriormente será "
-"desativado no Sphinx-1.5."
 
 #: ../../sphinx/CHANGES:1549
 msgid ""
@@ -4255,7 +4240,7 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1562
 msgid "C++ type alias support (e.g., ``.. type:: T = int``)."
-msgstr "C++ type alias suportado (ex., ``.. type:: T = int``)."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1563
 msgid ""
@@ -4268,27 +4253,21 @@ msgid ""
 "C++, added new scope management directives ``namespace-push`` and "
 "``namespace-pop``."
 msgstr ""
-"C++, adicionado novo escopo da diretiva de gerenciamento ``namespace-push`` "
-"e ``namespace-pop``."
 
 #: ../../sphinx/CHANGES:1565
 msgid "#1970: Keyboard shortcuts to navigate Next and Previous topics"
-msgstr "#1970: atalhos Teclado para navegar tópicos Próximo e Anterior."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1566
 msgid ""
 "Intersphinx: Added support for fetching Intersphinx inventories with URLs "
 "using HTTP basic auth."
 msgstr ""
-"Intersphinx: Adicionado suporte para carregar inventário  Intersphinx "
-"inventário de URLs usando autenticação básica HTTP."
 
 #: ../../sphinx/CHANGES:1568
 msgid ""
 "C++, added support for template parameter in function info field lists."
 msgstr ""
-"C++, adicionado suporte em parâmetros na informação da função lista de "
-"campos."
 
 #: ../../sphinx/CHANGES:1569
 msgid "C++, added support for pointers to member (function)."
@@ -4512,7 +4491,7 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1625
 msgid "C++, add support for user-defined literals."
-msgstr "C++, adicionado suporte para literais definidos pelo usuário."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1626
 msgid ""
@@ -4675,7 +4654,7 @@ msgstr ""
 #: ../../sphinx/CHANGES:2218 ../../sphinx/CHANGES:2298
 #: ../../sphinx/CHANGES:2388 ../../sphinx/CHANGES:2693
 msgid "Documentation"
-msgstr "Documentação"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1667
 msgid ""
@@ -4744,41 +4723,34 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1697
 msgid "Release 1.3.5 (released Jan 24, 2016)"
-msgstr "Release 1.3.5 (liberado 24 Jan 2016)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1702 ../../sphinx/CHANGES:1704
 msgid ""
 "Fix line numbers was not shown on warnings in LaTeX and texinfo builders"
 msgstr ""
-"Corrigido número linhas não era exibido nos avisos do construtor LaTeX e "
-"texinfo"
 
 #: ../../sphinx/CHANGES:1703
 msgid "Fix filenames were not shown on warnings of citations"
-msgstr "Corrigido nome de arquivos não exibido nos avisos das citações"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1705
 msgid "Fix line numbers was not shown on warnings of indices"
-msgstr "Corrigido número de linhas não exibido nos avisos dos índices"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1706
 msgid "#2026: Fix LaTeX builder raises error if parsed-literal includes links"
 msgstr ""
-"#2026: Corrigido construtor LaTeX para retornar erro se literais incluirem "
-"links"
 
 #: ../../sphinx/CHANGES:1707
 msgid "#2243: Ignore strange docstring types for classes, do not crash"
 msgstr ""
-"#2243: Ignorar tipos docstrings para classes mal formados, não encerrar"
 
 #: ../../sphinx/CHANGES:1708
 msgid ""
 "#2247: Fix #2205 breaks make html for definition list with classifiers that "
 "contains regular-expression like string"
 msgstr ""
-"#2247: Corrige #2205 quebras no make html para definições lista com classif."
-" que contém expressões regulares como string"
 
 #: ../../sphinx/CHANGES:1710
 msgid ""
@@ -4789,33 +4761,26 @@ msgstr ""
 #: ../../sphinx/CHANGES:1712
 msgid "#2211: Fix paragraphs in table cell doesn't work in Latex output"
 msgstr ""
-"#2211: Corrige parágrafos na tabela de células que não funcionam em LaTeX"
 
 #: ../../sphinx/CHANGES:1713
 msgid ""
 "#2253: ``:pyobject:`` option of ``literalinclude`` directive can't detect "
 "indented body block when the block starts with blank or comment lines."
 msgstr ""
-"#2253: opção ``:pyobject:`` da diretiva ``literalinclude`` não detecta bloco"
-" corpo indentado quando o bloco inicia com branco ou linha de comentário."
 
 #: ../../sphinx/CHANGES:1715
 msgid "Fix TOC is not shown when no ``:maxdepth:`` for toctrees (ref: #771)"
 msgstr ""
-"Corrige TOC não exibido quando não há ``:maxdepth:`` para toctrees (ref: "
-"#771)"
 
 #: ../../sphinx/CHANGES:1716
 msgid ""
 "Fix warning message for ``:numref:`` if target is in orphaned doc (ref: "
 "#2244)"
 msgstr ""
-"Corrige mensagem de aviso para ``:numref:`` se alvo está em documento órfão "
-"(ref: #2244)"
 
 #: ../../sphinx/CHANGES:1719
 msgid "Release 1.3.4 (released Jan 12, 2016)"
-msgstr "Release 1.3.4 (liberado em 12 Jan 2016)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1724
 msgid "#2134: Fix figure caption with reference causes latex build error"
@@ -5317,7 +5282,7 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1882
 msgid "Release 1.3 (released Mar 10, 2015)"
-msgstr "Release 1.3 (liberado em 10 Março de 2015)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1887
 msgid ""
@@ -5325,17 +5290,12 @@ msgid ""
 ":durole:`emphasis` nodes anymore.  If you want to keep italic style, adapt "
 "your stylesheet."
 msgstr ""
-"Roles ``ref``, ``term`` e ``menusel`` não geram mais nodes "
-":durole:`emphasis`. Para manter estilo itálico, adapte sua folha de estilos "
-"css."
 
 #: ../../sphinx/CHANGES:1889
 msgid ""
 "Role ``numref`` uses ``%s`` as special character to indicate position of "
 "figure numbers instead ``#`` symbol."
 msgstr ""
-"Role ``numref`` usa ``%s`` como caracter especial para indicar posição do "
-"número da figura em vez do símbolo ``#`` "
 
 #: ../../sphinx/CHANGES:1895
 msgid ""
@@ -5344,9 +5304,6 @@ msgid ""
 "``:cpp:member``, and role `any` for cross-reference to any C++ declaraction."
 " #1577, #1744"
 msgstr ""
-"Adicionada diretivas conveniência e roles para domínio C++: diretiva "
-"``cpp:var`` como sinônimo para ``cpp:member``, e role `any` para referência "
-"cruzada para qualquer declaração C++. #1577, #1744"
 
 #: ../../sphinx/CHANGES:1899
 msgid ""
@@ -5447,11 +5404,11 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:1947
 msgid "Add 'alabaster' theme."
-msgstr "Adicionado tema 'alabaster'."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1948
 msgid "Add 'sphinx_rtd_theme' theme."
-msgstr "Adicionado tema 'sphinx_rtd_theme'"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1949
 msgid ""
@@ -5459,25 +5416,20 @@ msgid ""
 "available, however it will emit notice a recommendation that using new "
 "'alabaster' theme."
 msgstr ""
-"O tema padrão para html foi renomeado para 'classic'. 'default' permanece "
-"disponível, contudo será emitida recomendação para usar novo tema "
-"'alabaster'."
 
 #: ../../sphinx/CHANGES:1953
 msgid "Added ``highlight_options`` configuration value."
-msgstr "Adicionado ``highlight_options`` valor configurável."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1954
 msgid "The ``language`` config value is now available in the HTML templates."
-msgstr "A configuração ``language`` está disponível nos templates HTML."
+msgstr ""
 
 #: ../../sphinx/CHANGES:1955
 msgid ""
 "The ``env-updated`` event can now return a value, which is interpreted as an"
 " iterable of additional docnames that need to be rewritten."
 msgstr ""
-"O evento ``env-updated``  pode retornar valor, que será interpretado como "
-"uma iteração de nomes de documentos adicionais que precisam ser regravados."
 
 #: ../../sphinx/CHANGES:1957
 msgid ""
@@ -5490,48 +5442,40 @@ msgid ""
 "Add ``todo_include_todos`` config option to quickstart conf file, handled as"
 " described in documentation."
 msgstr ""
-"Adicionada opção de configuração ``todo_include_todos`` para arquivo "
-"quickstart, conforme descrito na documentação."
 
 #: ../../sphinx/CHANGES:1961
 msgid ""
 "HTML breadcrumb items tag has class \"nav-item\" and \"nav-item-N\" (like "
 "nav-item-0, 1, 2...)."
 msgstr ""
-"Marcas itens HTML possuem classe \"nav-item\" e \"nav-item-N\" (como nav-"
-"item-0, 1, 2...)."
 
 #: ../../sphinx/CHANGES:1963
 msgid ""
 "New option `sphinx-quickstart --use-make-mode` for generating Makefile that "
 "use sphinx-build make-mode."
 msgstr ""
-"Nova opção `sphinx-quickstart --use-make-mode` para geração do Makefile que "
-"usa o construtor-sphinx sphinx-build make-mode."
 
 #: ../../sphinx/CHANGES:1965
 msgid ""
 "#1235: i18n: several node can be translated if it is set to "
 "`gettext_additional_targets` in conf.py. Supported nodes are:"
 msgstr ""
-"#1235: i18n: diversos pontos podem ser traduzidos se for configurado  "
-"`gettext_additional_targets` no arquivo conf.py. Pontos suportados são:"
 
 #: ../../sphinx/CHANGES:1968
 msgid "'literal-block'"
-msgstr "'literal-block'"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1969
 msgid "'doctest-block'"
-msgstr "'doctest-block'"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1970
 msgid "'raw'"
-msgstr "'raw'"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1971
 msgid "'image'"
-msgstr "'image'"
+msgstr ""
 
 #: ../../sphinx/CHANGES:1973
 msgid ""
@@ -5543,8 +5487,6 @@ msgstr ""
 msgid ""
 "LaTeX writer now generates correct markup for cells spanning multiple rows."
 msgstr ""
-"Gerador Latex gera marcas corretas para células que são expansíveis por "
-"múltiplas colunas."
 
 #: ../../sphinx/CHANGES:1980 ../../sphinx/CHANGES:2212
 msgid ""
@@ -5560,8 +5502,6 @@ msgid ""
 "On windows, make-mode didn't work on Win32 platform if sphinx was invoked as"
 " ``python sphinx-build.py``."
 msgstr ""
-"No Windows, make-mode não funciona na plataforma 32bits se sphinx foi "
-"chamado como ``python sphinx-build.py``."
 
 #: ../../sphinx/CHANGES:1984
 msgid "#1687: linkcheck now treats 401 Unauthorized responses as \"working\"."
@@ -5583,16 +5523,12 @@ msgid ""
 "bizstyle theme: nested long title pages make long breadcrumb that breaks "
 "page layout."
 msgstr ""
-"tema bizstyle: títulos longos de páginas produzem alongamentos que quebram o"
-" layout da página."
 
 #: ../../sphinx/CHANGES:1989
 msgid ""
 "bizstyle theme: all breadcrumb items become 'Top' on some mobile browser "
 "(iPhone5s safari)."
 msgstr ""
-"tema bizstyle: todos itens longos tornam-se 'Top' em alguns navegadores "
-"móveis (iPhone5x safari)"
 
 #: ../../sphinx/CHANGES:1991
 msgid ""
@@ -5627,15 +5563,13 @@ msgstr ""
 
 #: ../../sphinx/CHANGES:2002
 msgid "Release 1.3b2 (released Dec 5, 2014)"
-msgstr "Release 1.3b2 (liberado em 5 Dez 2014)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:2007
 msgid ""
 "update bundled ez_setup.py for setuptools-7.0 that requires Python 2.6 or "
 "later."
 msgstr ""
-"atualizado bundled ez_setup.py para setuptools-7.0 o que requer Python 2.6 "
-"ou posterior."
 
 #: ../../sphinx/CHANGES:2013
 msgid ""
@@ -5663,8 +5597,6 @@ msgstr ""
 #: ../../sphinx/CHANGES:2025
 msgid "Rebuilding cause crash unexpectedly when source files were added."
 msgstr ""
-"Reconstrução causa interrupção inesperada quando novos arquivos fontes são "
-"adicionados."
 
 #: ../../sphinx/CHANGES:2026
 msgid "#1607: Fix a crash when building latexpdf with \"howto\" class"
@@ -5681,32 +5613,28 @@ msgid ""
 "make-mode didn't work on Win32 platform if sphinx was installed by wheel "
 "package."
 msgstr ""
-"make-mode não funciona na plataforma Win32 se sphinx foi instalado com "
-"pacote wheel."
 
 #: ../../sphinx/CHANGES:2034
 msgid "Release 1.3b1 (released Oct 10, 2014)"
-msgstr "Versão 1.3b1 (lançado 10 Outubro 2014)"
+msgstr ""
 
 #: ../../sphinx/CHANGES:2039
 msgid "Dropped support for Python 2.5, 3.1 and 3.2."
-msgstr "Retirado suporte para Python 2.5, 3.1 e 3.2."
+msgstr ""
 
 #: ../../sphinx/CHANGES:2040
 msgid "Dropped support for docutils versions up to 0.9."
-msgstr "Retirado suporte para docutils versões até 0.9."
+msgstr ""
 
 #: ../../sphinx/CHANGES:2041
 msgid "Removed the ``sphinx.ext.oldcmarkup`` extension."
-msgstr "Removida extensão ``sphinx.ext.oldcmarkup``"
+msgstr ""
 
 #: ../../sphinx/CHANGES:2042
 msgid ""
 "The deprecated config values ``exclude_trees``, ``exclude_dirnames`` and "
 "``unused_docs`` have been removed."
 msgstr ""
-"Os itens obsoletos de configuração ``exclude_trees``, ``exclude_dirnames`` e"
-" ``unused_docs`` foram removidos."
 
 #: ../../sphinx/CHANGES:2044
 msgid ""
@@ -5714,9 +5642,6 @@ msgid ""
 "that should appear literally (i.e. no smart quotes) in strong font.  Custom "
 "writers will have to be adapted to handle this node."
 msgstr ""
-"Adicionado novo node, ``sphinx.addnodes.literal_strong``, para teste "
-"aparecer literalmente (ex. sem aspas espertas) em fonte negrito.  "
-"Construtores adaptados devem ser adaptados para tratar esse tipo de node."
 
 #: ../../sphinx/CHANGES:2047
 msgid ""

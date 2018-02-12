@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2017\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +19,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:4
 msgid "Tutorial: Writing a simple extension"
-msgstr "チュートリアル: シンプルな拡張を作成"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:6
 msgid ""
@@ -28,8 +27,6 @@ msgid ""
 "extensions. It covers the basics of writing and activating an extension, as "
 "well as commonly used features of extensions."
 msgstr ""
-"このセクションではカスタムの拡張の作成について一通り説明していきたいと思います。 "
-"ここの説明でカバーするのは、拡張の基本的な書き方と登録の仕方、あとは拡張を作成するのに使用される一般的な機能などです。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:10
 msgid ""
@@ -37,21 +34,20 @@ msgid ""
 "include todo entries in the documentation, and to collect these in a central"
 " place.  (A similar \"todo\" extension is distributed with Sphinx.)"
 msgstr ""
-"サンプルとしては、ドキュメントの中にToDoを書くことができるようになり、指定された場所にすべてのToDoの一覧を出力する、\"todo\"拡張を扱おうと思います。Sphinxの配布物に含まれる\"todo\"拡張とほぼ同じものになります。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:16
 msgid "Important objects"
-msgstr "重要なオブジェクト"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:18
 msgid ""
 "There are several key objects whose API you will use while writing an "
 "extension.  These are:"
-msgstr "あなたが拡張を書くときに使用するAPIを持つ、いくつかの鍵となるオブジェクトがあります。それらは次のとおりです:"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:27
 msgid "**Application**"
-msgstr "**アプリケーション**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:22
 msgid ""
@@ -59,18 +55,16 @@ msgid ""
 ":class:`.Sphinx`.  It controls most high-level functionality, such as the "
 "setup of extensions, event dispatching and producing output (logging)."
 msgstr ""
-"アプリケーションオブジェクト(通常 ``app`` と呼ばれる)は :class:`.Sphinx` "
-"のインスタンスです。これは高位の機能をコントロールします。例えば、拡張のセットアップや、イベントのディスパッチ、アウトプットの生成(ロギング)等です。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:26
 msgid ""
 "If you have the environment object, the application is available as "
 "``env.app``."
-msgstr "もし、環境オブジェクトがあれば、 ``env.app`` のようにアプリケーションが提供されます。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:40
 msgid "**Environment**"
-msgstr "**Environment**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:30
 msgid ""
@@ -79,8 +73,6 @@ msgid ""
 "documents, stores all metadata about the document collection and is "
 "serialized to disk after each build."
 msgstr ""
-"ビルド環境オブジェクト(通常 ``env`` と呼ばれる)は :class:`.BuildEnvironment` "
-"のインスタンスです。これはドキュメントソースのパースを行い、ドキュメントセットに関する全てのメタデータを保持し、それらをビルド後にディスクにシリアライズする責任を持っています。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:35
 msgid ""
@@ -88,19 +80,16 @@ msgid ""
 "references, etc.  It can also be used by extensions to cache information "
 "that should persist for incremental rebuilds."
 msgstr ""
-"環境オブジェクトはメタデータにアクセスするためのAPIや、参照を解決するAPIなどを持っています。それはまた、拡張から情報のキャッシュとして使われ、それによって漸進的な再ビルドができます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:39
 msgid ""
 "If you have the application or builder object, the environment is available "
 "as ``app.env`` or ``builder.env``."
 msgstr ""
-"もしアプリケーションかビルダーのオブジェクトがあれば、 ``app.env`` や ``builder.env`` "
-"のように環境オブジェクトが提供されます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:49
 msgid "**Builder**"
-msgstr "**ビルダー**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:43
 msgid ""
@@ -109,18 +98,16 @@ msgid ""
 " parsed documents into an output format, or otherwise process them (e.g. "
 "check external links)."
 msgstr ""
-"ビルダーオブジェクト(通常 ``builder`` と呼ばれる)は :class:`.Builder` "
-"のサブクラスのインスタンスです。各ビルダークラスはパースしたドキュメントを使って、出力フォーマットに変換したり、データ処理したりします(例えば、外部リンクのチェックなど)。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:48
 msgid ""
 "If you have the application object, the builder is available as "
 "``app.builder``."
-msgstr "もしアプリケーションオブジェクトがあれば、 ``app.builder`` のようにビルダーオブジェクトが提供されます。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:57
 msgid "**Config**"
-msgstr "**Config**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:52
 msgid ""
@@ -128,27 +115,24 @@ msgid ""
 "configuration values set in :file:`conf.py` as attributes.  It is an "
 "instance of :class:`.Config`."
 msgstr ""
-"コンフィグオブジェクト(通常 ``config`` と呼ばれる)は :file:`conf.py` の設定値を属性として提供します。これは "
-":class:`.Config` のインスタンスです。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:56
 msgid "The config is available as ``app.config`` or ``env.config``."
-msgstr "コンフィグオブジェクトは ``app.config`` や ``env.config`` として提供されます。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:60
 msgid "Build Phases"
-msgstr "ビルド・フェーズ"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:62
 msgid ""
 "One thing that is vital in order to understand extension mechanisms is the "
 "way in which a Sphinx project is built: this works in several phases."
 msgstr ""
-"Sphinxのプロジェクトがビルドされる過程で、拡張機能がどのように実行されるのかということを理解することは、拡張機能の開発をするうえで必要不可欠です。この作業は以下のいくつかのフェーズから構成されています。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:65
 msgid "**Phase 0: Initialization**"
-msgstr "**フェーズ 0: 初期化**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:67
 msgid ""
@@ -157,12 +141,10 @@ msgid ""
 "Should a stored build environment exist, it is loaded, otherwise a new one "
 "is created."
 msgstr ""
-"このフェーズでは拡張作成者にとって面白いものは何もありません。 ソースディレクトリ内のソースファイルを探索し、拡張機能を初期化します。 "
-"保存されたビルド環境があればそれをロードし、なければ新しいビルド環境を作成します。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:72
 msgid "**Phase 1: Reading**"
-msgstr "**フェーズ 1: 読み込み**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:74
 msgid ""
@@ -173,10 +155,6 @@ msgid ""
 " of docutils nodes.  For document elements that aren't fully known until all"
 " existing files are read, temporary nodes are created."
 msgstr ""
-"フェーズ "
-"1ではすべてのソースファイルが読み込まれ、パースされます。なお、この後のフェーズは新規のファイルか変更されたファイルに対して実行されます。このフェーズではdocutilsによってディレクティブやロールが処理され、それに対応するコードが実行されます。このフェーズの出力は、ソースファイルごとの\\"
-" *doctree*\\ "
-"です。これは、docutilsのノードがツリー上に構成されているものです。すべてのファイルを読み込むまでは完全に解釈できないドキュメントの要素に関しては、一時的なノードが作られます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:81
 msgid ""
@@ -184,9 +162,6 @@ msgid ""
 "documentation <http://docutils.sourceforge.net/docs/ref/doctree.html>`__. "
 "Additional nodes are provided by Sphinx and :ref:`documented here <nodes>`."
 msgstr ""
-"docutilsによって提供されるノードがあります。これらは `docutilsのドキュメント <http://docutils.sphinx-"
-"users.jp/docutils/docs/ref/doctree.html>`__. "
-"で説明されています。追加のノードはSphinxによって提供され、 :ref:`ドキュメントはここ <nodes>` にあります。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:85
 msgid ""
@@ -195,25 +170,24 @@ msgid ""
 " described Python objects and index entries.  This will later be used to "
 "replace the temporary nodes."
 msgstr ""
-"ソースを読み込んでいる間は、ラベルや見出し名、説明されているPythonオブジェクト、索引のエントリーなどのめたな情報やクロスファンレスの情報がビルド環境に出力されます。これらの情報は、後で一時的なノードと置き換えられます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:90
 msgid ""
 "The parsed doctrees are stored on the disk, because it is not possible to "
 "hold all of them in memory."
-msgstr "パースされたDOCツリーはすべてのメモリ上で保存しておくことができないため、ディスク上に保存されます。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:93
 msgid "**Phase 2: Consistency checks**"
-msgstr "**フェーズ 2: 一貫性チェック**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:95
 msgid "Some checking is done to ensure no surprises in the built documents."
-msgstr "ビルドされたドキュメントの中に、びっくりするようなものがないか、いくつかのチェックを行います。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:97
 msgid "**Phase 3: Resolving**"
-msgstr "**フェーズ 3: 解決**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:99
 msgid ""
@@ -223,11 +197,10 @@ msgid ""
 " object references that exist, and simple literal nodes are created for "
 "those that don't."
 msgstr ""
-"すべてのドキュメントからメタデータ、およびクロスリファレンスのデータが得られているので、transformと呼ばれるコンポーネントを用いて，ここで一時的なノードを出力可能なノードに置き換えていきます。例えば、存在するオブジェクトへの参照があればリンクが作成されます。リンク先が存在しないものはシンプルなリテラル(等幅)のノードが作成されます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:105
 msgid "**Phase 4: Writing**"
-msgstr "**フェーズ 4: 書き出し**"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:107
 msgid ""
@@ -236,7 +209,6 @@ msgid ""
 " the individual nodes of each doctree and produces some output in the "
 "process."
 msgstr ""
-"このフェーズでは参照が解決されたDOCツリーを、HTMLやLaTeXなどの指定された出力フォーマットに変換します。このプロセス中では、docutilsのライターと呼ばれるものがDOCツリーの個々のノードをたどって、出力を行っていきます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:113
 msgid ""
@@ -244,16 +216,14 @@ msgid ""
 " that checks external links does not need anything more than the parsed "
 "doctrees and therefore does not have phases 2--4."
 msgstr ""
-"いくつかのビルダーの中には、この一般的なビルド計画から外れているものもあります。 "
-"例えば、外部リンクチェックのビルダーはdoctreeのパースをする以上の情報は不要なので、フェーズ2～4を行いません。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:119
 msgid "Extension Design"
-msgstr "拡張のデザイン"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:121
 msgid "We want the extension to add the following to Sphinx:"
-msgstr "以下のような拡張機能をSphinxに追加したいと考えているとします:"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:123
 msgid ""
@@ -261,21 +231,20 @@ msgid ""
 "and only shown in the output if a new config value is set.  (Todo entries "
 "should not be in the output by default.)"
 msgstr ""
-"\"todo\"ディレクティブは、\"TODO\"としてやらなければならないことをコンテンツとして持ち、新しい設定値で表示するように指定されたときだけ表示します。デフォルトではtodoのエントリーは表示されないようにします。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:127
 msgid ""
 "A \"todolist\" directive that creates a list of all todo entries throughout "
 "the documentation."
-msgstr "\"todolist\"ディレクティブがあると、全ドキュメントに含まれるTodoの項目を集めて、リストを作成します。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:130
 msgid "For that, we will need to add the following elements to Sphinx:"
-msgstr "これを実現するためには、Sphinxに以下の項目を追加する必要があるでしょう:"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:132
 msgid "New directives, called ``todo`` and ``todolist``."
-msgstr "``todo``, ``todolist``\\ と呼ばれる新しいディレクティブ"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:133
 msgid ""
@@ -283,8 +252,6 @@ msgid ""
 "called ``todo`` and ``todolist``.  We wouldn't need new nodes if the new "
 "directives only produced some content representable by existing nodes."
 msgstr ""
-"``todo``, ``todolist``\\ "
-"というディレクティブが使用された場合に、それを表現する慣習的な新しいドキュメントツリーのノード。もしも、新しいディレクティブが、既存のノードで表現可能なものだけを生成するのであれば、新しいノードを作成する必要はありません。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:136
 msgid ""
@@ -292,8 +259,6 @@ msgid ""
 "with the extension name, in order to stay unique) that controls whether todo"
 " entries make it into the output."
 msgstr ""
-"``todo_include_todos``\\ "
-"という新しい設定値。設定値の名前は、一意性を保つために拡張名から始まる名前にしてください。この設定値はtodoのエントリーが、出力を行うかどうかを判断します"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:139
 msgid ""
@@ -301,27 +266,22 @@ msgid ""
 "the todo and todolist nodes, and one for :event:`env-purge-doc` (the reason "
 "for that will be covered later)."
 msgstr ""
-"新しいイベントハンドラ。一つはtodoとtodolistのノードを置き換えるための :event:`doctree-resolved` "
-"イベントハンドラで、もう一つは  :event:`env-purge-doc` (理由は後で説明します)です。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:145
 msgid "The Setup Function"
-msgstr "setup関数"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:149
 msgid ""
 "The new elements are added in the extension's setup function.  Let us create"
 " a new Python module called :file:`todo.py` and add the setup function::"
 msgstr ""
-"新しい要素は、拡張の中のsetup関数の中で追加していきます。まずは :file:`todo.py` "
-"という新しいPythonのモジュールを作成して、以下のようなsetup関数を追加しましょう::"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:168
 msgid ""
 "The calls in this function refer to classes and functions not yet written.  "
 "What the individual calls do is the following:"
 msgstr ""
-"この関数の中で参照されているクラスと関数の中には、まだ説明していないものもあります。呼ばれているものが個々に何をしているか、というのを順番に説明していきます:"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:171
 msgid ""
@@ -329,10 +289,6 @@ msgid ""
 "the new *config value* ``todo_include_todos``, whose default value should be"
 " ``False`` (this also tells Sphinx that it is a boolean value)."
 msgstr ""
-":meth:`~Sphinx.add_config_value` メソッドはSphinxに対して新しい\\ *設定値*\\ である\\  "
-"``todo_include_todos``\\ を追加するように指示して、 :file:`conf.py` "
-"の中に書けるようにします。このオプションのデフォルト値は\\ ``False``\\ "
-"になります。また、この設定値がブーリアンの値を取るということもSphinxに知らせます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:175
 msgid ""
@@ -340,8 +296,6 @@ msgid ""
 "if the config value changed its value.  This is needed for config values "
 "that influence reading (build phase 1)."
 msgstr ""
-"もしも3番目の引数が\\ ``'html'``\\ "
-"の場合には、設定値が変更された場合にHTMLドキュメントが完全に再ビルドされます。この引数は、設定値がフェーズ.1の読み込みに対して影響を与えるかどうかを指定するのに必要です。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:179
 msgid ""
@@ -350,25 +304,21 @@ msgid ""
 "visitor functions are needed when the new nodes stay until phase 4 -- since "
 "the ``todolist`` node is always replaced in phase 3, it doesn't need any."
 msgstr ""
-":meth:`~Sphinx.add_node` メソッドは、ビルドシステムに対して新しい\\ *ノードクラス*\\ "
-"を追加します。このメソッドはサポートする出力形式ごとにビジター関数を定義できます。これらのビジター関数は新しいノードがフェーズ.4まで残っている場合に必要になります。\\"
-" ``todolist``\\ はフェーズ.3までにすべて置き換えられてしまうため、ビジターを指定する必要はありません。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:184
 msgid ""
 "We need to create the two node classes ``todo`` and ``todolist`` later."
-msgstr "後ほど、 ``todo`` と ``todolist`` という2つのnodeクラスを作成します。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:186
 msgid ""
 ":meth:`~Sphinx.add_directive` adds a new *directive*, given by name and "
 "class."
 msgstr ""
-":meth:`~Sphinx.add_directive` メソッドは、指定された名前とクラスから、新しい\\ *ディレクティブ*\\ を追加します。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:188
 msgid "The handler functions are created later."
-msgstr "ハンドラー関数は後で作成します。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:190
 msgid ""
@@ -376,16 +326,14 @@ msgid ""
 "name is given by the first argument.  The event handler function is called "
 "with several arguments which are documented with the event."
 msgstr ""
-"最後に、 :meth:`~Sphinx.connect` メソッドは、最初の引数に指定されたイベントの名前に対する、\\ *イベントハンドラ*\\ "
-"を追加します。イベントハンドラの関数は、ドキュメントに関する引数をいくつか伴って呼び出されます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:196
 msgid "The Node Classes"
-msgstr "ノードクラス"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:198
 msgid "Let's start with the node classes::"
-msgstr "それではノードクラスを実装していきます::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:214
 msgid ""
@@ -394,10 +342,6 @@ msgid ""
 "inherits from ``Admonition`` because it should be handled like a note or "
 "warning, ``todolist`` is just a \"general\" node."
 msgstr ""
-"ノードクラスは :mod:`docutils.nodes` "
-"の中で定義されているdocutilsの標準クラスを継承する以外には何もやる必要はありません。\\ ``todo``\\ は\\ ``note``\\ "
-"や\\ ``warning``\\ のように使用されなければならないため、\\ ``Admonition``\\ クラスを定義しています。\\ "
-"``todolist``\\ は単なる\"一般\"ノードです。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:221
 msgid ""
@@ -406,13 +350,10 @@ msgid ""
 "<http://docutils.sourceforge.net/docs/ref/doctree.html>`__ and :ref:`Sphinx "
 "<nodes>`."
 msgstr ""
-"多くの拡張は独自のノードクラスを実装する必要はなく、  `docutils <http://docutils.sphinx-"
-"users.jp/docutils/docs/ref/doctree.html>`__ と :ref:`Sphinx <nodes>` "
-"が提供するノードを使えば良いでしょう。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:228
 msgid "The Directive Classes"
-msgstr "ディレクティブクラス"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:230
 msgid ""
@@ -422,14 +363,10 @@ msgid ""
 "that the class should have attributes that configure the allowed markup, and"
 " a ``run`` method that returns a list of nodes."
 msgstr ""
-"directiveクラスは通常 :class:`docutils.parsers.rst.Directive` "
-"から派生します。ディレクティブのインタフェースの詳細は `docutils documentation`_ "
-"でも述べられています。重要なこととして、そのクラスはマークアップに許される設定のための属性と、ノードのリストを返す ``run`` "
-"メソッドを持たせるということです。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:236
 msgid "The ``todolist`` directive is quite simple::"
-msgstr "``todolist``\\ ディレクティブはきわめてシンプルです::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:245
 msgid ""
@@ -437,12 +374,10 @@ msgid ""
 "todolist directive has neither content nor arguments that need to be "
 "handled."
 msgstr ""
-"``todolist``\\ ノードクラスのインスタンスを作って返しています。\\ ``todolist``\\ "
-"ディレクティブでは、コンテンツも引数も取り扱う必要はありません。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:248
 msgid "The ``todo`` directive function looks like this::"
-msgstr "``todo``\\ ディレクティブのクラスは以下のようになります::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:278
 msgid ""
@@ -450,8 +385,6 @@ msgid ""
 "refer to the build environment instance using "
 "``self.state.document.settings.env``."
 msgstr ""
-"拡張機能の作成にあたって重要なことがこのクラスでカバーされています。まず最初に、見てわかるように、\\ "
-"``self.state.document.settings.env``\\ を通じて、ビルド環境のインスタンスを参照できるということです。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:281
 msgid ""
@@ -462,9 +395,6 @@ msgid ""
 "therefore leads to unique target names.  The target node is instantiated "
 "without any text (the first two arguments)."
 msgstr ""
-"ですので、(``todolist`` からの)リンクターゲットとして動作させるためには、 ``todo`` ディレクティブが ``todo`` "
-"ノードだけでなく、ターゲットとなるノードを返す必要があります。ターゲットのIDは ``env.new_serialno`` "
-"を使用して作成されます(HTMLではアンカー名になります)。それぞれの呼び出しごとに、ユニークなターゲット名になるような、ユニークな数値を返します。ターゲットノードは、あらゆるテキスト(最初の二つの引数)を受け取ることなく、インスタンス化されます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:288
 msgid ""
@@ -473,8 +403,6 @@ msgid ""
 "body, and the second one gives content offset.  The third argument gives the"
 " parent node of parsed result, in our case the ``todo`` node."
 msgstr ""
-"admonition(勧告)ノードを作成すると，ディレクティブのコンテントの本体（body）は``self.state.nested_parse``を使ってパースされます。最初の引数はコンテントの本体であり、2番目の引数はコンテントのオフセットです。３番目の引数はパースされた結果の親ノードです。今回のケースでは、"
-" ``todo`` ノードになります。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:293
 msgid ""
@@ -487,30 +415,26 @@ msgid ""
 "necessary.  Various information about the todo entry's location are stored "
 "along with a copy of the node."
 msgstr ""
-"``todo``\\ "
-"ノードが環境に追加されました。これは全ドキュメントのToDoのエントリーのリストを作成できるようにするために必要なものです。ここで作ったリストは\\ "
-"``todolist``\\ ディレクティブが置かれているところに出力されます。この場合、環境の属性の\\ ``todo_all_todos``\\ "
-"が使用されます。繰り返しになりますが、名前の重複を避けるために、属性名の頭には拡張名を設定します。新しい環境が作成されたときにはまだ存在していないため、ディレクティブの中では必要に応じてあるかどうかチェックを行い、作成する必要があります。ToDoエントリーの位置に関するさまざまな情報がノードのコピーの中に保存されます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:302
 msgid ""
 "In the last line, the nodes that should be put into the doctree are "
 "returned: the target node and the admonition node."
-msgstr "最後の行では、作成したターゲットノードと、AdmonitionノードをDOCツリーの中に配置するために、returnで返しています。"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:305
 msgid "The node structure that the directive returns looks like this::"
-msgstr "ディレクティブが返すノード構造は以下のようになっています::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:323
 msgid "The Event Handlers"
-msgstr "イベントハンドラ"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:325
 msgid ""
 "Finally, let's look at the event handlers.  First, the one for the :event"
 ":`env-purge-doc` event::"
-msgstr "最後に、イベントハンドラを見ていきます。最初に見るのは :event:`env-purge-doc` イベントです::"
+msgstr ""
 
 #: ../../sphinx/doc/extdev/tutorial.rst:334
 msgid ""
@@ -522,10 +446,6 @@ msgid ""
 "one from the ``todo_all_todos`` list.  If there are todos left in the "
 "document, they will be added again during parsing."
 msgstr ""
-"ソースファイルの中から情報を取り出し、環境の中に格納しましたが、これは永続化されます。そのため、ソースファイルが変更されると古い情報になってしまう可能性があります。そのため、それぞれのソースファイルを読み込む前に、環境の記録をクリアしています。"
-" :event:`env-purge-doc` イベントは、拡張機能の中でそのような作業を行うのに適した場所になります。ここでは\\ "
-"``todo_all_todos``\\ "
-"のリストの中の項目のうち、ドキュメントの名前(``docname``)がマッチしたものを削除しています。もしもドキュメント内のToDoが残っていたとしたら、パース時に重複して追加されてしまいます。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:342
 msgid ""
@@ -533,16 +453,12 @@ msgid ""
 "event is emitted at the end of phase 3 and allows custom resolving to be "
 "done::"
 msgstr ""
-"もう一つ :event:`doctree-resolved` "
-"イベントに関連したハンドラが定義されています。このイベントはフェーズ.3が完了したところで発生(emit)します。解決処理を独自に実装できるようになります::"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:386
 msgid ""
 "It is a bit more involved.  If our new \"todo_include_todos\" config value "
 "is false, all todo and todolist nodes are removed from the documents."
 msgstr ""
-"このコードは多少込み入っています。もしも新しい設定値である\\ ``\"todo_include_todos\"``\\ "
-"がfalseの場合には、すべてのtodoおよび、todolistのノードをドキュメントから削除します。"
 
 #: ../../sphinx/doc/extdev/tutorial.rst:389
 msgid ""
@@ -556,6 +472,3 @@ msgid ""
 "depending on the used builder, and appending the todo node's (the target's) "
 "ID as the anchor name."
 msgstr ""
-"trueの場合にはtodoのノードはその場に保持されます。todolistノードはtodoのエントリーのリストに置き換えられ、定義された場所への逆リンクが張られます。リストアイテムはtodoエントリーのノードの内容から作成され、その場でdocutilsのノードが作成されます。エントリーごとに段落が作られます。段落の中には定義された位置を表すテキストと逆参照のためのリンクが含まれます。また参照はイタリック体のノードの中に定義されます。参照のリンクは\\"
-" ``app.builder.get_relative_uri``\\ "
-"関数によって作成されます。これはビルダーごとに適したURIを作成します。リンクには、ノードのターゲットのIDがアンカー名として追加されています。"

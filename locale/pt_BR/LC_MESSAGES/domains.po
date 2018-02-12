@@ -10,7 +10,6 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-28 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2017\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +19,11 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:6
 msgid "Sphinx Domains"
-msgstr "Domínios do Sphinx"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:11
 msgid "What is a Domain?"
-msgstr "O que é um domínio?"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:13
 msgid ""
@@ -71,7 +70,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:44
 msgid "Basic Markup"
-msgstr "Marcação Básica"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:46
 msgid ""
@@ -110,7 +109,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:78
 msgid "Default Domain"
-msgstr "Domínio Padrão"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:79
 msgid ""
@@ -141,7 +140,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:104
 msgid "Cross-referencing syntax"
-msgstr "Sintaxe Ref. Cruzada"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:106
 msgid ""
@@ -151,7 +150,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:109
 msgid "In short:"
-msgstr "Resumindo:"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:111
 msgid ""
@@ -174,7 +173,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:122
 msgid "The Python Domain"
-msgstr "Domínio Python"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:124
 msgid ""
@@ -284,7 +283,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:211
 msgid "The first way is the preferred one."
-msgstr "A primeira maneira é a preferida."
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:215
 msgid ""
@@ -341,7 +340,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:282
 msgid "Python Signatures"
-msgstr "Assinaturas Python"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:284
 msgid ""
@@ -369,7 +368,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:305 ../../sphinx/doc/domains.rst:934
 msgid "Info field lists"
-msgstr "Lista Informação Campos"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:309
 msgid ""
@@ -432,7 +431,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Parameters"
-msgstr "Parâmetros"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:352
 msgid "The person sending the message"
@@ -452,19 +451,19 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Returns"
-msgstr "Retorna"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:357
 msgid "the message id"
-msgstr "id da mensagem"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Return type"
-msgstr "Tipo de retorno"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Raises"
-msgstr "Levanta"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:359
 msgid "if the message_body exceeds 160 characters"
@@ -690,7 +689,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:556
 msgid "Directives"
-msgstr "Diretivas"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:558
 msgid ""
@@ -823,7 +822,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:766
 msgid "Options"
-msgstr "Opções"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:768
 msgid "Some directives support options:"
@@ -1270,7 +1269,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Arguments"
-msgstr "Argumentos"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:1189
 msgid "An URI to the location of the resource."
@@ -1288,7 +1287,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Throws"
-msgstr "Lança"
+msgstr ""
 
 #: ../../sphinx/doc/domains.rst:1194
 msgid "For whatever reason in that case."
