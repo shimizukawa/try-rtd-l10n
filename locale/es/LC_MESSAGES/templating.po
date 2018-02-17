@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+\n"
+"Project-Id-Version: Sphinx 1.8.0+/9363078\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-16 06:57+0000\n"
+"POT-Creation-Date: 2018-02-17 06:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
@@ -119,8 +119,8 @@ msgstr ""
 #: ../../sphinx/doc/templating.rst:72
 msgid ""
 "**Important**: If you override a block, call ``{{ super() }}`` somewhere to "
-"render the block's content in the extended template -- unless you don't want"
-" that content to show up."
+"render the block's original content in the extended template -- unless you "
+"don't want that content to show up."
 msgstr ""
 
 #: ../../sphinx/doc/templating.rst:78
