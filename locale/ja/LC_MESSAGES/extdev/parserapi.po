@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/parserapi.rst:4
 msgid "Parser API"
-msgstr ""
+msgstr "パーサAPI"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:1
 msgid ""
@@ -28,49 +29,52 @@ msgid ""
 "``docutils.parsers.Parser``, this class improves accessibility to Sphinx "
 "APIs."
 msgstr ""
+"ソースパーサのベースクラスです。Sphinx に登録されるパーサは ``docutils.parsers.Parser`` "
+"の代わりにこのクラスを継承すべきです。このクラスは ``docutils.parsers.Parser`` クラスに比べ、Sphinx API "
+"にアクセスしやすくなっています。"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:5
 msgid "The subclasses can access following objects and functions:"
-msgstr ""
+msgstr "このクラスを継承すると以下のメンバ変数やメソッドを利用できます。"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:7
 msgid "self.app"
-msgstr ""
+msgstr "self.app"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:8
 msgid "The application object (:class:`sphinx.application.Sphinx`)"
-msgstr ""
+msgstr "アプリケーションオブジェクト (:class:`sphinx.application.Sphinx`)"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:9
 msgid "self.config"
-msgstr ""
+msgstr "self.config"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:10
 msgid "The config object (:class:`sphinx.config.Config`)"
-msgstr ""
+msgstr "設定オブジェクト (:class:`sphinx.config.Config`)"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:11
 msgid "self.env"
-msgstr ""
+msgstr "self.env"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:12
 msgid "The environment object (:class:`sphinx.environment.BuildEnvironment`)"
-msgstr ""
+msgstr "ビルド環境オブジェクト (:class:`sphinx.environment.BuildEnvironment`)"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:13
 msgid "self.warn()"
-msgstr ""
+msgstr "self.warn()"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:14
 msgid "Emit a warning. (Same as :meth:`sphinx.application.Sphinx.warn()`)"
-msgstr ""
+msgstr "警告を発生させます (:meth:`sphinx.application.Sphinx.warn()` と同じメソッドです)。"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:15
 msgid "self.info()"
-msgstr ""
+msgstr "self.info()"
 
 #: ../../sphinx/sphinx/parsers.pydocstring of sphinx.parsers.Parser:16
 msgid ""
 "Emit a informational message. (Same as "
 ":meth:`sphinx.application.Sphinx.info()`)"
-msgstr ""
+msgstr "インフォログを出力します (:meth:`sphinx.application.Sphinx.info()` と同じメソッドです)。"

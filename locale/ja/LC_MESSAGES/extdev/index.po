@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +20,14 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/index.rst:4
 msgid "Developing extensions for Sphinx"
-msgstr ""
+msgstr "Sphinx拡張機能の開発"
 
 #: ../../sphinx/doc/extdev/index.rst:6
 msgid ""
 "Since many projects will need special features in their documentation, "
 "Sphinx is designed to be extensible on several levels."
 msgstr ""
+"多くのプロジェクトはドキュメントの作成に関して特別な機能を必要とするでしょう。Sphinxはさまざまなレベルで拡張ができるように設計されています。"
 
 #: ../../sphinx/doc/extdev/index.rst:9
 msgid ""
@@ -36,6 +38,9 @@ msgid ""
 "\"hook points\" at strategic places throughout the build process, where an "
 "extension can register a hook and run specialized code."
 msgstr ""
+"拡張機能を通じてできることは主に３つあります。一つ目は新しい出力形式に対応したり、ドキュメントパース時の新しいアクションをサポートするために、\\ "
+":term:`ビルダー`\\ "
+"を追加できます。二つ目は、reStructuredText用の、新しいカスタムのロールやディレクティブを追加したり、マークアップを拡張したりできます。三つ目は\"フックポイント\"と呼ばれるもので、ビルドプロセスのさまざまな箇所に存在していて、特別なコードを実行するためのフックを登録できます。"
 
 #: ../../sphinx/doc/extdev/index.rst:16
 msgid ""
@@ -44,6 +49,9 @@ msgid ""
 "notifies Sphinx of everything the extension offers -- see the extension "
 "tutorial for examples."
 msgstr ""
+"Sphinx拡張はシンプルなPythonモジュールです。拡張機能がロードされる時には、Sphinxはこのモジュールをインポートして、モジュール内にある\\"
+" ``setup()``\\ "
+"関数を呼び出します。この関数の中では拡張機能が提供するものをSphinxに知らせます。詳しくはSphinx拡張のチュートリアルの例を見てください。"
 
 #: ../../sphinx/doc/extdev/index.rst:21
 msgid ""
@@ -51,6 +59,9 @@ msgid ""
 "a ``setup()`` function.  All other extensions to load must be listed in the "
 ":confval:`extensions` configuration value."
 msgstr ""
+"設定ファイルそのものも、\\ ``setup()``\\ "
+"関数を持っている場合には拡張機能として扱われます。それ以外のロードが必要なすべての拡張機能は、設定ファイルの中の "
+":confval:`extensions` の中にリストアップしてください。"
 
 #: ../../sphinx/doc/extdev/index.rst:26
 msgid "Discovery of builders by entry point"
@@ -81,13 +92,15 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/index.rst:58
 msgid "Extension metadata"
-msgstr ""
+msgstr "拡張機能のメタデータ"
 
 #: ../../sphinx/doc/extdev/index.rst:62
 msgid ""
 "The ``setup()`` function can return a dictionary.  This is treated by Sphinx"
 " as metadata of the extension.  Metadata keys currently recognized are:"
 msgstr ""
+"\\ ``setup()``\\ 関数は、ディクショナリを返すよう定義します。Sphinxはそのディクショナリを拡張機能のメタデータとして解釈します。\n"
+"メタデータのキーとして解釈可能なものは以下のとおりです。"
 
 #: ../../sphinx/doc/extdev/index.rst:65
 msgid ""
@@ -96,6 +109,8 @@ msgid ""
 " and informational purposes.  If not given, ``\"unknown version\"`` is "
 "substituted."
 msgstr ""
+"\\ ``'version'``\\ : 拡張機能のバージョンを示す文字列。\n"
+"拡張機能の必要バージョンのチェック(\\ :confval:`needs_extensions`\\ を参考)に利用されたり、参照目的で使われたりします。指定がない場合には、\\ ``\"unknown version\"``\\ が代わりに指定されます。"
 
 #: ../../sphinx/doc/extdev/index.rst:68
 msgid ""
@@ -114,6 +129,9 @@ msgid ""
 "``False``, i.e. you have to explicitly specify your extension to be "
 "parallel-read-safe after checking that it is."
 msgstr ""
+"\\ ``'parallel_read_safe'``\\ : "
+"拡張をロードする際に、ソースファイルの並列読み込みをサポートするかどうかを示す真偽値。デフォルトは ``False`` で、拡張機能が "
+"parallel-read-safe であるであることを確認してから明示的に指定をすべきです。"
 
 #: ../../sphinx/doc/extdev/index.rst:77
 msgid ""
@@ -121,7 +139,10 @@ msgid ""
 "output files can be used when the extension is loaded.  Since extensions "
 "usually don't negatively influence the process, this defaults to ``True``."
 msgstr ""
+"\\ ``'parallel_write_safe'``\\ : "
+"拡張をロードする際に、出力ファイルの並列書き込みをサポートするかどうかを示す真偽値。デフォルトは ``False`` で、拡張機能が parallel-"
+"write-safe であるであることを確認してから明示的に指定をすべきです。"
 
 #: ../../sphinx/doc/extdev/index.rst:82
 msgid "APIs used for writing extensions"
-msgstr ""
+msgstr "拡張機能を書く際に利用するAPI"

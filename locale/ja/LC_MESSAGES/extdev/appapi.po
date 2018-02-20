@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shirou - しろう <shirou.faw@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:4
 msgid "Application API"
-msgstr ""
+msgstr "アプリケーションAPI"
 
 #: ../../sphinx/doc/extdev/appapi.rst:10
 msgid ""
@@ -30,22 +31,22 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:16
 msgid "This application object has the public API described in the following."
-msgstr ""
+msgstr "Sphinxオブジェクトは以下のようなAPIを持っています"
 
 #: ../../sphinx/doc/extdev/appapi.rst:19
 msgid "Extension setup"
-msgstr ""
+msgstr "拡張のセットアップ"
 
 #: ../../sphinx/doc/extdev/appapi.rst:21
 msgid ""
 "These methods are usually called in an extension's ``setup()`` function."
-msgstr ""
+msgstr "以下のメソッドは通常、拡張機能の\\ ``setup()``\\ 関数の中で呼ばれます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:23
 msgid ""
 "Examples of using the Sphinx extension API can be seen in the "
 ":mod:`sphinx.ext` package."
-msgstr ""
+msgstr "Sphinx拡張APIの使用法に関するサンプルは、Sphinx標準の :mod:`sphinx.ext` のパッケージの中を見てください。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.setup_extension:1
@@ -71,6 +72,8 @@ msgid ""
 "``'1.1'``) with the version of the running Sphinx, and abort the build when "
 "it is too old."
 msgstr ""
+"*version* (``'1.1'`` のような、 ``メジャー.マイナー`` "
+"形式のバージョン文字列)と、実行しているSphinxのバージョンを比較して、古すぎる場合にはビルドを中断します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.connect:1
@@ -89,7 +92,7 @@ msgstr ""
 msgid ""
 "The method returns a \"listener ID\" that can be used as an argument to "
 ":meth:`disconnect`."
-msgstr ""
+msgstr "このメソッドは \"リスナーID\" を返します。これは :meth:`disconnect` を呼んで削除する場合の引き数に使用します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.disconnect:1
@@ -127,19 +130,19 @@ msgstr ""
 msgid ""
 "``'env'`` if a change in the setting only takes effect when a document is "
 "parsed -- this means that the whole environment must be rebuilt."
-msgstr ""
+msgstr "``'env'`` 設定を変更してからビルドをかけると、環境全体が再ビルドされます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_config_value:11
 msgid ""
 "``'html'`` if a change in the setting needs a full rebuild of HTML "
 "documents."
-msgstr ""
+msgstr "``'html'`` この設定を変更してからビルドをかけた場合、出力がHTMLの時にフル再ビルドされます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_config_value:13
 msgid "``''`` if a change in the setting will not need any special rebuild."
-msgstr ""
+msgstr "``''`` 設定を変更してもなにも再ビルドに関しては影響を与えません。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_config_value:15
@@ -147,6 +150,8 @@ msgid ""
 "Changed *rebuild* from a simple boolean (equivalent to ``''`` or ``'env'``) "
 "to a string.  However, booleans are still accepted and converted internally."
 msgstr ""
+"*rebuild* が単純なブーリアン型(``''``, ``'env'`` "
+"に相当)から文字列に変更されました。後方互換性のために、ブーリアン型も受け取ることが可能で、その場合には内部で変換されます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_config_value:20
@@ -208,11 +213,12 @@ msgid ""
 "Obviously, translators for which you don't specify visitor methods will "
 "choke on the node when encountered in a document to translate."
 msgstr ""
+"言うまでも無いことですが、ビジターメソッドを定義しないトランスレータを実行していて、そのメソッドを必要とするドキュメントに遭遇するとトランスレータはエラー停止します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_node:27
 msgid "Added the support for keyword arguments giving visit functions."
-msgstr ""
+msgstr "ビジター関数を、キーワード引数を使って渡すことができるようになりました。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_enumerable_node:1
@@ -235,6 +241,10 @@ msgid ""
 " figtypes.  It is also able to define new custom figtype if new figtype is "
 "given."
 msgstr ""
+" *figtype* "
+"は連番を振るノードの種類です。それぞれのfigtypeは独立した連番を持ちます。システムが提供するfigtypeとしては、``figure``、``table``そして"
+"``code-"
+"block``があります。ユーザーが作成したカスタムノードに対し、これらのデフォルトのfigtypeを与えることができます。また、新しいfigtype名を与えることで、新しくカスタマイズされたfigutypeを定義することも可能です。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_enumerable_node:12
@@ -251,7 +261,7 @@ msgstr ""
 msgid ""
 "Other keyword arguments are used for node visitor functions. See the "
 ":meth:`Sphinx.add_node` for details."
-msgstr ""
+msgstr "他のキーワード引数はノードのvisitor関数で使われます。詳しくは :meth:`Sphinx.add_node` を参照して下さい。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_directive:1
@@ -290,7 +300,7 @@ msgstr ""
 msgid ""
 "The directive class must inherit from the class "
 "``docutils.parsers.rst.Directive``."
-msgstr ""
+msgstr "directiveクラスは ``docutils.parsers.rst.Directive`` を継承する必要があります。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_directive:22
@@ -298,11 +308,12 @@ msgid ""
 "For example, the (already existing) :rst:dir:`literalinclude` directive "
 "would be added like this:"
 msgstr ""
+"例えば、 :rst:dir:`literalinclude` というディレクティブを追加する場合には(既に存在していますが)、以下のように書きます:"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_directive:34
 msgid "Docutils 0.5-style directive classes are now supported."
-msgstr ""
+msgstr "Docutils 0.5 スタイルのディレクティブクラスをサポートしました。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_directive:36
@@ -334,6 +345,7 @@ msgid ""
 "Register a Docutils role that does nothing but wrap its contents in the node"
 " given by *nodeclass*."
 msgstr ""
+"Docutilsのロールを登録します。このロールは特に何もしませんが、与えられた *nodeclass* を使ってラップされるようになります。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_domain:1
@@ -346,6 +358,8 @@ msgid ""
 "Make the given *domain* (which must be a class; more precisely, a subclass "
 "of :class:`~sphinx.domains.Domain`) known to Sphinx."
 msgstr ""
+"与えられた *domain* (クラスです。おそらく :class:`~sphinx.domains.Domain` "
+"のサブクラスになるでしょう)をSphinxに知らせます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.override_domain:1
@@ -359,6 +373,8 @@ msgid ""
 "already a domain with its ``.name``.  The new domain must be a subclass of "
 "the existing one."
 msgstr ""
+"与えられた *domain* クラスをSphinxに知らせますが、指定されたクラスの ``.name`` "
+"属性がすでに登録されている場合に使用します。新しい *domain* クラスは、既存のクラスのサブクラスでなければなりません。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_directive_to_domain:1
@@ -370,7 +386,7 @@ msgstr ""
 msgid ""
 "Like :meth:`add_directive`, but the directive is added to the domain named "
 "*domain*."
-msgstr ""
+msgstr ":meth:`add_directive` と似ていますが、ディレクティブを、 *domain* で指定されたドメインにのみ追加します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_role_to_domain:1
@@ -381,7 +397,7 @@ msgstr ""
 #: sphinx.application.Sphinx.add_role_to_domain:3
 msgid ""
 "Like :meth:`add_role`, but the role is added to the domain named *domain*."
-msgstr ""
+msgstr ":meth:`add_role` に似ていますが、 *domain* で指定されたドメインに、新しいロールを追加します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_index_to_domain:1
@@ -394,6 +410,8 @@ msgid ""
 "Add a custom *index* class to the domain named *domain*.  *index* must be a "
 "subclass of :class:`~sphinx.domains.Index`."
 msgstr ""
+"カスタムの *index* クラスを、 *domain* で指定されたドメイン名に追加します。 *index* は "
+":class:`~sphinx.domains.Index` のサブクラスでなければなりません。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:1
@@ -406,6 +424,8 @@ msgid ""
 "This method is a very convenient way to add a new :term:`object` type that "
 "can be cross-referenced.  It will do this:"
 msgstr ""
+"このメソッドは、クロスリファレンスを作成できる、新しい :term:`object` "
+"型を追加できる便利なメソッドです。このメソッドは以下のことを行います:"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:6
@@ -426,6 +446,9 @@ msgid ""
 "referencing and index entries.  See the :file:`conf.py` file in the source "
 "for this documentation for an example."
 msgstr ""
+"*parse_node* "
+"を指定する場合には、文字列と、docutilsのノードを受け取る関数を指定しなければなりません。ノードは、その文字列をパースして得られた子供のノードを受け取ります。この関数はクロスリファレンスと索引のエントリーで使用される名前を返さなければなりません。ここの説明のサンプルを見たい場合には、Sphinxのソースコードの"
+" :file:`conf.py` を参照してください。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:18
@@ -433,23 +456,25 @@ msgid ""
 "The *objname* (if not given, will default to *directivename*) names the type"
 " of object.  It is used when listing objects, e.g. in search results."
 msgstr ""
+"*objname* (もし与えられなければ、デフォルトでは *directivename* "
+"と同値になります)は、オブジェクトのタイプ名の名前を付けます。これは、検索結果など、オブジェクトを一覧表示する場合に使用されます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:22
 msgid "For example, if you have this call in a custom Sphinx extension::"
-msgstr ""
+msgstr "以下のような関数呼び出しが、カスタムのSphinx拡張の中で行われたとすると:"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:26
 msgid "you can use this markup in your documents::"
-msgstr ""
+msgstr "ドキュメント内で次のようなマークアップが使用できるようになります:"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:36
 msgid ""
 "For the directive, an index entry will be generated as if you had prepended "
 "::"
-msgstr ""
+msgstr "また、このディレクティブを使用すると、以下のようにindexディレクティブを書いたのと同じ索引が作成されます:"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:40
@@ -463,13 +488,20 @@ msgid ""
 "but not have typewriter styling, use ``sphinx.addnodes.literal_emphasis`` or"
 " ``sphinx.addnodes.literal_strong``."
 msgstr ""
+"リファレンスノードのクラスは、 *ref_nodeclass* を指定しない場合には ``literal`` "
+"(コードの記述に適したプロポーショナルフォントでレンダリングされる)になります。クラスは、docutilsのノードクラスを設定する必要があります。docutilsのクラスの中で頻繁に使用されるのは"
+" ``docutils.nodes.emphasis`` あるいは ``docutils.nodes.strong`` です。もしも装飾が不要であれば、"
+" ``docutils.nodes.generated`` "
+"も使用できます。もしテキストをリテラルとして処理したいなら(例えばスマートクォート置換が扶養であれば)、そしてタイプライタースタイルで表示したくないなら、"
+" ``sphinx.addnodes.literal_emphasis`` か ``sphinx.addnodes.literal_strong`` "
+"を使用してください。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:50
 msgid ""
 "For the role content, you have the same syntactical possibilities as for "
 "standard Sphinx roles (see :ref:`xref-syntax`)."
-msgstr ""
+msgstr "ロールの中身に関しては、標準のSphinxのロールと同じ構文を使用できます(:ref:`xref-syntax` 参照)。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_object_type:53
@@ -488,7 +520,7 @@ msgstr ""
 msgid ""
 "This method is very similar to :meth:`add_object_type` except that the "
 "directive it generates must be empty, and will produce no output."
-msgstr ""
+msgstr "このメソッドは ディレクティブの出力が必ず空になることを除けば、 :meth:`add_object_type` と非常に良く似ています。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_crossref_type:6
@@ -497,18 +529,20 @@ msgid ""
 "them using custom roles instead of generic ones (like :rst:role:`ref`).  "
 "Example call::"
 msgstr ""
+"これは、セマンティックのターゲットをソースに追加して、カスタムのロールを使用して参照することができるということを意味しています。ただし、 "
+":rst:role:`ref` のような一般的なものは使用することができません。サンプル::"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_crossref_type:13
 msgid "Example usage::"
-msgstr ""
+msgstr "使用例::"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_crossref_type:24
 msgid ""
 "(Of course, the element following the ``topic`` directive needn't be a "
 "section.)"
-msgstr ""
+msgstr "もちろん、 ``topic`` ディレクティブに続く要素はセクションでなくてもかまいません。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_transform:1
@@ -521,6 +555,8 @@ msgid ""
 "Add the standard docutils :class:`Transform` subclass *transform* to the "
 "list of transforms that are applied after Sphinx parses a reST document."
 msgstr ""
+"標準のDocutilsの :class:`Transform` のサブクラスの *transform* "
+"をtransformのリストに追加します。これはSphinxがreST形式のドキュメントをパースした後に適用されます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_post_transform:1
@@ -547,6 +583,10 @@ msgid ""
 "path, see :confval:`the docs for the config value <html_static_path>`.  A "
 "full URI with scheme, like ``http://example.org/foo.js``, is also supported."
 msgstr ""
+"JavaScriptのファイルのリストに、指定された *filename* "
+"のファイルを追加します。ここで指定されたファイルは、デフォルトのHTMLテンプレートの中にインクルードされます。ファイル名はHTMLの静的パスへの相対パスでなければなりません。詳しくは"
+" :confval:`設定値のドキュメント <html_static_path>` を参照してください。 "
+"``http://example.org/foo.js`` といった完全なURIのスキームもサポートされています。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_stylesheet:1
@@ -560,6 +600,9 @@ msgid ""
 "include.  Like for :meth:`add_javascript`, the filename must be relative to "
 "the HTML static path, or a full URI with scheme."
 msgstr ""
+"CSSのファイルのリストに、指定された *filename* "
+"のファイルを追加します。ここで指定されたファイルは、デフォルトのHTMLテンプレートの中にインクルードされます。 "
+":meth:`add_javascript` と同様に、ファイル名はHTMLの静的パスへの相対パスか完全なURIのスキームでなければなりません。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_stylesheet:9
@@ -594,6 +637,8 @@ msgid ""
 "Use *lexer*, which must be an instance of a Pygments lexer class, to "
 "highlight code blocks with the given language *alias*."
 msgstr ""
+"*alias* で指定された言語で書かれたコードブロックのハイライトを行う、Pygmentsのレキサークラスのインスタンス *lexer* "
+"を設定します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_autodocumenter:1
@@ -642,11 +687,14 @@ msgid ""
 "that indicates the language it should be used for.  See "
 ":confval:`html_search_language`."
 msgstr ""
+"言語ごとに、HTMLの全文検索インデックスを構築する、 :class:`sphinx.search.SearchLanguage` "
+"クラスのサブクラスである *cls* を追加します。このクラスにはどの言語から使われるのかを表す、 *lang* "
+"属性を持たせる必要があります。詳しくは、 :confval:`html_search_language` を参照してください。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_source_parser:1
 msgid "Register a parser class for specified *suffix*."
-msgstr ""
+msgstr "指定された *suffix* に対するパーサークラスを登録します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.add_env_collector:1
@@ -684,11 +732,11 @@ msgstr ""
 msgid ""
 "All these methods raise this exception if something went wrong with the "
 "extension API."
-msgstr ""
+msgstr "ここで説明したすべてのメソッドは、もし拡張APIの中で何か想定外のことが発生した時には、この例外を投げます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:103
 msgid "Emitting events"
-msgstr ""
+msgstr "イベントの発行"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.emit:1
@@ -711,12 +759,12 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:113
 msgid "Producing messages / logging"
-msgstr ""
+msgstr "メッセージ・ログの生成"
 
 #: ../../sphinx/doc/extdev/appapi.rst:115
 msgid ""
 "The application object also provides support for emitting leveled messages."
-msgstr ""
+msgstr "アプリケーションオブジェクトは、各種レベルのメッセージ・ログを発行する機能ももちます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:119
 msgid ""
@@ -724,6 +772,8 @@ msgid ""
 "stop the build; just raise an exception (:exc:`sphinx.errors.SphinxError` or"
 " a custom subclass) to do that."
 msgstr ""
+"Sphinxには \"error\"という関数呼び出しはありません。\"error\"はビルドを中断させるべきものであり、それをするには例外(\\ "
+":exc:`sphinx.errors.SphinxError`\\ やそれを継承したカスタムの例外)を発生させるだけでよいからです。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:125
 msgid "Please use :ref:`logging-api` instead."
@@ -732,7 +782,7 @@ msgstr ""
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.warn:1
 msgid "Emit a warning."
-msgstr ""
+msgstr "警告を発生させます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.warn:3
@@ -747,6 +797,7 @@ msgid ""
 "*type* and *subtype* are used to suppress warnings with "
 ":confval:`suppress_warnings`."
 msgstr ""
+"*type* と *subtype* は :confval:`suppress_warnings` でワーニングをサポートするために利用されています。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.warn:10
@@ -764,29 +815,29 @@ msgstr ""
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.info:1
 msgid "Emit an informational message."
-msgstr ""
+msgstr "種々の情報を出力します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.info:3
 msgid ""
 "If *nonl* is true, don't emit a newline at the end (which implies that more "
 "info output will follow soon.)"
-msgstr ""
+msgstr "*nonl* が真の場合、メッセージの末尾に改行記号を出力しません(つまり、後続のメッセージが続けて出力されることになります)。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.verbose:1
 msgid "Emit a verbose informational message."
-msgstr ""
+msgstr "冗長な情報を出力します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.debug:1
 msgid "Emit a debug-level informational message."
-msgstr ""
+msgstr "デバッグ情報を出力します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.Sphinx.debug2:1
 msgid "Emit a lowlevel debug-level informational message."
-msgstr ""
+msgstr "低レベルデバッグ情報を出力します。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:139
 msgid "Sphinx runtime information"
@@ -799,15 +850,15 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:145
 msgid "Source directory."
-msgstr ""
+msgstr "ソースディレクトリ。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:149
 msgid "Directory containing ``conf.py``."
-msgstr ""
+msgstr " ``conf.py`` が含まれるディレクトリ。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:153
 msgid "Directory for storing pickled doctrees."
-msgstr ""
+msgstr "pickle化された doctree を格納するディレクトリ"
 
 #: ../../sphinx/doc/extdev/appapi.rst:157
 msgid "Directory for storing built document."
@@ -815,7 +866,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:163
 msgid "Sphinx core events"
-msgstr ""
+msgstr "Sphinxコアイベント"
 
 #: ../../sphinx/doc/extdev/appapi.rst:165
 msgid ""
@@ -824,12 +875,15 @@ msgid ""
 " function (note that ``conf.py`` can also have a ``setup`` function) to "
 "connect handlers to the events.  Example:"
 msgstr ""
+"Sphinxコアはこれらのイベントを理解します。イベント名に続いて示される引数は、登録されるイベントハンドラに渡されるものです。拡張プログラムの "
+"``setup`` 関数 ( 注 ``conf.py 中でも ``setup`` 関数を記述すことができます) 内にて :math:`.connect`"
+" メソッドを使用することで、イベントをイベントハンドラーと関連付けます。例えば:"
 
 #: ../../sphinx/doc/extdev/appapi.rst:181
 msgid ""
 "Emitted when the builder object has been created.  It is available as "
 "``app.builder``."
-msgstr ""
+msgstr "ビルダーオブジェクトが作成された時に発行されます。ビルダーオブジェクトは ``app.builder`` とすることで参照できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:186
 msgid "Emitted when the config object has been initialized."
@@ -842,6 +896,8 @@ msgid ""
 "that the environment has determined.  You can return a list of docnames to "
 "re-read in addition to these."
 msgstr ""
+"ソースファイルが変更されたりして、再読み込みする必要がある場合に発行されます。 *added*, *changed*, *removed* "
+"には、ドキュメント名のセットです。さらに追加で読み込み直すべきドキュメントのリストを返すことができます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:201
 msgid ""
@@ -850,6 +906,7 @@ msgid ""
 "read.  This is for extensions that keep their own caches in attributes of "
 "the environment."
 msgstr ""
+"ソースファイルが削除されたり、新たに読み込まる場合など、環境の中に含まれるソースファイルの関連情報をクリアすべき状況になった場合に発行されます。環境の属性の中に情報をキャッシュしておくような拡張機能ためのイベントです。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:206
 msgid ""
@@ -857,6 +914,7 @@ msgid ""
 "source file has been changed, the cache's entries for the file are cleared, "
 "since the module declarations could have been removed from the file."
 msgstr ""
+"例えば、環境の中にすべてのモジュールのキャッシュが存在してる場合、ソースファイルが変更されると、ファイルからモジュール宣言から削除されてから、そのファイルに関するキャッシュのエントリーはクリアされます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:214
 msgid ""
@@ -866,12 +924,16 @@ msgid ""
 "docnames that Sphinx did not consider changed (but never add any docnames "
 "that are not in ``env.found_docs``)."
 msgstr ""
+"環境がすべての追加および変更されたファイルのリストを決定し、そのリストを読み込む直前に発行されるイベントです。拡張機能の作者は処理の直前にドキュメント名リストの順序を(*インプレイスで*)変更したり、Sphinxが変更を把握出来なかったドキュメント名を追加(ただし"
+" ``env.found_doc`` にないドキュメント名は決して追加しないでください)することができます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:220
 msgid ""
 "You can also remove document names; do this with caution since it will make "
 "Sphinx treat changed files as unchanged."
 msgstr ""
+"イベントハンドラはドキュメント名をリストから削除することもできます; "
+"注意深くこの方法を利用することで、Sphinxに変更済みのファイルを未変更であるとして扱わせることができます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:227
 msgid ""
@@ -880,6 +942,8 @@ msgid ""
 "the contents and replace this item to implement source-level "
 "transformations."
 msgstr ""
+"ソースファイルが読み込まれる時に発行されます。 *source* "
+"引数はリストで、ひとつの要素はソースファイルのコンテンツを表します。コンテンツに関する処理を行ったり、要素に関してソースレベルでの変換を実装したりできます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:231
 msgid ""
@@ -887,12 +951,14 @@ msgid ""
 "LaTeX, you can use a regular expression to replace ``$...$`` by "
 "``:math:`...```."
 msgstr ""
+"もしも、LaTeXと同じように、 ``$`` 記号を、インラインの数式の区切り文字にしたい場合には、このイベントハンドラの中で、正規表現を使用して "
+"``$...$`` を ``:math:`...``` に置き換えることで実現できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:239
 msgid ""
 "Emitted when a doctree has been parsed and read by the environment, and is "
 "about to be pickled.  The *doctree* can be modified in-place."
-msgstr ""
+msgstr "doctreeがパースされ、環境から読み込まれ、pickle化される時に発行されます。 *doctree* をその場で変更できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:244
 msgid ""
@@ -902,14 +968,17 @@ msgid ""
 " *node*.  Usually this node is a :class:`reference` node containing "
 "*contnode* as a child."
 msgstr ""
+"Pythonモジュールやオブジェクトへの相互参照が解決できないときに発行されます。もしも参照の問題を解決できる場合には、 *node* "
+"の代わりにドキュメントツリーに挿入される、新しいdocutilsのノードを返すことで、イベントハンドラ側で解決できます。通常このノードは、 "
+"*contnode* を子供として含む :class:`reference` ノードです。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../sphinx/doc/extdev/appapi.rst:250
 msgid "The build environment (``app.builder.env``)."
-msgstr ""
+msgstr "ビルド環境 (``app.builder.env``)"
 
 #: ../../sphinx/doc/extdev/appapi.rst:251
 msgid ""
@@ -917,12 +986,14 @@ msgid ""
 "``reftarget``, ``modname`` and ``classname`` attributes determine the type "
 "and target of the reference."
 msgstr ""
+"これから解決される :class:`pending_xref` ノード。この属性は ``reftype`` 、 ``reftarget`` 、 "
+"``modname`` 、``classname`` 属性であり、これらの属性によって、型と参照先ターゲットが決定されます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:254
 msgid ""
 "The node that carries the text and formatting inside the future reference "
 "and should be a child of the returned reference node."
-msgstr ""
+msgstr "このノードは、将来の参照が持つ、テキストとフォーマット情報を持ちます。これは返される参照ノードの子供にならなければなりません。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:261
 msgid ""
@@ -930,6 +1001,8 @@ msgid ""
 "all references have been resolved and TOCs have been inserted.  The "
 "*doctree* can be modified in place."
 msgstr ""
+"環境がdoctreeに関して\"resolved(解決)\"と判断したときに発行されます。これは、すべての参照が解決され、目次が挿入された時、ということになります。"
+" *doctree* はこのイベントハンドラ内で操作できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:265
 msgid ""
@@ -937,12 +1010,14 @@ msgid ""
 " the writers, so that they don't cause errors when the writers encounter "
 "them."
 msgstr ""
+"このイベントは、ライタークラスにビジターメソッドが存在しない、カスタムのノードを置換して処理するのに使用できます。もしもここで設定しない場合、未知のノードを見つけると、ライターはエラーを出しますが、設定することでエラーが出なくなります。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:270
 msgid ""
 "This event is only emitted when parallel reading of documents is enabled.  "
 "It is emitted once for every subprocess that has read some documents."
 msgstr ""
+"このイベントはドキュメントの並列読み込みが有効の場合にのみ発行されます。それぞれのサブプロセスがドキュメントを読み込んだ場合に一度だけ発行されます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:273
 msgid ""
@@ -950,6 +1025,7 @@ msgid ""
 "environment in a custom location.  Otherwise the environment in the main "
 "process will not be aware of the information stored in the subprocess."
 msgstr ""
+"このイベントは拡張機能が特定の場所の環境中にデータを保存する場合に使用される必要があります。使用しないと、サブプロセス中で保存された情報をメインプロセスの環境内で利用できなくなります。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:277
 msgid ""
@@ -957,6 +1033,8 @@ msgid ""
 "environment from the main process.  *docnames* is a set of document names "
 "that have been read in the subprocess."
 msgstr ""
+"*other* はサブプロセス中での環境、*env* はメインプロセスでの環境です。*docnames* "
+"はこのサブプロセスにおいて読み込まれたドキュメント名のセットです。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:281
 msgid ""
@@ -965,12 +1043,14 @@ msgid ""
 "of :event:`env-purge-doc`, only that information is not removed, but added "
 "to the main environment from the other environment."
 msgstr ""
+"このイベントの使用例については、 標準で提供されている ``sphinx.ext.todo`` を参照してください。この実装方法は :event"
+":`env-purge-doc` に似ています、ただし、情報が削除されるだけではなく、他の環境からの情報をメインプロセス環境に追加することができます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:290
 msgid ""
 "Emitted when the :meth:`update` method of the build environment has "
 "completed, that is, the environment and all doctrees are now up-to-date."
-msgstr ""
+msgstr "ビルダーの :meth:`update` メソッドの実行が完了し、環境とすべてのdoctreeが最新になった時に発行されます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:293
 msgid ""
@@ -978,10 +1058,11 @@ msgid ""
 "will then be considered updated, and will be (re-)written during the writing"
 " phase."
 msgstr ""
+"イベントハンドラより、ドキュメント名のイテレータを返すことができます。これらのドキュメントはアップデートされたとみなされ、書き込みフェイズにて新規書き込み(または書き換え)が行われます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:299
 msgid "The handlers' return value is now used."
-msgstr ""
+msgstr "イベントハンドラからの戻り値が利用されるようになりました。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:304
 msgid ""
@@ -999,12 +1080,15 @@ msgid ""
 "can add pages to write by returning an iterable from this event consisting "
 "of ``(pagename, context, templatename)``."
 msgstr ""
+"HTMLビルダーが、ドキュメント以外のページの書き込みを開始するときに発行されます。 ``(pagename, context, "
+"templatename)`` という構成の要素を含むシーケンスを返すと、ページを追加できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:321
 msgid ""
 "Emitted when the HTML builder has created a context dictionary to render a "
 "template with -- this can be used to add custom elements to the context."
 msgstr ""
+"HTMLビルダーがコンテキストの辞書を作り、テンプレートを使用してレンダリングを行う時に発行されます。このイベントは、追加のカスタムの要素をコンテキストに追加する場合に使用できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:324
 msgid ""
@@ -1013,6 +1097,9 @@ msgid ""
 " *templatename* is the name of the template to render, this will be "
 "``'page.html'`` for all pages from reST documents."
 msgstr ""
+"*pagename* 引数はレンダリングされるページの、規範に則った名前です。規範というのは、 ``.html`` "
+"が付かず、パス区切りとしてスラッシュ(/)が使われている状態です。 *templatename* はレンダリングに使用するテンプレートの名前です。 "
+"reSTドキュメントのページのレンダリング時には、必ず ``'page.html'`` となります。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:329
 msgid ""
@@ -1020,6 +1107,8 @@ msgid ""
 "template engine to render the page and can be modified to include custom "
 "values.  Keys must be strings."
 msgstr ""
+"*context* "
+"引数はテンプレートエンジンがページをレンダリングする際に与えられる値の辞書になります。カスタムの値を持つように、変更することが可能です。キーは必ず文字列です。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:333
 msgid ""
@@ -1027,16 +1116,21 @@ msgid ""
 "reST documents; it will be ``None`` when the page is created from an HTML "
 "template alone."
 msgstr ""
+"*doctree* "
+"引数はreSTドキュメントから作成する場合にはdoctreeとなります。もしもHTMLテンプレートからのみ作成されるページの場合には、 ``None``"
+" となります。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:337
 msgid ""
 "You can return a string from the handler, it will then replace "
 "``'page.html'`` as the HTML template for this page."
 msgstr ""
+"イベントハンドラは文字列を返すことができます、この文字列は ``'page.html'`` "
+"に代わりHTMLテンプレートとして、このページのレンダリングに利用されるテンプレート名になります。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:342
 msgid "The return value can now specify a template name."
-msgstr ""
+msgstr "戻り値により使用するテンプレート名を指定できるようになりました。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:347
 msgid ""
@@ -1047,14 +1141,18 @@ msgid ""
 "raised no exception, *exception* will be ``None``.  This allows to customize"
 " cleanup actions depending on the exception status."
 msgstr ""
+"ビルドが完了し、Sphinxが終了する際に発行されます。通常はクリーンアップに使用されます。このイベントは、ビルドプロセスが例外を上げたときにも発行されます。その場合には、"
+" *exception* "
+"引数が渡されます。アプリケーションの中で発生した例外は、このイベントハンドラが終了した段階で、再度投げられます。もしもビルドプロセスが例外を発生しなかった場合には、"
+" *exception* は ``None`` になります。これによって、例外の種類ごとの、クリーンアップの処理をカスタム化できます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:358
 msgid "Checking the Sphinx version"
-msgstr ""
+msgstr "Sphinx のバージョン確認"
 
 #: ../../sphinx/doc/extdev/appapi.rst:362
 msgid "Use this to adapt your extension to API changes in Sphinx."
-msgstr ""
+msgstr "作製した拡張をSphinxのAPI変更に追従させる為、この仕組みを使用してください。"
 
 #: ../../sphinx/sphinx/__init__.pydocstring of sphinx.version_info:1
 msgid "Version info for better programmatic use."
@@ -1069,11 +1167,11 @@ msgstr ""
 
 #: ../../sphinx/sphinx/__init__.pydocstring of sphinx.version_info:7
 msgid "Before version 1.2, check the string ``sphinx.__version__``."
-msgstr ""
+msgstr "1.2より前のバージョンでは ``sphinx.__version__`` の文字列により確認してください。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:368
 msgid "The Config object"
-msgstr ""
+msgstr "Config オブジェクト"
 
 #: ../../sphinx/sphinx/config.pydocstring of sphinx.config.Config:1
 msgid "Configuration file abstraction."
@@ -1083,7 +1181,7 @@ msgstr ""
 msgid ""
 "The config object makes the values of all config values available as "
 "attributes."
-msgstr ""
+msgstr "config オブジェクトはすべての設定値を属性として利用できるよう保持します。"
 
 #: ../../sphinx/sphinx/config.pydocstring of sphinx.config.Config:6
 msgid ""
@@ -1095,7 +1193,7 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/appapi.rst:378
 msgid "The template bridge"
-msgstr ""
+msgstr "テンプレートブリッジ"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge:1
@@ -1103,11 +1201,12 @@ msgid ""
 "This class defines the interface for a \"template bridge\", that is, a class"
 " that renders templates given a template name and a context."
 msgstr ""
+"このクラスは、\"テンプレートへのブリッジ\"を定義しています。テンプレートブリッジというのは、与えられたテンプレート名と、コンテキストを利用して、テンプレートをレンダリングするクラスのことです。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.init:1
 msgid "Called by the builder to initialize the template system."
-msgstr ""
+msgstr "テンプレートのシステムの初期化を行うために、ビルダーから呼ばれます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.init:3
@@ -1115,6 +1214,7 @@ msgid ""
 "*builder* is the builder object; you'll probably want to look at the value "
 "of ``builder.config.templates_path``."
 msgstr ""
+"*builder* はビルダーオブジェクトで、 ``builder.config.templates_path`` の値を使用することになるでしょう。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.init:6
@@ -1122,6 +1222,8 @@ msgid ""
 "*theme* is a :class:`sphinx.theming.Theme` object or None; in the latter "
 "case, *dirs* can be list of fixed directories to look for templates."
 msgstr ""
+"*theme* は :class:`sphinx.theming.Theme` オブジェクト、あるいは ``None`` になります。後者の場合には、 "
+"*dirs* に固定ディレクトリのパスが入ったリストが渡され、この中からテンプレートを探します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.newest_template_mtime:1
@@ -1130,6 +1232,8 @@ msgid ""
 "template changes.  Return the mtime of the newest template file that was "
 "changed.  The default implementation returns ``0``."
 msgstr ""
+"このメソッドはビルダーから呼ばれます。テンプレートが変更されたことで、出力ファイルを再レンダリングする必要があるかどうかの判断をするために使用されます。変更された、最新のテンプレートのmtimeを返します。デフォルトの実装では"
+" ``0`` を返します。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.render:1
@@ -1137,6 +1241,8 @@ msgid ""
 "Called by the builder to render a template given as a filename with a "
 "specified context (a Python dictionary)."
 msgstr ""
+"指定された **context** (Python辞書)を使用して、 **template** "
+"で指定されたファイル名のテンプレートのレンダリングを行います。ビルダーから呼ばれます。"
 
 #: ../../sphinx/sphinx/application.pydocstring of
 #: sphinx.application.TemplateBridge.render_string:1
@@ -1144,10 +1250,12 @@ msgid ""
 "Called by the builder to render a template given as a string with a "
 "specified context (a Python dictionary)."
 msgstr ""
+"指定された **context** (Python辞書)を使用して、 **template** "
+"で指定された文字列形式のテンプレートのレンダリングを行います。ビルダーから呼ばれます。"
 
 #: ../../sphinx/doc/extdev/appapi.rst:389
 msgid "Exceptions"
-msgstr ""
+msgstr "例外"
 
 #: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:1
 msgid "Base class for Sphinx errors."
@@ -1159,12 +1267,14 @@ msgid ""
 "raised, Sphinx will abort the build and present the exception category and "
 "message to the user."
 msgstr ""
+"これは \"ナイスな\" "
+"例外を作成するための基底クラスです。この例外が発生すると、Sphinxはビルドを中止し、例外のカテゴリとメッセージをユーザーに表示します。"
 
 #: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:7
 msgid ""
 "Extensions are encouraged to derive from this exception for their custom "
 "errors."
-msgstr ""
+msgstr "拡張プログラムでは、この例外を継承しカスタマイズすることが強く推奨されます。"
 
 #: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:10
 msgid ""
@@ -1172,6 +1282,8 @@ msgid ""
 "and shown to the user with a part of the traceback (and the full traceback "
 "saved in a temporary file)."
 msgstr ""
+":exc:`SphinxError` から *継承されない* "
+"例外は予期しない例外として扱われ、トレースバックの一部を表示(そして、全部を一時ファイルに保存)します。"
 
 #: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.SphinxError:16
 msgid ""
@@ -1179,6 +1291,8 @@ msgid ""
 "to a string (\"category: message\").  Should be set accordingly in "
 "subclasses."
 msgstr ""
+"例外の \"category\" の記述部分は、例外内容を文字列に変換する場合に利用されます(\"category: message\" という書式)。"
+" 例外のサブクラスに応じて適切に設定するべきです。"
 
 #: ../../sphinx/sphinx/errors.pydocstring of sphinx.errors.ConfigError:1
 msgid "Configuration error."

@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shirou - しろう <shirou.faw@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/CONTRIBUTING.rst:4
 msgid "Sphinx Developer's Guide"
-msgstr ""
+msgstr "Sphinx開発者のためのガイド"
 
 #: ../../sphinx/CONTRIBUTING.rst:8
 msgid ""
@@ -27,46 +28,49 @@ msgid ""
 "system used by developers to document systems used by other developers to "
 "develop other systems that may also be documented using Sphinx."
 msgstr ""
+"このドキュメントは Sphinx の開発プロセスについて記述します。 Sphinx "
+"は、開発者によって使用されるドキュメンテーションシステムなので、その開発者が作るシステムを他の開発者に使ってもらうためのドキュメントに使用されます。そのようなシステムを利用する開発者もまた"
+" Sphinx を使用してドキュメントを書くかもしれません。"
 
 #: ../../sphinx/CONTRIBUTING.rst:15
 msgid "The Sphinx source code is managed using Git and is hosted on GitHub."
-msgstr ""
+msgstr "SphinxのソースコードはGitで管理され、GitHubでホストされています。"
 
 #: ../../sphinx/CONTRIBUTING.rst:17
 msgid "git clone git://github.com/sphinx-doc/sphinx"
-msgstr ""
+msgstr "git clone git://github.com/sphinx-doc/sphinx"
 
 #: ../../sphinx/CONTRIBUTING.rst:20
 msgid "Community"
-msgstr ""
+msgstr "コミュニティ"
 
 #: ../../sphinx/CONTRIBUTING.rst:22
 msgid "sphinx-users <sphinx-users@googlegroups.com>"
-msgstr ""
+msgstr "sphinx-users <sphinx-users@googlegroups.com>"
 
 #: ../../sphinx/CONTRIBUTING.rst:22
 msgid "Mailing list for user support."
-msgstr ""
+msgstr "ユーザーサポートのためのメーリングリスト"
 
 #: ../../sphinx/CONTRIBUTING.rst:25
 msgid "sphinx-dev <sphinx-dev@googlegroups.com>"
-msgstr ""
+msgstr "sphinx-dev <sphinx-dev@googlegroups.com>"
 
 #: ../../sphinx/CONTRIBUTING.rst:25
 msgid "Mailing list for development related discussions."
-msgstr ""
+msgstr "開発関連の議論を行うためのメーリングリスト"
 
 #: ../../sphinx/CONTRIBUTING.rst:29
 msgid "#sphinx-doc on irc.freenode.net"
-msgstr ""
+msgstr "#sphinx-doc on irc.freenode.net"
 
 #: ../../sphinx/CONTRIBUTING.rst:28
 msgid "IRC channel for development questions and user support."
-msgstr ""
+msgstr "開発の質問やユーザーサポートのためのIRCチャンネル"
 
 #: ../../sphinx/CONTRIBUTING.rst:32
 msgid "Bug Reports and Feature Requests"
-msgstr ""
+msgstr "バグ報告と機能のリクエスト"
 
 #: ../../sphinx/CONTRIBUTING.rst:34
 msgid ""
@@ -89,10 +93,11 @@ msgid ""
 "the issue.  If possible, try to create a minimal project that produces the "
 "error and post that instead."
 msgstr ""
+"関係するソースファイルを含めるか、リンクを提供することで、私たちが問題を解決する助けになります。可能なら、エラーを生成する最小のプロジェクトを作成して、代わりにそれを送信するようにしてください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:52
 msgid "Contributing to Sphinx"
-msgstr ""
+msgstr "Sphinx への貢献"
 
 #: ../../sphinx/CONTRIBUTING.rst:54
 msgid ""
@@ -101,12 +106,15 @@ msgid ""
 "the changes.  The pull request will then need to be approved by one of the "
 "core developers before it is merged into the main repository."
 msgstr ""
+"新しいコントリビュータが Sphinx にコードを提出する際に推奨される方法は、GitHub上のリポジトリをフォークして、変更をコミットした後で "
+"pull request を送ることです。その後 pull request "
+"は、メインリポジトリにマージされる前に、コア開発者のうちの1人によって承認される必要があります。"
 
 #: ../../sphinx/CONTRIBUTING.rst:59
 msgid ""
 "Check for open issues or open a fresh issue to start a discussion around a "
 "feature idea or a bug."
-msgstr ""
+msgstr "機能のアイデアやバグについての議論を行うために、進行中のissueチケットを探すか、または新しいチケットを作成してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:61
 msgid ""
@@ -125,39 +133,43 @@ msgstr ""
 msgid ""
 "Write a test which shows that the bug was fixed or that the feature works as"
 " expected."
-msgstr ""
+msgstr "バグが修正されたことや、機能が想定どおりに動作することを確認するテストを記述します。"
 
 #: ../../sphinx/CONTRIBUTING.rst:68
 msgid ""
 "Send a pull request and bug the maintainer until it gets merged and "
 "published. Make sure to add yourself to AUTHORS_ and the change to CHANGES_."
 msgstr ""
+"プルリクエストを送信し、それがマージされてリリースされるまで、bug the maintainerします。AUTHORS_ に自分を追加したり、 "
+"CHANGES_ に変更を書いたりしてください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:78
 msgid "Getting Started"
-msgstr ""
+msgstr "はじめに"
 
 #: ../../sphinx/CONTRIBUTING.rst:80
 msgid "These are the basic steps needed to start developing on Sphinx."
-msgstr ""
+msgstr "これらは Sphinx の開発を始めるために必要な基本的なステップです。"
 
 #: ../../sphinx/CONTRIBUTING.rst:82
 msgid "Create an account on GitHub."
-msgstr ""
+msgstr "GitHub上にアカウントを作る。"
 
 #: ../../sphinx/CONTRIBUTING.rst:84
 msgid ""
 "Fork the main Sphinx repository (`sphinx-doc/sphinx <https://github.com"
 "/sphinx-doc/sphinx>`_) using the GitHub interface."
 msgstr ""
+"GitHubインタフェースを使用して、 Sphinx のメインリポジトリ (`sphinx-doc/sphinx <https://github.com"
+"/sphinx-doc/sphinx>`_) をフォークする。"
 
 #: ../../sphinx/CONTRIBUTING.rst:87
 msgid "Clone the forked repository to your machine. ::"
-msgstr ""
+msgstr "フォークしたリポジトリをあなたのマシンにクローンする。 ::"
 
 #: ../../sphinx/CONTRIBUTING.rst:92
 msgid "Checkout the appropriate branch."
-msgstr ""
+msgstr "適切なブランチをチェックアウトする。"
 
 #: ../../sphinx/CONTRIBUTING.rst:94
 msgid ""
@@ -185,19 +197,19 @@ msgstr ""
 
 #: ../../sphinx/CONTRIBUTING.rst:113
 msgid "Create a new working branch.  Choose any name you like. ::"
-msgstr ""
+msgstr "新しい作業ブランチを作成します。ブランチ名は好きな名前を選んで構いません。::"
 
 #: ../../sphinx/CONTRIBUTING.rst:117
 msgid "Hack, hack, hack."
-msgstr ""
+msgstr "ハック・ハック・ハック"
 
 #: ../../sphinx/CONTRIBUTING.rst:119
 msgid "For tips on working with the code, see the `Coding Guide`_."
-msgstr ""
+msgstr "コードで作業する際の tips については、 `コーディングガイド`_ を参照してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:121
 msgid "Test, test, test."
-msgstr ""
+msgstr "テスト・テスト・テスト"
 
 #: ../../sphinx/CONTRIBUTING.rst:123
 msgid ""
@@ -252,7 +264,7 @@ msgstr ""
 msgid ""
 "For bug fixes, first add a test that fails without your changes and passes "
 "after they are applied."
-msgstr ""
+msgstr "バグフィックスについては、まず最初に問題を再現する、つまり失敗するテストを追加してください。その後テストが通るようにバグを修正します。"
 
 #: ../../sphinx/CONTRIBUTING.rst:167
 msgid ""
@@ -267,24 +279,26 @@ msgid ""
 "Please add a bullet point to :file:`CHANGES` if the fix or feature is not "
 "trivial (small doc updates, typo fixes).  Then commit::"
 msgstr ""
+"もし、修正が限定的なもの(ドキュメントの微細な修正、スペルミス)ではない場合は、:file:`CHANGES`に「黒丸 bullet "
+"point」を追加してからcommit::してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:177
 msgid ""
 "GitHub recognizes certain phrases that can be used to automatically update "
 "the issue tracker."
-msgstr ""
+msgstr "Githubは特定のフレーズを認識して、自動的に課題トラッカーを更新できます。"
 
 #: ../../sphinx/CONTRIBUTING.rst:180
 msgid "For example::"
-msgstr ""
+msgstr "例えば::"
 
 #: ../../sphinx/CONTRIBUTING.rst:184
 msgid "would close issue #42."
-msgstr ""
+msgstr "これはチケット #42 をクローズします。"
 
 #: ../../sphinx/CONTRIBUTING.rst:186
 msgid "Push changes in the branch to your forked repository on GitHub. ::"
-msgstr ""
+msgstr "変更をGithubにあるフォークしたあなたのリポジトリのブランチに push する。 ::"
 
 #: ../../sphinx/CONTRIBUTING.rst:190
 msgid ""
@@ -294,11 +308,11 @@ msgstr ""
 
 #: ../../sphinx/CONTRIBUTING.rst:193
 msgid "Wait for a core developer to review your changes."
-msgstr ""
+msgstr "コア開発者が変更をレビューするのを待つ。"
 
 #: ../../sphinx/CONTRIBUTING.rst:197
 msgid "Core Developers"
-msgstr ""
+msgstr "コア開発者"
 
 #: ../../sphinx/CONTRIBUTING.rst:199
 msgid ""
@@ -306,6 +320,8 @@ msgid ""
 "They can commit changes, accept/reject pull requests, and manage items on "
 "the issue tracker."
 msgstr ""
+"Sphinx のコア開発者は、メインリポジトリへの書き込みアクセスを持っています。コア開発者は、変更をコミットすることができ、 pull request"
+" を受理/却下することができ、課題トラッカー上のアイテムを管理することができます。"
 
 #: ../../sphinx/CONTRIBUTING.rst:203
 msgid ""
@@ -314,10 +330,13 @@ msgid ""
 "requests from forked repositories and have a core developer add the changes "
 "for you."
 msgstr ""
+"Sphinx "
+"の開発に参加するために、コア開発者である必要はなく、書き込みアクセスを持つ必要もありません。あなたはパッチを提出したり、フォークしたリポジトリから　"
+"pull request を作成したりすることができます。そして、コア開発者があなたの代わりに変更を追加します。"
 
 #: ../../sphinx/CONTRIBUTING.rst:207
 msgid "The following are some general guidelines for core developers:"
-msgstr ""
+msgstr "以下はコア開発者のためのいくつかの一般的なガイドラインです:"
 
 #: ../../sphinx/CONTRIBUTING.rst:209
 msgid ""
@@ -325,6 +344,8 @@ msgid ""
 "instead of being committed directly to the main repository.  The pull "
 "request should be reviewed by another core developer before it is merged."
 msgstr ""
+"不確かな変更や広範囲に及ぶ変更は、メインリポジトリに直接コミットする代わりに pull request を提出すべきです。その pull request"
+" は、マージされる前に他のコア開発者によってレビューされるべきです。"
 
 #: ../../sphinx/CONTRIBUTING.rst:213
 msgid ""
@@ -332,16 +353,20 @@ msgid ""
 " in a good working state and that all tests pass before pushing your "
 "changes."
 msgstr ""
+"自明な変更は直接コミットできますが、リポジトリを良好に動作する状態に保ち、変更を push "
+"する前にすべてのテストが通ることを確かめるようにしてください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:216
 msgid ""
 "When committing code written by someone else, please attribute the original "
 "author in the commit message and any relevant :file:`CHANGES` entry."
 msgstr ""
+"誰か他の人によって書かれたコードをコミットする場合、コミットメッセージといずれかの適切な :file:`CHANGES` "
+"エントリーの中でオリジナルの作者に言及してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:221
 msgid "Locale updates"
-msgstr ""
+msgstr "言語の更新"
 
 #: ../../sphinx/CONTRIBUTING.rst:223
 msgid ""
@@ -349,17 +374,21 @@ msgid ""
 "several locales.  The translations are kept as gettext ``.po`` files "
 "translated from the master template ``sphinx/locale/sphinx.pot``."
 msgstr ""
+"Sphinxが出力するメッセージの一部はいくつかの言語に翻訳されています。翻訳は gettext の ``.po`` "
+"ファイルに保存されており、マスターとなるテンプレートの ``sphinx/locale/sphinx.pot`` から翻訳されています。"
 
 #: ../../sphinx/CONTRIBUTING.rst:227
 msgid ""
 "Sphinx uses `Babel <http://babel.pocoo.org/en/latest/>`_ to extract messages"
 " and maintain the catalog files.  It is integrated in ``setup.py``:"
 msgstr ""
+"Sphinxはメッセージを展開し、カタログファイルを管理するために `Babel  "
+"<http://babel.pocoo.org/en/latest/>`_ を使っています。これは ``setup.py`` に含まれています。"
 
 #: ../../sphinx/CONTRIBUTING.rst:230
 msgid ""
 "Use ``python setup.py extract_messages`` to update the ``.pot`` template."
-msgstr ""
+msgstr "``.pot`` テンプレートを更新するには ``python setup.py extract_messages`` を使います。"
 
 #: ../../sphinx/CONTRIBUTING.rst:231
 msgid ""
@@ -367,18 +396,24 @@ msgid ""
 "catalogs in ``sphinx/locale/*/LC_MESSAGES`` with the current messages in the"
 " template file."
 msgstr ""
+"テンプレートファイルにある現時点でのメッセージで ``sphinx/locale/*/LC_MESSAGES`` "
+"のすべての既存のカタログを更新するには、 ``python setup.py update_catalog`` を使います。"
 
 #: ../../sphinx/CONTRIBUTING.rst:234
 msgid ""
 "Use ``python setup.py compile_catalog`` to compile the ``.po`` files to "
 "binary ``.mo`` files and ``.js`` files."
 msgstr ""
+"``.po`` ファイルをバイナリの ``.mo`` ファイルと ``.js`` ファイルにコンパイルするには ``python setup.py "
+"compile_catalog`` を使います。"
 
 #: ../../sphinx/CONTRIBUTING.rst:237
 msgid ""
 "When an updated ``.po`` file is submitted, run compile_catalog to commit "
 "both the source and the compiled catalogs."
 msgstr ""
+"更新された ``.po`` ファイルが投稿された場合、ソースとコンパイルされたカタログの両方をコミットするために compile_catalog "
+"を実行します。"
 
 #: ../../sphinx/CONTRIBUTING.rst:240
 msgid ""
@@ -386,6 +421,8 @@ msgid ""
 "language identifier and put ``sphinx.po`` in there.  Don't forget to update "
 "the possible values for :confval:`language` in ``doc/config.rst``."
 msgstr ""
+"新しい言語が登録された場合、ISO 639-1の言語定義に従い新しいディレクトリを作成し、 ``sphinx.po`` をそこに置きます。 "
+"``doc/config.rst`` の ``doc/config.rst`` にある「サポートしている言語リスト」を更新することを忘れないように。"
 
 #: ../../sphinx/CONTRIBUTING.rst:244
 msgid ""
@@ -398,22 +435,31 @@ msgid ""
 "update_catalog`` afterwards to make sure the ``.po`` file has the canonical "
 "Babel formatting."
 msgstr ""
+"Sphinxのメインとなるメッセージは `Transifex <https://www.transifex.com/>`_ "
+"でも翻訳されています。Pythonパッケージの \"transifex_client\" の中に ``tx`` と呼ばれるクライアントツールがあり、 "
+"これを使うとTransifexから翻訳を ``.po`` フォーマットで取得できます。そのためには、 ``sphinx/locale`` に行き、 "
+"``tx pull -f -l LANG`` を実行します。なお、LANGは既存の言語の識別子です。  ``.po`` "
+"ファイルが正しいBabel形式かどうかを確認するために ``python setup.py update_catalog`` を実行すると良いでしょう。"
 
 #: ../../sphinx/CONTRIBUTING.rst:254
 msgid "Coding Guide"
-msgstr ""
+msgstr "コーディングガイド"
 
 #: ../../sphinx/CONTRIBUTING.rst:256
 msgid ""
 "Try to use the same code style as used in the rest of the project.  See the "
 "`Pocoo Styleguide`__ for more information."
 msgstr ""
+"プロジェクトの他の部分で使用されているのと同じコードスタイルをなるべく使用してください。詳細は、 `Pocoo Styleguide`__ "
+"を参照してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:261
 msgid ""
 "For non-trivial changes, please update the :file:`CHANGES` file.  If your "
 "changes alter existing behavior, please document this."
 msgstr ""
+"自明でない変更については、 :file:`CHANGES` "
+"ファイルを更新してください。あなたの変更が既存の振る舞いを変更する場合は、このことをドキュメント化してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:264
 msgid ""
@@ -421,26 +467,30 @@ msgid ""
 "appropriate.  If possible, include a sample that is displayed in the "
 "generated output."
 msgstr ""
+"新機能はドキュメント化されなければなりません。適切な場合は例とユースケースを含めてください。可能なら、生成される出力に表示されるサンプルを含めてください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:268
 msgid ""
 "When adding a new configuration variable, be sure to document it and update "
 ":file:`sphinx/quickstart.py` if it's important enough."
 msgstr ""
+"新しい設定変数を加える場合、ドキュメント化が必要な内容であれば、 :file:`sphinx/quickstart.py` を更新してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:271
 msgid ""
 "Use the included :program:`utils/check_sources.py` script to check for "
 "common formatting issues (trailing whitespace, lengthy lines, etc)."
 msgstr ""
+"一般的なフォーマットの問題 (末尾の空白、長い行など) をチェックするため、同梱されている "
+":program:`utils/check_sources.py` スクリプトを使用してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:274
 msgid "Add appropriate unit tests."
-msgstr ""
+msgstr "適切なユニットテストを追加してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:278
 msgid "Debugging Tips"
-msgstr ""
+msgstr "デバッグ tips"
 
 #: ../../sphinx/CONTRIBUTING.rst:280
 msgid ""
@@ -448,6 +498,8 @@ msgid ""
 "code by running the command ``make clean`` or using the :option:`sphinx-"
 "build -E` option."
 msgstr ""
+"コードに変更を加えた場合は、コマンド ``make clean`` の実行または :option:`sphinx-build -E` "
+"オプションの使用によりドキュメントをビルドする前にビルドキャッシュを削除してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:284
 msgid "Use the :option:`sphinx-build -P` option to run ``pdb`` on exceptions."
@@ -458,24 +510,31 @@ msgid ""
 "Use ``node.pformat()`` and ``node.asdom().toxml()`` to generate a printable "
 "representation of the document structure."
 msgstr ""
+"ドキュメント構造の表示可能な表現を生成するには ``node.pformat()`` と ``node.asdom().toxml()`` "
+"を使用してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:289
 msgid ""
 "Set the configuration variable :confval:`keep_warnings` to ``True`` so "
 "warnings will be displayed in the generated output."
 msgstr ""
+"生成される出力に警告が表示されるよう、設定変数 :confval:`keep_warnings` に ``True`` を設定してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:292
 msgid ""
 "Set the configuration variable :confval:`nitpicky` to ``True`` so that "
 "Sphinx will complain about references without a known target."
 msgstr ""
+"既知のターゲットのない参照について Sphinx が警告するように、設定変数 :confval:`nitpicky` に ``True`` "
+"を設定してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:295
 msgid ""
 "Set the debugging options in the `Docutils configuration file "
 "<http://docutils.sourceforge.net/docs/user/config.html>`_."
 msgstr ""
+"`Docutils 設定ファイル <http://docutils.sourceforge.net/docs/user/config.html>`_ "
+"中でデバッグオプションを設定してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:298
 msgid ""
@@ -486,6 +545,11 @@ msgid ""
 "<https://github.com/shibukawa/snowball-stemmer.jsx>`_. You can get the "
 "resulting JavaScript files using the following command::"
 msgstr ""
+"JavaScript ストリーミングアルゴリズムは\n"
+"`modified snowballcode generator <https://github.com/shibukawa/snowball>`_ によって生成されます。\n"
+"`sphinx/search/*.py` (`en.py`  を除く)の中の\n"
+"生成された `JSX <http://jsx.github.io/>`_ ファイルは `このリポジトリ <https://github.com/shibukawa/snowball-stemmer.jsx>`_ です。\n"
+"生成された JavaScript は下記のコマンドを使用して取得することができます:"
 
 #: ../../sphinx/CONTRIBUTING.rst:310
 msgid "Branch Model"
@@ -520,17 +584,17 @@ msgstr ""
 
 #: ../../sphinx/CONTRIBUTING.rst:327
 msgid "Deprecating a feature"
-msgstr ""
+msgstr "非推奨の機能"
 
 #: ../../sphinx/CONTRIBUTING.rst:329
 msgid "There are a couple reasons that code in Sphinx might be deprecated:"
-msgstr ""
+msgstr "次の2つの理由からSphinx内のコードは非推奨なものとなるかもしれません:"
 
 #: ../../sphinx/CONTRIBUTING.rst:331
 msgid ""
 "If a feature has been improved or modified in a backwards-incompatible way, "
 "the old feature or behavior will be deprecated."
-msgstr ""
+msgstr "ある機能が後方互換のない方法で改良、修正された場合、古い機能，動作は非推奨となります。"
 
 #: ../../sphinx/CONTRIBUTING.rst:334
 msgid ""
@@ -539,6 +603,7 @@ msgid ""
 "no longer needs to support the older version of Python that doesn't include "
 "the library, the library will be deprecated in Sphinx."
 msgstr ""
+"Sphinxが現在サポートしているPythonのバージョンで収録されていないPythonライブラリを，Sphinxはバックポートとして収録することがあります。Pythonの旧バージョンで，当該ライブラリを収録していないものについてサポートをSphinxが打ち切るときに、そのライブラリはSphinxで非推奨となります。"
 
 #: ../../sphinx/CONTRIBUTING.rst:339
 msgid ""
@@ -558,7 +623,7 @@ msgstr ""
 
 #: ../../sphinx/CONTRIBUTING.rst:354
 msgid "Deprecation policy"
-msgstr ""
+msgstr "非推奨についての方針"
 
 #: ../../sphinx/CONTRIBUTING.rst:356
 msgid ""
@@ -568,51 +633,52 @@ msgid ""
 "features will be removed in the first 1.B release, or 1.B.1 for features "
 "deprecated in the last 1.A.x feature release to ensure deprecations are done"
 " over at least 2 feature releases."
-msgstr ""
+msgstr "リリースは以前のリリースの特定の機能を非推奨にするかもしれません。"
 
 #: ../../sphinx/CONTRIBUTING.rst:363
 msgid ""
 "So, for example, if we decided to start the deprecation of a function in "
 "Sphinx 1.4:"
-msgstr ""
+msgstr "例えば、ある関数を非推奨にすることをSphinx1.4で決めたとしましょう："
 
 #: ../../sphinx/CONTRIBUTING.rst:366
 msgid ""
 "Sphinx 1.4.x will contain a backwards-compatible replica of the function "
 "which will raise a ``RemovedInSphinx16Warning``."
 msgstr ""
+"Sphinx 1.4.xには当該関数の後方互換性のあるレプリカが含まれていて、``RemovedInSphinx16Warning`を発生させます。"
 
 #: ../../sphinx/CONTRIBUTING.rst:369
 msgid ""
 "Sphinx 1.5 (the version that follows 1.4) will still contain the backwards-"
 "compatible replica."
-msgstr ""
+msgstr "Sphinx 1.5 (1.4に続くバージョン) は後方互換があるレプリカを依然として保持してます。"
 
 #: ../../sphinx/CONTRIBUTING.rst:372
 msgid "Sphinx 1.6 will remove the feature outright."
-msgstr ""
+msgstr "Sphinx 1.6で、その機能を完全に取り除きます。"
 
 #: ../../sphinx/CONTRIBUTING.rst:374
 msgid ""
 "The warnings are displayed by default. You can turn off display of these "
 "warnings with:"
-msgstr ""
+msgstr "デフォルトでは警告が表示されます。次のようにすることで、これらの警告表示を止めることができます："
 
 #: ../../sphinx/CONTRIBUTING.rst:377
 msgid "``PYTHONWARNINGS= make html`` (Linux/Mac)"
-msgstr ""
+msgstr "``PYTHONWARNINGS= make html`` (Linux/Mac)"
 
 #: ../../sphinx/CONTRIBUTING.rst:378
 msgid "``export PYTHONWARNINGS=`` and do ``make html`` (Linux/Mac)"
-msgstr ""
+msgstr "``export PYTHONWARNINGS=`` として、 ``make html`` を実行する(Linux/Mac)"
 
 #: ../../sphinx/CONTRIBUTING.rst:379
 msgid "``set PYTHONWARNINGS=`` and do ``make html`` (Windows)"
-msgstr ""
+msgstr "``set PYTHONWARNINGS=`` として ``make html``を実行する(Windows)"
 
 #: ../../sphinx/CONTRIBUTING.rst:382
 msgid "Unit Testing"
-msgstr ""
+msgstr "単体テスト"
 
 #: ../../sphinx/CONTRIBUTING.rst:384
 msgid ""
@@ -622,6 +688,9 @@ msgid ""
 " extensions, you can write unit tests with using pytest. At this time, "
 "``sphinx.testing`` will help your test implementation."
 msgstr ""
+"Sphinxのテストはpytestで行われてきました。Sphinx開発者はpytestの表記法を用いて単体テストを書きます。ユーティリティ関数とテストのためのpytest"
+" "
+"フィクスチャは``sphinx.testing``で提供されています。もしなたがSphinx拡張の開発者でしたら、pytestを使って単体テストを書くことができます。現時点では、テストの実装には``sphinx.testing``が有用でしょう。"
 
 #: ../../sphinx/CONTRIBUTING.rst:390
 msgid ""
@@ -629,6 +698,8 @@ msgid ""
 "require ``'sphinx.testing.fixtures'`` in your test modules or "
 "``conftest.py`` files like this::"
 msgstr ""
+" ``sphinx.testing``で提供されているpytestフィクスチャーはどのように使うのでしょうか？ ご自身のテストモジュールや "
+"``conftest.py`` ファイルに ``'sphinx.testing.fixtures'`を次のように用意します::"
 
 #: ../../sphinx/CONTRIBUTING.rst:396
 msgid ""
@@ -636,11 +707,13 @@ msgid ""
 "``tests/conftest.py`` and other ``test_*.py`` files under ``tests`` "
 "directory."
 msgstr ""
+"さらに詳しい使い方を知りたい場合は、``tests/conftest.py`` と``tests`` ディレクトリ配下にある ``test_*.py``"
+" ファイルらを参照してください。"
 
 #: ../../sphinx/CONTRIBUTING.rst:401
 msgid "Prior to Sphinx - 1.5.2, Sphinx was running the test with nose."
-msgstr ""
+msgstr "Sphinx - 1.5.2以前は, Sphinx はnoseを使ってテストを走らせていました."
 
 #: ../../sphinx/CONTRIBUTING.rst:403
 msgid "``sphinx.testing`` as a experimental."
-msgstr ""
+msgstr "``sphinx.testing`` as a experimental."

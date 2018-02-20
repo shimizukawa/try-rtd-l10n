@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alvarez Alejandro <eliluminado00@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,9 +21,12 @@ msgstr ""
 #: ../../sphinx/doc/ext/githubpages.rst:4
 msgid ":mod:`sphinx.ext.githubpages` -- Publish HTML docs in GitHub Pages"
 msgstr ""
+":mod:`sphinx.ext.githubpages` -- Publicar documentación HTML en GitHub Pages"
 
 #: ../../sphinx/doc/ext/githubpages.rst:11
 msgid ""
 "This extension creates ``.nojekyll`` file on generated HTML directory to "
 "publish the document on GitHub Pages."
 msgstr ""
+"Esta extensión crea el archivo ``.nojekyll`` en el directorio HTML generado "
+"para publicar el documento en GitHub Pages."

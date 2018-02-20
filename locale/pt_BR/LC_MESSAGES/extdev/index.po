@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +20,15 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/index.rst:4
 msgid "Developing extensions for Sphinx"
-msgstr ""
+msgstr "Desenvolvendo extensões para Sphinx"
 
 #: ../../sphinx/doc/extdev/index.rst:6
 msgid ""
 "Since many projects will need special features in their documentation, "
 "Sphinx is designed to be extensible on several levels."
 msgstr ""
+"Como muitos projetos necessitam de funcionalidades especiais em sua "
+"documentação, Sphix foi desenhado para ser extensível em diversos níveis."
 
 #: ../../sphinx/doc/extdev/index.rst:9
 msgid ""
@@ -36,6 +39,12 @@ msgid ""
 "\"hook points\" at strategic places throughout the build process, where an "
 "extension can register a hook and run specialized code."
 msgstr ""
+"É para isto que serve uma extensão: Primeiro, adicinar novo "
+":term:`construtor` para suporte do novo formato ou ação nos documentos "
+"envolvidos. Então, será possivel registrar diretivas e funções de marcas "
+"extendidas. E finalmente, existem os pontos \"de referência\" como locais "
+"estratégicos no processo de construção, onde uma extensão pode interagir e "
+"executar código específico."
 
 #: ../../sphinx/doc/extdev/index.rst:16
 msgid ""
@@ -44,6 +53,10 @@ msgid ""
 "notifies Sphinx of everything the extension offers -- see the extension "
 "tutorial for examples."
 msgstr ""
+"Uma extensão é simplesmente um módulo Python. Quando uma extensão é "
+"carregada, Sphinx importa esse módulo e executa sua função  ``setup()``, a "
+"qual notifica Sphinx de todas as ofertas que a extensão possui -- ver "
+"tutorial de exemplos de extensão."
 
 #: ../../sphinx/doc/extdev/index.rst:21
 msgid ""
@@ -51,6 +64,9 @@ msgid ""
 "a ``setup()`` function.  All other extensions to load must be listed in the "
 ":confval:`extensions` configuration value."
 msgstr ""
+"A configuração do próprio arquivo pode ser tratada como uma extensão se ela "
+"contiver uma função  ``setup()``. Todas as outras extensões para serem "
+"carregadas devem estar listadas em :confval:`extensions` "
 
 #: ../../sphinx/doc/extdev/index.rst:26
 msgid "Discovery of builders by entry point"
@@ -81,13 +97,16 @@ msgstr ""
 
 #: ../../sphinx/doc/extdev/index.rst:58
 msgid "Extension metadata"
-msgstr ""
+msgstr "Extensões Metadados"
 
 #: ../../sphinx/doc/extdev/index.rst:62
 msgid ""
 "The ``setup()`` function can return a dictionary.  This is treated by Sphinx"
 " as metadata of the extension.  Metadata keys currently recognized are:"
 msgstr ""
+"A função ``setup()`` pode retornar um dicionário. Isso é tratado pelo Sphinx"
+" como extensão de metadados. Chaves dos Metadados normalmente reconhecidas "
+"são: "
 
 #: ../../sphinx/doc/extdev/index.rst:65
 msgid ""
@@ -96,6 +115,10 @@ msgid ""
 " and informational purposes.  If not given, ``\"unknown version\"`` is "
 "substituted."
 msgstr ""
+"``'version'``: uma palavra que identifica a versão da extensão. É utilizada "
+"para a verificação da versão mínima requerida (ver "
+":confval:`needs_extensions`) e finalidades de informação. Se não informado "
+"será apresentado  ``\"versão desconhecida\"``"
 
 #: ../../sphinx/doc/extdev/index.rst:68
 msgid ""
@@ -114,6 +137,10 @@ msgid ""
 "``False``, i.e. you have to explicitly specify your extension to be "
 "parallel-read-safe after checking that it is."
 msgstr ""
+"``'parallel_read_safe'``: valor booleano que especifica se leitura paralela "
+"dos arquivos fontes pode ser usada, quando a extensão for carregada.  O "
+"valor padrão é ``False``, ex. deve ser explicitado que sua função pode usar "
+"processamento paralelo, após a devida comprovação através dos testes."
 
 #: ../../sphinx/doc/extdev/index.rst:77
 msgid ""
@@ -121,7 +148,11 @@ msgid ""
 "output files can be used when the extension is loaded.  Since extensions "
 "usually don't negatively influence the process, this defaults to ``True``."
 msgstr ""
+"``'parallel_write_safe'``: valor booleano que especifica que a gravação dos "
+"arquivos de saída pode ser usada quando sua extensão for carregada. "
+"Normalmente extensões não influenciam negativamente o processo, o valor "
+"padrão é ``True``."
 
 #: ../../sphinx/doc/extdev/index.rst:82
 msgid "APIs used for writing extensions"
-msgstr ""
+msgstr "APIs usadas para gravar extensões"

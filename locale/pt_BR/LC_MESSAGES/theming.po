@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Claudio Rogerio <excriptbrasil@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:4
 msgid "HTML theming support"
-msgstr ""
+msgstr "Suporte temático HTML"
 
 #: ../../sphinx/doc/theming.rst:8
 msgid ""
@@ -29,16 +30,23 @@ msgid ""
 "theme to inherit, which highlighting style to use, and what options exist "
 "for customizing the theme's look and feel."
 msgstr ""
+"Sphinx suporta modificação da aparência da saída HTML através de *temas*. Um"
+" tema é uma coleção de modelos HTML, folha(s) de estilo(s) e outros arquivos"
+" estáticos. Adicionalmente, tem um arquivo de configuração no qual podem ser"
+" especificados derivações para o tema, qual ênfase de estilo usar e quais "
+"opções de aparência ou comportamento existentes, podem ser adaptadas."
 
 #: ../../sphinx/doc/theming.rst:14
 msgid ""
 "Themes are meant to be project-unaware, so they can be used for different "
 "projects without change."
 msgstr ""
+"Temas são independentes de projetos e podem ser usados em diversos projetos "
+"em modificação."
 
 #: ../../sphinx/doc/theming.rst:19
 msgid "Using a theme"
-msgstr ""
+msgstr "Usando um tema"
 
 #: ../../sphinx/doc/theming.rst:21
 msgid ""
@@ -48,6 +56,11 @@ msgid ""
 "options that change the look and feel.  For example, you could have the "
 "following in your :file:`conf.py`::"
 msgstr ""
+"Usar um tema existente é fácil. Se o tema vem embutido no Sphinx, só é "
+"necessário definir o valor config do  :confval:`html_theme. Com o valor  "
+":confval:`html_theme_options` pode ser modificada opção de aparência ou "
+"comportamento. Por exemplo, pode haver o seguinte em seu arquivo "
+":file:`conf.py`::"
 
 #: ../../sphinx/doc/theming.rst:33
 msgid ""
@@ -55,6 +68,9 @@ msgid ""
 "and a black background for the relation bar (the bar with the navigation "
 "links at the page's top and bottom)."
 msgstr ""
+"Isso lhe daria o tema clássico, mas com uma barra lateral no lado direito e "
+"um fundo preto para a barra de relação (a barra com os links de navegação na"
+" parte superior e inferior da página)."
 
 #: ../../sphinx/doc/theming.rst:37
 msgid ""
@@ -77,99 +93,99 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:64
 msgid "Builtin themes"
-msgstr ""
+msgstr "Temas Internos"
 
 #: ../../sphinx/doc/theming.rst:69 ../../sphinx/doc/theming.rst:407
 msgid "**Theme overview**"
-msgstr ""
+msgstr "**Tema - Visão Geral**"
 
 #: ../../sphinx/doc/theming.rst:71
 msgid "|alabaster|"
-msgstr ""
+msgstr "|alabaster|"
 
 #: ../../sphinx/doc/theming.rst:73
 msgid "*alabaster*"
-msgstr ""
+msgstr "*alabaster*"
 
 #: ../../sphinx/doc/theming.rst:71
 msgid "|classic|"
-msgstr ""
+msgstr "|classic|"
 
 #: ../../sphinx/doc/theming.rst:73
 msgid "*classic*"
-msgstr ""
+msgstr "*classic*"
 
 #: ../../sphinx/doc/theming.rst:75
 msgid "|sphinxdoc|"
-msgstr ""
+msgstr "|sphinxdoc|"
 
 #: ../../sphinx/doc/theming.rst:77
 msgid "*sphinxdoc*"
-msgstr ""
+msgstr "*sphinxdoc*"
 
 #: ../../sphinx/doc/theming.rst:75
 msgid "|scrolls|"
-msgstr ""
+msgstr "|scrolls|"
 
 #: ../../sphinx/doc/theming.rst:77
 msgid "*scrolls*"
-msgstr ""
+msgstr "*scrolls*"
 
 #: ../../sphinx/doc/theming.rst:79
 msgid "|agogo|"
-msgstr ""
+msgstr "|agogo|"
 
 #: ../../sphinx/doc/theming.rst:81
 msgid "*agogo*"
-msgstr ""
+msgstr "*agogo*"
 
 #: ../../sphinx/doc/theming.rst:79
 msgid "|traditional|"
-msgstr ""
+msgstr "|traditional|"
 
 #: ../../sphinx/doc/theming.rst:81
 msgid "*traditional*"
-msgstr ""
+msgstr "*traditional*"
 
 #: ../../sphinx/doc/theming.rst:83
 msgid "|nature|"
-msgstr ""
+msgstr "|nature|"
 
 #: ../../sphinx/doc/theming.rst:85
 msgid "*nature*"
-msgstr ""
+msgstr "*nature*"
 
 #: ../../sphinx/doc/theming.rst:83
 msgid "|haiku|"
-msgstr ""
+msgstr "|haiku|"
 
 #: ../../sphinx/doc/theming.rst:85
 msgid "*haiku*"
-msgstr ""
+msgstr "*haiku*"
 
 #: ../../sphinx/doc/theming.rst:87
 msgid "|pyramid|"
-msgstr ""
+msgstr "|pyramid|"
 
 #: ../../sphinx/doc/theming.rst:89
 msgid "*pyramid*"
-msgstr ""
+msgstr "*pyramid*"
 
 #: ../../sphinx/doc/theming.rst:87
 msgid "|bizstyle|"
-msgstr ""
+msgstr "|bizstyle|"
 
 #: ../../sphinx/doc/theming.rst:89
 msgid "*bizstyle*"
-msgstr ""
+msgstr "*bizstyle*"
 
 #: ../../sphinx/doc/theming.rst:103
 msgid "Sphinx comes with a selection of themes to choose from."
-msgstr ""
+msgstr "Sphinx vem com uma gama de temas que podem ser escolhidos."
 
 #: ../../sphinx/doc/theming.rst:107
 msgid "These themes are:"
-msgstr ""
+msgstr "Esses temas são:"
 
 #: ../../sphinx/doc/theming.rst:109
 msgid ""
@@ -362,37 +378,38 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:198
 msgid "**headerbordercolor**"
-msgstr ""
+msgstr "**headerbordercolor**"
 
 #: ../../sphinx/doc/theming.rst:199
 msgid "**subheadlinecolor**"
-msgstr ""
+msgstr "**subheadlinecolor**"
 
 #: ../../sphinx/doc/theming.rst:200
 msgid "**linkcolor**"
-msgstr ""
+msgstr "**linkcolor**"
 
 #: ../../sphinx/doc/theming.rst:201
 msgid "**visitedlinkcolor**"
-msgstr ""
+msgstr "**visitedlinkcolor**"
 
 #: ../../sphinx/doc/theming.rst:202
 msgid "**admonitioncolor**"
-msgstr ""
+msgstr "**admonitioncolor**"
 
 #: ../../sphinx/doc/theming.rst:204
 msgid ""
 "**agogo** -- A theme created by Andi Albrecht.  The following options are "
 "supported:"
 msgstr ""
+"**agogo** -- Tema criado por Andi Albrecht.  As opções suportadas são:"
 
 #: ../../sphinx/doc/theming.rst:207
 msgid "**bodyfont** (CSS font family): Font for normal text."
-msgstr ""
+msgstr "**bodyfont** (família do fonte CSS): Fonte para texto normal."
 
 #: ../../sphinx/doc/theming.rst:208
 msgid "**headerfont** (CSS font family): Font for headings."
-msgstr ""
+msgstr "**headerfont** (família fonte CSS): Fonte para cabeçalhos."
 
 #: ../../sphinx/doc/theming.rst:209
 msgid "**pagewidth** (CSS length): Width of the page content, default 70em."
@@ -410,7 +427,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:213
 msgid "**bgcolor** (CSS color): Background color."
-msgstr ""
+msgstr "**bgcolor** (cor CSS): Cor fundo."
 
 #: ../../sphinx/doc/theming.rst:214
 msgid ""
@@ -520,7 +537,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:271
 msgid "Creating themes"
-msgstr ""
+msgstr "Criando temas"
 
 #: ../../sphinx/doc/theming.rst:273
 msgid ""
@@ -530,11 +547,11 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:276
 msgid "A :file:`theme.conf` file, see below."
-msgstr ""
+msgstr "Um arquivo  :file:`theme.conf`, ver abaixo."
 
 #: ../../sphinx/doc/theming.rst:277
 msgid "HTML templates, if needed."
-msgstr ""
+msgstr "Modelos HTML, se necessário."
 
 #: ../../sphinx/doc/theming.rst:278
 msgid ""
@@ -630,7 +647,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:364
 msgid "Templating"
-msgstr ""
+msgstr "Criando Moldes"
 
 #: ../../sphinx/doc/theming.rst:366
 msgid ""
@@ -645,11 +662,11 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:371
 msgid "Then, in the selected theme."
-msgstr ""
+msgstr "Então, no tema selecionado."
 
 #: ../../sphinx/doc/theming.rst:372
 msgid "Then, in its base theme, its base's base theme, etc."
-msgstr ""
+msgstr "Então, no tema básico, seu tema básico, etc."
 
 #: ../../sphinx/doc/theming.rst:374
 msgid ""
@@ -661,7 +678,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:381
 msgid "Static templates"
-msgstr ""
+msgstr "Modelos Estáticos"
 
 #: ../../sphinx/doc/theming.rst:383
 msgid ""
@@ -691,15 +708,15 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:402
 msgid "Third Party Themes"
-msgstr ""
+msgstr "Temas de Terceiros"
 
 #: ../../sphinx/doc/theming.rst:409
 msgid "|sphinx_rtd_theme|"
-msgstr ""
+msgstr "|sphinx_rtd_theme|"
 
 #: ../../sphinx/doc/theming.rst:411
 msgid "*sphinx_rtd_theme*"
-msgstr ""
+msgstr "*sphinx_rtd_theme*"
 
 #: ../../sphinx/doc/theming.rst:416
 msgid ""
@@ -711,7 +728,7 @@ msgstr ""
 
 #: ../../sphinx/doc/theming.rst:423
 msgid "**sphinx_rtd_theme** has become optional."
-msgstr ""
+msgstr "**sphinx_rtd_theme** tornou-se opcional."
 
 #: ../../sphinx/doc/theming.rst:427
 msgid ""

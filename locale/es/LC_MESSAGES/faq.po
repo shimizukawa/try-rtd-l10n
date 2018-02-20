@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:4
 msgid "Sphinx FAQ"
-msgstr ""
+msgstr "Sphinx FAQ"
 
 #: ../../sphinx/doc/faq.rst:6
 msgid ""
@@ -29,11 +30,11 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:10
 msgid "How do I..."
-msgstr ""
+msgstr "Como puedo..."
 
 #: ../../sphinx/doc/faq.rst:16
 msgid "... create PDF files without LaTeX?"
-msgstr ""
+msgstr "... ¿crear archivos PDF sin LaTeX?"
 
 #: ../../sphinx/doc/faq.rst:13
 msgid ""
@@ -57,7 +58,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:23
 msgid "Use themes, see :doc:`theming`."
-msgstr ""
+msgstr "Usar plantillas, ver :doc:`theming`."
 
 #: ../../sphinx/doc/faq.rst:26
 msgid "... add global substitutions or includes?"
@@ -79,7 +80,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:33
 msgid "... write my own extension?"
-msgstr ""
+msgstr "... ¿escribir mi propia extensión?"
 
 #: ../../sphinx/doc/faq.rst:33
 msgid "See the :ref:`extension tutorial <exttut>`."
@@ -112,11 +113,11 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:51
 msgid "Using Sphinx with..."
-msgstr ""
+msgstr "Usando Sphinx con..."
 
 #: ../../sphinx/doc/faq.rst:59
 msgid "Read the Docs"
-msgstr ""
+msgstr "Read the Docs"
 
 #: ../../sphinx/doc/faq.rst:54
 msgid ""
@@ -130,7 +131,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:63
 msgid "Epydoc"
-msgstr ""
+msgstr "Epydoc"
 
 #: ../../sphinx/doc/faq.rst:62
 msgid ""
@@ -140,7 +141,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:67
 msgid "Doxygen"
-msgstr ""
+msgstr "Doxygen"
 
 #: ../../sphinx/doc/faq.rst:66
 msgid ""
@@ -150,7 +151,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:71
 msgid "SCons"
-msgstr ""
+msgstr "SCons"
 
 #: ../../sphinx/doc/faq.rst:70
 msgid ""
@@ -160,7 +161,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:77
 msgid "PyPI"
-msgstr ""
+msgstr "PyPI"
 
 #: ../../sphinx/doc/faq.rst:74
 msgid ""
@@ -171,7 +172,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:83
 msgid "GitHub Pages"
-msgstr ""
+msgstr "GitHub Pages"
 
 #: ../../sphinx/doc/faq.rst:80
 msgid ""
@@ -183,7 +184,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:86
 msgid "MediaWiki"
-msgstr ""
+msgstr "MediaWiki"
 
 #: ../../sphinx/doc/faq.rst:86
 msgid ""
@@ -193,11 +194,12 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:120
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: ../../sphinx/doc/faq.rst:89
 msgid "You can use a custom ``layout.html`` template, like this:"
 msgstr ""
+"Puede utilizar una plantilla personalizada ``layout.html``, como esta:"
 
 #: ../../sphinx/doc/faq.rst:129
 msgid "Epub info"
@@ -346,7 +348,7 @@ msgstr ""
 
 #: ../../sphinx/doc/faq.rst:272
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../sphinx/doc/faq.rst:274
 msgid ""

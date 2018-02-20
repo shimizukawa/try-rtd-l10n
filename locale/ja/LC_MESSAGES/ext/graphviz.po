@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: shirou - しろう <shirou.faw@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:4
 msgid ":mod:`sphinx.ext.graphviz` -- Add Graphviz graphs"
-msgstr ""
+msgstr ":mod:`sphinx.ext.graphviz` -- Graphvizのグラフを追加"
 
 #: ../../sphinx/doc/ext/graphviz.rst:11
 msgid ""
@@ -29,13 +30,15 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:14
 msgid "It adds these directives:"
-msgstr ""
+msgstr "この拡張モジュールは以下のディレクティブを提供します:"
 
 #: ../../sphinx/doc/ext/graphviz.rst:19
 msgid ""
 "Directive to embed graphviz code.  The input code for ``dot`` is given as "
 "the content.  For example::"
 msgstr ""
+"Graphvizのコードをドキュメント内に直接記述するためのディレクティブです。 ここでコンテンツとして入力された内容は、 ``dot`` "
+"コマンドで処理されます。 例::"
 
 #: ../../sphinx/doc/ext/graphviz.rst:28
 msgid ""
@@ -43,22 +46,27 @@ msgid ""
 ":confval:`graphviz_output_format`).  In LaTeX output, the code will be "
 "rendered to an embeddable PDF file."
 msgstr ""
+"HTML出力されるときには、PNGのイメージファイルや、SVGイメージとしてレンダリングされます。 "
+"LaTeX出力時にはこのコードは埋め込み可能なPDFファイルとしてレンダリングされます。(  "
+":confval:`graphviz_output_format` を参照してください。)"
 
 #: ../../sphinx/doc/ext/graphviz.rst:32
 msgid ""
 "You can also embed external dot files, by giving the file name as an "
 "argument to :rst:dir:`graphviz` and no additional content::"
 msgstr ""
+":rst:dir:`graphviz` "
+"ディレクティブの引数にファイル名を与えて、コンテンツを空にすることで、外部のdotファイルを埋め込むこともできます::"
 
 #: ../../sphinx/doc/ext/graphviz.rst:37
 msgid ""
 "As for all file references in Sphinx, if the filename is absolute, it is "
 "taken as relative to the source directory."
-msgstr ""
+msgstr "Sphinx内の他のファイル参照と同様に、絶対パスのファイル名はソースディレクトリからの相対パスとして扱われます。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:40
 msgid "Added support for external files."
-msgstr ""
+msgstr "外部ファイルのサポートを追加。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:46
 msgid ""
@@ -66,10 +74,13 @@ msgid ""
 "directive argument, the contents of the graph are the directive content. "
 "This is a convenience directive to generate ``graph <name> { <content> }``."
 msgstr ""
+"無向グラフをひとつ埋め込むのに使用するディレクティブです。 "
+"グラフの名前はディレクティブ引数として渡します。ディレクティブのコンテンツがそのままグラフ作成に使用されます。 このディレクティブは ``graph "
+"<名前> { <コンテンツ> }`` というグラフを作成するための便利機能です。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:50 ../../sphinx/doc/ext/graphviz.rst:67
 msgid "For example::"
-msgstr ""
+msgstr "例えば::"
 
 #: ../../sphinx/doc/ext/graphviz.rst:56
 msgid ""
@@ -84,6 +95,9 @@ msgid ""
 "This is a convenience directive to generate ``digraph <name> { <content> "
 "}``."
 msgstr ""
+"有向グラフをひとつ埋め込むために使用するディレクティブです。 "
+"グラフの名前はディレクティブ引数として渡します。ディレクティブのコンテンツがそのままグラフ作成に使用されます。 このディレクティブは ``digraph"
+" <名前> { <コンテンツ> }`` というグラフを作成するための便利機能です。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:74
 msgid ""
@@ -91,6 +105,8 @@ msgid ""
 "alternate text for HTML output.  If not given, the alternate text defaults "
 "to the graphviz code."
 msgstr ""
+"これら3つのディレクティブは全て ``alt`` "
+"オプションをサポートします。このオプションはHTML出力の画像の代替テキストを指定します。指定しない場合、代替テキストとしてgraphvizのコードが使用されます。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:79
 msgid ""
@@ -117,7 +133,7 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:94
 msgid "There are also these new config values:"
-msgstr ""
+msgstr "専用の設定もいくつか追加されます:"
 
 #: ../../sphinx/doc/ext/graphviz.rst:98
 msgid ""
@@ -125,6 +141,8 @@ msgid ""
 "you may need to set this to a full path if ``dot`` is not in the executable "
 "search path."
 msgstr ""
+"``dot`` を呼び出すときに使用するコマンド名です。デフォルトでは ``'dot'`` です。 もしも ``dot`` "
+"コマンドが実行時の検索パスに存在していなくて、フルパスを設定する必要がある場合にはこの設定値を変更してください。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:102
 msgid ""
@@ -133,6 +151,9 @@ msgid ""
 "build` command line via the :option:`-D <sphinx-build -D>` option should be "
 "preferable, like this::"
 msgstr ""
+"この設定はシステム間で共通にはできないため、``conf.py`` の中で設定することは通常行いません。むしろ、次のように :program"
+":`sphinx-build` コマンドの :option:`-D <sphinx-build -D>`  "
+"オプションとして与えるほうが望ましいでしょう。 ::"
 
 #: ../../sphinx/doc/ext/graphviz.rst:111
 msgid ""
@@ -140,6 +161,8 @@ msgid ""
 " an empty list.  This is the right place to set global graph, node or edge "
 "attributes via dot's ``-G``, ``-N`` and ``-E`` options."
 msgstr ""
+"``dot`` コマンドに渡す、追加のコマンドライン引数です。デフォルト値は空のリストです。 ``-G``, ``-N``, ``-E`` "
+"オプションを使用して、ドキュメント内のすべてのGraphvizのグラフの、グラフ、ノード、エッジの属性を変更する場合にはこのオプションを使用してください。"
 
 #: ../../sphinx/doc/ext/graphviz.rst:117
 msgid ""
@@ -153,4 +176,4 @@ msgstr ""
 
 #: ../../sphinx/doc/ext/graphviz.rst:131
 msgid "Previously, output always was PNG."
-msgstr ""
+msgstr "以前は出力はPNGしかありませんでした。"

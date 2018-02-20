@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/sphinx-doc/teams/15434/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/intro.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: ../../sphinx/doc/intro.rst:4
 msgid ""
@@ -41,6 +42,11 @@ msgid ""
 "API docs have a look at `Epydoc <http://epydoc.sourceforge.net/>`_, which "
 "also understands reST."
 msgstr ""
+"O foco é documentação escrita à mão, em vez de documentos gerados "
+"automaticamente por API.  Também há suporta para esse tipo de documentação "
+"(a qual intencionalmente pode ser intercalada livremente o conteúdo "
+"manualmente gerado), se necessitar documentos puramente API dar uma olhada "
+"em `Epydoc <http://epydoc.sourceforge.net/>`_, que também entende reST."
 
 #: ../../sphinx/doc/intro.rst:19
 msgid ""
@@ -51,13 +57,15 @@ msgstr ""
 
 #: ../../sphinx/doc/intro.rst:26
 msgid "Conversion from other systems"
-msgstr ""
+msgstr "Conversão de outros sistemas"
 
 #: ../../sphinx/doc/intro.rst:28
 msgid ""
 "This section is intended to collect helpful hints for those wanting to "
 "migrate to reStructuredText/Sphinx from other documentation systems."
 msgstr ""
+"Essa seção contém dicas úteis para aqueles que desejam migrar para "
+"reStructuredText/Sphinx a partir de outros sistemas de documentação."
 
 #: ../../sphinx/doc/intro.rst:31
 msgid ""
@@ -65,6 +73,9 @@ msgid ""
 " found at the `Python Package Index "
 "<https://pypi.python.org/pypi/html2rest>`_."
 msgstr ""
+"Gerard Flanagan escreveu um script para converter HTML puro para reST; pode "
+"ser encontrado em `Python Package Index "
+"<https://pypi.python.org/pypi/html2rest>`_."
 
 #: ../../sphinx/doc/intro.rst:34
 msgid ""
@@ -85,6 +96,9 @@ msgid ""
 "Christophe de Vienne wrote a tool to convert from Open/LibreOffice documents"
 " to Sphinx: `odt2sphinx <https://pypi.python.org/pypi/odt2sphinx/>`_."
 msgstr ""
+"Christophe de Vienne escreveu uma ferramente para converter documentos "
+"Open/LibreOffice para Sphinx: `odt2sphinx "
+"<https://pypi.python.org/pypi/odt2sphinx/>`_."
 
 #: ../../sphinx/doc/intro.rst:45
 msgid ""
@@ -94,15 +108,15 @@ msgstr ""
 
 #: ../../sphinx/doc/intro.rst:50
 msgid "Use with other systems"
-msgstr ""
+msgstr "Uso com outros sistemas"
 
 #: ../../sphinx/doc/intro.rst:52
 msgid "See the :ref:`pertinent section in the FAQ list <usingwith>`."
-msgstr ""
+msgstr "Ver :ref: `seção pertinente na lista FAQ <usingwith>`."
 
 #: ../../sphinx/doc/intro.rst:56
 msgid "Prerequisites"
-msgstr ""
+msgstr "Pré-requisitos"
 
 #: ../../sphinx/doc/intro.rst:58
 msgid ""
@@ -112,13 +126,19 @@ msgid ""
 "source code highlighting support, you must also install the Pygments_ "
 "library."
 msgstr ""
+"Sphinx precisa de pelo menos **Python 2.7** ou **Python 3.4**  para rodar, "
+"assim como bibliotecas docutils_ and Jinja2_ .  Sphinx trabalha com docutils"
+" versão 0.10 ou snapshot SVN (desde que não inconsistente). Caso desejar "
+"suporte a decoração sintática, instalar biblioteca Pygments_ ."
 
 #: ../../sphinx/doc/intro.rst:70
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: ../../sphinx/doc/intro.rst:72
 msgid ""
 "See :doc:`tutorial` for an introduction.  It also contains links to more "
 "advanced sections in this manual for the topics it discusses."
 msgstr ""
+"Ver :doc:`tutorial` para uma introdução. Também contém links para seções "
+"mais avançadas nesse manual, para detalhamento dos tópicos."

@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Takayuki SHIMIZUKAWA <shimizukawa@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +24,15 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:5
 msgid "Synopsis"
-msgstr ""
+msgstr "概要"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:7
 msgid "**sphinx-quickstart**"
-msgstr ""
+msgstr "**sphinx-quickstart**"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:10
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:12
 msgid ""
@@ -39,10 +40,12 @@ msgid ""
 " about your project and then generates a complete documentation directory "
 "and sample Makefile to be used with :manpage:`sphinx-build(1)`."
 msgstr ""
+":program:`sphinx-quickstart` はいくつかの質問であなたのプロジェクトを生成するためのディレクトリと :manpage"
+":`sphinx-build(1)` と一緒に使えるサンプルMakefileを作成してくれるインタラクティブなツールです。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:17
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:23
 msgid ""
@@ -52,7 +55,7 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:28
 msgid "Display usage summary or Sphinx version."
-msgstr ""
+msgstr "簡単な使い方やSphinxのバージョンを表示します。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:31
 msgid "Structure Options"
@@ -60,7 +63,7 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:34
 msgid "If specified, separate source and build directories."
-msgstr ""
+msgstr "記述した場合、ソースとビルドのディレクトリを分割します。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:38
 msgid ""
@@ -69,6 +72,9 @@ msgid ""
 "stylesheets and other static files. You can enter another prefix (such as "
 "\".\") to replace the underscore."
 msgstr ""
+"プロジェクトのルートディレクトリに "
+"2以上のディレクトリが作成されます。カスタマイズしたHTMLテンプレート用の\"_templates\"ディレクトリと、カスタマイズしたスタイルシート等を置く\"_static\"ディレクトリがあります。これらのディレクトリは"
+" \"_\" で始まっていますが、別の文字(\".\"など)で始まるように指定できます。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:44
 msgid "Project Basic Options"
@@ -76,35 +82,35 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:47
 msgid "Project name will be set. (see :confval:`project`)."
-msgstr ""
+msgstr "プロジェクト名を指定します ( :confval:`project` も参照)。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:51
 msgid "Author names. (see :confval:`copyright`)."
-msgstr ""
+msgstr "著者名を指定します。 ( :confval:`copyright` も参照)。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:55
 msgid "Version of project. (see :confval:`version`)."
-msgstr ""
+msgstr "プロジェクトのバージョンを指定します ( :confval:`version` も参照)。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:59
 msgid "Release of project. (see :confval:`release`)."
-msgstr ""
+msgstr "プロジェクトのリリースを指定します ( :confval:`release` も参照)。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:63
 msgid "Document language. (see :confval:`language`)."
-msgstr ""
+msgstr "ドキュメント言語。 ( :confval:`language` 参照 )"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:67
 msgid "Source file suffix. (see :confval:`source_suffix`)."
-msgstr ""
+msgstr "ソース・ファイルサフィックス。 ( :confval:`source_suffix` 参照)"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:71
 msgid "Master document name. (see :confval:`master_doc`)."
-msgstr ""
+msgstr "マスタードキュメント名。 ( :confval:`master_doc` 参照)"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:75
 msgid "Use epub."
-msgstr ""
+msgstr "epubを利用します。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:78
 msgid "Extension Options"
@@ -112,39 +118,39 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:81
 msgid "Enable `sphinx.ext.autodoc` extension."
-msgstr ""
+msgstr "`sphinx.ext.autodoc` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:85
 msgid "Enable `sphinx.ext.doctest` extension."
-msgstr ""
+msgstr "`sphinx.ext.doctest` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:89
 msgid "Enable `sphinx.ext.intersphinx` extension."
-msgstr ""
+msgstr "`sphinx.ext.intersphinx` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:93
 msgid "Enable `sphinx.ext.todo` extension."
-msgstr ""
+msgstr "`sphinx.ext.todo` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:97
 msgid "Enable `sphinx.ext.coverage` extension."
-msgstr ""
+msgstr "`sphinx.ext.coverage` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:101
 msgid "Enable `sphinx.ext.imgmath` extension."
-msgstr ""
+msgstr "`sphinx.ext.imgmath` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:105
 msgid "Enable `sphinx.ext.mathjax` extension."
-msgstr ""
+msgstr "`sphinx.ext.mathjax` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:109
 msgid "Enable `sphinx.ext.ifconfig` extension."
-msgstr ""
+msgstr "`sphinx.ext.ifconfig` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:113
 msgid "Enable `sphinx.ext.viewcode` extension."
-msgstr ""
+msgstr "`sphinx.ext.viewcode` 拡張を有効にします。"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:117
 msgid "Enable arbitary extensions."
@@ -167,11 +173,11 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:131
 msgid "Create (or not create) makefile."
-msgstr ""
+msgstr "makefileの作成 (もしくは非作成)"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:135
 msgid "Create (or not create) batchfile"
-msgstr ""
+msgstr "batファイルの作成 (もしくは非作成)"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:138
 msgid "Project templating"
@@ -224,8 +230,8 @@ msgstr ""
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:163
 msgid "See also"
-msgstr ""
+msgstr "参考"
 
 #: ../../sphinx/doc/man/sphinx-quickstart.rst:165
 msgid ":manpage:`sphinx-build(1)`"
-msgstr ""
+msgstr ":manpage:`sphinx-build(1)`"

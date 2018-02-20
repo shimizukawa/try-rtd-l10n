@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Naofumi SAKAGUCHI <nskgch@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: ../../sphinx/doc/web/storagebackends.rst:6
 msgid "Storage Backends"
-msgstr ""
+msgstr "ストレージバックエンド"
 
 #: ../../sphinx/doc/web/storagebackends.rst:8
 msgid ""
@@ -28,38 +29,45 @@ msgid ""
 " pass that as the `storage` keyword argument when you create the "
 ":class:`~.WebSupport` object::"
 msgstr ""
+"カスタムのストレージバックエンドを作るには、 :class:`StorageBackend` "
+"クラスのサブクラスを作ります。その後、新しいクラスのインスタンスを作成し、 :class:`~.WebSupport` オブジェクトのを作る時に、 "
+"`storage` キーワード引数で渡します::"
 
 #: ../../sphinx/doc/web/storagebackends.rst:17
 msgid ""
 "For more information about creating a custom storage backend, please see the"
 " documentation of the :class:`StorageBackend` class below."
 msgstr ""
+"カスタムのストレージバックエンドを作る際のより詳しい情報は、これから説明する :class:`StorageBackend` "
+"クラスのドキュメントを参照してください。"
 
 #: ../../sphinx/doc/web/storagebackends.rst:22
 msgid "Defines an interface for storage backends."
-msgstr ""
+msgstr "ストレージバックエンドのインタフェースを定義しています。"
 
 #: ../../sphinx/doc/web/storagebackends.rst:26
 msgid ""
 "StorageBackend class is moved to sphinxcontrib.websupport.storage from "
 "sphinx.websupport.storage."
 msgstr ""
+"StorageBackend クラスは sphinx.websupport.storage "
+"からsphinxcontrib.websupport.storage へ移動しました。"
 
 #: ../../sphinx/doc/web/storagebackends.rst:31
 msgid "StorageBackend Methods"
-msgstr ""
+msgstr "StorageBackendのメソッド"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.pre_build:1
 msgid ""
 "Called immediately before the build process begins. Use this to prepare the "
 "StorageBackend for the addition of nodes."
-msgstr ""
+msgstr "ビルドプロセスを開始する前の呼び出し。ノードの追加のために、StorageBackendの準備をします。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_node:1
 msgid "Add a node to the StorageBackend."
-msgstr ""
+msgstr "StorageBackendにノードを追加します。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_node:0
@@ -76,79 +84,79 @@ msgstr ""
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.accept_comment:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_node:3
 msgid "a unique id for the comment."
-msgstr ""
+msgstr "コメントのユニークな識別子。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_node:4
 msgid "the name of the document the node belongs to."
-msgstr ""
+msgstr "ノードが属しているドキュメントの名前。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_node:5
 msgid "the source files name."
-msgstr ""
+msgstr "ソースファイル名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.post_build:1
 msgid ""
 "Called after a build has completed. Use this to finalize the addition of "
 "nodes if needed."
-msgstr ""
+msgstr "ビルドが終了した時の呼び出し。必要に応じ、ノードの追加を完了させるために用います。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:1
 msgid "Called when a comment is being added."
-msgstr ""
+msgstr "コメントが追加された場合の呼び出し。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:3
 msgid "the text of the comment"
-msgstr ""
+msgstr "コメントの文字列。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:4
 msgid "whether the comment should be displayed"
-msgstr ""
+msgstr "コメントを表示するかしないか。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:5
 msgid "the name of the user adding the comment"
-msgstr ""
+msgstr "コメントを作成しているユーザーのユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:6
 msgid "a date object with the time the comment was added"
-msgstr ""
+msgstr "コメントが追加された時刻のdateオブジェクト。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:7
 msgid "the text of the proposal the user made"
-msgstr ""
+msgstr "ユーザーが作成した提案のテキスト。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:8
 msgid "the id of the node that the comment is being added to"
-msgstr ""
+msgstr "コメント対象となるノードのID。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:9
 msgid "the id of the comment's parent comment."
-msgstr ""
+msgstr "コメントの親のコメントのID。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.add_comment:10
 msgid "whether the user adding the comment is a moderator"
-msgstr ""
+msgstr "コメントを追加しているユーザーがモデレーターかどうか。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:1
 msgid "Delete a comment."
-msgstr ""
+msgstr "コメントの削除。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:3
@@ -156,21 +164,23 @@ msgid ""
 "Raises :class:`~sphinxcontrib.websupport.errors.UserNotAuthorizedError` if "
 "moderator is False and `username` doesn't match the username on the comment."
 msgstr ""
+"Raises :class:`~sphinxcontrib.websupport.errors.UserNotAuthorizedError` "
+"モデレーターが失敗した場合、もしくは `username` がコメント上のusernameと一致しない場合に行います。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:7
 msgid "The id of the comment being deleted."
-msgstr ""
+msgstr "削除する対象のコメントのID。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:8
 msgid "The username of the user requesting the deletion."
-msgstr ""
+msgstr "削除をリクエストしているユーザーのユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.delete_comment:9
 msgid "Whether the user is a moderator."
-msgstr ""
+msgstr "ユーザーがモデレーターかどうか。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.get_data:1
@@ -180,41 +190,44 @@ msgid ""
 ":class:`~sphinxcontrib.websupport.WebSupport`'s "
 ":meth:`~sphinxcontrib.websupport.WebSupport.get_data` method."
 msgstr ""
+"ノード用にデータを回復させる場合の呼び出し。*source* と *comments* という二つのキーを持つ辞書を返します。\n"
+"これらのキーは以下によって説明されています。\n"
+":class:`~sphinxcontrib.websupport.WebSupport`'s :meth:`~sphinxcontrib.websupport.WebSupport.get_data` method."
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.get_data:6
 msgid "The id of the node to get data for."
-msgstr ""
+msgstr "コメント対象のノードがもつID。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.get_data:7
 msgid "The name of the user requesting the data."
-msgstr ""
+msgstr "データを要求しているユーザーのユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.get_data:8
 msgid "Whether the requestor is a moderator."
-msgstr ""
+msgstr "ユーザーがモデレーターかどうか。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.process_vote:1
 msgid "Process a vote that is being cast. `value` will be either -1, 0, or 1."
-msgstr ""
+msgstr "投票結果を処理します。 `value` は -1, 0, 1 のいずれかです。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.process_vote:4
 msgid "The id of the comment being voted on."
-msgstr ""
+msgstr "投票される対象のコメントのID。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.process_vote:5
 msgid "The username of the user casting the vote."
-msgstr ""
+msgstr "コメントに投票するユーザーのユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.process_vote:6
 msgid "The value of the vote being cast."
-msgstr ""
+msgstr "投票される値。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.update_username:1
@@ -222,25 +235,26 @@ msgid ""
 "If a user is allowed to change their username this method should be called "
 "so that there is not stagnate data in the storage system."
 msgstr ""
+"ユーザーがusernameを変更することを許可されていても、このメソッドは呼び出されませんので、ストレージシステム内にデータが停滞することはありません。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.update_username:4
 msgid "The username being changed."
-msgstr ""
+msgstr "変更されるユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.update_username:5
 msgid "What the username is being changed to."
-msgstr ""
+msgstr "変更先のユーザー名。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.accept_comment:1
 msgid ""
 "Called when a moderator accepts a comment. After the method is called the "
 "comment should be displayed to all users."
-msgstr ""
+msgstr "モデレーターがコメントを受け付けた場合の呼び出し。このメソッドが呼ばれた後は、コマンドがユーザーには表示されなくなります。"
 
 #: ../../../../../virtualenv/python3.6.3/lib/python3.6/site-packages/sphinxcontrib/websupport/storage/__init__.pydocstring
 #: of sphinxcontrib.websupport.storage.StorageBackend.accept_comment:4
 msgid "The id of the comment being accepted."
-msgstr ""
+msgstr "受理される対象のコメントのID。"

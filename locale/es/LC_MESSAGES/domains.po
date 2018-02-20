@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Georg Brandl <g.brandl@gmx.net>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/sphinx-doc/teams/15434/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:11
 msgid "What is a Domain?"
-msgstr ""
+msgstr "¿Que es un dominio?"
 
 #: ../../sphinx/doc/domains.rst:13
 msgid ""
@@ -431,7 +432,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "Parámetros"
 
 #: ../../sphinx/doc/domains.rst:352
 msgid "The person sending the message"
@@ -451,7 +452,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Returns"
-msgstr ""
+msgstr "Devuelve"
 
 #: ../../sphinx/doc/domains.rst:357
 msgid "the message id"
@@ -459,11 +460,11 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Return type"
-msgstr ""
+msgstr "Tipo del valor devuelto"
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Raises"
-msgstr ""
+msgstr "Muestra"
 
 #: ../../sphinx/doc/domains.rst:359
 msgid "if the message_body exceeds 160 characters"
@@ -822,7 +823,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:766
 msgid "Options"
-msgstr ""
+msgstr "Opciones"
 
 #: ../../sphinx/doc/domains.rst:768
 msgid "Some directives support options:"
@@ -1269,7 +1270,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Arguments"
-msgstr ""
+msgstr "Argumentos"
 
 #: ../../sphinx/doc/domains.rst:1189
 msgid "An URI to the location of the resource."
@@ -1287,7 +1288,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Throws"
-msgstr ""
+msgstr "Lanzamientos"
 
 #: ../../sphinx/doc/domains.rst:1194
 msgid "For whatever reason in that case."

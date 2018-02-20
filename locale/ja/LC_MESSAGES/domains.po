@@ -6,10 +6,11 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Sphinx 1.8.0+/85166f9\n"
+"Project-Id-Version: Sphinx 1.8.0+/2951bdf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 06:59+0000\n"
+"POT-Creation-Date: 2018-02-20 07:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Georg Brandl <g.brandl@gmx.net>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/sphinx-doc/teams/15434/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:6
 msgid "Sphinx Domains"
-msgstr ""
+msgstr "Sphinxドメイン"
 
 #: ../../sphinx/doc/domains.rst:11
 msgid "What is a Domain?"
-msgstr ""
+msgstr "ドメインとは何か？"
 
 #: ../../sphinx/doc/domains.rst:13
 msgid ""
@@ -35,6 +36,9 @@ msgid ""
 "interest developed in using it for many different purposes: C/C++ projects, "
 "JavaScript, or even reStructuredText markup (like in this documentation)."
 msgstr ""
+"Sphinxは、もともとある一つのプロジェクトのために考案されたものでした。それはPythonの言語ドキュメンテーションです。程なくして、汎用ドキュメンテーションツールとして提供されるようになりましたが、依然、Pythonモジュールのドキュメンテーションが’深く組み込まれたままで、"
+" ``function`` "
+"のような最も基本的なディレクティブ群はPythonのオブジェクト用に設計されました。その後、Sphinxがだいぶポピュラーなものになってきたことで、Sphinxをさまざまな用途で利用する関心が高まりました。例えば、C/C++のプロジェクト、JavaScript、さらにreStructuredTextによるマークアップ(このドキュメントのような)までに至ります。"
 
 #: ../../sphinx/doc/domains.rst:21
 msgid ""
@@ -43,6 +47,8 @@ msgid ""
 " not supported by the main Sphinx distribution, by providing a **domain** "
 "for every such purpose."
 msgstr ""
+"今までも書けないことはありませんでしたが、1.0からは、もっと簡単に、Sphinxでサポートしていない異なるプログラミング言語を使用したプロジェクトのドキュメントでも使える用になりました。"
+" **ドメイン** という機能がこれを可能にします。"
 
 #: ../../sphinx/doc/domains.rst:26
 msgid ""
@@ -52,6 +58,10 @@ msgid ""
 " in a domain have names like ``domain:name``, e.g. ``py:function``.  Domains"
 " can also provide custom indices (like the Python Module Index)."
 msgstr ""
+"ドメインというのは、説明のためのマークアップ(reStructuredTextの :term:`ディレクティブ` と "
+":term:`ロール`)と、プログラミング言語の構成部品と関連する :term:`オブジェクト` "
+"へのリンクによってできています。ドメインに属するディレクティブとロール名は ``py:function`` などのように、 ``ドメイン:名前:`` "
+"という名前を持ちます。ドメインを使って、Pythonのモジュール索引のような、専用の索引作成もできます。"
 
 #: ../../sphinx/doc/domains.rst:32
 msgid ""
@@ -60,6 +70,7 @@ msgid ""
 "that extensions that support the documentation of whole new languages are "
 "much easier to write."
 msgstr ""
+"ドメインがあるということは、C++とPythonの両方のクラスに言及したいようなドキュメントを書く場合でも、名前が衝突する問題がない、ということです。まったく新しい言語のドキュメントをサポートするのも簡単になります。"
 
 #: ../../sphinx/doc/domains.rst:37
 msgid ""
@@ -67,10 +78,12 @@ msgid ""
 "provide. The domain API is documented as well, in the section :ref:`domain-"
 "api`."
 msgstr ""
+"このセクションでは、Sphinxのドメインによって提供されることを説明します。ドキュメントAPIの説明は :ref:`domain-api` "
+"で説明します。"
 
 #: ../../sphinx/doc/domains.rst:44
 msgid "Basic Markup"
-msgstr ""
+msgstr "マークアップの基礎"
 
 #: ../../sphinx/doc/domains.rst:46
 msgid ""
@@ -82,6 +95,9 @@ msgid ""
 "give the directive option flag ``:noindex:``.  An example using a Python "
 "domain directive::"
 msgstr ""
+"ほとんどのドメインは、いくつかの :dfn:`object description directives` "
+"を提供しています。これを使って、モジュールが提供する特定のオブジェクトについて説明をしていきます。それぞれのディレクティブでは、何について説明しているか、説明すべき内容などの基本情報のためのフォーマットや統一のルールを定めています。基本的なスタイルのディレクティブは、全体の索引に、説明対象へのリンクを追加しますが、もし索引に追加したくなければ、ディレクティブのオプションフラグに"
+" ``:noindex:`` を追加します。例えば、Pythonのドメインのディレクティブの場合には、次のようになります。例::"
 
 #: ../../sphinx/doc/domains.rst:58
 msgid ""
@@ -89,10 +105,12 @@ msgid ""
 "when signatures become too long, you can break them if you add a backslash "
 "to lines that are continued in the next line.  Example::"
 msgstr ""
+"ここでは、 ``spam`` と ``ham`` "
+"という2つのPython関数を説明しています。もしシグニチャが長すぎる場合には、バックスラッシュを使って引数リストの中で改行できます::"
 
 #: ../../sphinx/doc/domains.rst:66
 msgid "(This example also shows how to use the ``:noindex:`` flag.)"
-msgstr ""
+msgstr "(このサンプルは、 ``:noindex:`` フラグの使い方でもあります)。"
 
 #: ../../sphinx/doc/domains.rst:68
 msgid ""
@@ -100,16 +118,17 @@ msgid ""
 "  For example, to link to one of the functions described in the example "
 "above, you could say ::"
 msgstr ""
+"ドメインは、オブジェクトへのリンクを張るためのロールも提供します。例えば先ほどのサンプルの関数説明にリンクを張るためには、次のように書きます::"
 
 #: ../../sphinx/doc/domains.rst:74
 msgid ""
 "As you can see, both directive and role names contain the domain name and "
 "the directive name."
-msgstr ""
+msgstr "このように、ディレクティブとロール名の両方とも、ドメイン名とディレクティブ名の２つから構成されています。"
 
 #: ../../sphinx/doc/domains.rst:78
 msgid "Default Domain"
-msgstr ""
+msgstr "デフォルトドメイン"
 
 #: ../../sphinx/doc/domains.rst:79
 msgid ""
@@ -118,12 +137,16 @@ msgid ""
 "having specified a default. This can be done either via the config value "
 ":confval:`primary_domain` or via this directive:"
 msgstr ""
+"単一のドメインからなるオブジェクト群を説明するドキュメンテーションでは、デフォルトのドメインを明確にすれば、ディレクティブやロール、その他で都度、何回もそのドメイン名を書く必要はないでしょう。デフォルトのドメインの指定は、:confval:`primary_domain`"
+" 値を設定するか、次のディレクティブを使うことでできます:"
 
 #: ../../sphinx/doc/domains.rst:86
 msgid ""
 "Select a new default domain.  While the :confval:`primary_domain` selects a "
 "global default, this only has an effect within the same file."
 msgstr ""
+"新しいデフォルトのドメインを設定します。 :confval:`primary_domain` "
+"はプロジェクト全体のデフォルトを決定しますが、このディレクティブは同じファイル内にのみ影響を与えます。"
 
 #: ../../sphinx/doc/domains.rst:89
 msgid ""
@@ -131,38 +154,43 @@ msgid ""
 "default one, mostly for compatibility with documentation written for older "
 "versions of Sphinx."
 msgstr ""
+"もしもデフォルトが設定されないと、Pythonドメイン(``py``)がデフォルトになります。これは、過去のバージョンのSphinxで書かれたドキュメントと互換性があります。"
 
 #: ../../sphinx/doc/domains.rst:93
 msgid ""
 "Directives and roles that belong to the default domain can be mentioned "
 "without giving the domain name, i.e. ::"
-msgstr ""
+msgstr "デフォルトドメインに属するディレクティブとロールを書く場合には、ドメイン名を入れる必要はありません::"
 
 #: ../../sphinx/doc/domains.rst:104
 msgid "Cross-referencing syntax"
-msgstr ""
+msgstr "クロスリファレンス文法"
 
 #: ../../sphinx/doc/domains.rst:106
 msgid ""
 "For cross-reference roles provided by domains, the same facilities exist as "
 "for general cross-references.  See :ref:`xref-syntax`."
 msgstr ""
+"汎用的なクロスリファレンスのために使用されるのと同じような機能を持つ、クロスリファレンスのためのロールが、ドメインによって提供されます。詳しくは "
+":ref:`xref-syntax` を参照してください。"
 
 #: ../../sphinx/doc/domains.rst:109
 msgid "In short:"
-msgstr ""
+msgstr "簡単に説明すると:"
 
 #: ../../sphinx/doc/domains.rst:111
 msgid ""
 "You may supply an explicit title and reference target: ``:role:`title "
 "<target>``` will refer to *target*, but the link text will be *title*."
 msgstr ""
+"明示的なリンク名と、リンクターゲットを指定できます。 ``:rst:role:`タイトル <ターゲット>``` と書くと、 **ターゲット** "
+"を参照しますが、リンクテキストは **タイトル** になります。"
 
 #: ../../sphinx/doc/domains.rst:114
 msgid ""
 "If you prefix the content with ``!``, no reference/hyperlink will be "
 "created."
-msgstr ""
+msgstr "用語の先頭の文字に ``!`` を指定すると、参照もハイパーリンクも作成されなくなります。"
 
 #: ../../sphinx/doc/domains.rst:116
 msgid ""
@@ -170,16 +198,19 @@ msgid ""
 "component of the target.  For example, ``:py:meth:`~Queue.Queue.get``` will "
 "refer to ``Queue.Queue.get`` but only display ``get`` as the link text."
 msgstr ""
+"用語の先頭の文字に ``~`` を設定すると、リンクテキストは最後の項目だけが表示されるようになります。例えば、 "
+"``:py:meth:`~Queue.Queue.get``` というマークアップがあったとすると、 ``Queue.Queue.get`` "
+"に対して参照が作成されますが、リンクテキストとしては ``get`` が表示されます。"
 
 #: ../../sphinx/doc/domains.rst:122
 msgid "The Python Domain"
-msgstr ""
+msgstr "Pythonドメイン"
 
 #: ../../sphinx/doc/domains.rst:124
 msgid ""
 "The Python domain (name **py**) provides the following directives for module"
 " declarations:"
-msgstr ""
+msgstr "Pythonドメイン(**py**)では、モジュールの説明のために、次のようなディレクティブを提供しています:"
 
 #: ../../sphinx/doc/domains.rst:129
 msgid ""
@@ -188,10 +219,12 @@ msgid ""
 "including the package name).  It does not create content (like e.g. "
 ":rst:dir:`py:class` does)."
 msgstr ""
+"このディレクティブはモジュールの説明の開始時に使用します。パッケージやサブモジュールにも使用できますが、この場合はパッケージ名を含む、完全な名前を指定してください。この"
+" ディレクティブは :rst:dir:`py:class` ディレクティブのようなコンテンツを作成することはできません。"
 
 #: ../../sphinx/doc/domains.rst:134
 msgid "This directive will also cause an entry in the global module index."
-msgstr ""
+msgstr "このディレクティブを使用すると、グローバルなモジュール索引に項目が追加されます。"
 
 #: ../../sphinx/doc/domains.rst:136
 msgid ""
@@ -202,18 +235,26 @@ msgid ""
 "\"Unix\".  It is important to use a key which has already been used when "
 "applicable."
 msgstr ""
+"``platform`` "
+"オプションが存在していれば、そのモジュールが利用可能なモジュールをカンマ区切りで指定します。もしすべてのプラットフォームで利用可能であれば、このオプションは使用しないようにしましょう。プラットフォーム名としては、短い識別子、例えば、\"IRIX\","
+" \"Mac\", \"Windows\", "
+"\"Unix\"などから利用してください。もし適用時点ですでに使用されているキーがあれば、それを使用してください。"
 
 #: ../../sphinx/doc/domains.rst:142
 msgid ""
 "The ``synopsis`` option should consist of one sentence describing the "
 "module's purpose -- it is currently only used in the Global Module Index."
 msgstr ""
+"``synopsis`` "
+"オプションには、モジュールの目的を説明する文章を書くことができます。現在のバージョンでは、これはグローバルモジュールインデックスの中でのみ使用されます。"
 
 #: ../../sphinx/doc/domains.rst:145
 msgid ""
 "The ``deprecated`` option can be given (with no value) to mark a module as "
 "deprecated; it will be designated as such in various locations then."
 msgstr ""
+"``deprecated`` "
+"オプションを使用すると、このモジュールが古くて、使用するのを推奨しない、ということを示すことができます。オプションは取りません。このディレクティブは様々な場所で使用されるでしょう。"
 
 #: ../../sphinx/doc/domains.rst:151
 msgid ""
@@ -225,10 +266,15 @@ msgid ""
 "location has the :rst:dir:`py:module` directive, the others only "
 ":rst:dir:`py:currentmodule`."
 msgstr ""
+"このディレクティブはSphinxに対して、この行以降のクラスや関数などが、指定された与えられたモジュール (:rst:dir:`py:module` "
+"のように)の中にある、ということを通知します。これを使用しても、索引のエントリーは作成されません。 :rst:role:`py:mod` "
+"へのリンクターゲットも作成されません。このディレクティブは、モジュールに含まれる項目へのドキュメントが様々なファイルやセクションに分割されている場合に便利です。この場合には一カ所だけ"
+" :rst:dir:`py:module` ディレクティブを使用して、他の箇所で :rst:dir:`py:currentmodule` "
+"を使用するようにします。"
 
 #: ../../sphinx/doc/domains.rst:160
 msgid "The following directives are provided for module and class contents:"
-msgstr ""
+msgstr "モジュールとクラスの中の構成要素を記述するために、次のようなディレクティブが提供されています:"
 
 #: ../../sphinx/doc/domains.rst:164
 msgid ""
@@ -236,10 +282,12 @@ msgid ""
 "parameters as given in the Python function definition, see "
 ":ref:`signatures`. For example::"
 msgstr ""
+"モジュール レベルの関数について説明します。署名はPython の関数定義で指定されたパラメーターを含む必要があります。 "
+":ref:`signatures` を参照ください。"
 
 #: ../../sphinx/doc/domains.rst:170
 msgid "For methods you should use :rst:dir:`py:method`."
-msgstr ""
+msgstr "メソッドには :rst:dir:`py:method` を使用します。"
 
 #: ../../sphinx/doc/domains.rst:172
 msgid ""
@@ -247,12 +295,14 @@ msgid ""
 "and how they are used (especially whether mutable objects passed as "
 "parameters are modified), side effects, and possible exceptions."
 msgstr ""
+"説明には一般的に、パラメータに必要な関する情報と、それらがどのように使用されるのか(変更可能なオブジェクトが渡されたときに、変更されるのかどうか)、副作用、投げられる可能性のある例外の情報を含めます。"
 
 #: ../../sphinx/doc/domains.rst:176
 msgid ""
 "This information can (in any ``py`` directive) optionally be given in a "
 "structured form, see :ref:`info-field-lists`."
 msgstr ""
+"この情報は :ref:`info-field-lists` にあるデータ構造で表現できます(他のpyドメインのディレクティブでも同様です)。"
 
 #: ../../sphinx/doc/domains.rst:181
 msgid ""
@@ -260,12 +310,13 @@ msgid ""
 "as \"defined constants.\"  Class and object attributes are not documented "
 "using this environment."
 msgstr ""
+"モジュール内のグローバルなデータの説明をします。変数も値も\"定義された定数\"として取り込むことができます。クラスとオブジェクトの属性はこの環境を使用してドキュメントを書くことはできません。"
 
 #: ../../sphinx/doc/domains.rst:187
 msgid ""
 "Describes an exception class.  The signature can, but need not include "
 "parentheses with constructor arguments."
-msgstr ""
+msgstr "例外クラスの説明をします。シグニチャには、コンストラクタの引数を括弧付きで含めることもできますが、しなくてもかまいません。"
 
 #: ../../sphinx/doc/domains.rst:193
 msgid ""
@@ -273,6 +324,8 @@ msgid ""
 "parameters which will be shown as the constructor arguments.  See also "
 ":ref:`signatures`."
 msgstr ""
+"クラスについて説明します。シグニチャには、丸括弧とともにコンストラクタ引数として提示されるパラメータをオプションで含めることができます。 "
+":ref:`signatures` も参照してください。"
 
 #: ../../sphinx/doc/domains.rst:197
 msgid ""
@@ -280,17 +333,18 @@ msgid ""
 "directive's body.  If they are placed outside, the supplied name should "
 "contain the class name so that cross-references still work.  Example::"
 msgstr ""
+"このクラスに属する属性とメソッドのディレクティブはこのディレクティブの本体の中に記述します。このクラスの外に書いた場合は、提供された名前にクラス名が含まれていれば、クロスリファレンスは動作します。サンプル::"
 
 #: ../../sphinx/doc/domains.rst:211
 msgid "The first way is the preferred one."
-msgstr ""
+msgstr "最初の書き方が推奨です。"
 
 #: ../../sphinx/doc/domains.rst:215
 msgid ""
 "Describes an object data attribute.  The description should include "
 "information about the type of the data to be expected and whether it may be "
 "changed directly."
-msgstr ""
+msgstr "オブジェクトの属性のデータの説明をします。この説明には期待されるデータの型、値を直接変更できるかどうか、という情報を含めます。"
 
 #: ../../sphinx/doc/domains.rst:221
 msgid ""
@@ -299,54 +353,57 @@ msgid ""
 "described for ``function``.  See also :ref:`signatures` and :ref:`info-"
 "field-lists`."
 msgstr ""
+"オブジェクトのメソッドの説明をします。パラメータからは ``self`` パラメータははずします。この説明には ``function`` "
+"と同じ情報を記述するようにします。 :ref:`signatures` と :ref:`info-field-lists` も参照してください。"
 
 #: ../../sphinx/doc/domains.rst:228
 msgid ""
 "Like :rst:dir:`py:method`, but indicates that the method is a static method."
-msgstr ""
+msgstr ":rst:dir:`py:method` とほぼ一緒ですが、メソッドがスタティックメソッドであるということを表します。"
 
 #: ../../sphinx/doc/domains.rst:234
 msgid ""
 "Like :rst:dir:`py:method`, but indicates that the method is a class method."
-msgstr ""
+msgstr ":rst:dir:`py:method` とほぼ一緒ですが、メソッドがクラスメソッドであるということを表します。"
 
 #: ../../sphinx/doc/domains.rst:241
 msgid ""
 "Describes a decorator function.  The signature should represent the usage as"
 " a decorator.  For example, given the functions"
-msgstr ""
+msgstr "デコレーターを説明します。このシグニチャにはデコレーターの使い方を記述します。例えばこの関数は"
 
 #: ../../sphinx/doc/domains.rst:256
 msgid "the descriptions should look like this::"
-msgstr ""
+msgstr "次のように説明を書くことが出来ます"
 
 #: ../../sphinx/doc/domains.rst:266
 msgid "(as opposed to ``.. py:decorator:: removename(func)``.)"
-msgstr ""
+msgstr "(``.. py:decorator:: removename(func)`` とは対象的です)"
 
 #: ../../sphinx/doc/domains.rst:268
 msgid ""
 "There is no ``py:deco`` role to link to a decorator that is marked up with "
 "this directive; rather, use the :rst:role:`py:func` role."
 msgstr ""
+"これらに対応する、 ``py:deco`` といったロールはありません。代わりに、 :rst:role:`py:func` ロールを使用してください。"
 
 #: ../../sphinx/doc/domains.rst:274
 msgid "Same as :rst:dir:`py:decorator`, but for decorators that are methods."
-msgstr ""
+msgstr ":rst:dir:`py:decorator` とほぼ同じですが、対象がメソッドになります。"
 
 #: ../../sphinx/doc/domains.rst:276
 msgid "Refer to a decorator method using the :rst:role:`py:meth` role."
-msgstr ""
+msgstr "このデコレータを指定したい場合には、 :rst:role:`py:meth` ロールを使います。"
 
 #: ../../sphinx/doc/domains.rst:282
 msgid "Python Signatures"
-msgstr ""
+msgstr "Pythonシグニチャ"
 
 #: ../../sphinx/doc/domains.rst:284
 msgid ""
 "Signatures of functions, methods and class constructors can be given like "
 "they would be written in Python."
-msgstr ""
+msgstr "Pythonで書くのと同じように、関数、メソッド、クラスコンストラクタのシグニチャを与えることが出来ます。"
 
 #: ../../sphinx/doc/domains.rst:287
 msgid ""
@@ -354,6 +411,7 @@ msgid ""
 "commas, they will confuse the signature parser).  Python 3-style argument "
 "annotations can also be given as well as return type annotations::"
 msgstr ""
+"オプション引数のデフォルト値を与えることもできます。ただし、値にカンマが含まれると、シグニチャのパーサはうまく動作しません。Pythonの３つのスタイルの引数のアノテーションと同様に、返り値の型も記述できます::"
 
 #: ../../sphinx/doc/domains.rst:293
 msgid ""
@@ -361,58 +419,65 @@ msgid ""
 "(typically functions implemented in C extension modules without keyword "
 "argument support), you can use brackets to specify the optional parts:"
 msgstr ""
+"デフォルト値を持たない省略可能なパラメータを持つ関数(よくある例としてはキーワード引数をサポートしていないC拡張モジュールで実装された関数があります)のため、省略可能な部分を角かっこで指定することも出来ます。"
 
 #: ../../sphinx/doc/domains.rst:299
 msgid "It is customary to put the opening bracket before the comma."
-msgstr ""
+msgstr "通常、カンマの前に開き括弧を付けます。"
 
 #: ../../sphinx/doc/domains.rst:305 ../../sphinx/doc/domains.rst:934
 msgid "Info field lists"
-msgstr ""
+msgstr "詳細情報フィールドのリスト"
 
 #: ../../sphinx/doc/domains.rst:309
 msgid ""
 "Inside Python object description directives, reST field lists with these "
 "fields are recognized and formatted nicely:"
 msgstr ""
+"Pythonのオブジェクト説明のためのディレクティブの内側には、適切に情報が明示されて、決まったルールに従ったreSTフィールドを配置できます:"
 
 #: ../../sphinx/doc/domains.rst:312
 msgid ""
 "``param``, ``parameter``, ``arg``, ``argument``, ``key``, ``keyword``: "
 "Description of a parameter."
 msgstr ""
+"``param``, ``parameter``, ``arg``, ``argument``, ``key``, ``keyword``: "
+"引数の説明です。"
 
 #: ../../sphinx/doc/domains.rst:314
 msgid "``type``: Type of a parameter.  Creates a link if possible."
-msgstr ""
+msgstr "``type``: 引数の型です。可能ならリンクを生成します。"
 
 #: ../../sphinx/doc/domains.rst:315
 msgid ""
 "``raises``, ``raise``, ``except``, ``exception``: That (and when) a specific"
 " exception is raised."
 msgstr ""
+"``raises``, ``raise``, ``except``, ``exception``: "
+"この中から投げられる例外(いつ投げられるか？)を定義します"
 
 #: ../../sphinx/doc/domains.rst:317
 msgid "``var``, ``ivar``, ``cvar``: Description of a variable."
-msgstr ""
+msgstr "``var``, ``ivar``, ``cvar``: 変数の説明をします"
 
 #: ../../sphinx/doc/domains.rst:318
 msgid "``vartype``: Type of a variable.  Creates a link if possible."
-msgstr ""
+msgstr "``vartype``: 変数の型です。可能ならリンクを生成します。"
 
 #: ../../sphinx/doc/domains.rst:319
 msgid "``returns``, ``return``: Description of the return value."
-msgstr ""
+msgstr "``returns``, ``return``: 返り値の値について説明をします"
 
 #: ../../sphinx/doc/domains.rst:320
 msgid "``rtype``: Return type.  Creates a link if possible."
-msgstr ""
+msgstr "``rtype``: 返り値の型です。可能ならリンクを生成します。"
 
 #: ../../sphinx/doc/domains.rst:324
 msgid ""
 "In current release, all ``var``, ``ivar`` and ``cvar`` are represented as "
 "\"Variable\". There is no difference at all."
 msgstr ""
+"現行のリリースでは、``var``, ``ivar`` and ``cvar`` はすべて \"Variable\"を表し、違いはまったくありません。"
 
 #: ../../sphinx/doc/domains.rst:327
 msgid ""
@@ -420,64 +485,66 @@ msgid ""
 "(except for ``returns`` and ``rtype``, which do not need an argument).  This"
 " is best explained by an example::"
 msgstr ""
+"フィールドは、 ``return``, ``rtype`` 以外の場合は、上記のキーワードのうち、どれかと、引数を一つが引数として設定されています。 "
+"``return``, ``rtype`` だけは引数を取りません。サンプルを見ていただくのが一番でしょう::"
 
 #: ../../sphinx/doc/domains.rst:345
 msgid "This will render like this:"
-msgstr ""
+msgstr "これは次のようにレンダリングされます:"
 
 #: ../../sphinx/doc/domains.rst:350
 msgid "Send a message to a recipient"
-msgstr ""
+msgstr "Send a message to a recipient"
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "パラメータ"
 
 #: ../../sphinx/doc/domains.rst:352
 msgid "The person sending the message"
-msgstr ""
+msgstr "The person sending the message"
 
 #: ../../sphinx/doc/domains.rst:353
 msgid "The recipient of the message"
-msgstr ""
+msgstr "The recipient of the message"
 
 #: ../../sphinx/doc/domains.rst:354
 msgid "The body of the message"
-msgstr ""
+msgstr "The body of the message"
 
 #: ../../sphinx/doc/domains.rst:355
 msgid "The priority of the message, can be a number 1-5"
-msgstr ""
+msgstr "The priority of the message, can be a number 1-5"
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
 #: ../../sphinx/doc/domains.rst:357
 msgid "the message id"
-msgstr ""
+msgstr "the message id"
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Return type"
-msgstr ""
+msgstr "戻り値の型"
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Raises"
-msgstr ""
+msgstr "例外"
 
 #: ../../sphinx/doc/domains.rst:359
 msgid "if the message_body exceeds 160 characters"
-msgstr ""
+msgstr "if the message_body exceeds 160 characters"
 
 #: ../../sphinx/doc/domains.rst:360
 msgid "if the message_body is not a basestring"
-msgstr ""
+msgstr "if the message_body is not a basestring"
 
 #: ../../sphinx/doc/domains.rst:362
 msgid ""
 "It is also possible to combine parameter type and description, if the type "
 "is a single word, like this::"
-msgstr ""
+msgstr "型情報が一語で表せる場合には、属性の型と説明をひとつにまとめることもできます::"
 
 #: ../../sphinx/doc/domains.rst:370
 msgid ""
@@ -493,19 +560,19 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:390
 msgid "Cross-referencing Python objects"
-msgstr ""
+msgstr "Pythonオブジェクトのクロススリファンレス"
 
 #: ../../sphinx/doc/domains.rst:392
 msgid ""
 "The following roles refer to objects in modules and are possibly hyperlinked"
 " if a matching identifier is found:"
-msgstr ""
+msgstr "以下のロールを使用すると、モジュール内のオブジェクトを参照できます。一致する識別子が見つかれば、ハイパーリンクが作成されます:"
 
 #: ../../sphinx/doc/domains.rst:397
 msgid ""
 "Reference a module; a dotted name may be used.  This should also be used for"
 " package names."
-msgstr ""
+msgstr "モジュールへの参照です。ドットで区切られた名前も使用できます。これはパッケージ名としても利用可能です。"
 
 #: ../../sphinx/doc/domains.rst:402
 msgid ""
@@ -514,20 +581,23 @@ msgid ""
 "automatically by Sphinx if the :confval:`add_function_parentheses` config "
 "value is ``True`` (the default)."
 msgstr ""
+"Pythonの関数への参照です。ドットで区切られた名前も使用できます。ロールのテキストは読みやすさのために括弧を後ろに含める必要はありません。 "
+":confval:`add_function_parentheses` 設定値を "
+"``True``(デフォルト)にしておくと、Sphinxが自動で括弧を追加します。"
 
 #: ../../sphinx/doc/domains.rst:409
 msgid "Reference a module-level variable."
-msgstr ""
+msgstr "モジュール変数を参照します。"
 
 #: ../../sphinx/doc/domains.rst:413
 msgid ""
 "Reference a \"defined\" constant.  This may be a Python variable that is not"
 " intended to be changed."
-msgstr ""
+msgstr "「定義済み」定数です。変更して欲しくないPythonの変数にも使えます。"
 
 #: ../../sphinx/doc/domains.rst:418
 msgid "Reference a class; a dotted name may be used."
-msgstr ""
+msgstr "クラス名です。ドットで区切られた名前も使用できます。"
 
 #: ../../sphinx/doc/domains.rst:422
 msgid ""
@@ -535,20 +605,21 @@ msgid ""
 "and the method name; if it occurs within the description of a type, the type"
 " name can be omitted.  A dotted name may be used."
 msgstr ""
+"オブジェクトのメソッドへの参照です。ロールのテキストには型名とメソッド名を含めなければなりません。ただし、型の記述中に書く場合には省略もできます。ドットで区切られた名前も使用できます。"
 
 #: ../../sphinx/doc/domains.rst:428
 msgid "Reference a data attribute of an object."
-msgstr ""
+msgstr "オブジェクトの属性への参照です。"
 
 #: ../../sphinx/doc/domains.rst:432
 msgid "Reference an exception.  A dotted name may be used."
-msgstr ""
+msgstr "例外への参照です。ドットで区切られた名前も使用できます。"
 
 #: ../../sphinx/doc/domains.rst:436
 msgid ""
 "Reference an object of unspecified type.  Useful e.g. as the "
 ":confval:`default_role`."
-msgstr ""
+msgstr "型が指定されていないオブジェクトの名前です。 :confval:`default_role` 一緒に使用すると便利です。"
 
 #: ../../sphinx/doc/domains.rst:441
 msgid ""
@@ -558,6 +629,9 @@ msgid ""
 " contrast, ``:py:func:`foo.filter``` clearly refers to the ``filter`` "
 "function in the ``foo`` module."
 msgstr ""
+"このマークアップの中の名前には、モジュール名, クラス名なども含めることができます。例えば、 ``:py:func:`filter``` "
+"は現在のモジュールに定義されている ``filter`` という名前の関数か、その名前を持つ組み込み関数をあらわします。 "
+"``:py:func:`foo.filter``` と明示的に書くと、 ``foo`` モジュールの中の ``filter`` 関数を表します。"
 
 #: ../../sphinx/doc/domains.rst:447
 msgid ""
@@ -568,12 +642,16 @@ msgid ""
 "Python's :mod:`codecs` module, ``:py:func:`open``` always refers to the "
 "built-in function, while ``:py:func:`.open``` refers to :func:`codecs.open`."
 msgstr ""
+"通常、これらのロールで使用される名前は、最初は修飾子なしで検索されます。次に現在のモジュール名を前に付けて検索されます。その次に現在のモジュール名とクラス名(あれば)を付けて検索されます。もし、ドットが先頭についた名前が指定された場合には、この探索順は逆になります。例えば、"
+" :mod:`codecs` というPythonモジュールの定義の中で ``:py:func:`open``` "
+"が定義されると、常に組み込み関数を参照しますが、 ``:py:func:`.open``` と書かれると、 :func:`codecs.open` "
+"を参照するようになります。"
 
 #: ../../sphinx/doc/domains.rst:454
 msgid ""
 "A similar heuristic is used to determine whether the name is an attribute of"
 " the currently documented class."
-msgstr ""
+msgstr "属性名が、現在のクラスのものかどうかを決定するのにも、同様の名前検索の仕組みが使用されます。"
 
 #: ../../sphinx/doc/domains.rst:457
 msgid ""
@@ -584,6 +662,10 @@ msgid ""
 "``tarfile``.  Since this can get ambiguous, if there is more than one "
 "possible match, you will get a warning from Sphinx."
 msgstr ""
+"また、名前の前にドットがついていて、正確に一致するものがないと、ドットを外した名前を持つオブジェクトと、その名前を末尾に含むすべてのオブジェクトが検索されます。例えば、"
+" ``:py:meth:`.TarFile.close``` という文字列は、現在のモジュールが ``tarfile`` でなかったとしても、 "
+"``tarfile.TarFile.close()`` "
+"を見つけ出して参照します。もしも該当するオブジェクトが複数ある場合には、どれを参照すればいいのか一意に定まらないため、Sphinxは警告を出します。"
 
 #: ../../sphinx/doc/domains.rst:464
 msgid ""
@@ -592,34 +674,38 @@ msgid ""
 "``tarfile.TarFile.close()`` method, but the visible link caption will only "
 "be ``close()``."
 msgstr ""
+"``~`` と ``.`` をオブジェクトの識別子の前に組み合わせることができます。 ``:py:meth:`~.TarFile.close``` "
+"と指定されると、 ``tarfile.TarFile.close()`` が参照されますが、実際に文章中に表示されるのは、 ``close()`` "
+"となります。"
 
 #: ../../sphinx/doc/domains.rst:472
 msgid "The C Domain"
-msgstr ""
+msgstr "C言語ドメイン"
 
 #: ../../sphinx/doc/domains.rst:474
 msgid "The C domain (name **c**) is suited for documentation of C API."
-msgstr ""
+msgstr "C言語ドメイン(**c**)はC言語のAPIのドキュメントを書くのに適しています。"
 
 #: ../../sphinx/doc/domains.rst:478
 msgid "Describes a C function. The signature should be given as in C, e.g.::"
-msgstr ""
+msgstr "Cの関数の説明に使用します。シグニチャはC言語内で書かれる様に記述します。例えば以下のように書きます::"
 
 #: ../../sphinx/doc/domains.rst:482
 msgid ""
 "This is also used to describe function-like preprocessor macros.  The names "
 "of the arguments should be given so they may be used in the description."
-msgstr ""
+msgstr "これは、関数のようなプリプロセッサマクロにも使用できます。説明の中で使用されることもあるため、引数名も書く必要があります。"
 
 #: ../../sphinx/doc/domains.rst:485
 msgid ""
 "Note that you don't have to backslash-escape asterisks in the signature, as "
 "it is not parsed by the reST inliner."
 msgstr ""
+"シグネチャ内のアスタリスクはバックスラッシュでエスケープする必要はありません。この中はreSTの行内のテキスト処理のパーサは実行されず、専用のパーサで処理されます。"
 
 #: ../../sphinx/doc/domains.rst:490
 msgid "Describes a C struct member. Example signature::"
-msgstr ""
+msgstr "C言語の構造体メンバーの説明をします。以下のように記述します::"
 
 #: ../../sphinx/doc/domains.rst:494
 msgid ""
@@ -627,6 +713,8 @@ msgid ""
 "the value should be interpreted, and whether the value can be changed. "
 "References to structure members in text should use the ``member`` role."
 msgstr ""
+"説明のテキストには受け入れ可能な値の範囲、値がどのように解釈されるべきか、値が変更可能かどうかという情報を入れるべきです。構造体のメンバーへの参照をテキストの中で書きたい場合には、"
+" ``member`` ロールを使用すべきです。"
 
 #: ../../sphinx/doc/domains.rst:500
 msgid ""
@@ -636,32 +724,35 @@ msgid ""
 " the Python documentation include :c:macro:`PyObject_HEAD` and "
 ":c:macro:`Py_BEGIN_ALLOW_THREADS`."
 msgstr ""
+"「シンプルな」C言語のマクロの説明をします。シンプルなマクロというのは、単純なコード展開だけをするもので、引数を取らず、そのため関数として説明できないものです。これはC言語の単純な"
+" ``#define`` です。このディレクティブのサンプルを見るには、Pythonドキュメントの :c:macro:`PyObject_HEAD` と"
+" :c:macro:`Py_BEGIN_ALLOW_THREADS` を参照してください。"
 
 #: ../../sphinx/doc/domains.rst:508
 msgid ""
 "Describes a C type (whether defined by a typedef or struct). The signature "
 "should just be the type name."
-msgstr ""
+msgstr "C言語の型名を説明します。型というのは、typedefかstructで定義されるものです。シグニチャには型名を指定します。"
 
 #: ../../sphinx/doc/domains.rst:513
 msgid ""
 "Describes a global C variable.  The signature should include the type, such "
 "as::"
-msgstr ""
+msgstr "グローバルなC言語の変数について説明します。シグニチャは型を含む必要があります。次のように記述します::"
 
 #: ../../sphinx/doc/domains.rst:522
 msgid "Cross-referencing C constructs"
-msgstr ""
+msgstr "C言語の要素へのクロスリファレンス"
 
 #: ../../sphinx/doc/domains.rst:524
 msgid ""
 "The following roles create cross-references to C-language constructs if they"
 " are defined in the documentation:"
-msgstr ""
+msgstr "以下のロールは、もしドキュメントの中に定義の説明があれば、C言語の要素へのクロスリファレンスを作成します:"
 
 #: ../../sphinx/doc/domains.rst:529
 msgid "Reference a C-language function. Should include trailing parentheses."
-msgstr ""
+msgstr "C言語の関数への参照です。カッコを省略することはできません。"
 
 #: ../../sphinx/doc/domains.rst:533
 msgid "Reference a C-language member of a struct."
@@ -669,42 +760,44 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:537
 msgid "Reference a \"simple\" C macro, as defined above."
-msgstr ""
+msgstr "前の説明で述べた、シンプルなC言語のマクロへの参照です。"
 
 #: ../../sphinx/doc/domains.rst:541
 msgid "Reference a C-language type."
-msgstr ""
+msgstr "C言語の型への参照です。"
 
 #: ../../sphinx/doc/domains.rst:545
 msgid "Reference a C-language variable."
-msgstr ""
+msgstr "C言語の変数への参照です。"
 
 #: ../../sphinx/doc/domains.rst:550
 msgid "The C++ Domain"
-msgstr ""
+msgstr "C++ドメイン"
 
 #: ../../sphinx/doc/domains.rst:552
 msgid "The C++ domain (name **cpp**) supports documenting C++ projects."
-msgstr ""
+msgstr "C++ドメインは(**cpp**)は、C++プロジェクトのドキュメント作成をサポートします。"
 
 #: ../../sphinx/doc/domains.rst:556
 msgid "Directives"
-msgstr ""
+msgstr "ディレクティブ"
 
 #: ../../sphinx/doc/domains.rst:558
 msgid ""
 "The following directives are available. All declarations can start with a "
 "visibility statement (``public``, ``private`` or ``protected``)."
 msgstr ""
+"以下のディレクティブを使用できます。全ての定義にはアクセス制御識別子(``public``, ``private``, "
+"``protected``)を最初に付けられます。"
 
 #: ../../sphinx/doc/domains.rst:563
 msgid ""
 "Describe a class/struct, possibly with specification of inheritance, e.g.,::"
-msgstr ""
+msgstr "クラスや構造について説明します。継承についての情報も書けます。"
 
 #: ../../sphinx/doc/domains.rst:567
 msgid "The class can be directly declared inside a nested scope, e.g.,::"
-msgstr ""
+msgstr "クラスはネストしたスコープの中で直接宣言することができます、 例として ::"
 
 #: ../../sphinx/doc/domains.rst:571
 msgid "A class template can be declared::"
@@ -712,19 +805,19 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:575
 msgid "or with a line break::"
-msgstr ""
+msgstr "もしくは改行を用いて::"
 
 #: ../../sphinx/doc/domains.rst:580
 msgid "Full and partial template specialisations can be declared::"
-msgstr ""
+msgstr "完全な、もしくは一部のテンプレートの専門化は次のように宣言できます::"
 
 #: ../../sphinx/doc/domains.rst:591
 msgid "Describe a function or member function, e.g.,::"
-msgstr ""
+msgstr "関数とメンバーの説明です。例えば以下のように書きます::"
 
 #: ../../sphinx/doc/domains.rst:617
 msgid "Function templates can also be described::"
-msgstr ""
+msgstr "Functionテンプレートは次のようにも表現できます::"
 
 #: ../../sphinx/doc/domains.rst:622
 msgid "and function template specialisations::"
@@ -732,11 +825,11 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:631
 msgid "Describe a variable or member variable, e.g.,::"
-msgstr ""
+msgstr "変数とメンバー変数の説明です。例えば以下のように書きます::"
 
 #: ../../sphinx/doc/domains.rst:639
 msgid "Variable templates can also be described::"
-msgstr ""
+msgstr "変数テンプレートは次のようにも表現できます::"
 
 #: ../../sphinx/doc/domains.rst:649
 msgid ""
@@ -746,7 +839,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:664
 msgid "A type alias can also be templated::"
-msgstr ""
+msgstr "エイリアス型は次のようにも宣言が可能です::"
 
 #: ../../sphinx/doc/domains.rst:669
 msgid "The example are rendered as follows."
@@ -769,11 +862,11 @@ msgid ""
 "Describe a (scoped) enum, possibly with the underlying type specified. Any "
 "enumerators declared inside an unscoped enum will be declared both in the "
 "enum scope and in the parent scope. Examples::"
-msgstr ""
+msgstr "列挙型について説明します。型指定やスコープ指定もできます。どの列挙もスコープ無し列挙型の中に書くこともできます。例::"
 
 #: ../../sphinx/doc/domains.rst:715
 msgid "Describe an enumerator, optionally with its value defined, e.g.,::"
-msgstr ""
+msgstr "列挙子について説明します。値指定もできます。例::"
 
 #: ../../sphinx/doc/domains.rst:724 ../../sphinx/doc/domains.rst:778
 msgid ""
@@ -822,7 +915,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:766
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: ../../sphinx/doc/domains.rst:768
 msgid "Some directives support options:"
@@ -910,7 +1003,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:853
 msgid "Namespacing"
-msgstr ""
+msgstr "名前空間"
 
 #: ../../sphinx/doc/domains.rst:855
 msgid ""
@@ -954,7 +1047,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:895
 msgid "or:::"
-msgstr ""
+msgstr "もしくは::"
 
 #: ../../sphinx/doc/domains.rst:903
 msgid "Change the scope relatively to the current scope. For example, after::"
@@ -989,7 +1082,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:938
 msgid "`param`, `parameter`, `arg`, `argument`: Description of a parameter."
-msgstr ""
+msgstr "`param`, `parameter`, `arg`, `argument`: パラメーターの説明です。"
 
 #: ../../sphinx/doc/domains.rst:939
 msgid "`tparam`: Description of a template parameter."
@@ -997,7 +1090,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:940
 msgid "`returns`, `return`: Description of a return value."
-msgstr ""
+msgstr "`returns`, `return`: 返り値の値について説明をします"
 
 #: ../../sphinx/doc/domains.rst:941
 msgid ""
@@ -1006,7 +1099,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:947
 msgid "Cross-referencing"
-msgstr ""
+msgstr "クロスリファレンス"
 
 #: ../../sphinx/doc/domains.rst:949
 msgid "These roles link to the given declaration types:"
@@ -1044,6 +1137,7 @@ msgid ""
 " want to select a bad syntax to reference a specific overload.  Currently "
 "Sphinx will link to the first overloaded version of the method / function."
 msgstr ""
+"現在の実装では、オーバーロードされた特定のメソッドに対してリンクを張ることはできません。C++ドメインは、オーバーロードされたメソッドを持つ言語をサポートする最初のドメインです。きちんとそれぞれのメソッドを比較できるようなデータ構造を持つまでは、特定のメソッドを参照するために見難い構文を導入するのは避けたいと考えています。現在のSphinxでは、オーバーロードされた最初のメソッドや関数をリンクしに行きます。"
 
 #: ../../sphinx/doc/domains.rst:983
 msgid "Declarations without template parameters and template arguments"
@@ -1129,7 +1223,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:1057
 msgid "Configuration Variables"
-msgstr ""
+msgstr "設定値"
 
 #: ../../sphinx/doc/domains.rst:1059
 msgid "See :ref:`cpp-config`."
@@ -1137,7 +1231,7 @@ msgstr ""
 
 #: ../../sphinx/doc/domains.rst:1063
 msgid "The Standard Domain"
-msgstr ""
+msgstr "標準ドメイン"
 
 #: ../../sphinx/doc/domains.rst:1065
 msgid ""
@@ -1145,23 +1239,26 @@ msgid ""
 " domain of its own.  Its directives and roles are not prefixed with a domain"
 " name."
 msgstr ""
+"標準ドメインには、固有のドメインを作るまでもないすべてのマークアップが含まれます。これらのディレクティブやロールには、ドメイン名のプリフィックスは付きません。"
 
 #: ../../sphinx/doc/domains.rst:1069
 msgid ""
 "The standard domain is also where custom object descriptions, added using "
 "the :func:`~sphinx.application.Sphinx.add_object_type` API, are placed."
 msgstr ""
+"標準ドメインには、 :func:`~sphinx.application.Sphinx.add_object_type` "
+"APIを使って追加されたカスタムの説明ディレクティブ、ロールも含まれます。"
 
 #: ../../sphinx/doc/domains.rst:1072
 msgid ""
 "There is a set of directives allowing documenting command-line programs:"
-msgstr ""
+msgstr "現在は、コマンドラインのプログラムを説明するためのディレクティブ群が提供されています:"
 
 #: ../../sphinx/doc/domains.rst:1076
 msgid ""
 "Describes a command line argument or switch.  Option argument names should "
 "be enclosed in angle brackets.  Examples::"
-msgstr ""
+msgstr "コマンド ・ ライン引数またはスイッチを説明します。オプションの引数名は括弧で囲む必要があります。例えば:"
 
 #: ../../sphinx/doc/domains.rst:1087
 msgid ""
@@ -1169,6 +1266,9 @@ msgid ""
 "referencable by :rst:role:`option` (in the example case, you'd use something"
 " like ``:option:`dest_dir```, ``:option:`-m```, or ``:option:`--module```)."
 msgstr ""
+"このディレクティブは与えられた複数のオプションを名前付きのターゲットとみなし、これらはクロスリファレンスから :rst:role:`option` "
+"にて参照されます(この例の場合は  ``:option:`dest_dir```, ``:option:`-m```, "
+"``:option:`--module``` という形式です)。"
 
 #: ../../sphinx/doc/domains.rst:1091
 msgid ""
@@ -1180,6 +1280,8 @@ msgid ""
 "Describes an environment variable that the documented code or program uses "
 "or defines.  Referencable by :rst:role:`envvar`."
 msgstr ""
+"現在ドキュメントの対象ととなっているコードやプログラムが使用したり、定義する環境変数について説明します。 :rst:role:`envvar` "
+"というロールを使って参照できます。"
 
 #: ../../sphinx/doc/domains.rst:1100
 msgid ""
@@ -1187,6 +1289,10 @@ msgid ""
 "Instead, it serves to notify Sphinx that all following :rst:dir:`option` "
 "directives document options for the program called *name*."
 msgstr ""
+":rst:dir:`py:currentmodule` "
+"と同様に、このディレクティブは何も出力しません。その代わりにこのディレクティブを定義すると、Sphinxはこの後に定義される "
+":rst:dir:`option` ディレクティブが説明するオプションが、ここで指定された *名前* "
+"を持つプログラムに属するということを認識できるようになります。"
 
 #: ../../sphinx/doc/domains.rst:1104
 msgid ""
@@ -1194,24 +1300,29 @@ msgid ""
 ":rst:role:`option` roles by the program name, so if you have the following "
 "situation ::"
 msgstr ""
+":rst:dir:`program` を使用する場合には、 :rst:role:`option` "
+"ロールとプログラム名を適合させる必要があります。以下のような状況について見てみます::"
 
 #: ../../sphinx/doc/domains.rst:1120
 msgid ""
 "then ``:option:`rm -r``` would refer to the first option, while "
 "``:option:`svn -r``` would refer to the second one."
 msgstr ""
+"この場合、 ``:option:`rm -r``` 最初のオプションを示し、 ``:option:`svn -r``` は２番目のオプションを示します。"
 
 #: ../../sphinx/doc/domains.rst:1123
 msgid ""
 "The program name may contain spaces (in case you want to document "
 "subcommands like ``svn add`` and ``svn commit`` separately)."
 msgstr ""
+"プログラム名はスペースを含むこともできます。そのため、 ``svn add`` や、 ``svn commit`` "
+"などのサブコマンドを個別に取り扱いたい、というケースにも対応できます。"
 
 #: ../../sphinx/doc/domains.rst:1129
 msgid ""
 "There is also a very generic object description directive, which is not tied"
 " to any domain:"
-msgstr ""
+msgstr "どこのドメインにも属さないような、非常に汎用的なオブジェクトの説明用のディレクティブも存在します:"
 
 #: ../../sphinx/doc/domains.rst:1135
 msgid ""
@@ -1219,14 +1330,15 @@ msgid ""
 " domains, but does not create index entries or cross-referencing targets. "
 "Example::"
 msgstr ""
+"このディレクティブはドメインで提供されているディレクティブを使ったのと、同じ形式にフォーマットされたテキストを生成します。その代わり、インデックスのエントリーや、クロスリファレンスのターゲットは作成されません::"
 
 #: ../../sphinx/doc/domains.rst:1145
 msgid "The JavaScript Domain"
-msgstr ""
+msgstr "JavaScriptドメイン"
 
 #: ../../sphinx/doc/domains.rst:1147
 msgid "The JavaScript domain (name **js**) provides the following directives:"
-msgstr ""
+msgstr "JavaScriptドメイン(**js**)は次のようなディレクティブを提供します:"
 
 #: ../../sphinx/doc/domains.rst:1151
 msgid ""
@@ -1255,47 +1367,49 @@ msgid ""
 "arguments as optional use square brackets as :ref:`documented <signatures>` "
 "for Python signatures."
 msgstr ""
+"JavaScriptの関数やメソッドの説明をします。オプショナルな引数を説明したい場合には、Pythonシグニチャのために :ref:`説明したように "
+"<signatures>` 角カッコを使用します。"
 
 #: ../../sphinx/doc/domains.rst:1171
 msgid ""
 "You can use fields to give more details about arguments and their expected "
 "types, errors which may be thrown by the function, and the value being "
 "returned::"
-msgstr ""
+msgstr "引数や期待される型、関数から投げられるエラー、returnで返される値などのフィールド情報の詳細を書くこともできます::"
 
 #: ../../sphinx/doc/domains.rst:1185 ../../sphinx/doc/domains.rst:1214
 msgid "This is rendered as:"
-msgstr ""
+msgstr "次のようにレンダリングされます:"
 
 #: ../../sphinx/doc/domains.rst:0 ../../sphinx/doc/domains.rst:0
 msgid "Arguments"
-msgstr ""
+msgstr "引数"
 
 #: ../../sphinx/doc/domains.rst:1189
 msgid "An URI to the location of the resource."
-msgstr ""
+msgstr "リソースの場所を示すURI。"
 
 #: ../../sphinx/doc/domains.rst:1190
 msgid "Gets called with the object."
-msgstr ""
+msgstr "このオブジェクトのコールバック"
 
 #: ../../sphinx/doc/domains.rst:1191
 msgid ""
 "Gets called in case the request fails. And a lot of other text so we need "
 "multiple lines."
-msgstr ""
+msgstr "リクエストが失敗した時のコールバック。また、他のたくさんの文字情報。従って、複数行が必要となります。"
 
 #: ../../sphinx/doc/domains.rst:0
 msgid "Throws"
-msgstr ""
+msgstr "例外"
 
 #: ../../sphinx/doc/domains.rst:1194
 msgid "For whatever reason in that case."
-msgstr ""
+msgstr "その場合のなにかの理由"
 
 #: ../../sphinx/doc/domains.rst:1195
 msgid "Something."
-msgstr ""
+msgstr "なにか"
 
 #: ../../sphinx/doc/domains.rst:1199
 msgid ""
@@ -1307,37 +1421,37 @@ msgstr ""
 msgid ""
 "Describes a constructor that creates an object.  This is basically like a "
 "function but will show up with a `class` prefix::"
-msgstr ""
+msgstr "オブジェクトを作るコンストラクタの説明をします。基本的には関数と似ていますが、 `class` という文字が表示されます::"
 
 #: ../../sphinx/doc/domains.rst:1218
 msgid "The name of the animal"
-msgstr ""
+msgstr "動物の名前"
 
 #: ../../sphinx/doc/domains.rst:1219
 msgid "an optional age for the animal"
-msgstr ""
+msgstr "動物の年齢。これはオプションです。"
 
 #: ../../sphinx/doc/domains.rst:1223
 msgid "Describes a global variable or constant."
-msgstr ""
+msgstr "グローバル変数や定数の説明です。"
 
 #: ../../sphinx/doc/domains.rst:1227
 msgid "Describes the attribute *name* of *object*."
-msgstr ""
+msgstr "**オブジェクト** の持つ **属性名** を説明します。"
 
 #: ../../sphinx/doc/domains.rst:1231 ../../sphinx/doc/domains.rst:1286
 msgid "These roles are provided to refer to the described objects:"
-msgstr ""
+msgstr "このドメインでは、オブジェクトの説明を参照する、次のようなロールが提供されています:"
 
 #: ../../sphinx/doc/domains.rst:1242
 msgid "The reStructuredText domain"
-msgstr ""
+msgstr "reStructuredTextドメイン"
 
 #: ../../sphinx/doc/domains.rst:1244
 msgid ""
 "The reStructuredText domain (name **rst**) provides the following "
 "directives:"
-msgstr ""
+msgstr "reStructuredTextドメイン(**rst**)は、次のようなディレクティブを提供します:"
 
 #: ../../sphinx/doc/domains.rst:1248
 msgid ""
@@ -1345,26 +1459,28 @@ msgid ""
 "actual directive syntax (`..` prefix and `::` suffix) with arguments that "
 "will be rendered differently.  For example::"
 msgstr ""
+"reSTディレクティブの説明をします。 *name* には単独のディレクティブ名か、引数付きの実際のディレクティブの文法(`..` "
+"を前に付けたり、後ろに `::` を付けたり)で記述をします。例::"
 
 #: ../../sphinx/doc/domains.rst:1260 ../../sphinx/doc/domains.rst:1278
 msgid "will be rendered as:"
-msgstr ""
+msgstr "これは次のようにレンダリングされます"
 
 #: ../../sphinx/doc/domains.rst:1264 ../../sphinx/doc/domains.rst:1282
 msgid "Foo description."
-msgstr ""
+msgstr "Fooの説明"
 
 #: ../../sphinx/doc/domains.rst:1268
 msgid "Bar description."
-msgstr ""
+msgstr "Barの説明"
 
 #: ../../sphinx/doc/domains.rst:1272
 msgid "Describes a reST role.  For example::"
-msgstr ""
+msgstr "reSTのロールの説明をします。 例::"
 
 #: ../../sphinx/doc/domains.rst:1293
 msgid "More domains"
-msgstr ""
+msgstr "追加のドメイン"
 
 #: ../../sphinx/doc/domains.rst:1295
 msgid ""
@@ -1373,3 +1489,6 @@ msgid ""
 "PHP_, and Ruby_ domains. Also available are domains for `Chapel`_, `Common "
 "Lisp`_, dqn_, Go_, Jinja_, Operation_, and Scala_."
 msgstr ""
+"sphinx-contrib_ リポジトリには多くのドメイン拡張が含まれています。現在は Ada_, CoffeeScript_, Erlang_, "
+"HTTP_, Lasso_, MATLAB_, PHP_, Ruby_ ドメインがあります。また、`Chapel`_, `Common Lisp`_, "
+"dqn_, Go_, Jinja_, Operation_, Scala_ 用のドメインも利用可能です。"
